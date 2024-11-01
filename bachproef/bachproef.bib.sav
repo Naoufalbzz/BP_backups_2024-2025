@@ -1,3 +1,14 @@
 % Encoding: UTF-8
 
+@Book{Zhu2015,
+  author    = {Zhu, W.D. and Allenbach, G. and Battaglia, R. and Boudreaux, J. and Harnick-Shapiro, D. and Kim, H. and Kreuch, B. and Morgan, T. and Patel, S. and Willingham, M. and others},
+  date      = {2015},
+  title     = {Disaster Recovery and Backup Solutions for IBM FileNet P8 Version 4.5.1 Systems},
+  isbn      = {9780738434377},
+  publisher = {IBM Redbooks},
+  series    = {IBM redbooks},
+  url       = {https://books.google.be/books?id=O1TAAgAAQBAJ},
+  lccn      = {2011293654},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}

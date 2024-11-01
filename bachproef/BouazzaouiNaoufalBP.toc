@@ -11,11 +11,12 @@
 \contentsline {chapter}{\numberline {3}Methodologie}{8}{chapter.3}%
 \contentsline {chapter}{\numberline {4}literatuurstudie}{10}{chapter.4}%
 \contentsline {subsection}{\numberline {4.0.1}Back-ups in het kader van bedrijfscontinuïteit en disaster recovery}{10}{subsection.4.0.1}%
-\contentsline {chapter}{\numberline {5}Conclusie}{11}{chapter.5}%
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{13}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Inleiding}{13}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Literatuurstudie}{14}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Methodologie}{14}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{15}{section.A.4}%
-\contentsline {chapter}{Bibliografie}{16}{appendix*.10}%
+\contentsline {subsection}{\numberline {4.0.2}Back-upmethoden en -technieken}{11}{subsection.4.0.2}%
+\contentsline {subsection}{\numberline {4.0.3}Ransomware-resistente back-upoplossingen}{11}{subsection.4.0.3}%
+\contentsline {subsection}{\numberline {4.0.4}Back-upmethoden en -technieken}{11}{subsection.4.0.4}%
+\contentsline {subsection}{\numberline {4.0.5}Back-upmethoden en -technieken}{11}{subsection.4.0.5}%
+\contentsline {subsection}{\numberline {4.0.6}Proof of Concept}{11}{subsection.4.0.6}%
+\contentsline {chapter}{\numberline {5}Conclusie}{12}{chapter.5}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{14}{appendix.A}%
+\contentsline {chapter}{Bibliografie}{15}{appendix*.10}%
 \contentsfinish 
