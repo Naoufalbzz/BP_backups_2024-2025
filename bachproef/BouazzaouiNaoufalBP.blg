@@ -1,24 +1,24 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'BouazzaouiNaoufalBP.blg'
-[131] biber-MSWIN64:340> INFO - === 
-[177] Biber.pm:420> INFO - Reading 'BouazzaouiNaoufalBP.bcf'
-[309] Biber.pm:994> INFO - Found 3 citekeys in bib section 0
-[330] Biber.pm:4463> INFO - Processing section 0
-[344] Biber.pm:4654> INFO - Looking for bibtex file 'bachproef.bib' for section 0
-[386] bibtex.pm:1713> INFO - LaTeX decoding ...
-[393] bibtex.pm:1519> INFO - Found BibTeX data source 'bachproef.bib'
-[458] Biber.pm:4654> INFO - Looking for bibtex file '../voorstel/voorstel.bib' for section 0
-[498] bibtex.pm:1713> INFO - LaTeX decoding ...
-[517] bibtex.pm:1519> INFO - Found BibTeX data source '../voorstel/voorstel.bib'
-[532] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[532] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[532] Biber.pm:4283> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[532] Biber.pm:4289> INFO - No sort tailoring available for locale 'nl-NL'
-[545] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[545] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[545] Biber.pm:4283> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[545] Biber.pm:4289> INFO - No sort tailoring available for locale 'nl-NL'
-[553] bbl.pm:676> INFO - Writing 'BouazzaouiNaoufalBP.bbl' with encoding 'UTF-8'
-[559] bbl.pm:779> INFO - Output to BouazzaouiNaoufalBP.bbl
-[559] Biber.pm:131> WARN - I didn't find a database entry for 'Pollefliet2011' (section 0)
-[560] Biber.pm:133> INFO - WARNINGS: 1
+[144] biber-MSWIN64:340> INFO - === 
+[193] Biber.pm:420> INFO - Reading 'BouazzaouiNaoufalBP.bcf'
+[376] Biber.pm:994> INFO - Found 4 citekeys in bib section 0
+[407] Biber.pm:4463> INFO - Processing section 0
+[428] Biber.pm:4654> INFO - Looking for bibtex file 'bachproef.bib' for section 0
+[483] bibtex.pm:1713> INFO - LaTeX decoding ...
+[492] bibtex.pm:1519> INFO - Found BibTeX data source 'bachproef.bib'
+[586] Biber.pm:4654> INFO - Looking for bibtex file '../voorstel/voorstel.bib' for section 0
+[639] bibtex.pm:1713> INFO - LaTeX decoding ...
+[665] bibtex.pm:1519> INFO - Found BibTeX data source '../voorstel/voorstel.bib'
+[690] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[690] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[690] Biber.pm:4283> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[690] Biber.pm:4289> INFO - No sort tailoring available for locale 'nl-NL'
+[708] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[709] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[709] Biber.pm:4283> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[709] Biber.pm:4289> INFO - No sort tailoring available for locale 'nl-NL'
+[722] bbl.pm:676> INFO - Writing 'BouazzaouiNaoufalBP.bbl' with encoding 'UTF-8'
+[731] bbl.pm:779> INFO - Output to BouazzaouiNaoufalBP.bbl
+[732] Biber.pm:131> WARN - I didn't find a database entry for 'Pollefliet2011' (section 0)
+[732] Biber.pm:133> INFO - WARNINGS: 1

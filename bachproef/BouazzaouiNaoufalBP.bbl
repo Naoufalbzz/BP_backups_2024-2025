@@ -58,6 +58,51 @@
       \field{pages}{253\bibrangedash 258}
       \range{pages}{6}
     \endentry
+    \entry{Nelson2011}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fc40465692129ad28fa0c9d004525d91}{%
+           family={Nelson},
+           familyi={N\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f210788f731eb770bb68ea1b2107a85}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Russell},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{20b22846a1fb7dc6df9ae542bb9531cd}
+      \strng{fullhash}{20b22846a1fb7dc6df9ae542bb9531cd}
+      \strng{fullhashraw}{20b22846a1fb7dc6df9ae542bb9531cd}
+      \strng{bibnamehash}{20b22846a1fb7dc6df9ae542bb9531cd}
+      \strng{authorbibnamehash}{20b22846a1fb7dc6df9ae542bb9531cd}
+      \strng{authornamehash}{20b22846a1fb7dc6df9ae542bb9531cd}
+      \strng{authorfullhash}{20b22846a1fb7dc6df9ae542bb9531cd}
+      \strng{authorfullhashraw}{20b22846a1fb7dc6df9ae542bb9531cd}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{23}
+      \field{month}{2}
+      \field{title}{Pro Data Backup and Recovery}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb :C\:/Users/naouf/Downloads/Pro_Data_Backup_and_Recovery.bibtex:bibtex
+      \endverb
+      \verb{urlraw}
+      \verb https://www.google.be/books/edition/Pro_Data_Backup_and_Recovery/0lfehRoBOPkC?hl=nl&gbpv=0
+      \endverb
+      \verb{url}
+      \verb https://www.google.be/books/edition/Pro_Data_Backup_and_Recovery/0lfehRoBOPkC?hl=nl&gbpv=0
+      \endverb
+    \endentry
     \entry{Zhu2015}{book}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -193,6 +238,51 @@
       \field{dateera}{ce}
       \field{pages}{253\bibrangedash 258}
       \range{pages}{6}
+    \endentry
+    \entry{Nelson2011}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fc40465692129ad28fa0c9d004525d91}{%
+           family={Nelson},
+           familyi={N\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f210788f731eb770bb68ea1b2107a85}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Russell},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{20b22846a1fb7dc6df9ae542bb9531cd}
+      \strng{fullhash}{20b22846a1fb7dc6df9ae542bb9531cd}
+      \strng{fullhashraw}{20b22846a1fb7dc6df9ae542bb9531cd}
+      \strng{bibnamehash}{20b22846a1fb7dc6df9ae542bb9531cd}
+      \strng{authorbibnamehash}{20b22846a1fb7dc6df9ae542bb9531cd}
+      \strng{authornamehash}{20b22846a1fb7dc6df9ae542bb9531cd}
+      \strng{authorfullhash}{20b22846a1fb7dc6df9ae542bb9531cd}
+      \strng{authorfullhashraw}{20b22846a1fb7dc6df9ae542bb9531cd}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{23}
+      \field{month}{2}
+      \field{title}{Pro Data Backup and Recovery}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb :C\:/Users/naouf/Downloads/Pro_Data_Backup_and_Recovery.bibtex:bibtex
+      \endverb
+      \verb{urlraw}
+      \verb https://www.google.be/books/edition/Pro_Data_Backup_and_Recovery/0lfehRoBOPkC?hl=nl&gbpv=0
+      \endverb
+      \verb{url}
+      \verb https://www.google.be/books/edition/Pro_Data_Backup_and_Recovery/0lfehRoBOPkC?hl=nl&gbpv=0
+      \endverb
     \endentry
     \entry{Zhu2015}{book}{}{}
       \true{moreauthor}

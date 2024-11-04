@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  1 NOV 2024 02:32
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  4 NOV 2024 02:59
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2564,7 +2564,7 @@ File: ../graphics/grail.jpg Graphic file (type bmp)
 \pydata@fh@_B8D7A88A30B303E4C463D0794A4179C2.data.minted=\write11
 \openout11 = `_B8D7A88A30B303E4C463D0794A4179C2.data.minted'.
 
-runsystem(latexminted config  --timestamp 20241101023226 B8D7A88A30B303E4C463D0
+runsystem(latexminted config  --timestamp 20241104025900 B8D7A88A30B303E4C463D0
 794A4179C2)...executed.
 
 
@@ -2689,6 +2689,13 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
+Overfull \hbox (29.28905pt too wide) in paragraph at lines 177--177
+[][][] [] [][][][][][] [] [][] [] [][][][][] [] [][][][][][][] [] [][][] [] [][
+][][] [] [][][][][][] [] [][][] [] [][][][][][][][] [] [][][][][][][][][][][][]
+ []
+ []
+
+
 Overfull \hbox (6.3722pt too wide) in paragraph at lines 177--177
 [][]\TU/Montserrat(1)/m/n/10.95 Zhu, W., Allenbach, G., Battaglia, R., Boudreau
 x, J., Harnick-Shapiro, D., Kim, H., Kreuch,
@@ -2704,26 +2711,19 @@ x, J., Harnick-Shapiro, D., Kim, H., Kreuch,
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
-
-
-Package rerunfilecheck Warning: File `BouazzaouiNaoufalBP.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `BouazzaouiNaoufalBP.out':
-(rerunfilecheck)             Before: 49D7D9C495DB30F2E52C246D63E138FD;3434
-(rerunfilecheck)             After:  B0A6296464BE19020336132AD17832B6;3364.
+Package rerunfilecheck Info: File `BouazzaouiNaoufalBP.out' has not changed.
+(rerunfilecheck)             Checksum: B0A6296464BE19020336132AD17832B6;3364.
 Package logreq Info: Writing requests to 'BouazzaouiNaoufalBP.run.xml'.
 \openout1 = `BouazzaouiNaoufalBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49484 strings out of 474233
- 1015684 string characters out of 5745779
- 2247934 words of memory out of 5000000
- 71357 multiletter control sequences out of 15000+600000
+ 49490 strings out of 474233
+ 1015897 string characters out of 5745779
+ 2248000 words of memory out of 5000000
+ 71363 multiletter control sequences out of 15000+600000
  561826 words of font info for 109 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 110i,11n,132p,1241b,5501s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,11n,132p,1415b,5501s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on BouazzaouiNaoufalBP.pdf (23 pages).
