@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  31 OCT 2024 14:06
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  4 NOV 2024 22:13
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1500,11 +1500,6 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 29--30
  []
 
 
-Overfull \hbox (5.38235pt too wide) in paragraph at lines 33--34
-[]\TU/Montserrat(2)/m/n/10 Verschillende methoden en technologieën wor-
- []
-
-
 
 File: ../graphics/HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <../graphics/HOGENT_Logo_Pos_rgb.png>
@@ -1664,6 +1659,11 @@ L3 programming layer <2024-10-09>
 Package rerunfilecheck Info: File `BouazzaouiNaoufal-BPvoorstel.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: 65BF793C9D9DB2B37A03524BE9BADCE9;1898.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'BouazzaouiNaoufal-BPvoorstel.run.xml'
 .
 \openout1 = `BouazzaouiNaoufal-BPvoorstel.run.xml'.

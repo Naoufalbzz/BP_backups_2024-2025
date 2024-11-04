@@ -19,6 +19,100 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{Beard2018}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a3d09723d4a6e45b0f452f70c1456867}{%
+           family={Beard},
+           familyi={B\bibinitperiod},
+           given={Bradley},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Apress}%
+      }
+      \strng{namehash}{a3d09723d4a6e45b0f452f70c1456867}
+      \strng{fullhash}{a3d09723d4a6e45b0f452f70c1456867}
+      \strng{fullhashraw}{a3d09723d4a6e45b0f452f70c1456867}
+      \strng{bibnamehash}{a3d09723d4a6e45b0f452f70c1456867}
+      \strng{authorbibnamehash}{a3d09723d4a6e45b0f452f70c1456867}
+      \strng{authornamehash}{a3d09723d4a6e45b0f452f70c1456867}
+      \strng{authorfullhash}{a3d09723d4a6e45b0f452f70c1456867}
+      \strng{authorfullhashraw}{a3d09723d4a6e45b0f452f70c1456867}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Beginning Backup and Restore for SQL Server}
+      \field{isbn}{9781484234563}
+      \field{title}{Full Backups}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{3\bibrangedash 21}
+      \range{pages}{19}
+      \verb{doi}
+      \verb https://doi.org/10.1007/978-1-4842-3456-3_1
+      \endverb
+      \verb{urlraw}
+      \verb https://books.google.be/books?hl=nl&lr=&id=QuhgDwAAQBAJ&oi=fnd&pg=PR5&dq=Beard,+Bradley+Beginning+Backup+and+Restore+for+SQL+Server+&ots=Un7DKfSnFl&sig=LRTBRuGa4mLj9pOBy5RZMHMNggM#v=onepage&q=Beard, Bradley Beginning Backup and Restore for SQL Server&f=false
+      \endverb
+      \verb{url}
+      \verb https://books.google.be/books?hl=nl&lr=&id=QuhgDwAAQBAJ&oi=fnd&pg=PR5&dq=Beard,+Bradley+Beginning+Backup+and+Restore+for+SQL+Server+&ots=Un7DKfSnFl&sig=LRTBRuGa4mLj9pOBy5RZMHMNggM#v=onepage&q=Beard,%20Bradley%20Beginning%20Backup%20and%20Restore%20for%20SQL%20Server&f=false
+      \endverb
+    \endentry
+    \entry{Chervenak1998}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ecfb706a7f592a3f7cf6e05d229f22ca}{%
+           family={Chervenak},
+           familyi={C\bibinitperiod},
+           given={Ann},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ad266c80b5660d63e69385a309e57e5}{%
+           family={Vellanki},
+           familyi={V\bibinitperiod},
+           given={Vivekenand},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9597fb429d47860a3dc4699d84f71e83}{%
+           family={Kurmas},
+           familyi={K\bibinitperiod},
+           given={Zachary},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Citeseer}%
+      }
+      \strng{namehash}{4e52715fa9f4435f861c352932e77e21}
+      \strng{fullhash}{56fc78235337f41a8b5d937724b7e8ba}
+      \strng{fullhashraw}{56fc78235337f41a8b5d937724b7e8ba}
+      \strng{bibnamehash}{56fc78235337f41a8b5d937724b7e8ba}
+      \strng{authorbibnamehash}{56fc78235337f41a8b5d937724b7e8ba}
+      \strng{authornamehash}{4e52715fa9f4435f861c352932e77e21}
+      \strng{authorfullhash}{56fc78235337f41a8b5d937724b7e8ba}
+      \strng{authorfullhashraw}{56fc78235337f41a8b5d937724b7e8ba}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Joint NASA and IEEE Mass Storage Conference}
+      \field{title}{Protecting file systems: A survey of backup techniques}
+      \field{volume}{99}
+      \field{year}{1998}
+      \verb{urlraw}
+      \verb https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=4b6cfd832c2eb61c60ae0ab956eed8401f22d5f0
+      \endverb
+      \verb{url}
+      \verb https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=4b6cfd832c2eb61c60ae0ab956eed8401f22d5f0
+      \endverb
+    \endentry
     \entry{Ghazi2013}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=2fee6966993b1b91f4e0e1d811f42e48}{%
@@ -101,6 +195,43 @@
       \endverb
       \verb{url}
       \verb https://www.google.be/books/edition/Pro_Data_Backup_and_Recovery/0lfehRoBOPkC?hl=nl&gbpv=0
+      \endverb
+    \endentry
+    \entry{Rivas2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8e5c83a76033f591c1e5967fa5ad19fb}{%
+           family={Rivas},
+           familyi={R\bibinitperiod},
+           given={Kari},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8e5c83a76033f591c1e5967fa5ad19fb}
+      \strng{fullhash}{8e5c83a76033f591c1e5967fa5ad19fb}
+      \strng{fullhashraw}{8e5c83a76033f591c1e5967fa5ad19fb}
+      \strng{bibnamehash}{8e5c83a76033f591c1e5967fa5ad19fb}
+      \strng{authorbibnamehash}{8e5c83a76033f591c1e5967fa5ad19fb}
+      \strng{authornamehash}{8e5c83a76033f591c1e5967fa5ad19fb}
+      \strng{authorfullhash}{8e5c83a76033f591c1e5967fa5ad19fb}
+      \strng{authorfullhashraw}{8e5c83a76033f591c1e5967fa5ad19fb}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{7}
+      \field{journaltitle}{Backblaze}
+      \field{month}{3}
+      \field{title}{What’s the Diff: Full, Incremental, Differential, and Synthetic Full Backups}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.backblaze.com/blog/whats-the-diff-full-incremental-differential-and-synthetic-full-backups/
+      \endverb
+      \verb{url}
+      \verb https://www.backblaze.com/blog/whats-the-diff-full-incremental-differential-and-synthetic-full-backups/
       \endverb
     \endentry
     \entry{Zhu2015}{book}{}{}
@@ -200,6 +331,100 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
+    \entry{Beard2018}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a3d09723d4a6e45b0f452f70c1456867}{%
+           family={Beard},
+           familyi={B\bibinitperiod},
+           given={Bradley},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Apress}%
+      }
+      \strng{namehash}{a3d09723d4a6e45b0f452f70c1456867}
+      \strng{fullhash}{a3d09723d4a6e45b0f452f70c1456867}
+      \strng{fullhashraw}{a3d09723d4a6e45b0f452f70c1456867}
+      \strng{bibnamehash}{a3d09723d4a6e45b0f452f70c1456867}
+      \strng{authorbibnamehash}{a3d09723d4a6e45b0f452f70c1456867}
+      \strng{authornamehash}{a3d09723d4a6e45b0f452f70c1456867}
+      \strng{authorfullhash}{a3d09723d4a6e45b0f452f70c1456867}
+      \strng{authorfullhashraw}{a3d09723d4a6e45b0f452f70c1456867}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Beginning Backup and Restore for SQL Server}
+      \field{isbn}{9781484234563}
+      \field{title}{Full Backups}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{3\bibrangedash 21}
+      \range{pages}{19}
+      \verb{doi}
+      \verb https://doi.org/10.1007/978-1-4842-3456-3_1
+      \endverb
+      \verb{urlraw}
+      \verb https://books.google.be/books?hl=nl&lr=&id=QuhgDwAAQBAJ&oi=fnd&pg=PR5&dq=Beard,+Bradley+Beginning+Backup+and+Restore+for+SQL+Server+&ots=Un7DKfSnFl&sig=LRTBRuGa4mLj9pOBy5RZMHMNggM#v=onepage&q=Beard, Bradley Beginning Backup and Restore for SQL Server&f=false
+      \endverb
+      \verb{url}
+      \verb https://books.google.be/books?hl=nl&lr=&id=QuhgDwAAQBAJ&oi=fnd&pg=PR5&dq=Beard,+Bradley+Beginning+Backup+and+Restore+for+SQL+Server+&ots=Un7DKfSnFl&sig=LRTBRuGa4mLj9pOBy5RZMHMNggM#v=onepage&q=Beard,%20Bradley%20Beginning%20Backup%20and%20Restore%20for%20SQL%20Server&f=false
+      \endverb
+    \endentry
+    \entry{Chervenak1998}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ecfb706a7f592a3f7cf6e05d229f22ca}{%
+           family={Chervenak},
+           familyi={C\bibinitperiod},
+           given={Ann},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ad266c80b5660d63e69385a309e57e5}{%
+           family={Vellanki},
+           familyi={V\bibinitperiod},
+           given={Vivekenand},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9597fb429d47860a3dc4699d84f71e83}{%
+           family={Kurmas},
+           familyi={K\bibinitperiod},
+           given={Zachary},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Citeseer}%
+      }
+      \strng{namehash}{4e52715fa9f4435f861c352932e77e21}
+      \strng{fullhash}{56fc78235337f41a8b5d937724b7e8ba}
+      \strng{fullhashraw}{56fc78235337f41a8b5d937724b7e8ba}
+      \strng{bibnamehash}{56fc78235337f41a8b5d937724b7e8ba}
+      \strng{authorbibnamehash}{56fc78235337f41a8b5d937724b7e8ba}
+      \strng{authornamehash}{4e52715fa9f4435f861c352932e77e21}
+      \strng{authorfullhash}{56fc78235337f41a8b5d937724b7e8ba}
+      \strng{authorfullhashraw}{56fc78235337f41a8b5d937724b7e8ba}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Joint NASA and IEEE Mass Storage Conference}
+      \field{title}{Protecting file systems: A survey of backup techniques}
+      \field{volume}{99}
+      \field{year}{1998}
+      \verb{urlraw}
+      \verb https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=4b6cfd832c2eb61c60ae0ab956eed8401f22d5f0
+      \endverb
+      \verb{url}
+      \verb https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=4b6cfd832c2eb61c60ae0ab956eed8401f22d5f0
+      \endverb
+    \endentry
     \entry{Ghazi2013}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=2fee6966993b1b91f4e0e1d811f42e48}{%
@@ -282,6 +507,43 @@
       \endverb
       \verb{url}
       \verb https://www.google.be/books/edition/Pro_Data_Backup_and_Recovery/0lfehRoBOPkC?hl=nl&gbpv=0
+      \endverb
+    \endentry
+    \entry{Rivas2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8e5c83a76033f591c1e5967fa5ad19fb}{%
+           family={Rivas},
+           familyi={R\bibinitperiod},
+           given={Kari},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8e5c83a76033f591c1e5967fa5ad19fb}
+      \strng{fullhash}{8e5c83a76033f591c1e5967fa5ad19fb}
+      \strng{fullhashraw}{8e5c83a76033f591c1e5967fa5ad19fb}
+      \strng{bibnamehash}{8e5c83a76033f591c1e5967fa5ad19fb}
+      \strng{authorbibnamehash}{8e5c83a76033f591c1e5967fa5ad19fb}
+      \strng{authornamehash}{8e5c83a76033f591c1e5967fa5ad19fb}
+      \strng{authorfullhash}{8e5c83a76033f591c1e5967fa5ad19fb}
+      \strng{authorfullhashraw}{8e5c83a76033f591c1e5967fa5ad19fb}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{7}
+      \field{journaltitle}{Backblaze}
+      \field{month}{3}
+      \field{title}{What’s the Diff: Full, Incremental, Differential, and Synthetic Full Backups}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.backblaze.com/blog/whats-the-diff-full-incremental-differential-and-synthetic-full-backups/
+      \endverb
+      \verb{url}
+      \verb https://www.backblaze.com/blog/whats-the-diff-full-incremental-differential-and-synthetic-full-backups/
       \endverb
     \endentry
     \entry{Zhu2015}{book}{}{}

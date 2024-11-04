@@ -12,11 +12,17 @@
 \contentsline {chapter}{\numberline {4}literatuurstudie}{10}{chapter.4}%
 \contentsline {subsection}{\numberline {4.0.1}Back-ups in het kader van bedrijfscontinuïteit en disaster recovery}{10}{subsection.4.0.1}%
 \contentsline {subsection}{\numberline {4.0.2}Back-upmethoden en -technieken}{11}{subsection.4.0.2}%
-\contentsline {subsection}{\numberline {4.0.3}Ransomware-resistente back-upoplossingen}{11}{subsection.4.0.3}%
-\contentsline {subsection}{\numberline {4.0.4}Back-upmethoden en -technieken}{11}{subsection.4.0.4}%
-\contentsline {subsection}{\numberline {4.0.5}Back-upmethoden en -technieken}{11}{subsection.4.0.5}%
-\contentsline {subsection}{\numberline {4.0.6}Proof of Concept}{11}{subsection.4.0.6}%
-\contentsline {chapter}{\numberline {5}Conclusie}{12}{chapter.5}%
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{14}{appendix.A}%
-\contentsline {chapter}{Bibliografie}{15}{appendix*.10}%
+\contentsline {subsubsection}{Full back-ups}{11}{subsection.4.0.2}%
+\contentsline {subsubsection}{Incrementele back-up}{12}{figure.caption.10}%
+\contentsline {subsubsection}{On-premise back-ups}{12}{figure.caption.10}%
+\contentsline {subsubsection}{Cloud back-ups}{12}{figure.caption.10}%
+\contentsline {subsubsection}{Offline back-ups}{12}{figure.caption.10}%
+\contentsline {subsubsection}{Immutable storage}{12}{figure.caption.10}%
+\contentsline {subsection}{\numberline {4.0.3}Ransomware-resistente back-upoplossingen}{12}{subsection.4.0.3}%
+\contentsline {subsection}{\numberline {4.0.4}Back-upmethoden en -technieken}{12}{subsection.4.0.4}%
+\contentsline {subsection}{\numberline {4.0.5}Back-upmethoden en -technieken}{12}{subsection.4.0.5}%
+\contentsline {subsection}{\numberline {4.0.6}Proof of Concept}{12}{subsection.4.0.6}%
+\contentsline {chapter}{\numberline {5}Conclusie}{13}{chapter.5}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{15}{appendix.A}%
+\contentsline {chapter}{Bibliografie}{16}{appendix*.11}%
 \contentsfinish 
