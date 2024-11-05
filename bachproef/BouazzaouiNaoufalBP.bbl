@@ -234,6 +234,72 @@
       \verb https://www.backblaze.com/blog/whats-the-diff-full-incremental-differential-and-synthetic-full-backups/
       \endverb
     \endentry
+    \entry{Zhao2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9f669abf6d5391209683c5fd29e25c8e}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Xufeng},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5046bc531a9e054e9f1d52cd6f9551ab}{%
+           family={Bu},
+           familyi={B\bibinitperiod},
+           given={Yilei},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4fa0161b1d7d89851ba12b3597961ae8}{%
+           family={Pang},
+           familyi={P\bibinitperiod},
+           given={Wendi},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=474bef4c4b446c4e54c96256da11e240}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Jiajia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{0da39ceacfe0a889deadfda0399c10d3}
+      \strng{fullhash}{0efbd50e5a6a28329537214380ebacc6}
+      \strng{fullhashraw}{0efbd50e5a6a28329537214380ebacc6}
+      \strng{bibnamehash}{0efbd50e5a6a28329537214380ebacc6}
+      \strng{authorbibnamehash}{0efbd50e5a6a28329537214380ebacc6}
+      \strng{authornamehash}{0da39ceacfe0a889deadfda0399c10d3}
+      \strng{authorfullhash}{0efbd50e5a6a28329537214380ebacc6}
+      \strng{authorfullhashraw}{0efbd50e5a6a28329537214380ebacc6}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1573-1367}
+      \field{journaltitle}{Software Quality Journal}
+      \field{month}{7}
+      \field{number}{3}
+      \field{title}{Periodic and random incremental backup policies in reliability theory}
+      \field{volume}{32}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{1325\bibrangedash 1340}
+      \range{pages}{16}
+      \verb{doi}
+      \verb https://doi.org/10.1007/s11219-024-09685-1
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/article/10.1007/s11219-024-09685-1
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/article/10.1007/s11219-024-09685-1
+      \endverb
+    \endentry
     \entry{Zhu2015}{book}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -544,6 +610,72 @@
       \endverb
       \verb{url}
       \verb https://www.backblaze.com/blog/whats-the-diff-full-incremental-differential-and-synthetic-full-backups/
+      \endverb
+    \endentry
+    \entry{Zhao2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9f669abf6d5391209683c5fd29e25c8e}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Xufeng},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5046bc531a9e054e9f1d52cd6f9551ab}{%
+           family={Bu},
+           familyi={B\bibinitperiod},
+           given={Yilei},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4fa0161b1d7d89851ba12b3597961ae8}{%
+           family={Pang},
+           familyi={P\bibinitperiod},
+           given={Wendi},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=474bef4c4b446c4e54c96256da11e240}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Jiajia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{0da39ceacfe0a889deadfda0399c10d3}
+      \strng{fullhash}{0efbd50e5a6a28329537214380ebacc6}
+      \strng{fullhashraw}{0efbd50e5a6a28329537214380ebacc6}
+      \strng{bibnamehash}{0efbd50e5a6a28329537214380ebacc6}
+      \strng{authorbibnamehash}{0efbd50e5a6a28329537214380ebacc6}
+      \strng{authornamehash}{0da39ceacfe0a889deadfda0399c10d3}
+      \strng{authorfullhash}{0efbd50e5a6a28329537214380ebacc6}
+      \strng{authorfullhashraw}{0efbd50e5a6a28329537214380ebacc6}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1573-1367}
+      \field{journaltitle}{Software Quality Journal}
+      \field{month}{7}
+      \field{number}{3}
+      \field{title}{Periodic and random incremental backup policies in reliability theory}
+      \field{volume}{32}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{1325\bibrangedash 1340}
+      \range{pages}{16}
+      \verb{doi}
+      \verb https://doi.org/10.1007/s11219-024-09685-1
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/article/10.1007/s11219-024-09685-1
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/article/10.1007/s11219-024-09685-1
       \endverb
     \endentry
     \entry{Zhu2015}{book}{}{}
