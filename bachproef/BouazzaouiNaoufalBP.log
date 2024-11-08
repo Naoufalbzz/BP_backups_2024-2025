@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  6 NOV 2024 19:29
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  7 NOV 2024 03:35
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2564,7 +2564,7 @@ File: ../graphics/grail.jpg Graphic file (type bmp)
 \pydata@fh@_B8D7A88A30B303E4C463D0794A4179C2.data.minted=\write11
 \openout11 = `_B8D7A88A30B303E4C463D0794A4179C2.data.minted'.
 
-runsystem(latexminted config  --timestamp 20241106192925 B8D7A88A30B303E4C463D0
+runsystem(latexminted config  --timestamp 20241107033502 B8D7A88A30B303E4C463D0
 794A4179C2)...executed.
 
 
@@ -2675,21 +2675,30 @@ File: img/incrementb.png Graphic file (type bmp)
 <img/incrementb.png>
 
 
-[13]) (./conclusie.tex
+[13]
+File: img/diff.png Graphic file (type bmp)
+<img/diff.png>
+
 
 [14]
+
+[15]) (./conclusie.tex
+
+[16]
+
+[17]
 Hoofdstuk 5.
 
 
-[15
+[18
 
 ])
 
-[16]
+[19]
 B\ij lage A.
 
 
-[17
+[20
 
 ]
 Overfull \hbox (1.69463pt too wide) in paragraph at lines 177--177
@@ -2732,7 +2741,7 @@ x, J., Harnick-Shapiro, D., Kim, H., Kreuch,
 
 
 
-[18
+[21
 
 
 ] (./BouazzaouiNaoufalBP.aux)
@@ -2741,18 +2750,18 @@ LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
 Package rerunfilecheck Info: File `BouazzaouiNaoufalBP.out' has not changed.
-(rerunfilecheck)             Checksum: ABBD333463726B108A38FF52CC3F9457;3364.
+(rerunfilecheck)             Checksum: AB58261F980FD86B2FB31674361E3867;2988.
 Package logreq Info: Writing requests to 'BouazzaouiNaoufalBP.run.xml'.
 \openout1 = `BouazzaouiNaoufalBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49540 strings out of 474233
- 1017236 string characters out of 5745779
- 2251437 words of memory out of 5000000
- 71409 multiletter control sequences out of 15000+600000
+ 49551 strings out of 474233
+ 1017418 string characters out of 5745779
+ 2251531 words of memory out of 5000000
+ 71419 multiletter control sequences out of 15000+600000
  561826 words of font info for 109 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,11n,132p,3264b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on BouazzaouiNaoufalBP.pdf (26 pages).
+Output written on BouazzaouiNaoufalBP.pdf (29 pages).

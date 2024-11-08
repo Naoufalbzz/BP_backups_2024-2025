@@ -33,6 +33,7 @@
   booktitle    = {Joint NASA and IEEE Mass Storage Conference},
   title        = {Protecting file systems: A survey of backup techniques},
   organization = {Citeseer},
+  url          = {https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=4b6cfd832c2eb61c60ae0ab956eed8401f22d5f0},
   volume       = {99},
   year         = {1998},
 }
