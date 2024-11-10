@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  7 NOV 2024 03:35
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  10 NOV 2024 02:06
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2564,7 +2564,7 @@ File: ../graphics/grail.jpg Graphic file (type bmp)
 \pydata@fh@_B8D7A88A30B303E4C463D0794A4179C2.data.minted=\write11
 \openout11 = `_B8D7A88A30B303E4C463D0794A4179C2.data.minted'.
 
-runsystem(latexminted config  --timestamp 20241107033502 B8D7A88A30B303E4C463D0
+runsystem(latexminted config  --timestamp 20241110020608 B8D7A88A30B303E4C463D0
 794A4179C2)...executed.
 
 
@@ -2682,23 +2682,29 @@ File: img/diff.png Graphic file (type bmp)
 
 [14]
 
-[15]) (./conclusie.tex
+[15]
 
 [16]
 
 [17]
+
+[18]
+
+[19]) (./conclusie.tex
+
+[20]
 Hoofdstuk 5.
 
 
-[18
+[21
 
 ])
 
-[19]
+[22]
 B\ij lage A.
 
 
-[20
+[23
 
 ]
 Overfull \hbox (1.69463pt too wide) in paragraph at lines 177--177
@@ -2741,7 +2747,7 @@ x, J., Harnick-Shapiro, D., Kim, H., Kreuch,
 
 
 
-[21
+[24
 
 
 ] (./BouazzaouiNaoufalBP.aux)
@@ -2749,19 +2755,26 @@ x, J., Harnick-Shapiro, D., Kim, H., Kreuch,
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
-Package rerunfilecheck Info: File `BouazzaouiNaoufalBP.out' has not changed.
-(rerunfilecheck)             Checksum: AB58261F980FD86B2FB31674361E3867;2988.
+
+
+Package rerunfilecheck Warning: File `BouazzaouiNaoufalBP.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `BouazzaouiNaoufalBP.out':
+(rerunfilecheck)             Before: 466BC453CD32A623978BEAC9A3C97868;2765
+(rerunfilecheck)             After:  3AC28FAF63F52F13CD0F81BE82578BEA;2882.
 Package logreq Info: Writing requests to 'BouazzaouiNaoufalBP.run.xml'.
 \openout1 = `BouazzaouiNaoufalBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49551 strings out of 474233
- 1017418 string characters out of 5745779
- 2251531 words of memory out of 5000000
- 71419 multiletter control sequences out of 15000+600000
+ 49552 strings out of 474233
+ 1017429 string characters out of 5745779
+ 2255536 words of memory out of 5000000
+ 71420 multiletter control sequences out of 15000+600000
  561826 words of font info for 109 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 110i,11n,132p,3264b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,11n,132p,4371b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on BouazzaouiNaoufalBP.pdf (29 pages).
+Output written on BouazzaouiNaoufalBP.pdf (32 pages).
