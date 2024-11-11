@@ -197,6 +197,40 @@
       \verb https://www.google.be/books/edition/Pro_Data_Backup_and_Recovery/0lfehRoBOPkC?hl=nl&gbpv=0
       \endverb
     \endentry
+    \entry{Obrutsky2016}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=22fabafebd86f3d88a6c137906445b6c}{%
+           family={Obrutsky},
+           familyi={O\bibinitperiod},
+           given={Santiago},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{22fabafebd86f3d88a6c137906445b6c}
+      \strng{fullhash}{22fabafebd86f3d88a6c137906445b6c}
+      \strng{fullhashraw}{22fabafebd86f3d88a6c137906445b6c}
+      \strng{bibnamehash}{22fabafebd86f3d88a6c137906445b6c}
+      \strng{authorbibnamehash}{22fabafebd86f3d88a6c137906445b6c}
+      \strng{authornamehash}{22fabafebd86f3d88a6c137906445b6c}
+      \strng{authorfullhash}{22fabafebd86f3d88a6c137906445b6c}
+      \strng{authorfullhashraw}{22fabafebd86f3d88a6c137906445b6c}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Conference: EIT New Zealand}
+      \field{title}{Cloud storage: Advantages, disadvantages and enterprise solutions for business}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/profile/Santiago-Obrutsky/publication/305508410_Cloud_Storage_Advantages_Disadvantages_and_Enterprise_Solutions_for_Business/links/5792976508ae33e89f7cc136/Cloud-Storage-Advantages-Disadvantages-and-Enterprise-Solutions-for-Business.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/profile/Santiago-Obrutsky/publication/305508410_Cloud_Storage_Advantages_Disadvantages_and_Enterprise_Solutions_for_Business/links/5792976508ae33e89f7cc136/Cloud-Storage-Advantages-Disadvantages-and-Enterprise-Solutions-for-Business.pdf
+      \endverb
+    \endentry
     \entry{Rivas2022}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8e5c83a76033f591c1e5967fa5ad19fb}{%
@@ -573,6 +607,40 @@
       \endverb
       \verb{url}
       \verb https://www.google.be/books/edition/Pro_Data_Backup_and_Recovery/0lfehRoBOPkC?hl=nl&gbpv=0
+      \endverb
+    \endentry
+    \entry{Obrutsky2016}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=22fabafebd86f3d88a6c137906445b6c}{%
+           family={Obrutsky},
+           familyi={O\bibinitperiod},
+           given={Santiago},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{22fabafebd86f3d88a6c137906445b6c}
+      \strng{fullhash}{22fabafebd86f3d88a6c137906445b6c}
+      \strng{fullhashraw}{22fabafebd86f3d88a6c137906445b6c}
+      \strng{bibnamehash}{22fabafebd86f3d88a6c137906445b6c}
+      \strng{authorbibnamehash}{22fabafebd86f3d88a6c137906445b6c}
+      \strng{authornamehash}{22fabafebd86f3d88a6c137906445b6c}
+      \strng{authorfullhash}{22fabafebd86f3d88a6c137906445b6c}
+      \strng{authorfullhashraw}{22fabafebd86f3d88a6c137906445b6c}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Conference: EIT New Zealand}
+      \field{title}{Cloud storage: Advantages, disadvantages and enterprise solutions for business}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/profile/Santiago-Obrutsky/publication/305508410_Cloud_Storage_Advantages_Disadvantages_and_Enterprise_Solutions_for_Business/links/5792976508ae33e89f7cc136/Cloud-Storage-Advantages-Disadvantages-and-Enterprise-Solutions-for-Business.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/profile/Santiago-Obrutsky/publication/305508410_Cloud_Storage_Advantages_Disadvantages_and_Enterprise_Solutions_for_Business/links/5792976508ae33e89f7cc136/Cloud-Storage-Advantages-Disadvantages-and-Enterprise-Solutions-for-Business.pdf
       \endverb
     \endentry
     \entry{Rivas2022}{article}{}{}
