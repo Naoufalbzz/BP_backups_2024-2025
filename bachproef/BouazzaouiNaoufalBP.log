@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  10 NOV 2024 02:06
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  11 NOV 2024 02:29
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2564,7 +2564,7 @@ File: ../graphics/grail.jpg Graphic file (type bmp)
 \pydata@fh@_B8D7A88A30B303E4C463D0794A4179C2.data.minted=\write11
 \openout11 = `_B8D7A88A30B303E4C463D0794A4179C2.data.minted'.
 
-runsystem(latexminted config  --timestamp 20241110020608 B8D7A88A30B303E4C463D0
+runsystem(latexminted config  --timestamp 20241111022911 B8D7A88A30B303E4C463D0
 794A4179C2)...executed.
 
 
@@ -2644,12 +2644,60 @@ t line 31.
 [7]
 Hoofdstuk 3.
 
+Overfull \hbox (21.33195pt too wide) in paragraph at lines 29--30
+\TU/Montserrat(1)/m/n/10.95 De methodologie begint met een uitgebreide literatu
+urstudie over back-upstrategieën,
+ []
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 30.
+
+
+Overfull \hbox (19.44856pt too wide) in paragraph at lines 37--38
+[]\TU/Montserrat(2)/b/n/10.95 Beveiliging tegen ransomware: \TU/Montserrat(1)/m
+/n/10.95 De nieuwe back-upstrategie moet ransomware-
+ []
+
+
 
 [8
 
-]) (./literatuurstudie.tex
+]
+Overfull \hbox (51.86783pt too wide) in paragraph at lines 68--69
+[]\TU/Montserrat(2)/b/n/10.95 Complexe multi-cloud back-upoplossingen: \TU/Mont
+serrat(1)/m/n/10.95 Hoewel multi-cloud back-upstrategieën
+ []
+
+
+Overfull \hbox (7.96349pt too wide) in paragraph at lines 68--69
+\TU/Montserrat(1)/m/n/10.95 voordelen kunnen bieden, is het implementeren van e
+en complexe multi-cloud-
+ []
+
+
+Overfull \hbox (5.46326pt too wide) in paragraph at lines 68--69
+\TU/Montserrat(1)/m/n/10.95 oplossing voor Forvis Mazars op dit moment niet noo
+dzakelijk, aangezien Azure
+ []
+
+
 
 [9]
+Overfull \hbox (1.10002pt too wide) in paragraph at lines 70--71
+\TU/Montserrat(1)/m/n/10.95 noodzakelijk om fysieke externe schijven of on-prem
+ise hardware-oplossingen
+ []
+
+
+Overfull \hbox (8.20074pt too wide) in paragraph at lines 74--75
+\TU/Montserrat(1)/m/n/10.95 integratie van automatisering, immutable storage en
+ verbeterde back-uptechnieken
+ []
+
+) (./literatuurstudie.tex
+
+[10]
 Hoofdstuk 4.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
@@ -2657,7 +2705,7 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 
 
 
-[10
+[11
 
 ]
 File: img/fullb.png Graphic file (type bmp)
@@ -2668,19 +2716,17 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[11]
-
 [12]
+
+[13]
 File: img/incrementb.png Graphic file (type bmp)
 <img/incrementb.png>
 
 
-[13]
+[14]
 File: img/diff.png Graphic file (type bmp)
 <img/diff.png>
 
-
-[14]
 
 [15]
 
@@ -2690,21 +2736,23 @@ File: img/diff.png Graphic file (type bmp)
 
 [18]
 
-[19]) (./conclusie.tex
+[19]
 
-[20]
+[20]) (./conclusie.tex
+
+[21]
 Hoofdstuk 5.
 
 
-[21
+[22
 
 ])
 
-[22]
+[23]
 B\ij lage A.
 
 
-[23
+[24
 
 ]
 Overfull \hbox (1.69463pt too wide) in paragraph at lines 177--177
@@ -2747,7 +2795,7 @@ x, J., Harnick-Shapiro, D., Kim, H., Kreuch,
 
 
 
-[24
+[25
 
 
 ] (./BouazzaouiNaoufalBP.aux)
@@ -2762,19 +2810,19 @@ Package rerunfilecheck Warning: File `BouazzaouiNaoufalBP.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `BouazzaouiNaoufalBP.out':
-(rerunfilecheck)             Before: 466BC453CD32A623978BEAC9A3C97868;2765
-(rerunfilecheck)             After:  3AC28FAF63F52F13CD0F81BE82578BEA;2882.
+(rerunfilecheck)             Before: 07AE2031BDC1DC5C55F77489CD485F1F;3042
+(rerunfilecheck)             After:  CB8C62638A5C5396F4468EFE42017565;3189.
 Package logreq Info: Writing requests to 'BouazzaouiNaoufalBP.run.xml'.
 \openout1 = `BouazzaouiNaoufalBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49552 strings out of 474233
- 1017429 string characters out of 5745779
+ 49553 strings out of 474233
+ 1017440 string characters out of 5745779
  2255536 words of memory out of 5000000
- 71420 multiletter control sequences out of 15000+600000
+ 71421 multiletter control sequences out of 15000+600000
  561826 words of font info for 109 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,11n,132p,4371b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on BouazzaouiNaoufalBP.pdf (32 pages).
+Output written on BouazzaouiNaoufalBP.pdf (33 pages).
