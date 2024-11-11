@@ -8,27 +8,26 @@
 \contentsline {section}{\numberline {1.3}Onderzoeksdoelstelling}{2}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Opzet van deze bachelorproef}{2}{section.1.4}%
 \contentsline {chapter}{\numberline {2}Stand van zaken}{3}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Methodologie}{8}{chapter.3}%
-\contentsline {subsection}{\numberline {3.0.1}Requirements-analyse}{8}{subsection.3.0.1}%
-\contentsline {subsubsection}{1. Must Have (Essentiële vereisten)}{8}{subsection.3.0.1}%
-\contentsline {subsubsection}{2. Should Have (Aanbevolen vereisten)}{9}{subsection.3.0.1}%
-\contentsline {subsubsection}{3. Could Have (Wenselijke vereisten)}{9}{subsection.3.0.1}%
-\contentsline {subsubsection}{4. Won't Have (Niet noodzakelijke vereisten)}{10}{subsection.3.0.1}%
-\contentsline {subsubsection}{Conclusie}{10}{subsection.3.0.1}%
-\contentsline {subsection}{\numberline {3.0.2}Proof-Of-Concept}{10}{subsection.3.0.2}%
-\contentsline {chapter}{\numberline {4}literatuurstudie}{11}{chapter.4}%
-\contentsline {subsection}{\numberline {4.0.1}Back-ups in het kader van bedrijfscontinuïteit en disaster recovery}{11}{subsection.4.0.1}%
-\contentsline {subsection}{\numberline {4.0.2}Back-upmethoden en -technieken}{12}{subsection.4.0.2}%
-\contentsline {subsubsection}{Full back-ups}{12}{subsection.4.0.2}%
-\contentsline {subsubsection}{Incrementele back-up}{14}{figure.caption.10}%
-\contentsline {subsubsection}{Differentiële back-ups}{15}{figure.caption.11}%
-\contentsline {subsubsection}{Cloud back-ups}{16}{figure.caption.12}%
-\contentsline {subsubsection}{On-premise back-ups}{17}{figure.caption.12}%
-\contentsline {subsubsection}{Offline back-ups}{18}{figure.caption.12}%
-\contentsline {subsubsection}{Immutable storage}{20}{figure.caption.12}%
-\contentsline {subsection}{\numberline {4.0.3}Ransomware}{21}{subsection.4.0.3}%
-\contentsline {subsection}{\numberline {4.0.4}Ransomware-resistente back-upoplossingen}{21}{subsection.4.0.4}%
-\contentsline {chapter}{\numberline {5}Conclusie}{22}{chapter.5}%
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{24}{appendix.A}%
-\contentsline {chapter}{Bibliografie}{25}{appendix*.13}%
+\contentsline {subsection}{\numberline {2.0.1}Back-ups in het kader van bedrijfscontinuïteit en disaster recovery}{3}{subsection.2.0.1}%
+\contentsline {subsection}{\numberline {2.0.2}Back-upmethoden en -technieken}{4}{subsection.2.0.2}%
+\contentsline {subsubsection}{Full back-ups}{4}{subsection.2.0.2}%
+\contentsline {subsubsection}{Incrementele back-up}{6}{figure.caption.8}%
+\contentsline {subsubsection}{Differentiële back-ups}{7}{figure.caption.9}%
+\contentsline {subsubsection}{Cloud back-ups}{8}{figure.caption.10}%
+\contentsline {subsubsection}{On-premise back-ups}{9}{figure.caption.10}%
+\contentsline {subsubsection}{Offline back-ups}{10}{figure.caption.10}%
+\contentsline {subsubsection}{Immutable storage}{12}{figure.caption.10}%
+\contentsline {subsection}{\numberline {2.0.3}Ransomware}{13}{subsection.2.0.3}%
+\contentsline {subsection}{\numberline {2.0.4}Ransomware-resistente back-upoplossingen}{13}{subsection.2.0.4}%
+\contentsline {chapter}{\numberline {3}Methodologie}{14}{chapter.3}%
+\contentsline {subsection}{\numberline {3.0.1}Requirements-analyse}{14}{subsection.3.0.1}%
+\contentsline {subsubsection}{1. Must Have (Essentiële vereisten)}{14}{subsection.3.0.1}%
+\contentsline {subsubsection}{2. Should Have (Aanbevolen vereisten)}{15}{subsection.3.0.1}%
+\contentsline {subsubsection}{3. Could Have (Wenselijke vereisten)}{15}{subsection.3.0.1}%
+\contentsline {subsubsection}{4. Won't Have (Niet noodzakelijke vereisten)}{15}{subsection.3.0.1}%
+\contentsline {subsubsection}{Conclusie}{16}{subsection.3.0.1}%
+\contentsline {subsection}{\numberline {3.0.2}Proof-Of-Concept}{16}{subsection.3.0.2}%
+\contentsline {chapter}{\numberline {4}Conclusie}{18}{chapter.4}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{20}{appendix.A}%
+\contentsline {chapter}{Bibliografie}{21}{appendix*.11}%
 \contentsfinish 

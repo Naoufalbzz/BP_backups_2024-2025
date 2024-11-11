@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  11 NOV 2024 02:29
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  11 NOV 2024 16:27
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2555,98 +2555,53 @@ LaTeX Warning: Citation 'Pollefliet2011' on page 1 undefined on input line 8.
 
 [2]
 Hoofdstuk 2.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `CourierNew' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-File: ../graphics/grail.jpg Graphic file (type bmp)
-<../graphics/grail.jpg>
-\pydata@fh@_B8D7A88A30B303E4C463D0794A4179C2.data.minted=\write11
-\openout11 = `_B8D7A88A30B303E4C463D0794A4179C2.data.minted'.
 
-runsystem(latexminted config  --timestamp 20241111022911 B8D7A88A30B303E4C463D0
-794A4179C2)...executed.
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 15.
 
-
-./standvanzaken.tex:30: Package minted Error: minted v3+ executable is not inst
-alled or is not added to PATH.
-
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30   \end{minted}
-                   
-(That was another \errmessage.)
-
-
-./standvanzaken.tex:30: Package minted Error: Missing definition for highlighti
-ng style "solarized-light" (minted executable is unavailable or disabled); atte
-mpting to substitute fallback style.
-
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30   \end{minted}
-                   
-(That was another \errmessage.)
-
-
-./standvanzaken.tex:30: Package minted Error: Missing definition for highlighti
-ng style "default" (minted executable is unavailable or disabled); attempting t
-o substitute fallback style.
-
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30   \end{minted}
-                   
-(That was another \errmessage.)
-
-\c@minted@tmpdatabufferlength=\count546
-
-./standvanzaken.tex:30: Package minted Error: Cannot highlight code (minted exe
-cutable is unavailable or disabled); attempting to typeset without highlighting
-.
-
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30   \end{minted}
-                   
-(That was another \errmessage.)
-
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 30.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 30.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 30.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 30.
-Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
-t line 31.
 
 
 [3
 
 ]
+File: img/fullb.png Graphic file (type bmp)
+<img/fullb.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 
 [4]
 
-[5]) (./methodologie.tex
+[5]
+File: img/incrementb.png Graphic file (type bmp)
+<img/incrementb.png>
+
 
 [6]
+File: img/diff.png Graphic file (type bmp)
+<img/diff.png>
+
 
 [7]
+
+[8]
+
+[9]
+
+[10]
+
+[11]
+
+[12]) (./methodologie.tex
+
+[13]
 Hoofdstuk 3.
 
-Overfull \hbox (21.33195pt too wide) in paragraph at lines 29--30
-\TU/Montserrat(1)/m/n/10.95 De methodologie begint met een uitgebreide literatu
-urstudie over back-upstrategieën,
+Overfull \hbox (5.772pt too wide) in paragraph at lines 29--30
+\TU/Montserrat(1)/m/n/10.95 Het onderzoek begint met een uitgebreide literatuur
+studie over back-upstrategieën,
  []
 
 
@@ -2661,7 +2616,7 @@ Overfull \hbox (19.44856pt too wide) in paragraph at lines 37--38
 
 
 
-[8
+[14
 
 ]
 Overfull \hbox (51.86783pt too wide) in paragraph at lines 68--69
@@ -2683,7 +2638,7 @@ dzakelijk, aangezien Azure
 
 
 
-[9]
+[15]
 Overfull \hbox (1.10002pt too wide) in paragraph at lines 70--71
 \TU/Montserrat(1)/m/n/10.95 noodzakelijk om fysieke externe schijven of on-prem
 ise hardware-oplossingen
@@ -2695,64 +2650,23 @@ Overfull \hbox (8.20074pt too wide) in paragraph at lines 74--75
  verbeterde back-uptechnieken
  []
 
-) (./literatuurstudie.tex
+)
 
-[10]
-Hoofdstuk 4.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 4.
-
-
-
-[11
-
-]
-File: img/fullb.png Graphic file (type bmp)
-<img/fullb.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
-[12]
-
-[13]
-File: img/incrementb.png Graphic file (type bmp)
-<img/incrementb.png>
-
-
-[14]
-File: img/diff.png Graphic file (type bmp)
-<img/diff.png>
-
-
-[15]
-
-[16]
+[16] (./conclusie.tex
 
 [17]
-
-[18]
-
-[19]
-
-[20]) (./conclusie.tex
-
-[21]
-Hoofdstuk 5.
+Hoofdstuk 4.
 
 
-[22
+[18
 
 ])
 
-[23]
+[19]
 B\ij lage A.
 
 
-[24
+[20
 
 ]
 Overfull \hbox (1.69463pt too wide) in paragraph at lines 177--177
@@ -2795,7 +2709,7 @@ x, J., Harnick-Shapiro, D., Kim, H., Kreuch,
 
 
 
-[25
+[21
 
 
 ] (./BouazzaouiNaoufalBP.aux)
@@ -2803,26 +2717,19 @@ x, J., Harnick-Shapiro, D., Kim, H., Kreuch,
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
-
-
-Package rerunfilecheck Warning: File `BouazzaouiNaoufalBP.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `BouazzaouiNaoufalBP.out':
-(rerunfilecheck)             Before: 07AE2031BDC1DC5C55F77489CD485F1F;3042
-(rerunfilecheck)             After:  CB8C62638A5C5396F4468EFE42017565;3189.
+Package rerunfilecheck Info: File `BouazzaouiNaoufalBP.out' has not changed.
+(rerunfilecheck)             Checksum: 1C527DF7C6B1AAE2D2AB5C371906643B;3065.
 Package logreq Info: Writing requests to 'BouazzaouiNaoufalBP.run.xml'.
 \openout1 = `BouazzaouiNaoufalBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49553 strings out of 474233
- 1017440 string characters out of 5745779
- 2255536 words of memory out of 5000000
- 71421 multiletter control sequences out of 15000+600000
- 561826 words of font info for 109 fonts, out of 8000000 for 9000
+ 49382 strings out of 474233
+ 1012278 string characters out of 5745779
+ 2255365 words of memory out of 5000000
+ 71269 multiletter control sequences out of 15000+600000
+ 560927 words of font info for 97 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 110i,11n,132p,4371b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,11n,132p,4368b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on BouazzaouiNaoufalBP.pdf (33 pages).
+Output written on BouazzaouiNaoufalBP.pdf (29 pages).
