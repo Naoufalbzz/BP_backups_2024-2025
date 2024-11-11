@@ -231,6 +231,70 @@
       \verb https://www.researchgate.net/profile/Santiago-Obrutsky/publication/305508410_Cloud_Storage_Advantages_Disadvantages_and_Enterprise_Solutions_for_Business/links/5792976508ae33e89f7cc136/Cloud-Storage-Advantages-Disadvantages-and-Enterprise-Solutions-for-Business.pdf
       \endverb
     \endentry
+    \entry{Rahumed2011}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=7e431d932b79c8b15153b5aaf6187cfa}{%
+           family={Rahumed},
+           familyi={R\bibinitperiod},
+           given={Arthur},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d455d9fae40e4b45a1a55de9cf1c4bb2}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Henry\bibnamedelimb C.\bibnamedelimi H.},
+           giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9abf48c0fc41e6cd5832fb70a538b14d}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4fa5a15f7bca1977d380a257ca78df22}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Patrick\bibnamedelimb P.\bibnamedelimi C.},
+           giveni={P\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0bd4bc8ccc1c40b24b464e35f2245d2}{%
+           family={Lui},
+           familyi={L\bibinitperiod},
+           given={John\bibnamedelimb C.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{219a5265a383a923a19597821ed09fdf}
+      \strng{fullhash}{b219d8862533330c6cbc8658eea38926}
+      \strng{fullhashraw}{b219d8862533330c6cbc8658eea38926}
+      \strng{bibnamehash}{b219d8862533330c6cbc8658eea38926}
+      \strng{authorbibnamehash}{b219d8862533330c6cbc8658eea38926}
+      \strng{authornamehash}{219a5265a383a923a19597821ed09fdf}
+      \strng{authorfullhash}{b219d8862533330c6cbc8658eea38926}
+      \strng{authorfullhashraw}{b219d8862533330c6cbc8658eea38926}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{40th International Conference on Parallel Processing Workshops}
+      \field{title}{A secure cloud backup system with assured deletion and version control}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{160\bibrangedash 167}
+      \range{pages}{8}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/221617563_A_Secure_Cloud_Backup_System_with_Assured_Deletion_and_Version_Control
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/221617563_A_Secure_Cloud_Backup_System_with_Assured_Deletion_and_Version_Control
+      \endverb
+    \endentry
     \entry{Rivas2022}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8e5c83a76033f591c1e5967fa5ad19fb}{%
@@ -641,6 +705,70 @@
       \endverb
       \verb{url}
       \verb https://www.researchgate.net/profile/Santiago-Obrutsky/publication/305508410_Cloud_Storage_Advantages_Disadvantages_and_Enterprise_Solutions_for_Business/links/5792976508ae33e89f7cc136/Cloud-Storage-Advantages-Disadvantages-and-Enterprise-Solutions-for-Business.pdf
+      \endverb
+    \endentry
+    \entry{Rahumed2011}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=7e431d932b79c8b15153b5aaf6187cfa}{%
+           family={Rahumed},
+           familyi={R\bibinitperiod},
+           given={Arthur},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d455d9fae40e4b45a1a55de9cf1c4bb2}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Henry\bibnamedelimb C.\bibnamedelimi H.},
+           giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9abf48c0fc41e6cd5832fb70a538b14d}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4fa5a15f7bca1977d380a257ca78df22}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Patrick\bibnamedelimb P.\bibnamedelimi C.},
+           giveni={P\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0bd4bc8ccc1c40b24b464e35f2245d2}{%
+           family={Lui},
+           familyi={L\bibinitperiod},
+           given={John\bibnamedelimb C.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{219a5265a383a923a19597821ed09fdf}
+      \strng{fullhash}{b219d8862533330c6cbc8658eea38926}
+      \strng{fullhashraw}{b219d8862533330c6cbc8658eea38926}
+      \strng{bibnamehash}{b219d8862533330c6cbc8658eea38926}
+      \strng{authorbibnamehash}{b219d8862533330c6cbc8658eea38926}
+      \strng{authornamehash}{219a5265a383a923a19597821ed09fdf}
+      \strng{authorfullhash}{b219d8862533330c6cbc8658eea38926}
+      \strng{authorfullhashraw}{b219d8862533330c6cbc8658eea38926}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{40th International Conference on Parallel Processing Workshops}
+      \field{title}{A secure cloud backup system with assured deletion and version control}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{160\bibrangedash 167}
+      \range{pages}{8}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/221617563_A_Secure_Cloud_Backup_System_with_Assured_Deletion_and_Version_Control
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/221617563_A_Secure_Cloud_Backup_System_with_Assured_Deletion_and_Version_Control
       \endverb
     \endentry
     \entry{Rivas2022}{article}{}{}

@@ -48,4 +48,12 @@
   url          = {https://www.backblaze.com/blog/whats-the-diff-full-incremental-differential-and-synthetic-full-backups/},
 }
 
+@Book{,
+  author = {Roger McHaney},
+  date   = {2021-04-05},
+  title  = {Cloud Technologies},
+  url    = {https://www.google.be/books/edition/_/1w0jEAAAQBAJ?hl=nl&gbpv=0},
+  file   = {:C\:/Users/naouf/Downloads/Cloud_Technologies.bibtex:bibtex},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}

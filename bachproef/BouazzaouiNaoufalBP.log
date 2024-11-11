@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  11 NOV 2024 22:51
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  12 NOV 2024 00:29
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2717,25 +2717,17 @@ x, J., Harnick-Shapiro, D., Kim, H., Kreuch,
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `BouazzaouiNaoufalBP.out' has not changed.
 (rerunfilecheck)             Checksum: 1C527DF7C6B1AAE2D2AB5C371906643B;3065.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'BouazzaouiNaoufalBP.run.xml'.
 \openout1 = `BouazzaouiNaoufalBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49386 strings out of 474233
- 1012479 string characters out of 5745779
- 2256391 words of memory out of 5000000
- 71273 multiletter control sequences out of 15000+600000
+ 49394 strings out of 474233
+ 1012720 string characters out of 5745779
+ 2259499 words of memory out of 5000000
+ 71281 multiletter control sequences out of 15000+600000
  560927 words of font info for 97 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,11n,132p,4368b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s
