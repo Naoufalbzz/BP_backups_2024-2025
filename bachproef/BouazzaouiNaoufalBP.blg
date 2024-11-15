@@ -1,26 +1,26 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'BouazzaouiNaoufalBP.blg'
-[133] biber-MSWIN64:340> INFO - === 
-[176] Biber.pm:420> INFO - Reading 'BouazzaouiNaoufalBP.bcf'
-[339] Biber.pm:994> INFO - Found 10 citekeys in bib section 0
-[365] Biber.pm:4463> INFO - Processing section 0
-[381] Biber.pm:4654> INFO - Looking for bibtex file 'bachproef.bib' for section 0
-[431] bibtex.pm:1713> INFO - LaTeX decoding ...
-[442] bibtex.pm:1519> INFO - Found BibTeX data source 'bachproef.bib'
-[535] Biber.pm:4654> INFO - Looking for bibtex file '../voorstel/voorstel.bib' for section 0
-[586] bibtex.pm:1713> INFO - LaTeX decoding ...
-[608] bibtex.pm:1519> INFO - Found BibTeX data source '../voorstel/voorstel.bib'
-[667] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[667] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[667] Biber.pm:4283> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[667] Biber.pm:4289> INFO - No sort tailoring available for locale 'nl-NL'
-[700] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[700] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[700] Biber.pm:4283> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[700] Biber.pm:4289> INFO - No sort tailoring available for locale 'nl-NL'
-[720] bbl.pm:676> INFO - Writing 'BouazzaouiNaoufalBP.bbl' with encoding 'UTF-8'
-[740] bbl.pm:779> INFO - Output to BouazzaouiNaoufalBP.bbl
-[740] Biber.pm:131> WARN - Duplicate entry key: 'Beard2018' in file '../voorstel/voorstel.bib', skipping ...
-[741] Biber.pm:131> WARN - Duplicate entry key: 'Rivas2022' in file '../voorstel/voorstel.bib', skipping ...
-[741] Biber.pm:131> WARN - I didn't find a database entry for 'Pollefliet2011' (section 0)
-[741] Biber.pm:133> INFO - WARNINGS: 3
+[221] biber-MSWIN64:340> INFO - === 
+[314] Biber.pm:420> INFO - Reading 'BouazzaouiNaoufalBP.bcf'
+[456] Biber.pm:994> INFO - Found 10 citekeys in bib section 0
+[483] Biber.pm:4463> INFO - Processing section 0
+[514] Biber.pm:4654> INFO - Looking for bibtex file 'bachproef.bib' for section 0
+[565] bibtex.pm:1713> INFO - LaTeX decoding ...
+[581] bibtex.pm:1519> INFO - Found BibTeX data source 'bachproef.bib'
+[730] Biber.pm:4654> INFO - Looking for bibtex file '../voorstel/voorstel.bib' for section 0
+[782] bibtex.pm:1713> INFO - LaTeX decoding ...
+[810] bibtex.pm:1519> INFO - Found BibTeX data source '../voorstel/voorstel.bib'
+[862] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[863] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[863] Biber.pm:4283> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[863] Biber.pm:4289> INFO - No sort tailoring available for locale 'nl-NL'
+[889] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[889] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[889] Biber.pm:4283> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[889] Biber.pm:4289> INFO - No sort tailoring available for locale 'nl-NL'
+[935] bbl.pm:676> INFO - Writing 'BouazzaouiNaoufalBP.bbl' with encoding 'UTF-8'
+[953] bbl.pm:779> INFO - Output to BouazzaouiNaoufalBP.bbl
+[953] Biber.pm:131> WARN - Duplicate entry key: 'Beard2018' in file '../voorstel/voorstel.bib', skipping ...
+[953] Biber.pm:131> WARN - Duplicate entry key: 'Rivas2022' in file '../voorstel/voorstel.bib', skipping ...
+[953] Biber.pm:131> WARN - I didn't find a database entry for 'Pollefliet2011' (section 0)
+[953] Biber.pm:133> INFO - WARNINGS: 3
