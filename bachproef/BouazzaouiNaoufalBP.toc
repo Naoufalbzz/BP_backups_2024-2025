@@ -15,22 +15,23 @@
 \contentsline {subsubsection}{Incrementele back-up}{7}{figure.caption.8}%
 \contentsline {subsubsection}{Differentiële back-ups}{8}{figure.caption.9}%
 \contentsline {subsubsection}{Cloud back-ups}{9}{figure.caption.10}%
-\contentsline {subsubsection}{On-premise back-ups}{10}{figure.caption.10}%
-\contentsline {subsubsection}{Offline back-ups}{11}{figure.caption.10}%
-\contentsline {subsubsection}{Immutable storage}{13}{figure.caption.10}%
-\contentsline {subsection}{\numberline {2.0.3}Ransomware}{14}{subsection.2.0.3}%
-\contentsline {subsection}{\numberline {2.0.4}Ransomware-resistente back-upoplossingen}{14}{subsection.2.0.4}%
-\contentsline {chapter}{\numberline {3}Methodologie}{15}{chapter.3}%
-\contentsline {subsection}{\numberline {3.0.1}Requirements-analyse}{15}{subsection.3.0.1}%
-\contentsline {subsubsection}{1. Must Have (Essentiële vereisten)}{15}{subsection.3.0.1}%
-\contentsline {subsubsection}{2. Should Have (Aanbevolen vereisten)}{16}{subsection.3.0.1}%
-\contentsline {subsubsection}{3. Could Have (Wenselijke vereisten)}{16}{subsection.3.0.1}%
-\contentsline {subsubsection}{4. Won't Have (Niet noodzakelijke vereisten)}{16}{subsection.3.0.1}%
-\contentsline {subsubsection}{Conclusie}{17}{subsection.3.0.1}%
-\contentsline {subsection}{\numberline {3.0.2}Proof-Of-Concept}{17}{subsection.3.0.2}%
-\contentsline {chapter}{\numberline {4}Analyse van de back-upstrategie van Forvis Mazars}{19}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Proof-of-concept}{20}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Conclusie}{21}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{23}{appendix.A}%
-\contentsline {chapter}{Bibliografie}{24}{appendix*.11}%
+\contentsline {subsubsection}{Offline back-ups}{10}{figure.caption.10}%
+\contentsline {subsubsection}{On-premise back-ups}{11}{figure.caption.10}%
+\contentsline {subsection}{\numberline {2.0.3}Ransomware}{11}{subsection.2.0.3}%
+\contentsline {subsubsection}{Evolutie}{12}{subsection.2.0.3}%
+\contentsline {subsection}{\numberline {2.0.4}Ransomware-resistente back-upoplossingen}{12}{subsection.2.0.4}%
+\contentsline {subsubsection}{Immutable storage}{12}{subsection.2.0.4}%
+\contentsline {chapter}{\numberline {3}Methodologie}{14}{chapter.3}%
+\contentsline {subsection}{\numberline {3.0.1}Requirements-analyse}{14}{subsection.3.0.1}%
+\contentsline {subsubsection}{1. Must Have (Essentiële vereisten)}{14}{subsection.3.0.1}%
+\contentsline {subsubsection}{2. Should Have (Aanbevolen vereisten)}{15}{subsection.3.0.1}%
+\contentsline {subsubsection}{3. Could Have (Wenselijke vereisten)}{15}{subsection.3.0.1}%
+\contentsline {subsubsection}{4. Won't Have (Niet noodzakelijke vereisten)}{15}{subsection.3.0.1}%
+\contentsline {subsubsection}{Conclusie}{16}{subsection.3.0.1}%
+\contentsline {subsection}{\numberline {3.0.2}Proof-Of-Concept}{16}{subsection.3.0.2}%
+\contentsline {chapter}{\numberline {4}Analyse van de back-upstrategie van Forvis Mazars}{18}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Proof-of-concept}{19}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Conclusie}{20}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{22}{appendix.A}%
+\contentsline {chapter}{Bibliografie}{23}{appendix*.11}%
 \contentsfinish 

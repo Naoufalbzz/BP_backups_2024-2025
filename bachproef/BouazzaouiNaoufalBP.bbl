@@ -113,6 +113,43 @@
       \verb https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=4b6cfd832c2eb61c60ae0ab956eed8401f22d5f0
       \endverb
     \endentry
+    \entry{Edwards2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ff035591a31ae3085a8364f1007b95b6}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={Benj},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ff035591a31ae3085a8364f1007b95b6}
+      \strng{fullhash}{ff035591a31ae3085a8364f1007b95b6}
+      \strng{fullhashraw}{ff035591a31ae3085a8364f1007b95b6}
+      \strng{bibnamehash}{ff035591a31ae3085a8364f1007b95b6}
+      \strng{authorbibnamehash}{ff035591a31ae3085a8364f1007b95b6}
+      \strng{authornamehash}{ff035591a31ae3085a8364f1007b95b6}
+      \strng{authorfullhash}{ff035591a31ae3085a8364f1007b95b6}
+      \strng{authorfullhashraw}{ff035591a31ae3085a8364f1007b95b6}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{25}
+      \field{journaltitle}{How-To Geek}
+      \field{month}{7}
+      \field{title}{Why You Need an Offline Backup}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.howtogeek.com/818193/why-you-need-an-offline-backup/
+      \endverb
+      \verb{url}
+      \verb https://www.howtogeek.com/818193/why-you-need-an-offline-backup/
+      \endverb
+    \endentry
     \entry{Ghazi2013}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=2fee6966993b1b91f4e0e1d811f42e48}{%
@@ -151,6 +188,46 @@
       \field{dateera}{ce}
       \field{pages}{253\bibrangedash 258}
       \range{pages}{6}
+      \verb{urlraw}
+      \verb https://www.aasrc.org/aasrj/index.php/aasrj/article/viewFile/1385/547
+      \endverb
+      \verb{url}
+      \verb https://www.aasrc.org/aasrj/index.php/aasrj/article/viewFile/1385/547
+      \endverb
+    \endentry
+    \entry{James2019}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d52e32f3a96a64786814ae9b5279fbe5}{%
+           family={James},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d52e32f3a96a64786814ae9b5279fbe5}
+      \strng{fullhash}{d52e32f3a96a64786814ae9b5279fbe5}
+      \strng{fullhashraw}{d52e32f3a96a64786814ae9b5279fbe5}
+      \strng{bibnamehash}{d52e32f3a96a64786814ae9b5279fbe5}
+      \strng{authorbibnamehash}{d52e32f3a96a64786814ae9b5279fbe5}
+      \strng{authornamehash}{d52e32f3a96a64786814ae9b5279fbe5}
+      \strng{authorfullhash}{d52e32f3a96a64786814ae9b5279fbe5}
+      \strng{authorfullhashraw}{d52e32f3a96a64786814ae9b5279fbe5}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{13}
+      \field{journaltitle}{National Cyber Security Centre}
+      \field{month}{8}
+      \field{title}{Offline backups in an online world}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ncsc.gov.uk/blog-post/offline-backups-in-an-online-world
+      \endverb
+      \verb{url}
+      \verb https://www.ncsc.gov.uk/blog-post/offline-backups-in-an-online-world
+      \endverb
     \endentry
     \entry{Nelson2011}{book}{}{}
       \name{author}{2}{}{%
@@ -295,6 +372,50 @@
       \verb https://www.researchgate.net/publication/221617563_A_Secure_Cloud_Backup_System_with_Assured_Deletion_and_Version_Control
       \endverb
     \endentry
+    \entry{Richardson2017}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e03644094736586253e7ccf1a3c781bc}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={Ronny},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f4653c2934a5c0a4388ac6bb6bb7fae}{%
+           family={North},
+           familyi={N\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7fc12854385560ceff2aed68b1330869}
+      \strng{fullhash}{7fc12854385560ceff2aed68b1330869}
+      \strng{fullhashraw}{7fc12854385560ceff2aed68b1330869}
+      \strng{bibnamehash}{7fc12854385560ceff2aed68b1330869}
+      \strng{authorbibnamehash}{7fc12854385560ceff2aed68b1330869}
+      \strng{authornamehash}{7fc12854385560ceff2aed68b1330869}
+      \strng{authorfullhash}{7fc12854385560ceff2aed68b1330869}
+      \strng{authorfullhashraw}{7fc12854385560ceff2aed68b1330869}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Management Review}
+      \field{number}{1}
+      \field{title}{Ransomware: Evolution, mitigation and prevention}
+      \field{volume}{13}
+      \field{year}{2017}
+      \field{pages}{10}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://digitalcommons.kennesaw.edu/cgi/viewcontent.cgi?article=5312&context=facpubs
+      \endverb
+      \verb{url}
+      \verb https://digitalcommons.kennesaw.edu/cgi/viewcontent.cgi?article=5312&context=facpubs
+      \endverb
+    \endentry
     \entry{Rivas2022}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8e5c83a76033f591c1e5967fa5ad19fb}{%
@@ -330,6 +451,118 @@
       \endverb
       \verb{url}
       \verb https://www.backblaze.com/blog/whats-the-diff-full-incremental-differential-and-synthetic-full-backups/
+      \endverb
+    \endentry
+    \entry{Trovato2019}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1afbd05cad4cdb813ea20df7549b7981}{%
+           family={Trovato},
+           familyi={T\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1cbcaa48544d9043acbd25b0fd89f74b}{%
+           family={Sharp},
+           familyi={S\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cbe924203211db66b41e96c8714fc533}{%
+           family={Siman},
+           familyi={S\bibinitperiod},
+           given={Teodora},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Henry Stewart Publications}%
+      }
+      \strng{namehash}{e5405cc7b9eff02e5c33cebbade3172e}
+      \strng{fullhash}{abcf69dd67a746c4a1c7d553c8db80a5}
+      \strng{fullhashraw}{abcf69dd67a746c4a1c7d553c8db80a5}
+      \strng{bibnamehash}{abcf69dd67a746c4a1c7d553c8db80a5}
+      \strng{authorbibnamehash}{abcf69dd67a746c4a1c7d553c8db80a5}
+      \strng{authornamehash}{e5405cc7b9eff02e5c33cebbade3172e}
+      \strng{authorfullhash}{abcf69dd67a746c4a1c7d553c8db80a5}
+      \strng{authorfullhashraw}{abcf69dd67a746c4a1c7d553c8db80a5}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Business Continuity \& Emergency Planning}
+      \field{number}{2}
+      \field{title}{Cloud, co-location, on-premises and hybrid disaster recovery solutions: Pros, cons, and a cost comparison}
+      \field{volume}{13}
+      \field{year}{2019}
+      \field{pages}{120\bibrangedash 135}
+      \range{pages}{16}
+      \verb{urlraw}
+      \verb https://www.ingentaconnect.com/content/hsp/jbcep/2019/00000013/00000002/art00004
+      \endverb
+      \verb{url}
+      \verb https://www.ingentaconnect.com/content/hsp/jbcep/2019/00000013/00000002/art00004
+      \endverb
+    \endentry
+    \entry{Yanfang2017}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=2979fc5e16e414ff6dc186dd159394b8}{%
+           family={Yanfang},
+           familyi={Y\bibinitperiod},
+           given={Ye},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d8662c614478cf2aa6cdbf05fd3ec91}{%
+           family={Tao},
+           familyi={T\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d87c522de5da4f0ebf326cebf5914104}{%
+           family={Donald},
+           familyi={D\bibinitperiod},
+           given={Adjeroh},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c831c54041d93725820d39903bf5b54}{%
+           family={Sitharama},
+           familyi={S\bibinitperiod},
+           given={Iyengar},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACM New York, NY, USA}%
+      }
+      \strng{namehash}{ebf0864cd78645a3051ec7954fe2df69}
+      \strng{fullhash}{fa5d7a477feec5a3fd254e8f55927d13}
+      \strng{fullhashraw}{fa5d7a477feec5a3fd254e8f55927d13}
+      \strng{bibnamehash}{fa5d7a477feec5a3fd254e8f55927d13}
+      \strng{authorbibnamehash}{fa5d7a477feec5a3fd254e8f55927d13}
+      \strng{authornamehash}{ebf0864cd78645a3051ec7954fe2df69}
+      \strng{authorfullhash}{fa5d7a477feec5a3fd254e8f55927d13}
+      \strng{authorfullhashraw}{fa5d7a477feec5a3fd254e8f55927d13}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Computing Surveys (CSUR)}
+      \field{number}{3}
+      \field{title}{A survey on malware detection using data mining techniques}
+      \field{volume}{50}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 40}
+      \range{pages}{40}
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/pdf/10.1145/3073559
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/pdf/10.1145/3073559
       \endverb
     \endentry
     \entry{Zhao2024}{article}{}{}
@@ -396,101 +629,6 @@
       \endverb
       \verb{url}
       \verb https://link.springer.com/article/10.1007/s11219-024-09685-1
-      \endverb
-    \endentry
-    \entry{Zhu2015}{book}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{10}{}{%
-        {{un=0,uniquepart=base,hash=2e7ef5e41eaff6810cacf833c0bc8be8}{%
-           family={Zhu},
-           familyi={Z\bibinitperiod},
-           given={W.D.},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1f78b5cc1a1b883c73b4c8384b945d7c}{%
-           family={Allenbach},
-           familyi={A\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=27d341980196b138fecf699a5ccf8622}{%
-           family={Battaglia},
-           familyi={B\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8d825a09c8584ef60b69d71b4d5d1b49}{%
-           family={Boudreaux},
-           familyi={B\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=fffcbd45c0699abe25ae1567ff85ab88}{%
-           family={Harnick-Shapiro},
-           familyi={H\bibinithyphendelim S\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1a48868d4b7e2996a44219cbaef3fb20}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b35f73cce6905c517efcb721a16a2407}{%
-           family={Kreuch},
-           familyi={K\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a6e6e8254586fa3a0bd84188363191eb}{%
-           family={Morgan},
-           familyi={M\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bc9abbd956354f2690bbd958ce304fd4}{%
-           family={Patel},
-           familyi={P\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e92189eb51615a94cd734c6b15775d88}{%
-           family={Willingham},
-           familyi={W\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {IBM Redbooks}%
-      }
-      \strng{namehash}{749f69ba52e66a665b422507215d0b26}
-      \strng{fullhash}{cd9b397c8dc59db36b85190ffe75b562}
-      \strng{fullhashraw}{cd9b397c8dc59db36b85190ffe75b562}
-      \strng{bibnamehash}{cd9b397c8dc59db36b85190ffe75b562}
-      \strng{authorbibnamehash}{cd9b397c8dc59db36b85190ffe75b562}
-      \strng{authornamehash}{749f69ba52e66a665b422507215d0b26}
-      \strng{authorfullhash}{cd9b397c8dc59db36b85190ffe75b562}
-      \strng{authorfullhashraw}{cd9b397c8dc59db36b85190ffe75b562}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{9780738434377}
-      \field{series}{IBM redbooks}
-      \field{title}{Disaster Recovery and Backup Solutions for IBM FileNet P8 Version 4.5.1 Systems}
-      \field{year}{2015}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://books.google.be/books?id=O1TAAgAAQBAJ
-      \endverb
-      \verb{url}
-      \verb https://books.google.be/books?id=O1TAAgAAQBAJ
       \endverb
     \endentry
   \enddatalist
@@ -589,6 +727,43 @@
       \verb https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=4b6cfd832c2eb61c60ae0ab956eed8401f22d5f0
       \endverb
     \endentry
+    \entry{Edwards2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ff035591a31ae3085a8364f1007b95b6}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={Benj},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ff035591a31ae3085a8364f1007b95b6}
+      \strng{fullhash}{ff035591a31ae3085a8364f1007b95b6}
+      \strng{fullhashraw}{ff035591a31ae3085a8364f1007b95b6}
+      \strng{bibnamehash}{ff035591a31ae3085a8364f1007b95b6}
+      \strng{authorbibnamehash}{ff035591a31ae3085a8364f1007b95b6}
+      \strng{authornamehash}{ff035591a31ae3085a8364f1007b95b6}
+      \strng{authorfullhash}{ff035591a31ae3085a8364f1007b95b6}
+      \strng{authorfullhashraw}{ff035591a31ae3085a8364f1007b95b6}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{25}
+      \field{journaltitle}{How-To Geek}
+      \field{month}{7}
+      \field{title}{Why You Need an Offline Backup}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.howtogeek.com/818193/why-you-need-an-offline-backup/
+      \endverb
+      \verb{url}
+      \verb https://www.howtogeek.com/818193/why-you-need-an-offline-backup/
+      \endverb
+    \endentry
     \entry{Ghazi2013}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=2fee6966993b1b91f4e0e1d811f42e48}{%
@@ -627,6 +802,46 @@
       \field{dateera}{ce}
       \field{pages}{253\bibrangedash 258}
       \range{pages}{6}
+      \verb{urlraw}
+      \verb https://www.aasrc.org/aasrj/index.php/aasrj/article/viewFile/1385/547
+      \endverb
+      \verb{url}
+      \verb https://www.aasrc.org/aasrj/index.php/aasrj/article/viewFile/1385/547
+      \endverb
+    \endentry
+    \entry{James2019}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d52e32f3a96a64786814ae9b5279fbe5}{%
+           family={James},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d52e32f3a96a64786814ae9b5279fbe5}
+      \strng{fullhash}{d52e32f3a96a64786814ae9b5279fbe5}
+      \strng{fullhashraw}{d52e32f3a96a64786814ae9b5279fbe5}
+      \strng{bibnamehash}{d52e32f3a96a64786814ae9b5279fbe5}
+      \strng{authorbibnamehash}{d52e32f3a96a64786814ae9b5279fbe5}
+      \strng{authornamehash}{d52e32f3a96a64786814ae9b5279fbe5}
+      \strng{authorfullhash}{d52e32f3a96a64786814ae9b5279fbe5}
+      \strng{authorfullhashraw}{d52e32f3a96a64786814ae9b5279fbe5}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{13}
+      \field{journaltitle}{National Cyber Security Centre}
+      \field{month}{8}
+      \field{title}{Offline backups in an online world}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ncsc.gov.uk/blog-post/offline-backups-in-an-online-world
+      \endverb
+      \verb{url}
+      \verb https://www.ncsc.gov.uk/blog-post/offline-backups-in-an-online-world
+      \endverb
     \endentry
     \entry{Nelson2011}{book}{}{}
       \name{author}{2}{}{%
@@ -771,6 +986,50 @@
       \verb https://www.researchgate.net/publication/221617563_A_Secure_Cloud_Backup_System_with_Assured_Deletion_and_Version_Control
       \endverb
     \endentry
+    \entry{Richardson2017}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e03644094736586253e7ccf1a3c781bc}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={Ronny},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f4653c2934a5c0a4388ac6bb6bb7fae}{%
+           family={North},
+           familyi={N\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7fc12854385560ceff2aed68b1330869}
+      \strng{fullhash}{7fc12854385560ceff2aed68b1330869}
+      \strng{fullhashraw}{7fc12854385560ceff2aed68b1330869}
+      \strng{bibnamehash}{7fc12854385560ceff2aed68b1330869}
+      \strng{authorbibnamehash}{7fc12854385560ceff2aed68b1330869}
+      \strng{authornamehash}{7fc12854385560ceff2aed68b1330869}
+      \strng{authorfullhash}{7fc12854385560ceff2aed68b1330869}
+      \strng{authorfullhashraw}{7fc12854385560ceff2aed68b1330869}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Management Review}
+      \field{number}{1}
+      \field{title}{Ransomware: Evolution, mitigation and prevention}
+      \field{volume}{13}
+      \field{year}{2017}
+      \field{pages}{10}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://digitalcommons.kennesaw.edu/cgi/viewcontent.cgi?article=5312&context=facpubs
+      \endverb
+      \verb{url}
+      \verb https://digitalcommons.kennesaw.edu/cgi/viewcontent.cgi?article=5312&context=facpubs
+      \endverb
+    \endentry
     \entry{Rivas2022}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8e5c83a76033f591c1e5967fa5ad19fb}{%
@@ -806,6 +1065,118 @@
       \endverb
       \verb{url}
       \verb https://www.backblaze.com/blog/whats-the-diff-full-incremental-differential-and-synthetic-full-backups/
+      \endverb
+    \endentry
+    \entry{Trovato2019}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1afbd05cad4cdb813ea20df7549b7981}{%
+           family={Trovato},
+           familyi={T\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1cbcaa48544d9043acbd25b0fd89f74b}{%
+           family={Sharp},
+           familyi={S\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cbe924203211db66b41e96c8714fc533}{%
+           family={Siman},
+           familyi={S\bibinitperiod},
+           given={Teodora},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Henry Stewart Publications}%
+      }
+      \strng{namehash}{e5405cc7b9eff02e5c33cebbade3172e}
+      \strng{fullhash}{abcf69dd67a746c4a1c7d553c8db80a5}
+      \strng{fullhashraw}{abcf69dd67a746c4a1c7d553c8db80a5}
+      \strng{bibnamehash}{abcf69dd67a746c4a1c7d553c8db80a5}
+      \strng{authorbibnamehash}{abcf69dd67a746c4a1c7d553c8db80a5}
+      \strng{authornamehash}{e5405cc7b9eff02e5c33cebbade3172e}
+      \strng{authorfullhash}{abcf69dd67a746c4a1c7d553c8db80a5}
+      \strng{authorfullhashraw}{abcf69dd67a746c4a1c7d553c8db80a5}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Business Continuity \& Emergency Planning}
+      \field{number}{2}
+      \field{title}{Cloud, co-location, on-premises and hybrid disaster recovery solutions: Pros, cons, and a cost comparison}
+      \field{volume}{13}
+      \field{year}{2019}
+      \field{pages}{120\bibrangedash 135}
+      \range{pages}{16}
+      \verb{urlraw}
+      \verb https://www.ingentaconnect.com/content/hsp/jbcep/2019/00000013/00000002/art00004
+      \endverb
+      \verb{url}
+      \verb https://www.ingentaconnect.com/content/hsp/jbcep/2019/00000013/00000002/art00004
+      \endverb
+    \endentry
+    \entry{Yanfang2017}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=2979fc5e16e414ff6dc186dd159394b8}{%
+           family={Yanfang},
+           familyi={Y\bibinitperiod},
+           given={Ye},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d8662c614478cf2aa6cdbf05fd3ec91}{%
+           family={Tao},
+           familyi={T\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d87c522de5da4f0ebf326cebf5914104}{%
+           family={Donald},
+           familyi={D\bibinitperiod},
+           given={Adjeroh},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c831c54041d93725820d39903bf5b54}{%
+           family={Sitharama},
+           familyi={S\bibinitperiod},
+           given={Iyengar},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACM New York, NY, USA}%
+      }
+      \strng{namehash}{ebf0864cd78645a3051ec7954fe2df69}
+      \strng{fullhash}{fa5d7a477feec5a3fd254e8f55927d13}
+      \strng{fullhashraw}{fa5d7a477feec5a3fd254e8f55927d13}
+      \strng{bibnamehash}{fa5d7a477feec5a3fd254e8f55927d13}
+      \strng{authorbibnamehash}{fa5d7a477feec5a3fd254e8f55927d13}
+      \strng{authornamehash}{ebf0864cd78645a3051ec7954fe2df69}
+      \strng{authorfullhash}{fa5d7a477feec5a3fd254e8f55927d13}
+      \strng{authorfullhashraw}{fa5d7a477feec5a3fd254e8f55927d13}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Computing Surveys (CSUR)}
+      \field{number}{3}
+      \field{title}{A survey on malware detection using data mining techniques}
+      \field{volume}{50}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 40}
+      \range{pages}{40}
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/pdf/10.1145/3073559
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/pdf/10.1145/3073559
       \endverb
     \endentry
     \entry{Zhao2024}{article}{}{}
@@ -874,103 +1245,8 @@
       \verb https://link.springer.com/article/10.1007/s11219-024-09685-1
       \endverb
     \endentry
-    \entry{Zhu2015}{book}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{10}{}{%
-        {{un=0,uniquepart=base,hash=2e7ef5e41eaff6810cacf833c0bc8be8}{%
-           family={Zhu},
-           familyi={Z\bibinitperiod},
-           given={W.D.},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1f78b5cc1a1b883c73b4c8384b945d7c}{%
-           family={Allenbach},
-           familyi={A\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=27d341980196b138fecf699a5ccf8622}{%
-           family={Battaglia},
-           familyi={B\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8d825a09c8584ef60b69d71b4d5d1b49}{%
-           family={Boudreaux},
-           familyi={B\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=fffcbd45c0699abe25ae1567ff85ab88}{%
-           family={Harnick-Shapiro},
-           familyi={H\bibinithyphendelim S\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1a48868d4b7e2996a44219cbaef3fb20}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b35f73cce6905c517efcb721a16a2407}{%
-           family={Kreuch},
-           familyi={K\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a6e6e8254586fa3a0bd84188363191eb}{%
-           family={Morgan},
-           familyi={M\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bc9abbd956354f2690bbd958ce304fd4}{%
-           family={Patel},
-           familyi={P\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e92189eb51615a94cd734c6b15775d88}{%
-           family={Willingham},
-           familyi={W\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {IBM Redbooks}%
-      }
-      \strng{namehash}{749f69ba52e66a665b422507215d0b26}
-      \strng{fullhash}{cd9b397c8dc59db36b85190ffe75b562}
-      \strng{fullhashraw}{cd9b397c8dc59db36b85190ffe75b562}
-      \strng{bibnamehash}{cd9b397c8dc59db36b85190ffe75b562}
-      \strng{authorbibnamehash}{cd9b397c8dc59db36b85190ffe75b562}
-      \strng{authornamehash}{749f69ba52e66a665b422507215d0b26}
-      \strng{authorfullhash}{cd9b397c8dc59db36b85190ffe75b562}
-      \strng{authorfullhashraw}{cd9b397c8dc59db36b85190ffe75b562}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{9780738434377}
-      \field{series}{IBM redbooks}
-      \field{title}{Disaster Recovery and Backup Solutions for IBM FileNet P8 Version 4.5.1 Systems}
-      \field{year}{2015}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://books.google.be/books?id=O1TAAgAAQBAJ
-      \endverb
-      \verb{url}
-      \verb https://books.google.be/books?id=O1TAAgAAQBAJ
-      \endverb
-    \endentry
   \enddatalist
-  \missing{Pollefliet2011}
+  \missing{Zhu2015}
 \endrefsection
 \endinput
 

@@ -1,22 +1,12 @@
 % Encoding: UTF-8
 
-@Book{Zhu2015,
-  author    = {Zhu, W.D. and Allenbach, G. and Battaglia, R. and Boudreaux, J. and Harnick-Shapiro, D. and Kim, H. and Kreuch, B. and Morgan, T. and Patel, S. and Willingham, M. and others},
-  date      = {2015},
-  title     = {Disaster Recovery and Backup Solutions for IBM FileNet P8 Version 4.5.1 Systems},
-  isbn      = {9780738434377},
-  publisher = {IBM Redbooks},
-  series    = {IBM redbooks},
-  url       = {https://books.google.be/books?id=O1TAAgAAQBAJ},
-  lccn      = {2011293654},
-}
-
 @Article{Ghazi2013,
   author       = {Ghazi, Khadija and H. O. Nasereddin, Hebah},
   date         = {2013-05},
   journaltitle = {American Academic & Scholarly Research Journal},
   title        = {Business Continuity Based on Backup},
   pages        = {253-258},
+  url          = {https://www.aasrc.org/aasrj/index.php/aasrj/article/viewFile/1385/547},
   volume       = {5},
 }
 
@@ -54,6 +44,54 @@
   title  = {Cloud Technologies},
   url    = {https://www.google.be/books/edition/_/1w0jEAAAQBAJ?hl=nl&gbpv=0},
   file   = {:C\:/Users/naouf/Downloads/Cloud_Technologies.bibtex:bibtex},
+}
+
+@Article{Beaman2021,
+  author       = {Craig Beaman and Ashley Barkworth and Toluwalope David Akande and Saqib Hakak and Muhammad Khurram Khan},
+  date         = {2021},
+  journaltitle = {Computers & Security},
+  title        = {Ransomware: Recent advances, analysis, challenges and future research directions},
+  doi          = {https://doi.org/10.1016/j.cose.2021.102490},
+  issn         = {0167-4048},
+  pages        = {102490},
+  url          = {https://www.sciencedirect.com/science/article/pii/S016740482100314X},
+  volume       = {111},
+  abstract     = {The COVID-19 pandemic has witnessed a huge surge in the number of ransomware attacks. Different institutions such as healthcare, financial, and government have been targeted. There can be numerous reasons for such a sudden rise in attacks, but it appears working remotely in home-based environments (which is less secure compared to traditional institutional networks) could be one of the reasons. Cybercriminals are constantly exploring different approaches like social engineering attacks, such as phishing attacks, to spread ransomware. Hence, in this paper, we explored recent advances in ransomware prevention and detection and highlighted future research challenges and directions. We also carried out an analysis of a few popular ransomware samples and developed our own experimental ransomware, AESthetic, that was able to evade detection against eight popular antivirus programs.},
+  keywords     = {Ransomware, Cybersecurity, Antivirus, Malware, Ransomware prevention, COVID-19, Ransomware detection},
+}
+
+@Article{Yanfang2017,
+  author    = {Ye Yanfang and Li Tao and Adjeroh Donald and Iyengar Sitharama},
+  title     = {A survey on malware detection using data mining techniques},
+  number    = {3},
+  pages     = {1--40},
+  url       = {https://dl.acm.org/doi/pdf/10.1145/3073559},
+  volume    = {50},
+  journal   = {ACM Computing Surveys (CSUR)},
+  publisher = {ACM New York, NY, USA},
+  year      = {2017},
+}
+
+@Book{zhu2015disaster,
+  author    = {Wei-Dong Zhu and Gary Allenbach and Ross Battaglia and Julie Boudreaux and David Harnick-Shapiro and Heajin Kim and Bob Kreuch and Tim Morgan and Sandip Patel and Martin Willingham},
+  title     = {Disaster Recovery and Backup Solutions for IBM FileNet P8 Version 4.5.1 Systems},
+  isbn      = {9780738434377},
+  publisher = {IBM Redbooks},
+  series    = {IBM redbooks},
+  url       = {https://books.google.be/books?id=O1TAAgAAQBAJ},
+  lccn      = {2011293654},
+  year      = {2015},
+}
+
+@Article{richardson2017ransomware,
+  author  = {Ronny Richardson and Max North},
+  title   = {Ransomware: Evolution, mitigation and prevention},
+  number  = {1},
+  pages   = {10},
+  url     = {https://digitalcommons.kennesaw.edu/cgi/viewcontent.cgi?article=5312&context=facpubs},
+  volume  = {13},
+  journal = {International Management Review},
+  year    = {2017},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
