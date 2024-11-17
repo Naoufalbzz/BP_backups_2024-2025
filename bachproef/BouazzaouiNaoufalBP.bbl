@@ -63,6 +63,44 @@
       \verb https://books.google.be/books?hl=nl&lr=&id=QuhgDwAAQBAJ&oi=fnd&pg=PR5&dq=Beard,+Bradley+Beginning+Backup+and+Restore+for+SQL+Server+&ots=Un7DKfSnFl&sig=LRTBRuGa4mLj9pOBy5RZMHMNggM#v=onepage&q=Beard,%20Bradley%20Beginning%20Backup%20and%20Restore%20for%20SQL%20Server&f=false
       \endverb
     \endentry
+    \entry{Bryant2015}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a43052452445c0b66ab6f95679b89b6d}{%
+           family={Bryant},
+           familyi={B\bibinitperiod},
+           given={William\bibnamedelima D.},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a43052452445c0b66ab6f95679b89b6d}
+      \strng{fullhash}{a43052452445c0b66ab6f95679b89b6d}
+      \strng{fullhashraw}{a43052452445c0b66ab6f95679b89b6d}
+      \strng{bibnamehash}{a43052452445c0b66ab6f95679b89b6d}
+      \strng{authorbibnamehash}{a43052452445c0b66ab6f95679b89b6d}
+      \strng{authornamehash}{a43052452445c0b66ab6f95679b89b6d}
+      \strng{authorfullhash}{a43052452445c0b66ab6f95679b89b6d}
+      \strng{authorfullhashraw}{a43052452445c0b66ab6f95679b89b6d}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{30}
+      \field{month}{7}
+      \field{title}{International Conflict and Cyberspace Superiority}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{250}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://books.google.be/books?id=LJ9GCgAAQBAJ&q="air+gapped"&pg=PA107&redir_esc=y#v=onepage&q&f=false
+      \endverb
+      \verb{url}
+      \verb https://books.google.be/books?id=LJ9GCgAAQBAJ&q=%22air+gapped%22&pg=PA107&redir_esc=y#v=onepage&q&f=false
+      \endverb
+    \endentry
     \entry{Chervenak1998}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=ecfb706a7f592a3f7cf6e05d229f22ca}{%
@@ -111,6 +149,46 @@
       \endverb
       \verb{url}
       \verb https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=4b6cfd832c2eb61c60ae0ab956eed8401f22d5f0
+      \endverb
+    \endentry
+    \entry{Connolly2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=31a84fa579618f79b46a1779e751d98a}{%
+           family={Connolly},
+           familyi={C\bibinitperiod},
+           given={Lena\bibnamedelima Yuryna},
+           giveni={L\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6862c14cfd404d064d79907c0ac8b868}{%
+           family={Borrion},
+           familyi={B\bibinitperiod},
+           given={Hervé},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eec45caec160664495ffc88e5ba0707b}
+      \strng{fullhash}{eec45caec160664495ffc88e5ba0707b}
+      \strng{fullhashraw}{eec45caec160664495ffc88e5ba0707b}
+      \strng{bibnamehash}{eec45caec160664495ffc88e5ba0707b}
+      \strng{authorbibnamehash}{eec45caec160664495ffc88e5ba0707b}
+      \strng{authornamehash}{eec45caec160664495ffc88e5ba0707b}
+      \strng{authorfullhash}{eec45caec160664495ffc88e5ba0707b}
+      \strng{authorfullhashraw}{eec45caec160664495ffc88e5ba0707b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ICIS}
+      \field{title}{Your Money or Your Business: Decision-Making Processes in Ransomware Attacks.}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://d1wqtxts1xzle7.cloudfront.net/104646029/Your_Money_or_Your_Business_Decision_Making_Processes_in_Ransomware_Attacks-libre.pdf?1690795001=&response-content-disposition=inline;+filename=Your_Money_or_Your_Business_Decision_Mak.pdf&Expires=1731789975&Signature=YLxZbqlgtDwAm--EU~t5uAQ3~VmDs9cRO8prg89csdzkaXV8wEnTVPSlZN8KtXYDpTi4HSzEa~E0p5cbhU6FamBwPIuV~3J1Vh0zqEFYjYVN6hLNV6xkGd3mhZyMtLpUTY8T2iHcqi~cLow1taIUcypFeFvv4S01mj5qbb3CtdOPYAs7gLNeZNOYbYn8jkMlIZsq1dHHjnrF23ah2Qyt0809t4jSumER1fsEKk4KVj5h1BQJrXPCBDd-eBdnb6gGwai8CItmLBefCrX45mtgS5fAxytyORihxMZgpGo7SzaiiHpjN8GMMHQfp12mdwAa3ilFz3cAqIb6jSPfkJ7hqA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+      \endverb
+      \verb{url}
+      \verb https://d1wqtxts1xzle7.cloudfront.net/104646029/Your_Money_or_Your_Business_Decision_Making_Processes_in_Ransomware_Attacks-libre.pdf?1690795001=&response-content-disposition=inline;+filename=Your_Money_or_Your_Business_Decision_Mak.pdf&Expires=1731789975&Signature=YLxZbqlgtDwAm--EU~t5uAQ3~VmDs9cRO8prg89csdzkaXV8wEnTVPSlZN8KtXYDpTi4HSzEa~E0p5cbhU6FamBwPIuV~3J1Vh0zqEFYjYVN6hLNV6xkGd3mhZyMtLpUTY8T2iHcqi~cLow1taIUcypFeFvv4S01mj5qbb3CtdOPYAs7gLNeZNOYbYn8jkMlIZsq1dHHjnrF23ah2Qyt0809t4jSumER1fsEKk4KVj5h1BQJrXPCBDd-eBdnb6gGwai8CItmLBefCrX45mtgS5fAxytyORihxMZgpGo7SzaiiHpjN8GMMHQfp12mdwAa3ilFz3cAqIb6jSPfkJ7hqA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
       \endverb
     \endentry
     \entry{Edwards2022}{article}{}{}
@@ -195,6 +273,73 @@
       \verb https://www.aasrc.org/aasrj/index.php/aasrj/article/viewFile/1385/547
       \endverb
     \endentry
+    \entry{Hasan2005}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=283ab7917a9e25ffd6077f2064f2006a}{%
+           family={Hasan},
+           familyi={H\bibinitperiod},
+           given={Ragib},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=efe7cadd364062a2af7a0fe5a36a4db4}{%
+           family={Stanton},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f1fda857e3c7bb3eb84f59f15928cc4}{%
+           family={Yurcik},
+           familyi={Y\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed4a3eb20324a5ff3f6430487e68dde1}{%
+           family={Brumbaugh},
+           familyi={B\bibinitperiod},
+           given={Larry},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31231ab591cdf335af004daeb793f00a}{%
+           family={Rosendale},
+           familyi={R\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b22a8c25c7ad47efa6a07475eb7e0106}{%
+           family={Boonstra},
+           familyi={B\bibinitperiod},
+           given={Roelof},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5451d6a8d891323477f23ccc5a5c8aa0}
+      \strng{fullhash}{f1aeb1f8bf285fd102a34cef827d78f3}
+      \strng{fullhashraw}{f1aeb1f8bf285fd102a34cef827d78f3}
+      \strng{bibnamehash}{f1aeb1f8bf285fd102a34cef827d78f3}
+      \strng{authorbibnamehash}{f1aeb1f8bf285fd102a34cef827d78f3}
+      \strng{authornamehash}{5451d6a8d891323477f23ccc5a5c8aa0}
+      \strng{authorfullhash}{f1aeb1f8bf285fd102a34cef827d78f3}
+      \strng{authorfullhashraw}{f1aeb1f8bf285fd102a34cef827d78f3}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{journaltitle}{National Center for Supercomputing Applications}
+      \field{month}{1}
+      \field{title}{The Techniques and Challenges of Immutable Storage with applications in Multimedia}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=578ff4957d4fa2e550ec2a819b6500820d7286cd
+      \endverb
+      \verb{url}
+      \verb https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=578ff4957d4fa2e550ec2a819b6500820d7286cd
+      \endverb
+    \endentry
     \entry{James2019}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d52e32f3a96a64786814ae9b5279fbe5}{%
@@ -227,6 +372,60 @@
       \endverb
       \verb{url}
       \verb https://www.ncsc.gov.uk/blog-post/offline-backups-in-an-online-world
+      \endverb
+    \endentry
+    \entry{Miao2016}{book}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=6c1c45832354024e1eed3c4c2bb54953}{%
+           family={Miao},
+           familyi={M\bibinitperiod},
+           given={Guowang},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f844a6ac71b4fa2d5cc263a0ee6cade}{%
+           family={Zander},
+           familyi={Z\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d157909baf842517b552d33105ab2731}{%
+           family={Sung},
+           familyi={S\bibinitperiod},
+           given={Ki\bibnamedelima Won},
+           giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d22826466e9a93be7099d27ef5fdc023}{%
+           family={Slimane},
+           familyi={S\bibinitperiod},
+           given={Slimane\bibnamedelima Ben},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{55050478710b934ddf7988ff27d8294f}
+      \strng{fullhash}{9743f2cfb3ab5a8f05abf9435e529206}
+      \strng{fullhashraw}{9743f2cfb3ab5a8f05abf9435e529206}
+      \strng{bibnamehash}{9743f2cfb3ab5a8f05abf9435e529206}
+      \strng{authorbibnamehash}{9743f2cfb3ab5a8f05abf9435e529206}
+      \strng{authornamehash}{55050478710b934ddf7988ff27d8294f}
+      \strng{authorfullhash}{9743f2cfb3ab5a8f05abf9435e529206}
+      \strng{authorfullhashraw}{9743f2cfb3ab5a8f05abf9435e529206}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{3}
+      \field{month}{3}
+      \field{title}{Fundamentals of Mobile Data Networks}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://books.google.be/books?id=ImeSCwAAQBAJ&printsec=frontcover&source=gbs_atb&redir_esc=y#v=onepage&q&f=false
+      \endverb
+      \verb{url}
+      \verb https://books.google.be/books?id=ImeSCwAAQBAJ&printsec=frontcover&source=gbs_atb&redir_esc=y#v=onepage&q&f=false
       \endverb
     \endentry
     \entry{Nelson2011}{book}{}{}
@@ -306,6 +505,77 @@
       \endverb
       \verb{url}
       \verb https://www.researchgate.net/profile/Santiago-Obrutsky/publication/305508410_Cloud_Storage_Advantages_Disadvantages_and_Enterprise_Solutions_for_Business/links/5792976508ae33e89f7cc136/Cloud-Storage-Advantages-Disadvantages-and-Enterprise-Solutions-for-Business.pdf
+      \endverb
+    \endentry
+    \entry{Park2023}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=a04d201cfa3a570a5a4a29eb42d3e4cd}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Jangyong},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13981fba7988df8ac0c302f24fed36c3}{%
+           family={Yoo},
+           familyi={Y\bibinitperiod},
+           given={Jaehoon},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7374c8a2f063c8e243b0de5dc7bea976}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Jaehyun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe376de5a01005eeca25655c55bb739b}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jiho},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=328a5b3207fe697d2f1448e111dde5cc}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={JaeSeung},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI AG}%
+      }
+      \strng{namehash}{e7565051c801361cbe3f9920773c34f5}
+      \strng{fullhash}{4391399754e1a50cfa5bcc5849dbc785}
+      \strng{fullhashraw}{4391399754e1a50cfa5bcc5849dbc785}
+      \strng{bibnamehash}{4391399754e1a50cfa5bcc5849dbc785}
+      \strng{authorbibnamehash}{4391399754e1a50cfa5bcc5849dbc785}
+      \strng{authornamehash}{e7565051c801361cbe3f9920773c34f5}
+      \strng{authorfullhash}{4391399754e1a50cfa5bcc5849dbc785}
+      \strng{authorfullhashraw}{4391399754e1a50cfa5bcc5849dbc785}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors}
+      \field{month}{3}
+      \field{number}{6}
+      \field{title}{A Survey on Air-Gap Attacks: Fundamentals, Transport Means, Attack Scenarios and Challenges}
+      \field{volume}{23}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{3215}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.3390/s23063215
+      \endverb
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/369354068_A_Survey_on_Air-Gap_Attacks_Fundamentals_Transport_Means_Attack_Scenarios_and_Challenges
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/369354068_A_Survey_on_Air-Gap_Attacks_Fundamentals_Transport_Means_Attack_Scenarios_and_Challenges
       \endverb
     \endentry
     \entry{Rahumed2011}{article}{}{}
@@ -504,6 +774,43 @@
       \endverb
       \verb{url}
       \verb https://www.ingentaconnect.com/content/hsp/jbcep/2019/00000013/00000002/art00004
+      \endverb
+    \endentry
+    \entry{Wahl2023}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4cecdd8b74229fc1a172e694bde741b5}{%
+           family={Wahl},
+           familyi={W\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4cecdd8b74229fc1a172e694bde741b5}
+      \strng{fullhash}{4cecdd8b74229fc1a172e694bde741b5}
+      \strng{fullhashraw}{4cecdd8b74229fc1a172e694bde741b5}
+      \strng{bibnamehash}{4cecdd8b74229fc1a172e694bde741b5}
+      \strng{authorbibnamehash}{4cecdd8b74229fc1a172e694bde741b5}
+      \strng{authornamehash}{4cecdd8b74229fc1a172e694bde741b5}
+      \strng{authorfullhash}{4cecdd8b74229fc1a172e694bde741b5}
+      \strng{authorfullhashraw}{4cecdd8b74229fc1a172e694bde741b5}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Rubrik}
+      \field{month}{9}
+      \field{title}{Recovering Fast from Ransomware Attacks: The Magic of an ImmutableBackup Architecture}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.rubrik.com/content/dam/rubrik/en/resources/white-paper/rwp-recovering-fast-from-ransomware-attacks.pdf?ref=thestack.technology
+      \endverb
+      \verb{url}
+      \verb https://www.rubrik.com/content/dam/rubrik/en/resources/white-paper/rwp-recovering-fast-from-ransomware-attacks.pdf?ref=thestack.technology
       \endverb
     \endentry
     \entry{Yanfang2017}{article}{}{}
@@ -677,6 +984,44 @@
       \verb https://books.google.be/books?hl=nl&lr=&id=QuhgDwAAQBAJ&oi=fnd&pg=PR5&dq=Beard,+Bradley+Beginning+Backup+and+Restore+for+SQL+Server+&ots=Un7DKfSnFl&sig=LRTBRuGa4mLj9pOBy5RZMHMNggM#v=onepage&q=Beard,%20Bradley%20Beginning%20Backup%20and%20Restore%20for%20SQL%20Server&f=false
       \endverb
     \endentry
+    \entry{Bryant2015}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a43052452445c0b66ab6f95679b89b6d}{%
+           family={Bryant},
+           familyi={B\bibinitperiod},
+           given={William\bibnamedelima D.},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a43052452445c0b66ab6f95679b89b6d}
+      \strng{fullhash}{a43052452445c0b66ab6f95679b89b6d}
+      \strng{fullhashraw}{a43052452445c0b66ab6f95679b89b6d}
+      \strng{bibnamehash}{a43052452445c0b66ab6f95679b89b6d}
+      \strng{authorbibnamehash}{a43052452445c0b66ab6f95679b89b6d}
+      \strng{authornamehash}{a43052452445c0b66ab6f95679b89b6d}
+      \strng{authorfullhash}{a43052452445c0b66ab6f95679b89b6d}
+      \strng{authorfullhashraw}{a43052452445c0b66ab6f95679b89b6d}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{30}
+      \field{month}{7}
+      \field{title}{International Conflict and Cyberspace Superiority}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{250}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://books.google.be/books?id=LJ9GCgAAQBAJ&q="air+gapped"&pg=PA107&redir_esc=y#v=onepage&q&f=false
+      \endverb
+      \verb{url}
+      \verb https://books.google.be/books?id=LJ9GCgAAQBAJ&q=%22air+gapped%22&pg=PA107&redir_esc=y#v=onepage&q&f=false
+      \endverb
+    \endentry
     \entry{Chervenak1998}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=ecfb706a7f592a3f7cf6e05d229f22ca}{%
@@ -725,6 +1070,46 @@
       \endverb
       \verb{url}
       \verb https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=4b6cfd832c2eb61c60ae0ab956eed8401f22d5f0
+      \endverb
+    \endentry
+    \entry{Connolly2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=31a84fa579618f79b46a1779e751d98a}{%
+           family={Connolly},
+           familyi={C\bibinitperiod},
+           given={Lena\bibnamedelima Yuryna},
+           giveni={L\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6862c14cfd404d064d79907c0ac8b868}{%
+           family={Borrion},
+           familyi={B\bibinitperiod},
+           given={Hervé},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eec45caec160664495ffc88e5ba0707b}
+      \strng{fullhash}{eec45caec160664495ffc88e5ba0707b}
+      \strng{fullhashraw}{eec45caec160664495ffc88e5ba0707b}
+      \strng{bibnamehash}{eec45caec160664495ffc88e5ba0707b}
+      \strng{authorbibnamehash}{eec45caec160664495ffc88e5ba0707b}
+      \strng{authornamehash}{eec45caec160664495ffc88e5ba0707b}
+      \strng{authorfullhash}{eec45caec160664495ffc88e5ba0707b}
+      \strng{authorfullhashraw}{eec45caec160664495ffc88e5ba0707b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ICIS}
+      \field{title}{Your Money or Your Business: Decision-Making Processes in Ransomware Attacks.}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://d1wqtxts1xzle7.cloudfront.net/104646029/Your_Money_or_Your_Business_Decision_Making_Processes_in_Ransomware_Attacks-libre.pdf?1690795001=&response-content-disposition=inline;+filename=Your_Money_or_Your_Business_Decision_Mak.pdf&Expires=1731789975&Signature=YLxZbqlgtDwAm--EU~t5uAQ3~VmDs9cRO8prg89csdzkaXV8wEnTVPSlZN8KtXYDpTi4HSzEa~E0p5cbhU6FamBwPIuV~3J1Vh0zqEFYjYVN6hLNV6xkGd3mhZyMtLpUTY8T2iHcqi~cLow1taIUcypFeFvv4S01mj5qbb3CtdOPYAs7gLNeZNOYbYn8jkMlIZsq1dHHjnrF23ah2Qyt0809t4jSumER1fsEKk4KVj5h1BQJrXPCBDd-eBdnb6gGwai8CItmLBefCrX45mtgS5fAxytyORihxMZgpGo7SzaiiHpjN8GMMHQfp12mdwAa3ilFz3cAqIb6jSPfkJ7hqA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+      \endverb
+      \verb{url}
+      \verb https://d1wqtxts1xzle7.cloudfront.net/104646029/Your_Money_or_Your_Business_Decision_Making_Processes_in_Ransomware_Attacks-libre.pdf?1690795001=&response-content-disposition=inline;+filename=Your_Money_or_Your_Business_Decision_Mak.pdf&Expires=1731789975&Signature=YLxZbqlgtDwAm--EU~t5uAQ3~VmDs9cRO8prg89csdzkaXV8wEnTVPSlZN8KtXYDpTi4HSzEa~E0p5cbhU6FamBwPIuV~3J1Vh0zqEFYjYVN6hLNV6xkGd3mhZyMtLpUTY8T2iHcqi~cLow1taIUcypFeFvv4S01mj5qbb3CtdOPYAs7gLNeZNOYbYn8jkMlIZsq1dHHjnrF23ah2Qyt0809t4jSumER1fsEKk4KVj5h1BQJrXPCBDd-eBdnb6gGwai8CItmLBefCrX45mtgS5fAxytyORihxMZgpGo7SzaiiHpjN8GMMHQfp12mdwAa3ilFz3cAqIb6jSPfkJ7hqA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
       \endverb
     \endentry
     \entry{Edwards2022}{article}{}{}
@@ -809,6 +1194,73 @@
       \verb https://www.aasrc.org/aasrj/index.php/aasrj/article/viewFile/1385/547
       \endverb
     \endentry
+    \entry{Hasan2005}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=283ab7917a9e25ffd6077f2064f2006a}{%
+           family={Hasan},
+           familyi={H\bibinitperiod},
+           given={Ragib},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=efe7cadd364062a2af7a0fe5a36a4db4}{%
+           family={Stanton},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f1fda857e3c7bb3eb84f59f15928cc4}{%
+           family={Yurcik},
+           familyi={Y\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed4a3eb20324a5ff3f6430487e68dde1}{%
+           family={Brumbaugh},
+           familyi={B\bibinitperiod},
+           given={Larry},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31231ab591cdf335af004daeb793f00a}{%
+           family={Rosendale},
+           familyi={R\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b22a8c25c7ad47efa6a07475eb7e0106}{%
+           family={Boonstra},
+           familyi={B\bibinitperiod},
+           given={Roelof},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5451d6a8d891323477f23ccc5a5c8aa0}
+      \strng{fullhash}{f1aeb1f8bf285fd102a34cef827d78f3}
+      \strng{fullhashraw}{f1aeb1f8bf285fd102a34cef827d78f3}
+      \strng{bibnamehash}{f1aeb1f8bf285fd102a34cef827d78f3}
+      \strng{authorbibnamehash}{f1aeb1f8bf285fd102a34cef827d78f3}
+      \strng{authornamehash}{5451d6a8d891323477f23ccc5a5c8aa0}
+      \strng{authorfullhash}{f1aeb1f8bf285fd102a34cef827d78f3}
+      \strng{authorfullhashraw}{f1aeb1f8bf285fd102a34cef827d78f3}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{journaltitle}{National Center for Supercomputing Applications}
+      \field{month}{1}
+      \field{title}{The Techniques and Challenges of Immutable Storage with applications in Multimedia}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=578ff4957d4fa2e550ec2a819b6500820d7286cd
+      \endverb
+      \verb{url}
+      \verb https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=578ff4957d4fa2e550ec2a819b6500820d7286cd
+      \endverb
+    \endentry
     \entry{James2019}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d52e32f3a96a64786814ae9b5279fbe5}{%
@@ -841,6 +1293,60 @@
       \endverb
       \verb{url}
       \verb https://www.ncsc.gov.uk/blog-post/offline-backups-in-an-online-world
+      \endverb
+    \endentry
+    \entry{Miao2016}{book}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=6c1c45832354024e1eed3c4c2bb54953}{%
+           family={Miao},
+           familyi={M\bibinitperiod},
+           given={Guowang},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f844a6ac71b4fa2d5cc263a0ee6cade}{%
+           family={Zander},
+           familyi={Z\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d157909baf842517b552d33105ab2731}{%
+           family={Sung},
+           familyi={S\bibinitperiod},
+           given={Ki\bibnamedelima Won},
+           giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d22826466e9a93be7099d27ef5fdc023}{%
+           family={Slimane},
+           familyi={S\bibinitperiod},
+           given={Slimane\bibnamedelima Ben},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{55050478710b934ddf7988ff27d8294f}
+      \strng{fullhash}{9743f2cfb3ab5a8f05abf9435e529206}
+      \strng{fullhashraw}{9743f2cfb3ab5a8f05abf9435e529206}
+      \strng{bibnamehash}{9743f2cfb3ab5a8f05abf9435e529206}
+      \strng{authorbibnamehash}{9743f2cfb3ab5a8f05abf9435e529206}
+      \strng{authornamehash}{55050478710b934ddf7988ff27d8294f}
+      \strng{authorfullhash}{9743f2cfb3ab5a8f05abf9435e529206}
+      \strng{authorfullhashraw}{9743f2cfb3ab5a8f05abf9435e529206}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{3}
+      \field{month}{3}
+      \field{title}{Fundamentals of Mobile Data Networks}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://books.google.be/books?id=ImeSCwAAQBAJ&printsec=frontcover&source=gbs_atb&redir_esc=y#v=onepage&q&f=false
+      \endverb
+      \verb{url}
+      \verb https://books.google.be/books?id=ImeSCwAAQBAJ&printsec=frontcover&source=gbs_atb&redir_esc=y#v=onepage&q&f=false
       \endverb
     \endentry
     \entry{Nelson2011}{book}{}{}
@@ -920,6 +1426,77 @@
       \endverb
       \verb{url}
       \verb https://www.researchgate.net/profile/Santiago-Obrutsky/publication/305508410_Cloud_Storage_Advantages_Disadvantages_and_Enterprise_Solutions_for_Business/links/5792976508ae33e89f7cc136/Cloud-Storage-Advantages-Disadvantages-and-Enterprise-Solutions-for-Business.pdf
+      \endverb
+    \endentry
+    \entry{Park2023}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=a04d201cfa3a570a5a4a29eb42d3e4cd}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Jangyong},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13981fba7988df8ac0c302f24fed36c3}{%
+           family={Yoo},
+           familyi={Y\bibinitperiod},
+           given={Jaehoon},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7374c8a2f063c8e243b0de5dc7bea976}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Jaehyun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe376de5a01005eeca25655c55bb739b}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jiho},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=328a5b3207fe697d2f1448e111dde5cc}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={JaeSeung},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI AG}%
+      }
+      \strng{namehash}{e7565051c801361cbe3f9920773c34f5}
+      \strng{fullhash}{4391399754e1a50cfa5bcc5849dbc785}
+      \strng{fullhashraw}{4391399754e1a50cfa5bcc5849dbc785}
+      \strng{bibnamehash}{4391399754e1a50cfa5bcc5849dbc785}
+      \strng{authorbibnamehash}{4391399754e1a50cfa5bcc5849dbc785}
+      \strng{authornamehash}{e7565051c801361cbe3f9920773c34f5}
+      \strng{authorfullhash}{4391399754e1a50cfa5bcc5849dbc785}
+      \strng{authorfullhashraw}{4391399754e1a50cfa5bcc5849dbc785}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors}
+      \field{month}{3}
+      \field{number}{6}
+      \field{title}{A Survey on Air-Gap Attacks: Fundamentals, Transport Means, Attack Scenarios and Challenges}
+      \field{volume}{23}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{3215}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.3390/s23063215
+      \endverb
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/369354068_A_Survey_on_Air-Gap_Attacks_Fundamentals_Transport_Means_Attack_Scenarios_and_Challenges
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/369354068_A_Survey_on_Air-Gap_Attacks_Fundamentals_Transport_Means_Attack_Scenarios_and_Challenges
       \endverb
     \endentry
     \entry{Rahumed2011}{article}{}{}
@@ -1118,6 +1695,43 @@
       \endverb
       \verb{url}
       \verb https://www.ingentaconnect.com/content/hsp/jbcep/2019/00000013/00000002/art00004
+      \endverb
+    \endentry
+    \entry{Wahl2023}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4cecdd8b74229fc1a172e694bde741b5}{%
+           family={Wahl},
+           familyi={W\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4cecdd8b74229fc1a172e694bde741b5}
+      \strng{fullhash}{4cecdd8b74229fc1a172e694bde741b5}
+      \strng{fullhashraw}{4cecdd8b74229fc1a172e694bde741b5}
+      \strng{bibnamehash}{4cecdd8b74229fc1a172e694bde741b5}
+      \strng{authorbibnamehash}{4cecdd8b74229fc1a172e694bde741b5}
+      \strng{authornamehash}{4cecdd8b74229fc1a172e694bde741b5}
+      \strng{authorfullhash}{4cecdd8b74229fc1a172e694bde741b5}
+      \strng{authorfullhashraw}{4cecdd8b74229fc1a172e694bde741b5}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Rubrik}
+      \field{month}{9}
+      \field{title}{Recovering Fast from Ransomware Attacks: The Magic of an ImmutableBackup Architecture}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.rubrik.com/content/dam/rubrik/en/resources/white-paper/rwp-recovering-fast-from-ransomware-attacks.pdf?ref=thestack.technology
+      \endverb
+      \verb{url}
+      \verb https://www.rubrik.com/content/dam/rubrik/en/resources/white-paper/rwp-recovering-fast-from-ransomware-attacks.pdf?ref=thestack.technology
       \endverb
     \endentry
     \entry{Yanfang2017}{article}{}{}
