@@ -72,8 +72,9 @@
   year      = {2017},
 }
 
-@Book{zhu2015disaster,
+@Book{Zhu2015,
   author    = {Wei-Dong Zhu and Gary Allenbach and Ross Battaglia and Julie Boudreaux and David Harnick-Shapiro and Heajin Kim and Bob Kreuch and Tim Morgan and Sandip Patel and Martin Willingham},
+  date      = {2015-04-13},
   title     = {Disaster Recovery and Backup Solutions for IBM FileNet P8 Version 4.5.1 Systems},
   isbn      = {9780738434377},
   publisher = {IBM Redbooks},
@@ -131,7 +132,7 @@
   publisher    = {MDPI AG},
 }
 
-@Article{connolly2020your,
+@Article{Connolly2020,
   author    = {Connolly, Lena Yuryna and Borrion, Herv{\'e}},
   title     = {Your Money or Your Business: Decision-Making Processes in Ransomware Attacks.},
   url       = {https://d1wqtxts1xzle7.cloudfront.net/104646029/Your_Money_or_Your_Business_Decision_Making_Processes_in_Ransomware_Attacks-libre.pdf?1690795001=&response-content-disposition=inline;+filename=Your_Money_or_Your_Business_Decision_Mak.pdf&Expires=1731789975&Signature=YLxZbqlgtDwAm--EU~t5uAQ3~VmDs9cRO8prg89csdzkaXV8wEnTVPSlZN8KtXYDpTi4HSzEa~E0p5cbhU6FamBwPIuV~3J1Vh0zqEFYjYVN6hLNV6xkGd3mhZyMtLpUTY8T2iHcqi~cLow1taIUcypFeFvv4S01mj5qbb3CtdOPYAs7gLNeZNOYbYn8jkMlIZsq1dHHjnrF23ah2Qyt0809t4jSumER1fsEKk4KVj5h1BQJrXPCBDd-eBdnb6gGwai8CItmLBefCrX45mtgS5fAxytyORihxMZgpGo7SzaiiHpjN8GMMHQfp12mdwAa3ilFz3cAqIb6jSPfkJ7hqA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA},

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  16 NOV 2024 20:49
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  17 NOV 2024 03:33
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2321,15 +2321,7 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'BouazzaouiNaoufalBP.bbl' found.
 
-(./BouazzaouiNaoufalBP.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Zhu2015
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+(./BouazzaouiNaoufalBP.bbl)
 Package biblatex Info: Reference section=0 on input line 79.
 Package biblatex Info: Reference segment=0 on input line 79.
 Package caption Info: Begin \AtBeginDocument code.
@@ -2564,9 +2556,6 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 (hyperref)                than one, level fixed on input line 15.
 
 
-LaTeX Warning: Citation 'Zhu2015' on page 4 undefined on input line 16.
-
-
 
 [4
 
@@ -2589,10 +2578,6 @@ File: img/incrementb.png Graphic file (type bmp)
 [7]
 File: img/diff.png Graphic file (type bmp)
 <img/diff.png>
-
-
-LaTeX Warning: Citation 'Zhu2015' on page 8 undefined on input line 48.
-
 
 
 [8]
@@ -2798,15 +2783,20 @@ L3 programming layer <2024-10-09>
  ***********
 Package rerunfilecheck Info: File `BouazzaouiNaoufalBP.out' has not changed.
 (rerunfilecheck)             Checksum: 1EDE7B628162D3AECD60E5E9B7E2675E;3601.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'BouazzaouiNaoufalBP.run.xml'.
 \openout1 = `BouazzaouiNaoufalBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49472 strings out of 474233
- 1015130 string characters out of 5745779
- 2272352 words of memory out of 5000000
- 71353 multiletter control sequences out of 15000+600000
+ 49477 strings out of 474233
+ 1015323 string characters out of 5745779
+ 2270394 words of memory out of 5000000
+ 71358 multiletter control sequences out of 15000+600000
  560927 words of font info for 97 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,11n,132p,3928b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s

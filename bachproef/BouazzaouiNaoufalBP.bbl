@@ -938,6 +938,103 @@
       \verb https://link.springer.com/article/10.1007/s11219-024-09685-1
       \endverb
     \endentry
+    \entry{Zhu2015}{book}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=27d2731f9e6f5726afc700ae98d6de31}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Wei-Dong},
+           giveni={W\bibinithyphendelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=45db4bf0e0c9057d35386eb058de1a03}{%
+           family={Allenbach},
+           familyi={A\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=abde62653a2ee3bbd6acb1a8157e64a1}{%
+           family={Battaglia},
+           familyi={B\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10a4cf336f32d86e5ec99b3fceeda213}{%
+           family={Boudreaux},
+           familyi={B\bibinitperiod},
+           given={Julie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f2f380dad228b59c674081e3bfd283b}{%
+           family={Harnick-Shapiro},
+           familyi={H\bibinithyphendelim S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d45f4dce6e5cbef46d8aba2203a22e93}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Heajin},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19f11d67d73a843465e15794221996b6}{%
+           family={Kreuch},
+           familyi={K\bibinitperiod},
+           given={Bob},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=866e6227784a19d605fe11cbafd64b1c}{%
+           family={Morgan},
+           familyi={M\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da3c0e440c2a9f35d9cc1b0c4ef5d03b}{%
+           family={Patel},
+           familyi={P\bibinitperiod},
+           given={Sandip},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=944a20e08bafd33def9088383dcc005a}{%
+           family={Willingham},
+           familyi={W\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IBM Redbooks}%
+      }
+      \strng{namehash}{79e68df8a651c76907bc55bea89fccfa}
+      \strng{fullhash}{d4a0699c221f5931f7ba9410d35ba585}
+      \strng{fullhashraw}{d4a0699c221f5931f7ba9410d35ba585}
+      \strng{bibnamehash}{d4a0699c221f5931f7ba9410d35ba585}
+      \strng{authorbibnamehash}{d4a0699c221f5931f7ba9410d35ba585}
+      \strng{authornamehash}{79e68df8a651c76907bc55bea89fccfa}
+      \strng{authorfullhash}{d4a0699c221f5931f7ba9410d35ba585}
+      \strng{authorfullhashraw}{d4a0699c221f5931f7ba9410d35ba585}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{13}
+      \field{isbn}{9780738434377}
+      \field{month}{4}
+      \field{series}{IBM redbooks}
+      \field{title}{Disaster Recovery and Backup Solutions for IBM FileNet P8 Version 4.5.1 Systems}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{364}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://books.google.be/books?id=O1TAAgAAQBAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.be/books?id=O1TAAgAAQBAJ
+      \endverb
+    \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
     \entry{Beard2018}{book}{}{}
@@ -1859,8 +1956,104 @@
       \verb https://link.springer.com/article/10.1007/s11219-024-09685-1
       \endverb
     \endentry
+    \entry{Zhu2015}{book}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=27d2731f9e6f5726afc700ae98d6de31}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Wei-Dong},
+           giveni={W\bibinithyphendelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=45db4bf0e0c9057d35386eb058de1a03}{%
+           family={Allenbach},
+           familyi={A\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=abde62653a2ee3bbd6acb1a8157e64a1}{%
+           family={Battaglia},
+           familyi={B\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10a4cf336f32d86e5ec99b3fceeda213}{%
+           family={Boudreaux},
+           familyi={B\bibinitperiod},
+           given={Julie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f2f380dad228b59c674081e3bfd283b}{%
+           family={Harnick-Shapiro},
+           familyi={H\bibinithyphendelim S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d45f4dce6e5cbef46d8aba2203a22e93}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Heajin},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19f11d67d73a843465e15794221996b6}{%
+           family={Kreuch},
+           familyi={K\bibinitperiod},
+           given={Bob},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=866e6227784a19d605fe11cbafd64b1c}{%
+           family={Morgan},
+           familyi={M\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da3c0e440c2a9f35d9cc1b0c4ef5d03b}{%
+           family={Patel},
+           familyi={P\bibinitperiod},
+           given={Sandip},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=944a20e08bafd33def9088383dcc005a}{%
+           family={Willingham},
+           familyi={W\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IBM Redbooks}%
+      }
+      \strng{namehash}{79e68df8a651c76907bc55bea89fccfa}
+      \strng{fullhash}{d4a0699c221f5931f7ba9410d35ba585}
+      \strng{fullhashraw}{d4a0699c221f5931f7ba9410d35ba585}
+      \strng{bibnamehash}{d4a0699c221f5931f7ba9410d35ba585}
+      \strng{authorbibnamehash}{d4a0699c221f5931f7ba9410d35ba585}
+      \strng{authornamehash}{79e68df8a651c76907bc55bea89fccfa}
+      \strng{authorfullhash}{d4a0699c221f5931f7ba9410d35ba585}
+      \strng{authorfullhashraw}{d4a0699c221f5931f7ba9410d35ba585}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{13}
+      \field{isbn}{9780738434377}
+      \field{month}{4}
+      \field{series}{IBM redbooks}
+      \field{title}{Disaster Recovery and Backup Solutions for IBM FileNet P8 Version 4.5.1 Systems}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{364}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://books.google.be/books?id=O1TAAgAAQBAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.be/books?id=O1TAAgAAQBAJ
+      \endverb
+    \endentry
   \enddatalist
-  \missing{Zhu2015}
 \endrefsection
 \endinput
 
