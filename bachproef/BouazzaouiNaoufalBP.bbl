@@ -228,6 +228,73 @@
       \verb https://www.howtogeek.com/818193/why-you-need-an-offline-backup/
       \endverb
     \endentry
+    \entry{Ekuan2023}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=717a84dfe84b0a2504ed9885e9b63149}{%
+           family={Ekuan},
+           familyi={E\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5651d0cfdf9bf2afb754bee02dafe11c}{%
+           family={Buck},
+           familyi={B\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=44390dd0bc6c0c3c99c041a34d7a4c4a}{%
+           family={Zimmergren},
+           familyi={Z\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0921564687eabe1b0a9b4cd4f9a14a18}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85aa04746604480ce47f280e167052ff}{%
+           family={Parker},
+           familyi={P\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=752cf31e9a243c27d385a30ff349d94f}{%
+           family={Coulter},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a4ba934d0d31ac581921ea2102000962}
+      \strng{fullhash}{9e11b320fc70266565c0b12fb9c273fb}
+      \strng{fullhashraw}{9e11b320fc70266565c0b12fb9c273fb}
+      \strng{bibnamehash}{9e11b320fc70266565c0b12fb9c273fb}
+      \strng{authorbibnamehash}{9e11b320fc70266565c0b12fb9c273fb}
+      \strng{authornamehash}{a4ba934d0d31ac581921ea2102000962}
+      \strng{authorfullhash}{9e11b320fc70266565c0b12fb9c273fb}
+      \strng{authorfullhashraw}{9e11b320fc70266565c0b12fb9c273fb}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{22}
+      \field{journaltitle}{Microsoft}
+      \field{month}{12}
+      \field{title}{Hoe werkt Azure?}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/nl-nl/azure/cloud-adoption-framework/get-started/what-is-azure
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/nl-nl/azure/cloud-adoption-framework/get-started/what-is-azure
+      \endverb
+    \endentry
     \entry{Ghazi2013}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=2fee6966993b1b91f4e0e1d811f42e48}{%
@@ -721,6 +788,49 @@
       \endverb
       \verb{url}
       \verb https://www.backblaze.com/blog/whats-the-diff-full-incremental-differential-and-synthetic-full-backups/
+      \endverb
+    \endentry
+    \entry{Susnjara2024}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=80c310706a08800d81c85a858c87b27e}{%
+           family={Susnjara},
+           familyi={S\bibinitperiod},
+           given={Stephanie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d08dfe1fb1123075ed9c0b177fdef575}{%
+           family={Smalley},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{444d8b448a46eaf17b3d4ba9a558e93f}
+      \strng{fullhash}{444d8b448a46eaf17b3d4ba9a558e93f}
+      \strng{fullhashraw}{444d8b448a46eaf17b3d4ba9a558e93f}
+      \strng{bibnamehash}{444d8b448a46eaf17b3d4ba9a558e93f}
+      \strng{authorbibnamehash}{444d8b448a46eaf17b3d4ba9a558e93f}
+      \strng{authornamehash}{444d8b448a46eaf17b3d4ba9a558e93f}
+      \strng{authorfullhash}{444d8b448a46eaf17b3d4ba9a558e93f}
+      \strng{authorfullhashraw}{444d8b448a46eaf17b3d4ba9a558e93f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{30}
+      \field{journaltitle}{IBM}
+      \field{month}{10}
+      \field{title}{What are hypervisors?}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ibm.com/topics/hypervisors
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/topics/hypervisors
       \endverb
     \endentry
     \entry{Trovato2019}{article}{}{}
@@ -1246,6 +1356,73 @@
       \verb https://www.howtogeek.com/818193/why-you-need-an-offline-backup/
       \endverb
     \endentry
+    \entry{Ekuan2023}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=717a84dfe84b0a2504ed9885e9b63149}{%
+           family={Ekuan},
+           familyi={E\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5651d0cfdf9bf2afb754bee02dafe11c}{%
+           family={Buck},
+           familyi={B\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=44390dd0bc6c0c3c99c041a34d7a4c4a}{%
+           family={Zimmergren},
+           familyi={Z\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0921564687eabe1b0a9b4cd4f9a14a18}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85aa04746604480ce47f280e167052ff}{%
+           family={Parker},
+           familyi={P\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=752cf31e9a243c27d385a30ff349d94f}{%
+           family={Coulter},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a4ba934d0d31ac581921ea2102000962}
+      \strng{fullhash}{9e11b320fc70266565c0b12fb9c273fb}
+      \strng{fullhashraw}{9e11b320fc70266565c0b12fb9c273fb}
+      \strng{bibnamehash}{9e11b320fc70266565c0b12fb9c273fb}
+      \strng{authorbibnamehash}{9e11b320fc70266565c0b12fb9c273fb}
+      \strng{authornamehash}{a4ba934d0d31ac581921ea2102000962}
+      \strng{authorfullhash}{9e11b320fc70266565c0b12fb9c273fb}
+      \strng{authorfullhashraw}{9e11b320fc70266565c0b12fb9c273fb}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{22}
+      \field{journaltitle}{Microsoft}
+      \field{month}{12}
+      \field{title}{Hoe werkt Azure?}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/nl-nl/azure/cloud-adoption-framework/get-started/what-is-azure
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/nl-nl/azure/cloud-adoption-framework/get-started/what-is-azure
+      \endverb
+    \endentry
     \entry{Ghazi2013}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=2fee6966993b1b91f4e0e1d811f42e48}{%
@@ -1739,6 +1916,49 @@
       \endverb
       \verb{url}
       \verb https://www.backblaze.com/blog/whats-the-diff-full-incremental-differential-and-synthetic-full-backups/
+      \endverb
+    \endentry
+    \entry{Susnjara2024}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=80c310706a08800d81c85a858c87b27e}{%
+           family={Susnjara},
+           familyi={S\bibinitperiod},
+           given={Stephanie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d08dfe1fb1123075ed9c0b177fdef575}{%
+           family={Smalley},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{444d8b448a46eaf17b3d4ba9a558e93f}
+      \strng{fullhash}{444d8b448a46eaf17b3d4ba9a558e93f}
+      \strng{fullhashraw}{444d8b448a46eaf17b3d4ba9a558e93f}
+      \strng{bibnamehash}{444d8b448a46eaf17b3d4ba9a558e93f}
+      \strng{authorbibnamehash}{444d8b448a46eaf17b3d4ba9a558e93f}
+      \strng{authornamehash}{444d8b448a46eaf17b3d4ba9a558e93f}
+      \strng{authorfullhash}{444d8b448a46eaf17b3d4ba9a558e93f}
+      \strng{authorfullhashraw}{444d8b448a46eaf17b3d4ba9a558e93f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{30}
+      \field{journaltitle}{IBM}
+      \field{month}{10}
+      \field{title}{What are hypervisors?}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ibm.com/topics/hypervisors
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/topics/hypervisors
       \endverb
     \endentry
     \entry{Trovato2019}{article}{}{}

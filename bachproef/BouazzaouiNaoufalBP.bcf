@@ -3098,6 +3098,8 @@
     <bcf:citekey order="28" intorder="1">Park2023</bcf:citekey>
     <bcf:citekey order="29" intorder="1">Edwards2022</bcf:citekey>
     <bcf:citekey order="30" intorder="1">James2019</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">Ekuan2023</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">Susnjara2024</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

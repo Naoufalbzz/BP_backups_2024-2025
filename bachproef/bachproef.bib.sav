@@ -77,6 +77,7 @@
   date      = {2015-04-13},
   title     = {Disaster Recovery and Backup Solutions for IBM FileNet P8 Version 4.5.1 Systems},
   isbn      = {9780738434377},
+  pages     = {364},
   publisher = {IBM Redbooks},
   series    = {IBM redbooks},
   url       = {https://books.google.be/books?id=O1TAAgAAQBAJ},
@@ -138,6 +139,22 @@
   url       = {https://d1wqtxts1xzle7.cloudfront.net/104646029/Your_Money_or_Your_Business_Decision_Making_Processes_in_Ransomware_Attacks-libre.pdf?1690795001=&response-content-disposition=inline;+filename=Your_Money_or_Your_Business_Decision_Mak.pdf&Expires=1731789975&Signature=YLxZbqlgtDwAm--EU~t5uAQ3~VmDs9cRO8prg89csdzkaXV8wEnTVPSlZN8KtXYDpTi4HSzEa~E0p5cbhU6FamBwPIuV~3J1Vh0zqEFYjYVN6hLNV6xkGd3mhZyMtLpUTY8T2iHcqi~cLow1taIUcypFeFvv4S01mj5qbb3CtdOPYAs7gLNeZNOYbYn8jkMlIZsq1dHHjnrF23ah2Qyt0809t4jSumER1fsEKk4KVj5h1BQJrXPCBDd-eBdnb6gGwai8CItmLBefCrX45mtgS5fAxytyORihxMZgpGo7SzaiiHpjN8GMMHQfp12mdwAa3ilFz3cAqIb6jSPfkJ7hqA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA},
   booktitle = {ICIS},
   year      = {2020},
+}
+
+@Article{Ekuan2023,
+  author       = {Martin Ekuan and Alex Buck and Tobias Zimmergren and Gary Moore and David Parker and David Coulter},
+  date         = {2023-12-22},
+  journaltitle = {Microsoft},
+  title        = {Hoe werkt Azure?},
+  url          = {https://learn.microsoft.com/nl-nl/azure/cloud-adoption-framework/get-started/what-is-azure},
+}
+
+@Article{Susnjara2024,
+  author       = {Stephanie Susnjara and Ian Smalley},
+  date         = {2024-10-30},
+  journaltitle = {IBM},
+  title        = {What are hypervisors?},
+  url          = {https://www.ibm.com/topics/hypervisors},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  17 NOV 2024 03:33
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  9 DEC 2024 02:16
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2588,9 +2588,9 @@ File: img/diff.png Graphic file (type bmp)
 
 [11]
 
-[12]) (./methodologie.tex
+[12]
 
-[13]
+[13]) (./methodologie.tex
 
 [14]
 Hoofdstuk 3.
@@ -2776,29 +2776,26 @@ Overfull \hbox (8.92203pt too wide) in paragraph at lines 169--169
 
 
 
-[25] (./BouazzaouiNaoufalBP.aux)
+[25]
+
+[26] (./BouazzaouiNaoufalBP.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
 Package rerunfilecheck Info: File `BouazzaouiNaoufalBP.out' has not changed.
-(rerunfilecheck)             Checksum: 1EDE7B628162D3AECD60E5E9B7E2675E;3601.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
+(rerunfilecheck)             Checksum: 6820E49CBE26B030E4CB5BF1A37B849B;3905.
 Package logreq Info: Writing requests to 'BouazzaouiNaoufalBP.run.xml'.
 \openout1 = `BouazzaouiNaoufalBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49477 strings out of 474233
- 1015323 string characters out of 5745779
- 2270394 words of memory out of 5000000
- 71358 multiletter control sequences out of 15000+600000
+ 49490 strings out of 474233
+ 1015768 string characters out of 5745779
+ 2270532 words of memory out of 5000000
+ 71371 multiletter control sequences out of 15000+600000
  560927 words of font info for 97 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,11n,132p,3928b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on BouazzaouiNaoufalBP.pdf (33 pages).
+Output written on BouazzaouiNaoufalBP.pdf (34 pages).
