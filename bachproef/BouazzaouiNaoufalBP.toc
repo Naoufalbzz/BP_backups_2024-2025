@@ -25,17 +25,18 @@
 \contentsline {subsubsection}{Offline back-ups}{13}{subsection.2.0.4}%
 \contentsline {subsection}{\numberline {2.0.5}Technologische basis voor de Proof-of-Concept}{14}{subsection.2.0.5}%
 \contentsline {subsubsection}{Azure}{14}{subsection.2.0.5}%
-\contentsline {chapter}{\numberline {3}Methodologie}{15}{chapter.3}%
-\contentsline {subsection}{\numberline {3.0.1}Requirements-analyse}{15}{subsection.3.0.1}%
-\contentsline {subsubsection}{1. Must Have (Essentiële vereisten)}{15}{subsection.3.0.1}%
-\contentsline {subsubsection}{2. Should Have (Aanbevolen vereisten)}{16}{subsection.3.0.1}%
-\contentsline {subsubsection}{3. Could Have (Wenselijke vereisten)}{16}{subsection.3.0.1}%
-\contentsline {subsubsection}{4. Won't Have (Niet noodzakelijke vereisten)}{16}{subsection.3.0.1}%
-\contentsline {subsubsection}{Conclusie}{17}{subsection.3.0.1}%
-\contentsline {subsection}{\numberline {3.0.2}Proof-Of-Concept}{17}{subsection.3.0.2}%
-\contentsline {chapter}{\numberline {4}Analyse van de back-upstrategie van Forvis Mazars}{19}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Proof-of-concept}{20}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Conclusie}{21}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{23}{appendix.A}%
-\contentsline {chapter}{Bibliografie}{24}{appendix*.11}%
+\contentsline {subsubsection}{Vagrant}{15}{subsection.2.0.5}%
+\contentsline {chapter}{\numberline {3}Methodologie}{16}{chapter.3}%
+\contentsline {subsection}{\numberline {3.0.1}Requirements-analyse}{16}{subsection.3.0.1}%
+\contentsline {subsubsection}{1. Must Have (Essentiële vereisten)}{16}{subsection.3.0.1}%
+\contentsline {subsubsection}{2. Should Have (Aanbevolen vereisten)}{17}{subsection.3.0.1}%
+\contentsline {subsubsection}{3. Could Have (Wenselijke vereisten)}{17}{subsection.3.0.1}%
+\contentsline {subsubsection}{4. Won't Have (Niet noodzakelijke vereisten)}{17}{subsection.3.0.1}%
+\contentsline {subsubsection}{Conclusie}{18}{subsection.3.0.1}%
+\contentsline {subsection}{\numberline {3.0.2}Proof-Of-Concept}{18}{subsection.3.0.2}%
+\contentsline {chapter}{\numberline {4}Analyse van de back-upstrategie van Forvis Mazars}{20}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Proof-of-concept}{21}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Conclusie}{22}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{24}{appendix.A}%
+\contentsline {chapter}{Bibliografie}{25}{appendix*.11}%
 \contentsfinish 

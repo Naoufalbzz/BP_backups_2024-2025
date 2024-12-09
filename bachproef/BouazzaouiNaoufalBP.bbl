@@ -191,6 +191,157 @@
       \verb https://d1wqtxts1xzle7.cloudfront.net/104646029/Your_Money_or_Your_Business_Decision_Making_Processes_in_Ransomware_Attacks-libre.pdf?1690795001=&response-content-disposition=inline;+filename=Your_Money_or_Your_Business_Decision_Mak.pdf&Expires=1731789975&Signature=YLxZbqlgtDwAm--EU~t5uAQ3~VmDs9cRO8prg89csdzkaXV8wEnTVPSlZN8KtXYDpTi4HSzEa~E0p5cbhU6FamBwPIuV~3J1Vh0zqEFYjYVN6hLNV6xkGd3mhZyMtLpUTY8T2iHcqi~cLow1taIUcypFeFvv4S01mj5qbb3CtdOPYAs7gLNeZNOYbYn8jkMlIZsq1dHHjnrF23ah2Qyt0809t4jSumER1fsEKk4KVj5h1BQJrXPCBDd-eBdnb6gGwai8CItmLBefCrX45mtgS5fAxytyORihxMZgpGo7SzaiiHpjN8GMMHQfp12mdwAa3ilFz3cAqIb6jSPfkJ7hqA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
       \endverb
     \endentry
+    \entry{Dubey2023}{article}{}{}
+      \name{author}{20}{}{%
+        {{un=0,uniquepart=base,hash=93b76afe8cbcda8dcf548007f2acd48b}{%
+           family={Dubey},
+           familyi={D\bibinitperiod},
+           given={Akash},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=258aaae7a39ea8ca7d0c8b3b91a73160}{%
+           family={Jewell},
+           familyi={J\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08f88592c701fe092f7d2094eeef66bf}{%
+           family={Estabrook},
+           familyi={E\bibinitperiod},
+           given={Norm},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4da674881150eadf327a03e8ef994307}{%
+           family={Haas},
+           familyi={H\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c43882f0921e1a4c82a69b2c1ded57c}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={Tamra},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d92960ce8af51df6a98cb4d73cac8d45}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Jim},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76260419dac65bc33276be3d297e3976}{%
+           family={Callison},
+           familyi={C\bibinitperiod},
+           given={Dale},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7038fd6ebd7a45dd58ae7db7a19f8615}{%
+           family={Fernández},
+           familyi={F\bibinitperiod},
+           given={José\bibnamedelima Ángel},
+           giveni={J\bibinitperiod\bibinitdelim Á\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=752cf31e9a243c27d385a30ff349d94f}{%
+           family={Coulter},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77b86bdad9496e6f483f9b0caede4d39}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Dennis},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10da9a5d16091dc0dbd0588fb580e57c}{%
+           family={Rabeler},
+           familyi={R\bibinitperiod},
+           given={Carl},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dbc061ec18d9fdfa79202f3ec74fdb9a}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Bill},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a63df44114e071a762254d9bcde05e6}{%
+           family={Fowler},
+           familyi={F\bibinitperiod},
+           given={Cory},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b4f9d42df999313518a08a56ce5dc599}{%
+           family={Kohli},
+           familyi={K\bibinitperiod},
+           given={Alpa},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92e1a785fde8d68aa11591d43b81c8e3}{%
+           family={Hopkins},
+           familyi={H\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f35d082b3ba4407a306e5e0ce5b7fcb}{%
+           family={Sharkey},
+           familyi={S\bibinitperiod},
+           given={Kent},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=990308786c0c28bf822d9eac8419a24c}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Raman},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d7c85f207690749caf047597ab454eb}{%
+           family={Irwin},
+           familyi={I\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36e0595442511b1e49f57795cf73cdbc}{%
+           family={Shahan},
+           familyi={S\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=28013a5a8623b7aa3e96f37e1a14b495}{%
+           family={Pratt},
+           familyi={P\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6e7b4e50cee58690b2484fd9abbe40c2}
+      \strng{fullhash}{320861b2f1e6bb98f8ea16d1c315e454}
+      \strng{fullhashraw}{320861b2f1e6bb98f8ea16d1c315e454}
+      \strng{bibnamehash}{320861b2f1e6bb98f8ea16d1c315e454}
+      \strng{authorbibnamehash}{320861b2f1e6bb98f8ea16d1c315e454}
+      \strng{authornamehash}{6e7b4e50cee58690b2484fd9abbe40c2}
+      \strng{authorfullhash}{320861b2f1e6bb98f8ea16d1c315e454}
+      \strng{authorfullhashraw}{320861b2f1e6bb98f8ea16d1c315e454}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{journaltitle}{Microsoft}
+      \field{month}{11}
+      \field{title}{Introduction to Azure Blob Storage}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction
+      \endverb
+    \endentry
     \entry{Edwards2022}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ff035591a31ae3085a8364f1007b95b6}{%
@@ -407,6 +558,34 @@
       \verb https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=578ff4957d4fa2e550ec2a819b6500820d7286cd
       \endverb
     \endentry
+    \entry{Hashicorp}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cf929783b2c3f9508928b40f1241ce23}{%
+           family={Hashicorp},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{cf929783b2c3f9508928b40f1241ce23}
+      \strng{fullhash}{cf929783b2c3f9508928b40f1241ce23}
+      \strng{fullhashraw}{cf929783b2c3f9508928b40f1241ce23}
+      \strng{bibnamehash}{cf929783b2c3f9508928b40f1241ce23}
+      \strng{authorbibnamehash}{cf929783b2c3f9508928b40f1241ce23}
+      \strng{authornamehash}{cf929783b2c3f9508928b40f1241ce23}
+      \strng{authorfullhash}{cf929783b2c3f9508928b40f1241ce23}
+      \strng{authorfullhashraw}{cf929783b2c3f9508928b40f1241ce23}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is Vagrant?}
+      \verb{urlraw}
+      \verb https://developer.hashicorp.com/vagrant
+      \endverb
+      \verb{url}
+      \verb https://developer.hashicorp.com/vagrant
+      \endverb
+    \endentry
     \entry{James2019}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d52e32f3a96a64786814ae9b5279fbe5}{%
@@ -439,6 +618,43 @@
       \endverb
       \verb{url}
       \verb https://www.ncsc.gov.uk/blog-post/offline-backups-in-an-online-world
+      \endverb
+    \endentry
+    \entry{Kemp2007}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=98c7a9fee5f9d3c831ba1f5d07d56c22}{%
+           family={Kemp},
+           familyi={K\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{98c7a9fee5f9d3c831ba1f5d07d56c22}
+      \strng{fullhash}{98c7a9fee5f9d3c831ba1f5d07d56c22}
+      \strng{fullhashraw}{98c7a9fee5f9d3c831ba1f5d07d56c22}
+      \strng{bibnamehash}{98c7a9fee5f9d3c831ba1f5d07d56c22}
+      \strng{authorbibnamehash}{98c7a9fee5f9d3c831ba1f5d07d56c22}
+      \strng{authornamehash}{98c7a9fee5f9d3c831ba1f5d07d56c22}
+      \strng{authorfullhash}{98c7a9fee5f9d3c831ba1f5d07d56c22}
+      \strng{authorfullhashraw}{98c7a9fee5f9d3c831ba1f5d07d56c22}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{26}
+      \field{month}{12}
+      \field{pagetotal}{558}
+      \field{title}{Encyclopedia of Geographic Information Science}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.google.be/books/edition/Encyclopedia_of_Geographic_Information_S/FrUQHIzXK6EC?hl=nl&gbpv=0
+      \endverb
+      \verb{url}
+      \verb https://www.google.be/books/edition/Encyclopedia_of_Geographic_Information_S/FrUQHIzXK6EC?hl=nl&gbpv=0
       \endverb
     \endentry
     \entry{Miao2016}{book}{}{}
@@ -1319,6 +1535,157 @@
       \verb https://d1wqtxts1xzle7.cloudfront.net/104646029/Your_Money_or_Your_Business_Decision_Making_Processes_in_Ransomware_Attacks-libre.pdf?1690795001=&response-content-disposition=inline;+filename=Your_Money_or_Your_Business_Decision_Mak.pdf&Expires=1731789975&Signature=YLxZbqlgtDwAm--EU~t5uAQ3~VmDs9cRO8prg89csdzkaXV8wEnTVPSlZN8KtXYDpTi4HSzEa~E0p5cbhU6FamBwPIuV~3J1Vh0zqEFYjYVN6hLNV6xkGd3mhZyMtLpUTY8T2iHcqi~cLow1taIUcypFeFvv4S01mj5qbb3CtdOPYAs7gLNeZNOYbYn8jkMlIZsq1dHHjnrF23ah2Qyt0809t4jSumER1fsEKk4KVj5h1BQJrXPCBDd-eBdnb6gGwai8CItmLBefCrX45mtgS5fAxytyORihxMZgpGo7SzaiiHpjN8GMMHQfp12mdwAa3ilFz3cAqIb6jSPfkJ7hqA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
       \endverb
     \endentry
+    \entry{Dubey2023}{article}{}{}
+      \name{author}{20}{}{%
+        {{un=0,uniquepart=base,hash=93b76afe8cbcda8dcf548007f2acd48b}{%
+           family={Dubey},
+           familyi={D\bibinitperiod},
+           given={Akash},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=258aaae7a39ea8ca7d0c8b3b91a73160}{%
+           family={Jewell},
+           familyi={J\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08f88592c701fe092f7d2094eeef66bf}{%
+           family={Estabrook},
+           familyi={E\bibinitperiod},
+           given={Norm},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4da674881150eadf327a03e8ef994307}{%
+           family={Haas},
+           familyi={H\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c43882f0921e1a4c82a69b2c1ded57c}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={Tamra},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d92960ce8af51df6a98cb4d73cac8d45}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Jim},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76260419dac65bc33276be3d297e3976}{%
+           family={Callison},
+           familyi={C\bibinitperiod},
+           given={Dale},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7038fd6ebd7a45dd58ae7db7a19f8615}{%
+           family={Fernández},
+           familyi={F\bibinitperiod},
+           given={José\bibnamedelima Ángel},
+           giveni={J\bibinitperiod\bibinitdelim Á\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=752cf31e9a243c27d385a30ff349d94f}{%
+           family={Coulter},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77b86bdad9496e6f483f9b0caede4d39}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Dennis},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10da9a5d16091dc0dbd0588fb580e57c}{%
+           family={Rabeler},
+           familyi={R\bibinitperiod},
+           given={Carl},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dbc061ec18d9fdfa79202f3ec74fdb9a}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Bill},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a63df44114e071a762254d9bcde05e6}{%
+           family={Fowler},
+           familyi={F\bibinitperiod},
+           given={Cory},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b4f9d42df999313518a08a56ce5dc599}{%
+           family={Kohli},
+           familyi={K\bibinitperiod},
+           given={Alpa},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92e1a785fde8d68aa11591d43b81c8e3}{%
+           family={Hopkins},
+           familyi={H\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f35d082b3ba4407a306e5e0ce5b7fcb}{%
+           family={Sharkey},
+           familyi={S\bibinitperiod},
+           given={Kent},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=990308786c0c28bf822d9eac8419a24c}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Raman},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d7c85f207690749caf047597ab454eb}{%
+           family={Irwin},
+           familyi={I\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36e0595442511b1e49f57795cf73cdbc}{%
+           family={Shahan},
+           familyi={S\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=28013a5a8623b7aa3e96f37e1a14b495}{%
+           family={Pratt},
+           familyi={P\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6e7b4e50cee58690b2484fd9abbe40c2}
+      \strng{fullhash}{320861b2f1e6bb98f8ea16d1c315e454}
+      \strng{fullhashraw}{320861b2f1e6bb98f8ea16d1c315e454}
+      \strng{bibnamehash}{320861b2f1e6bb98f8ea16d1c315e454}
+      \strng{authorbibnamehash}{320861b2f1e6bb98f8ea16d1c315e454}
+      \strng{authornamehash}{6e7b4e50cee58690b2484fd9abbe40c2}
+      \strng{authorfullhash}{320861b2f1e6bb98f8ea16d1c315e454}
+      \strng{authorfullhashraw}{320861b2f1e6bb98f8ea16d1c315e454}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{journaltitle}{Microsoft}
+      \field{month}{11}
+      \field{title}{Introduction to Azure Blob Storage}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction
+      \endverb
+    \endentry
     \entry{Edwards2022}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ff035591a31ae3085a8364f1007b95b6}{%
@@ -1535,6 +1902,34 @@
       \verb https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=578ff4957d4fa2e550ec2a819b6500820d7286cd
       \endverb
     \endentry
+    \entry{Hashicorp}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cf929783b2c3f9508928b40f1241ce23}{%
+           family={Hashicorp},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{cf929783b2c3f9508928b40f1241ce23}
+      \strng{fullhash}{cf929783b2c3f9508928b40f1241ce23}
+      \strng{fullhashraw}{cf929783b2c3f9508928b40f1241ce23}
+      \strng{bibnamehash}{cf929783b2c3f9508928b40f1241ce23}
+      \strng{authorbibnamehash}{cf929783b2c3f9508928b40f1241ce23}
+      \strng{authornamehash}{cf929783b2c3f9508928b40f1241ce23}
+      \strng{authorfullhash}{cf929783b2c3f9508928b40f1241ce23}
+      \strng{authorfullhashraw}{cf929783b2c3f9508928b40f1241ce23}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is Vagrant?}
+      \verb{urlraw}
+      \verb https://developer.hashicorp.com/vagrant
+      \endverb
+      \verb{url}
+      \verb https://developer.hashicorp.com/vagrant
+      \endverb
+    \endentry
     \entry{James2019}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d52e32f3a96a64786814ae9b5279fbe5}{%
@@ -1567,6 +1962,43 @@
       \endverb
       \verb{url}
       \verb https://www.ncsc.gov.uk/blog-post/offline-backups-in-an-online-world
+      \endverb
+    \endentry
+    \entry{Kemp2007}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=98c7a9fee5f9d3c831ba1f5d07d56c22}{%
+           family={Kemp},
+           familyi={K\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{98c7a9fee5f9d3c831ba1f5d07d56c22}
+      \strng{fullhash}{98c7a9fee5f9d3c831ba1f5d07d56c22}
+      \strng{fullhashraw}{98c7a9fee5f9d3c831ba1f5d07d56c22}
+      \strng{bibnamehash}{98c7a9fee5f9d3c831ba1f5d07d56c22}
+      \strng{authorbibnamehash}{98c7a9fee5f9d3c831ba1f5d07d56c22}
+      \strng{authornamehash}{98c7a9fee5f9d3c831ba1f5d07d56c22}
+      \strng{authorfullhash}{98c7a9fee5f9d3c831ba1f5d07d56c22}
+      \strng{authorfullhashraw}{98c7a9fee5f9d3c831ba1f5d07d56c22}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{26}
+      \field{month}{12}
+      \field{pagetotal}{558}
+      \field{title}{Encyclopedia of Geographic Information Science}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.google.be/books/edition/Encyclopedia_of_Geographic_Information_S/FrUQHIzXK6EC?hl=nl&gbpv=0
+      \endverb
+      \verb{url}
+      \verb https://www.google.be/books/edition/Encyclopedia_of_Geographic_Information_S/FrUQHIzXK6EC?hl=nl&gbpv=0
       \endverb
     \endentry
     \entry{Miao2016}{book}{}{}
@@ -2274,6 +2706,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{Estabrook2024`}
 \endrefsection
 \endinput
 

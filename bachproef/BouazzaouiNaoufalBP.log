@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  9 DEC 2024 02:16
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  9 DEC 2024 23:16
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2321,7 +2321,15 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'BouazzaouiNaoufalBP.bbl' found.
 
-(./BouazzaouiNaoufalBP.bbl)
+(./BouazzaouiNaoufalBP.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Estabrook2024`
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 79.
 Package biblatex Info: Reference segment=0 on input line 79.
 Package caption Info: Begin \AtBeginDocument code.
@@ -2590,9 +2598,22 @@ File: img/diff.png Graphic file (type bmp)
 
 [12]
 
-[13]) (./methodologie.tex
+[13]
 
-[14]
+LaTeX Warning: Citation 'Estabrook2024`' on page 14 undefined on input line 84.
+
+
+
+Overfull \hbox (25.15962pt too wide) in paragraph at lines 84--85
+\TU/Montserrat(1)/m/n/10.95 ken, en kan worden toegepast op container- of blobv
+ersieniveau ([]). 
+ []
+
+
+
+[14]) (./methodologie.tex
+
+[15]
 Hoofdstuk 3.
 
 Overfull \hbox (5.772pt too wide) in paragraph at lines 29--30
@@ -2612,7 +2633,7 @@ Overfull \hbox (19.44856pt too wide) in paragraph at lines 37--38
 
 
 
-[15
+[16
 
 ]
 Overfull \hbox (51.86783pt too wide) in paragraph at lines 68--69
@@ -2634,7 +2655,7 @@ dzakelijk, aangezien Azure
 
 
 
-[16]
+[17]
 Overfull \hbox (1.10002pt too wide) in paragraph at lines 70--71
 \TU/Montserrat(1)/m/n/10.95 noodzakelijk om fysieke externe schijven of on-prem
 ise hardware-oplossingen
@@ -2648,33 +2669,33 @@ Overfull \hbox (8.20074pt too wide) in paragraph at lines 74--75
 
 ) (./analyse.tex
 
-[17]
-
 [18]
+
+[19]
 Hoofdstuk 4.
 ) (./poc.tex
 
-[19
+[20
 
 ]
 Hoofdstuk 5.
 ) (./conclusie.tex
 
-[20
+[21
 
 ]
 Hoofdstuk 6.
 
 
-[21
+[22
 
 ])
 
-[22]
+[23]
 B\ij lage A.
 
 
-[23
+[24
 
 ]
 Overfull \hbox (1.69463pt too wide) in paragraph at lines 169--169
@@ -2749,6 +2770,11 @@ Overfull \hbox (116.24304pt too wide) in paragraph at lines 169--169
  []
 
 
+
+[25
+
+
+]
 Overfull \hbox (35.33911pt too wide) in paragraph at lines 169--169
 \TU/Montserrat(2)/m/it/10.95 bile Data Networks\TU/Montserrat(1)/m/n/10.95 . []
 []$[][][][][] [] [] [] [][][][][] [] [][][][][][] [] [][] [] [][][][][] [] [][]
@@ -2763,11 +2789,6 @@ Overfull \hbox (29.28905pt too wide) in paragraph at lines 169--169
  []
 
 
-
-[24
-
-
-]
 Overfull \hbox (8.92203pt too wide) in paragraph at lines 169--169
 [][][][][][][][][][][][][][] [] [][][] [] [][][][][][][] [] [][][] [] [][][][][
 ] [] [][][][] [] [][][][][][][][] [] [][][][][][][][] [] [][][][][][][][]$[][] 
@@ -2776,9 +2797,9 @@ Overfull \hbox (8.92203pt too wide) in paragraph at lines 169--169
 
 
 
-[25]
+[26]
 
-[26] (./BouazzaouiNaoufalBP.aux)
+[27] (./BouazzaouiNaoufalBP.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
@@ -2790,12 +2811,12 @@ Package logreq Info: Writing requests to 'BouazzaouiNaoufalBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49490 strings out of 474233
- 1015768 string characters out of 5745779
- 2270532 words of memory out of 5000000
- 71371 multiletter control sequences out of 15000+600000
+ 49511 strings out of 474233
+ 1016457 string characters out of 5745779
+ 2269753 words of memory out of 5000000
+ 71392 multiletter control sequences out of 15000+600000
  560927 words of font info for 97 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,11n,132p,3928b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on BouazzaouiNaoufalBP.pdf (34 pages).
+Output written on BouazzaouiNaoufalBP.pdf (35 pages).
