@@ -446,6 +446,79 @@
       \verb https://learn.microsoft.com/nl-nl/azure/cloud-adoption-framework/get-started/what-is-azure
       \endverb
     \endentry
+    \entry{Estabrook2024}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=08f88592c701fe092f7d2094eeef66bf}{%
+           family={Estabrook},
+           familyi={E\bibinitperiod},
+           given={Norm},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25c8bf36a9257048df2358124ae3acb5}{%
+           family={Nottingham},
+           familyi={N\bibinitperiod},
+           given={Cynthia},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c3d513b915fb6c0e93a705b350a2999}{%
+           family={Pavan},
+           familyi={P\bibinitperiod},
+           given={Pesala},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7330b9998b19dde2e1103cabd1fbf748}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Amrinder},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d92960ce8af51df6a98cb4d73cac8d45}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Jim},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=96867e4da378a854dae21bfdccadd238}{%
+           family={Yoshioka},
+           familyi={Y\bibinitperiod},
+           given={Hiroshi},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c43882f0921e1a4c82a69b2c1ded57c}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={Tamra},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a84dd51fa9a1c5763400da45fbdd2e7d}
+      \strng{fullhash}{758beb64de1f792c229f042bffea5091}
+      \strng{fullhashraw}{758beb64de1f792c229f042bffea5091}
+      \strng{bibnamehash}{758beb64de1f792c229f042bffea5091}
+      \strng{authorbibnamehash}{758beb64de1f792c229f042bffea5091}
+      \strng{authornamehash}{a84dd51fa9a1c5763400da45fbdd2e7d}
+      \strng{authorfullhash}{758beb64de1f792c229f042bffea5091}
+      \strng{authorfullhashraw}{758beb64de1f792c229f042bffea5091}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{5}
+      \field{journaltitle}{Microsoft}
+      \field{month}{1}
+      \field{title}{Store business-critical blob data with immutable storage in a write once, read many (WORM) state}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview
+      \endverb
+    \endentry
     \entry{Ghazi2013}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=2fee6966993b1b91f4e0e1d811f42e48}{%
@@ -579,6 +652,10 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{What is Vagrant?}
+      \field{urlday}{10}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://developer.hashicorp.com/vagrant
       \endverb
@@ -789,6 +866,39 @@
       \verb{url}
       \verb https://www.researchgate.net/profile/Santiago-Obrutsky/publication/305508410_Cloud_Storage_Advantages_Disadvantages_and_Enterprise_Solutions_for_Business/links/5792976508ae33e89f7cc136/Cloud-Storage-Advantages-Disadvantages-and-Enterprise-Solutions-for-Business.pdf
       \endverb
+    \endentry
+    \entry{Oracle}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=30162ed78b6c10f731411f2fc440c24f}{%
+           family={Oracle},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{fullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{fullhashraw}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{bibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorbibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authornamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorfullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorfullhashraw}{30162ed78b6c10f731411f2fc440c24f}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{User Guide for Release 7.1}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.oracle.com/en/virtualization/virtualbox/7.1/user/preface.html
+      \endverb
+      \verb{url}
+      \verb https://docs.oracle.com/en/virtualization/virtualbox/7.1/user/preface.html
+      \endverb
+      \warn{\item online entry 'Oracle' (bachproef.bib): Invalid format '01-11-2024' of date field 'date' - ignoring}
     \endentry
     \entry{Park2023}{article}{}{}
       \name{author}{5}{}{%
@@ -1790,6 +1900,79 @@
       \verb https://learn.microsoft.com/nl-nl/azure/cloud-adoption-framework/get-started/what-is-azure
       \endverb
     \endentry
+    \entry{Estabrook2024}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=08f88592c701fe092f7d2094eeef66bf}{%
+           family={Estabrook},
+           familyi={E\bibinitperiod},
+           given={Norm},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25c8bf36a9257048df2358124ae3acb5}{%
+           family={Nottingham},
+           familyi={N\bibinitperiod},
+           given={Cynthia},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c3d513b915fb6c0e93a705b350a2999}{%
+           family={Pavan},
+           familyi={P\bibinitperiod},
+           given={Pesala},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7330b9998b19dde2e1103cabd1fbf748}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Amrinder},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d92960ce8af51df6a98cb4d73cac8d45}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Jim},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=96867e4da378a854dae21bfdccadd238}{%
+           family={Yoshioka},
+           familyi={Y\bibinitperiod},
+           given={Hiroshi},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c43882f0921e1a4c82a69b2c1ded57c}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={Tamra},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a84dd51fa9a1c5763400da45fbdd2e7d}
+      \strng{fullhash}{758beb64de1f792c229f042bffea5091}
+      \strng{fullhashraw}{758beb64de1f792c229f042bffea5091}
+      \strng{bibnamehash}{758beb64de1f792c229f042bffea5091}
+      \strng{authorbibnamehash}{758beb64de1f792c229f042bffea5091}
+      \strng{authornamehash}{a84dd51fa9a1c5763400da45fbdd2e7d}
+      \strng{authorfullhash}{758beb64de1f792c229f042bffea5091}
+      \strng{authorfullhashraw}{758beb64de1f792c229f042bffea5091}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{5}
+      \field{journaltitle}{Microsoft}
+      \field{month}{1}
+      \field{title}{Store business-critical blob data with immutable storage in a write once, read many (WORM) state}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview
+      \endverb
+    \endentry
     \entry{Ghazi2013}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=2fee6966993b1b91f4e0e1d811f42e48}{%
@@ -1923,6 +2106,10 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{What is Vagrant?}
+      \field{urlday}{10}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://developer.hashicorp.com/vagrant
       \endverb
@@ -2133,6 +2320,39 @@
       \verb{url}
       \verb https://www.researchgate.net/profile/Santiago-Obrutsky/publication/305508410_Cloud_Storage_Advantages_Disadvantages_and_Enterprise_Solutions_for_Business/links/5792976508ae33e89f7cc136/Cloud-Storage-Advantages-Disadvantages-and-Enterprise-Solutions-for-Business.pdf
       \endverb
+    \endentry
+    \entry{Oracle}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=30162ed78b6c10f731411f2fc440c24f}{%
+           family={Oracle},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{fullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{fullhashraw}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{bibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorbibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authornamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorfullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorfullhashraw}{30162ed78b6c10f731411f2fc440c24f}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{User Guide for Release 7.1}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.oracle.com/en/virtualization/virtualbox/7.1/user/preface.html
+      \endverb
+      \verb{url}
+      \verb https://docs.oracle.com/en/virtualization/virtualbox/7.1/user/preface.html
+      \endverb
+      \warn{\item online entry 'Oracle' (bachproef.bib): Invalid format '01-11-2024' of date field 'date' - ignoring}
     \endentry
     \entry{Park2023}{article}{}{}
       \name{author}{5}{}{%
@@ -2706,7 +2926,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{Estabrook2024`}
 \endrefsection
 \endinput
 
