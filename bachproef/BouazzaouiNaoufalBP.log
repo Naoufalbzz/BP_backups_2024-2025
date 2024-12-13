@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  13 DEC 2024 01:41
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  13 DEC 2024 03:22
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2758,7 +2758,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 [21
 
-]) (./conclusie.tex
+]
+Overfull \hbox (67.15471pt too wide) in alignment at lines 55--61
+ [] [] [] [] [] [] 
+ []
+
+) (./conclusie.tex
 
 [22]
 Hoofdstuk 6.
@@ -2895,10 +2900,10 @@ Package logreq Info: Writing requests to 'BouazzaouiNaoufalBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51082 strings out of 474233
- 1040528 string characters out of 5745779
- 2382000 words of memory out of 5000000
- 72933 multiletter control sequences out of 15000+600000
+ 51086 strings out of 474233
+ 1040620 string characters out of 5745779
+ 2412096 words of memory out of 5000000
+ 72937 multiletter control sequences out of 15000+600000
  560951 words of font info for 100 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,12n,132p,3928b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s
