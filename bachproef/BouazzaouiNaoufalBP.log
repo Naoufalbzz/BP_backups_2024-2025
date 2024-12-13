@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  11 DEC 2024 23:06
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  13 DEC 2024 01:41
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2114,23 +2114,70 @@ LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `bold'
 File: ../graphics/logopart.eps Graphic file (type eps)
 <../graphics/logopart.eps>
 Package hyperref Info: Option `colorlinks' set `true' on input line 664.
-) (c:/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2024-04-26 v4.20 Multi-page Table package (DPC)
+\LTleft=\skip96
+\LTright=\skip97
+\LTpre=\skip98
+\LTpost=\skip99
+\LTchunksize=\count507
+\LTcapwidth=\dimen339
+\LT@head=\box92
+\LT@firsthead=\box93
+\LT@foot=\box94
+\LT@lastfoot=\box95
+\LT@gbox=\box96
+\LT@cols=\count508
+\LT@rows=\count509
+\c@LT@tables=\count510
+\c@LT@chunks=\count511
+\LT@p@ftn=\toks54
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count512
+\lst@gtempboxa=\box97
+\lst@token=\toks55
+\lst@length=\count513
+\lst@currlwidth=\dimen340
+\lst@column=\count514
+\lst@pos=\count515
+\lst@lostspace=\dimen341
+\lst@width=\dimen342
+\lst@newlines=\count516
+\lst@lineno=\count517
+\lst@maxwidth=\dimen343
+
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count518
+\lst@skipnumbers=\count519
+\lst@framebox=\box98
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+
+(c:/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count507
-\l__lipsum_a_int=\count508
-\l__lipsum_b_int=\count509
+\g__lipsum_par_int=\count520
+\l__lipsum_a_int=\count521
+\l__lipsum_b_int=\count522
 
 (c:/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
 (c:/texlive/2024/texmf-dist/tex/latex/hanging/hanging.sty
 Package: hanging 2009/09/02 v1.2b hanging paragraphs and punctuation
-\h@ngcommawd=\skip96
-\h@ngfstopwd=\skip97
-\h@ngquotewd=\skip98
-\h@ngdquotewd=\skip99
-\h@ngquerywd=\skip100
-\h@ngexclwd=\skip101
-\h@ngcolonwd=\skip102
-\h@ngscolonwd=\skip103
+\h@ngcommawd=\skip100
+\h@ngfstopwd=\skip101
+\h@ngquotewd=\skip102
+\h@ngdquotewd=\skip103
+\h@ngquerywd=\skip104
+\h@ngexclwd=\skip105
+\h@ngcolonwd=\skip106
+\h@ngscolonwd=\skip107
 )
 
 Package fontspec Info: 
@@ -2167,11 +2214,11 @@ b
 
 (c:/texlive/2024/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
-\FV@CodeLineNo=\count510
+\FV@CodeLineNo=\count523
 \FV@InFile=\read6
-\FV@TabBox=\box92
-\c@FancyVerbLine=\count511
-\FV@StepNumber=\count512
+\FV@TabBox=\box99
+\c@FancyVerbLine=\count524
+\FV@StepNumber=\count525
 \FV@OutFile=\write5
 )
 (c:/texlive/2024/texmf-dist/tex/latex/upquote/upquote.sty
@@ -2181,21 +2228,21 @@ tim
 (c:/texlive/2024/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2023/05/20 line numbers on paragraphs v5.3
 Invalid UTF-8 byte or sequence at line 292 replaced by U+FFFD.
-\linenopenalty=\count513
-\output=\toks54
-\linenoprevgraf=\count514
-\linenumbersep=\dimen339
-\linenumberwidth=\dimen340
-\c@linenumber=\count515
-\c@pagewiselinenumber=\count516
-\c@LN@truepage=\count517
-\c@internallinenumber=\count518
-\c@internallinenumbers=\count519
-\quotelinenumbersep=\dimen341
-\bframerule=\dimen342
-\bframesep=\dimen343
-\bframebox=\box93
-\linenoamsmath@ams@eqpen=\count520
+\linenopenalty=\count526
+\output=\toks56
+\linenoprevgraf=\count527
+\linenumbersep=\dimen344
+\linenumberwidth=\dimen345
+\c@linenumber=\count528
+\c@pagewiselinenumber=\count529
+\c@LN@truepage=\count530
+\c@internallinenumber=\count531
+\c@internallinenumbers=\count532
+\quotelinenumbersep=\dimen346
+\bframerule=\dimen347
+\bframesep=\dimen348
+\bframebox=\box100
+\linenoamsmath@ams@eqpen=\count533
 
 
 LaTeX Warning: Command \@parboxrestore  has changed.
@@ -2207,44 +2254,44 @@ LaTeX Info: Redefining \\ on input line 3180.
 Package fvextra Warning: csquotes should be loaded after fvextra, to avoid a wa
 rning from the lineno package on input line 36.
 
-\c@FancyVerbWriteLine=\count521
-\c@FancyVerbBufferIndex=\count522
-\c@FancyVerbBufferLength=\count523
-\c@FancyVerbBufferLine=\count524
-\c@FV@oldbufferlength=\count525
-\c@FV@TrueTabGroupLevel=\count526
-\c@FV@TrueTabCounter=\count527
-\FV@TabBox@Group=\box94
-\FV@TmpLength=\skip104
-\c@FV@HighlightLinesStart=\count528
-\c@FV@HighlightLinesStop=\count529
-\FV@LoopCount=\count530
-\FV@NCharsBox=\box95
-\FV@BreakIndent=\dimen344
-\FV@BreakIndentNChars=\count531
-\FV@BreakSymbolSepLeft=\dimen345
-\FV@BreakSymbolSepLeftNChars=\count532
-\FV@BreakSymbolSepRight=\dimen346
-\FV@BreakSymbolSepRightNChars=\count533
-\FV@BreakSymbolIndentLeft=\dimen347
-\FV@BreakSymbolIndentLeftNChars=\count534
-\FV@BreakSymbolIndentRight=\dimen348
-\FV@BreakSymbolIndentRightNChars=\count535
-\c@FancyVerbLineBreakLast=\count536
-\FV@LineBox=\box96
-\FV@LineIndentBox=\box97
-\c@FV@BreakBufferDepth=\count537
-\FV@LineWidth=\dimen349
+\c@FancyVerbWriteLine=\count534
+\c@FancyVerbBufferIndex=\count535
+\c@FancyVerbBufferLength=\count536
+\c@FancyVerbBufferLine=\count537
+\c@FV@oldbufferlength=\count538
+\c@FV@TrueTabGroupLevel=\count539
+\c@FV@TrueTabCounter=\count540
+\FV@TabBox@Group=\box101
+\FV@TmpLength=\skip108
+\c@FV@HighlightLinesStart=\count541
+\c@FV@HighlightLinesStop=\count542
+\FV@LoopCount=\count543
+\FV@NCharsBox=\box102
+\FV@BreakIndent=\dimen349
+\FV@BreakIndentNChars=\count544
+\FV@BreakSymbolSepLeft=\dimen350
+\FV@BreakSymbolSepLeftNChars=\count545
+\FV@BreakSymbolSepRight=\dimen351
+\FV@BreakSymbolSepRightNChars=\count546
+\FV@BreakSymbolIndentLeft=\dimen352
+\FV@BreakSymbolIndentLeftNChars=\count547
+\FV@BreakSymbolIndentRight=\dimen353
+\FV@BreakSymbolIndentRightNChars=\count548
+\c@FancyVerbLineBreakLast=\count549
+\FV@LineBox=\box103
+\FV@LineIndentBox=\box104
+\c@FV@BreakBufferDepth=\count550
+\FV@LineWidth=\dimen354
 ) (c:/texlive/2024/texmf-dist/tex/latex/latex2pydata/latex2pydata.sty
 Package: latex2pydata 2024/05/16 v0.2.0 latex2pydata - write data to file in Py
 thon literal format
-\c@pydata@bufferindex=\count538
-\c@pydata@defaultbufferlength=\count539
+\c@pydata@bufferindex=\count551
+\c@pydata@defaultbufferlength=\count552
 )
 (c:/texlive/2024/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks55
-\pgfopts@list@add@b@toks=\toks56
+\pgfopts@list@add@a@toks=\toks57
+\pgfopts@list@add@b@toks=\toks58
 )
 
 c:/texlive/2024/texmf-dist/tex/latex/minted/minted.sty:282: Package minted Erro
@@ -2265,18 +2312,18 @@ and deduce the truth by order and method.
 
 (c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count540
-\float@exts=\toks57
-\float@box=\box98
-\@float@everytoks=\toks58
-\@floatcapt=\box99
+\c@float@type=\count553
+\float@exts=\toks59
+\float@box=\box105
+\@float@everytoks=\toks60
+\@floatcapt=\box106
 )
-\c@minted@tmpcnt=\count541
-\c@minted@tmpcodebufferlength=\count542
-\c@minted@numcachefiles=\count543
-\c@minted@FancyVerbLineTemp=\count544
-\@float@every@listing=\toks59
-\c@listing=\count545
+\c@minted@tmpcnt=\count554
+\c@minted@tmpcodebufferlength=\count555
+\c@minted@numcachefiles=\count556
+\c@minted@FancyVerbLineTemp=\count557
+\@float@every@listing=\toks61
+\c@listing=\count558
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -2286,26 +2333,26 @@ Package csquotes Info: Redefining alias 'default' -> 'dutch'.
 (./BouazzaouiNaoufalBP.aux)
 \openout1 = `BouazzaouiNaoufalBP.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
 Package biblatex Info: Trying to load language 'dutch' -> 'dutch-apa'...
 Package biblatex Info: ... file 'dutch-apa.lbx' found.
 
@@ -2332,25 +2379,18 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'BouazzaouiNaoufalBP.bbl' found.
 
-(./BouazzaouiNaoufalBP.bbl
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Oracle':
-(biblatex)                - online entry 'Oracle' (bachproef.bib): Invalid form
-at '01-11-2024' of date field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Oracle':
-(biblatex)                - online entry 'Oracle' (bachproef.bib): Invalid form
-at '01-11-2024' of date field 'date' - ignoring.
-
-)
-Package biblatex Info: Reference section=0 on input line 81.
-Package biblatex Info: Reference segment=0 on input line 81.
+(./BouazzaouiNaoufalBP.bbl)
+Package biblatex Info: Reference section=0 on input line 96.
+Package biblatex Info: Reference segment=0 on input line 96.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(c:/texlive/2024/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
 Package caption Info: rotating package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -2388,7 +2428,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 81.
+Package hyperref Info: Link coloring ON on input line 96.
 (./BouazzaouiNaoufalBP.out) (./BouazzaouiNaoufalBP.out)
 \@outlinefile=\write6
 \openout6 = `BouazzaouiNaoufalBP.out'.
@@ -2407,12 +2447,12 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
 ))
-LaTeX Info: Redefining \microtypecontext on input line 81.
-Package microtype Info: Applying patch `item' on input line 81.
-Package microtype Info: Applying patch `toc' on input line 81.
-Package microtype Info: Applying patch `eqnum' on input line 81.
-Package microtype Info: Applying patch `footnote' on input line 81.
-Package microtype Info: Applying patch `verbatim' on input line 81.
+LaTeX Info: Redefining \microtypecontext on input line 96.
+Package microtype Info: Applying patch `item' on input line 96.
+Package microtype Info: Applying patch `toc' on input line 96.
+Package microtype Info: Applying patch `eqnum' on input line 96.
+Package microtype Info: Applying patch `footnote' on input line 96.
+Package microtype Info: Applying patch `verbatim' on input line 96.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -2422,7 +2462,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Montserrat' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package hyperref Info: Option `pageanchor' set `false' on input line 87.
+\c@lstlisting=\count559
+Package hyperref Info: Option `pageanchor' set `false' on input line 102.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -2456,44 +2497,44 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 87.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (4.8221pt too wide) in paragraph at lines 98--98
+Overfull \hbox (4.8221pt too wide) in paragraph at lines 113--113
 []\TU/Montserrat(0)/b/n/24.88 Hoe kan de back-upstrategie voor de
  []
 
 
-Overfull \hbox (8.26051pt too wide) in paragraph at lines 98--98
+Overfull \hbox (8.26051pt too wide) in paragraph at lines 113--113
 \TU/Montserrat(0)/b/n/24.88 Azure PostgreSQL en MySQL databases
  []
 
 
-Overfull \hbox (18.24236pt too wide) in paragraph at lines 98--98
+Overfull \hbox (18.24236pt too wide) in paragraph at lines 113--113
 \TU/Montserrat(0)/b/n/24.88 opslag en automatische back-ups?: Een
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 
  []
 
-Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
 File: ../graphics/hogent_logo.eps Graphic file (type eps)
 <../graphics/hogent_logo.eps>
 
@@ -2506,7 +2547,7 @@ File: ../graphics/hogent_logo.eps Graphic file (type eps)
 ]
 
 [2]
-Package hyperref Info: Option `pageanchor' set `true' on input line 99.
+Package hyperref Info: Option `pageanchor' set `true' on input line 114.
  (./voorwoord.tex) (./samenvatting.tex
 
 [3
@@ -2701,54 +2742,68 @@ Hoofdstuk 4.
 
 ]
 Hoofdstuk 5.
-) (./conclusie.tex
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 6.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `CourierNew' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
 
 [21
 
-]
+]) (./conclusie.tex
+
+[22]
 Hoofdstuk 6.
 
 
-[22
+[23
 
 ])
 
-[23]
+[24]
 B\ij lage A.
 
 
-[24
+[25
 
 ]
-Overfull \hbox (1.69463pt too wide) in paragraph at lines 171--171
+Overfull \hbox (1.69463pt too wide) in paragraph at lines 186--186
 \TU/Montserrat(1)/m/n/10.95 backup techniques. \TU/Montserrat(2)/m/it/10.95 Joi
 nt NASA and IEEE Mass Storage Conference\TU/Montserrat(1)/m/n/10.95 , \TU/Monts
 errat(2)/m/it/10.95 99\TU/Montserrat(1)/m/n/10.95 . [][]$[][][][][] []
  []
 
 
-Overfull \hbox (173.6539pt too wide) in paragraph at lines 171--171
+Overfull \hbox (173.6539pt too wide) in paragraph at lines 186--186
 [] [] [][][][][][][][][] [] [][][] [] [][][] [] [][][] [] [][][][][][][][] [] [
 ][][][][] [] [][][][][][][][][] [] [][][][][][][] [] [][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][] 
  []
 
 
-Overfull \hbox (24.39424pt too wide) in paragraph at lines 171--171
+Overfull \hbox (24.39424pt too wide) in paragraph at lines 186--186
 [][] [] [][][][][][][][][][] [] [][][][][][][] [][] [][][][][] [] [][][] [] [][
 ][][][][][][][][] [] [][][][][][][][][] [][] [][][][][][][] [][] [][][][][][][]
 [][][][] []
  []
 
 
-Overfull \hbox (7.98044pt too wide) in paragraph at lines 171--171
+Overfull \hbox (7.98044pt too wide) in paragraph at lines 186--186
 [][][][][][] [] [][][][][][][][][] [] [][][][] [] [][][][][] [] [][] [] [][][][
 ] [] [][][][][][][][] [] [][][][][][][][] [] [][][] [] [][][][][][][][][][][] [
 ]
  []
 
 
-Overfull \hbox (1409.43755pt too wide) in paragraph at lines 171--171
+Overfull \hbox (1409.43755pt too wide) in paragraph at lines 186--186
 [][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][] [][][][]
  [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -2759,16 +2814,16 @@ Overfull \hbox (1409.43755pt too wide) in paragraph at lines 171--171
  []
 
 
-Overfull \hbox (225.50214pt too wide) in paragraph at lines 171--171
+Overfull \hbox (225.50214pt too wide) in paragraph at lines 186--186
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][] []
  []
 
-./BouazzaouiNaoufalBP.tex:171: Misplaced alignment tab character &.
+./BouazzaouiNaoufalBP.tex:186: Misplaced alignment tab character &.
 <argument> American Academic &
                                Scholarly Research Journal
-l.171 \printbibliography[heading=bibintoc]
+l.186 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2778,14 +2833,14 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (19.09499pt too wide) in paragraph at lines 171--171
+Overfull \hbox (19.09499pt too wide) in paragraph at lines 186--186
 \TU/Montserrat(1)/m/n/10.95 Multimedia. \TU/Montserrat(2)/m/it/10.95 National C
 enter for Supercomputing Applications\TU/Montserrat(1)/m/n/10.95 . [][]$[][][][
 ][] [] [] [] [][][][][][][][][] []
  []
 
 
-Overfull \hbox (116.24304pt too wide) in paragraph at lines 171--171
+Overfull \hbox (116.24304pt too wide) in paragraph at lines 186--186
 [][][] [] [][][] [] [][][] [] [][][][][][][][] [] [][][][][] [] [][][][][][][][
 ][] [] [][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][]$[][] 
@@ -2793,25 +2848,25 @@ Overfull \hbox (116.24304pt too wide) in paragraph at lines 171--171
 
 
 
-[25
+[26
 
 
 ]
-Overfull \hbox (17.31981pt too wide) in paragraph at lines 171--171
+Overfull \hbox (17.31981pt too wide) in paragraph at lines 186--186
 [][]\TU/Montserrat(1)/m/n/10.95 Hashicorp. (z.d.). \TU/Montserrat(2)/m/it/10.95
  What is Vagrant? \TU/Montserrat(1)/m/n/10.95 Verkregen december 10, 2024, van 
 [][]$[][][][][] [] [] [] [][][][][][][][][] []
  []
 
 
-Overfull \hbox (35.33911pt too wide) in paragraph at lines 171--171
+Overfull \hbox (35.33911pt too wide) in paragraph at lines 186--186
 \TU/Montserrat(2)/m/it/10.95 bile Data Networks\TU/Montserrat(1)/m/n/10.95 . []
 []$[][][][][] [] [] [] [][][][][] [] [][][][][][] [] [][] [] [][][][][] [] [][]
  [] [][][][][][][][][][][][][][][][][][][][][] []
  []
 
 
-Overfull \hbox (29.28905pt too wide) in paragraph at lines 171--171
+Overfull \hbox (29.28905pt too wide) in paragraph at lines 186--186
 [][][] [] [][][][][][] [] [][] [] [][][][][] [] [][][][][][][] [] [][][] [] [][
 ][][] [] [][][][][][] [] [][][] [] [][][][][][][][] [] [][][][][][][][][][][][]
  []
@@ -2819,8 +2874,8 @@ Overfull \hbox (29.28905pt too wide) in paragraph at lines 171--171
 
 
 
-[26]
-Overfull \hbox (8.92203pt too wide) in paragraph at lines 171--171
+[27]
+Overfull \hbox (8.92203pt too wide) in paragraph at lines 186--186
 [][][][][][][][][][][][][][] [] [][][] [] [][][][][][][] [] [][][] [] [][][][][
 ] [] [][][][] [] [][][][][][][][] [] [][][][][][][][] [] [][][][][][][][]$[][] 
 
@@ -2828,7 +2883,7 @@ Overfull \hbox (8.92203pt too wide) in paragraph at lines 171--171
 
 
 
-[27] (./BouazzaouiNaoufalBP.aux)
+[28] (./BouazzaouiNaoufalBP.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
@@ -2840,12 +2895,12 @@ Package logreq Info: Writing requests to 'BouazzaouiNaoufalBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49605 strings out of 474233
- 1018108 string characters out of 5745779
- 2271334 words of memory out of 5000000
- 71482 multiletter control sequences out of 15000+600000
- 560927 words of font info for 97 fonts, out of 8000000 for 9000
+ 51082 strings out of 474233
+ 1040528 string characters out of 5745779
+ 2382000 words of memory out of 5000000
+ 72933 multiletter control sequences out of 15000+600000
+ 560951 words of font info for 100 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 110i,11n,132p,3928b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,12n,132p,3928b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on BouazzaouiNaoufalBP.pdf (35 pages).
+Output written on BouazzaouiNaoufalBP.pdf (36 pages).

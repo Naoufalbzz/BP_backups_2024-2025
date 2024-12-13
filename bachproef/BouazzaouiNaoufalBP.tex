@@ -10,7 +10,11 @@
 %   Valid entries are dbo, dbt, dgz, dit, dlo, dog, dsa, soa
 % - If you write your thesis in English (remark: only possible after getting
 %   explicit approval!), remove the option "dutch," or replace with "english".
-
+\usepackage{geometry}
+\usepackage{longtable}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{caption}
 \usepackage{lipsum} % For blind text, can be removed after adding actual content
 \usepackage{fontspec}
 \usepackage{hanging}
@@ -34,6 +38,17 @@
     breaklines,
     linenos,
     tabsize=4
+}
+
+\lstset{
+    basicstyle=\ttfamily\footnotesize,
+    frame=single,
+    breaklines=true,
+    numbers=left,
+    numberstyle=\tiny,
+    keywordstyle=\color{blue},
+    commentstyle=\color{gray},
+    stringstyle=\color{red},
 }
 
 %% Ensure the list of listings is in the table of contents

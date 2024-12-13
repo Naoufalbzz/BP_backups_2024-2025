@@ -37,7 +37,7 @@
 \contentsline {subsection}{\numberline {3.0.2}Proof-Of-Concept}{18}{subsection.3.0.2}%
 \contentsline {chapter}{\numberline {4}Analyse van de back-upstrategie van Forvis Mazars}{20}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Proof-of-concept}{21}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Conclusie}{22}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{24}{appendix.A}%
-\contentsline {chapter}{Bibliografie}{25}{appendix*.11}%
+\contentsline {chapter}{\numberline {6}Conclusie}{23}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{25}{appendix.A}%
+\contentsline {chapter}{Bibliografie}{26}{appendix*.11}%
 \contentsfinish 

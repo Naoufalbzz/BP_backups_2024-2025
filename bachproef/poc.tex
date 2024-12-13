@@ -1,3 +1,39 @@
 \chapter{Proof-of-concept}%
 \label{ch:poc}
-POCPOCPOC
+Voor het praktische deel van deze bachelorproef werden er drie virtuele machines opgezet binnen VirtualBox met behulp van Vagrant om een gecontroleerde testomgeving te creëren. Deze virtuele machines (VM’s) simuleren een scenario waarin een ransomware-aanval gericht wordt op databases die door het bedrijf worden beheerd. Het primaire doel van deze simulatie is aan te tonen dat het gebruik van immutable storage een effectieve maatregel kan zijn om belangrijke data te beschermen tegen ransomware-aanvallen.
+
+Voor het opzetten van de virtuele machines in de Proof-of-Concept (PoC) werd gebruik gemaakt van een Vagrantfile. De Vagrantfile definieert de specificaties en configuraties van de VM’s, zoals geheugen, CPU, netwerkadapters en besturingssysteem. 
+\begin{lstlisting}[language=Ruby, caption={Vagrantfile voor drie VM's: Backup Server, Client, en Attacker}]
+    # Vagrantfile voor 3 VM's: Backup Server, Client, en Attacker
+    Vagrant.configure("2") do |config|
+    # Backup VM
+    config.vm.define "backup_vm" do |backup|
+    backup.vm.box = "ubuntu/focal64"
+    backup.vm.network "private_network", ip: "192.168.56.101"
+    backup.vm.provider "virtualbox" do |vb|
+    vb.memory = "2048"
+    vb.cpus = 1
+    end
+    end
+    
+    # Client VM
+    config.vm.define "client_vm" do |client|
+    client.vm.box = "ubuntu/focal64"
+    client.vm.network "private_network", ip: "192.168.56.102"
+    client.vm.provider "virtualbox" do |vb|
+    vb.memory = "1024"
+    vb.cpus = 1
+    end
+    end
+    
+    # Attacker VM
+    config.vm.define "attacker_vm" do |attacker|
+    attacker.vm.box = "kali-linux/rolling"
+    attacker.vm.network "private_network", ip: "192.168.56.103"
+    attacker.vm.provider "virtualbox" do |vb|
+    vb.memory = "2048"
+    vb.cpus = 2
+    end
+    end
+    end
+\end{lstlisting}
