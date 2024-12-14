@@ -1,61 +1,142 @@
-\chapter{Proof-of-concept}%
+\chapter{Proof-of-Concept}%
 \label{ch:poc}
-Voor het praktische deel van deze bachelorproef werden er drie virtuele machines opgezet binnen VirtualBox met behulp van Vagrant om een gecontroleerde testomgeving te creëren. Deze virtuele machines (VM’s) simuleren een scenario waarin een ransomware-aanval gericht wordt op databases die door het bedrijf worden beheerd. Het primaire doel van deze simulatie is aan te tonen dat het gebruik van immutable storage een effectieve maatregel kan zijn om belangrijke data te beschermen tegen ransomware-aanvallen.
+Voor het eerste praktische deel van deze bachelorproef werden er drie virtuele machines opgezet binnen VirtualBox met behulp van Vagrant om een gecontroleerde testomgeving te creëren. Deze virtuele machines (VM’s) simuleren een scenario waarin een ransomware-aanval gericht wordt op databases die door het bedrijf worden beheerd. Het primaire doel van deze simulatie is aan te tonen dat het gebruik van immutable storage een effectieve maatregel kan zijn om belangrijke data te beschermen tegen ransomware-aanvallen.
+\subsection{Relevantie van de PoC voor de Azure-omgeving van Forvis Mazars}
+De Proof-of-Concept (PoC) in VirtualBox simuleert een ransomware-aanval in een lokale omgeving, gericht op het evalueren van beveiligingsmaatregelen zoals immutable storage. Deze aanpak sluit nauw aan bij de Azure-omgeving van Forvis Mazars, waar databases en back-ups worden beheerd.
 
+De technieken uit de PoC, zoals immutable storage, kunnen direct worden toegepast in Azure via functies zoals immutable blobs in Azure Storage. Dit maakt het mogelijk om gegevens beter te beschermen tegen wijzigingen of verwijdering. Daarnaast biedt de PoC een veilig platform om de impact van een ransomware-aanval te begrijpen en te testen hoe snel en effectief back-ups kunnen worden hersteld, wat een cruciaal aspect is voor de bedrijfscontinuïteit.
+
+Forvis Mazars kan de PoC gebruiken om risico’s te analyseren en beveiligingsoplossingen eerst kleinschalig te testen, alvorens deze op grotere schaal binnen hun cloudinfrastructuur toe te passen. Hiermee helpt de PoC bij het verfijnen en optimaliseren van hun bestaande Azure-back-upstrategie.
+\subsection{Technische uitwerking}
 Voor het opzetten van de virtuele machines in de Proof-of-Concept (PoC) werd gebruik gemaakt van een Vagrantfile. De Vagrantfile definieert de specificaties en configuraties van de VM’s, zoals geheugen, CPU, netwerkadapters en besturingssysteem. 
 \begin{lstlisting}[language=Ruby, caption={Vagrantfile voor drie VM's: Backup Server, Client, en Attacker}]
 Vagrant.configure("2") do |config|
 
-# Define the first VM - Primary
+# Primary VM
 config.vm.define "primary" do |primary|
 primary.vm.box = "ubuntu/jammy64"
 
-# Network configuration
 primary.vm.network "private_network", ip: "192.168.0.10", virtualbox__intnet: "internal_network"
 
-# Hardware resources
 primary.vm.provider "virtualbox" do |vb|
-vb.memory = "2048" # 2GB RAM
-vb.cpus = 1        # 1 CPU
+vb.memory = "2048" 
+vb.cpus = 1        
 end
 end
 
-# Define the second VM - Backup
+# Backup VM
 config.vm.define "backup" do |backup|
 backup.vm.box = "ubuntu/jammy64"
 
-# Network configuration
 backup.vm.network "private_network", ip: "192.168.0.20", virtualbox__intnet: "internal_network"
 
-# Hardware resources
 backup.vm.provider "virtualbox" do |vb|
-vb.memory = "2048" # 2GB RAM
-vb.cpus = 1        # 1 CPU
+vb.memory = "2048" 
+vb.cpus = 1       
 end
 end
 
-# Define the third VM - Attacker VM
-config.vm.define "attacker" do |additional|
-additional.vm.box = "ubuntu/jammy64"
+# Attacker VM
+config.vm.define "attacker" do |attacker|
+attacker.vm.box = "ubuntu/jammy64"
 
-# Network configuration
-additional.vm.network "private_network", ip: "192.168.0.30", virtualbox__intnet: "internal_network"
+attacker.vm.network "private_network", ip: "192.168.0.30", virtualbox__intnet: "internal_network"
 
-# Hardware resources
-additional.vm.provider "virtualbox" do |vb|
-vb.memory = "1024" # 1GB RAM
-vb.cpus = 1        # 1 CPU
+attacker.vm.provider "virtualbox" do |vb|
+vb.memory = "1024" 
+vb.cpus = 1        
 end
 end
 
 end
 \end{lstlisting}
 
-In de onderstaande tabel worden de specificaties van de drie virtuele machines weergegeven die in de Proof of Concept zijn gebruikt. Elke VM heeft een specifieke functie binnen de gesimuleerde omgeving. De tabel bevat details over de hoeveelheid toegewezen RAM, het aantal CPU-cores, het gebruikte besturingssysteem, de toegewezen IP-adressen en de configuratie van de netwerkadapter. Deze configuratie zorgt ervoor dat de VM's binnen hetzelfde interne netwerk met elkaar kunnen communiceren, wat essentieel is voor het testen van de ransomware-aanval en de back-upstrategieën.
+In de onderstaande tabel worden de specificaties van de drie virtuele machines weergegeven die in de Proof-of-Concept zijn gebruikt. Elke VM heeft een specifieke functie binnen het netwerk. De tabel bevat details over de hoeveelheid toegewezen RAM, het aantal CPU-cores, het gebruikte besturingssysteem, de toegewezen IP-adressen en de configuratie van de netwerkadapter. Deze configuratie zorgt ervoor dat de VM's binnen hetzelfde interne netwerk met elkaar kunnen communiceren, wat essentieel is voor het testen van de ransomware-aanval en de back-upstrategieën.
 \begin{longtable}{|l|c|c|c|l|l|}
     \hline
     \textbf{Functie} & \textbf{RAM} & \textbf{CPU Cores} & \textbf{IP} & \textbf{Besturingssysteem} & \textbf{Netwerkadapter} \\ \hline
-    Primary server    & 2 GB         & 1                  & 192.168.0.10 & Ubuntu 22.04.5 LTS & Private Network \\ \hline
-    Back-up server           & 1 GB         & 1                  & 192.168.0.20 & Ubuntu 22.04.5 LTS & Private Network \\ \hline
-    Attacker VM         & 2 GB         & 1                  & 192.168.0.30 & Ubuntu 22.04.5 LTS     & Private Network \\ \hline
+    Primary server    & 2 GB         & 1                  & 192.168.0.10 & Ubuntu 22.04.5 LTS & NAT + Internal \\ \hline
+    Back-up server           & 1 GB         & 1                  & 192.168.0.20 & Ubuntu 22.04.5 LTS & NAT + Internal \\ \hline
+    Attacker VM         & 2 GB         & 1                  & 192.168.0.30 & Ubuntu 22.04.5 LTS     & NAT + Internal \\ \hline
 \end{longtable}
+
+De Primary VM stelt een actieve databankserver voor binnen een bedrijfsomgeving. Deze server bevat de operationele data van het bedrijf en vertegenwoordigt de belangrijkste bron die beschermd moet worden tegen dataverlies of aanvallen. 
+
+De Backup VM fungeert als een back-upserver waarop regelmatig de databankback-ups worden opgeslagen. Deze back-upserver is cruciaal voor bedrijfscontinuïteit en disaster recovery, omdat ze in geval van een aanval of fout de herstelmogelijkheden biedt. 
+
+De Attacker VM vertegenwoordigt een hacker met slechte intenties binnen de testomgeving. Deze machine wordt gebruikt om een ransomware-aanval te simuleren, waarbij de functionaliteit van zowel de Primary VM als de Backup VM wordt bedreigd. Het doel van deze opstelling is om te demonstreren hoe een back-upstrategie, inclusief technieken zoals immutable storage, een bedrijf kan beschermen tegen de gevolgen van een dergelijke aanval.
+
+\subsubsection{Aanmaken van de database}
+Op de primary VM werd een eenvoudige SQL-database geïnstalleerd en de volgende tabel aangemaakt om als testdata te dienen:
+\begin{verbatim}
+CREATE TABLE employees (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50),
+    role VARCHAR(50)
+);
+INSERT INTO employees (name, role) VALUES 
+    ('Alice', 'Engineer'), 
+    ('Bob', 'Manager'), 
+    ('Charlie', 'Analyst');
+\end{verbatim}
+
+\newpage
+
+\subsubsection{Back-up van de database}
+Nadien werd de database geëxporteerd naar een \texttt{.sql}-bestand met het volgende \texttt{mysqldump}-commando:
+\begin{verbatim}
+mysqldump -u testuser -p testdb > /home/vagrant/backup.sql
+\end{verbatim}
+Het resulterende bestand, \texttt{backup.sql}, werd vervolgens met BorgBackup opgeslagen in een back-uprepository op de backup VM. De repository werd vooraf geïnitialiseerd met het volgende commando:
+\begin{verbatim}
+borg init --encryption=repokey /home/vagrant/backups
+\end{verbatim}
+Vervolgens werd de back-up gemaakt:
+\begin{verbatim}
+borg create --progress 
+ssh://vagrant@192.168.0.20/home/vagrant/backups::backup-$(date +%Y-%m-%d) 
+/home/vagrant/backup.sql
+\end{verbatim}
+
+\subsubsection{Beveiliging van de back-updirectory}
+Om de back-updirectory ransomware-resistent te maken, werd het Linux-commando \texttt{chattr} gebruikt om het \textit{immutable}-attribuut toe te passen op de back-updirectory. Dit attribuut zorgt ervoor dat er geen wijzigingen aan de bestanden in de directory gebeuren, zelfs door gebruikers met \texttt{root}-rechten. Het commando:
+\begin{verbatim}
+sudo chattr +i /home/vagrant/backups/
+\end{verbatim}
+
+\subsubsection{Simulatie van de ransomware-aanval}
+Op de attacker VM werd een script gebruikt om de ransomware-aanval te simuleren. Het script probeert alle bestanden in de back-updirectory te hernoemen door \texttt{.malware} toe te voegen aan de bestandsnamen. Dit zou overeenkomen met een ransomware-aanval waarbij de back-up bestanden geëncrypteerd worden. Het script is hieronder weergegeven:
+\begin{verbatim}
+#!/bin/bash
+    
+BACKUP_DIR="/home/vagrant/backups"
+    
+for file in "$BACKUP_DIR"/*; do
+  if [ -f "$file" ]; then
+    if mv "$file" "${file}.malware"; then
+      echo "Renamed $file to ${file}.malware"
+    else      
+      echo "Error: Could not rename $file"    
+    fi    
+  fi    
+done    
+\end{verbatim}
+Voor het gemak heeft de Attacker VM volledige controle gekregen over de Backup VM. Dit is gedaan omdat de scope van deze bachelorproef niet is om toegang te verkrijgen tot een server, maar eerder om een gecontroleerde omgeving te creëren waarin een Attacker VM een ransomware-aanval nabootst. Het doel is te demonstreren hoe de ransomware zich verspreidt naar de backup directory, en niet om de daadwerkelijke methoden voor het verkrijgen van toegang tot een server in detail uit te werken.
+
+Toen dit script werd uitgevoerd op de backup VM, werd duidelijk dat het hernoemen van de bestanden niet lukte vanwege het immutable-attribuut. Dit toont aan dat de ransomware-aanval niet slaagde en de bestanden in de back-updirectory beschermd bleven.
+
+\subsubsection{Herstellen van de back-ups}
+Om te bewijzen dat de back-ups nog steeds bruikbaar waren, werd een herstelproces uitgevoerd op de primary VM vanuit de Borg-repository:
+\begin{verbatim}
+borg extract 
+ssh://vagrant@192.168.0.20/home/vagrant/backups::backup-2024-12-05
+\end{verbatim}
+
+De databank werd opnieuw opgezet vanuit het bestand dat uit de Borg-repository werd gehaald met het volgende commando:
+\begin{verbatim}
+mysql -u root -p restored_db < /home/vagrant/backup.sql
+\end{verbatim}-
+De back-up werd gebruikt om de database te herstellen en te controleren. Het herstelproces verliep succesvol, wat bewijst dat de immutable storage de integriteit van de back-ups had behouden en dat de bestanden veilig waren gebleven ondanks de ransomware-aanval.
+
+
+

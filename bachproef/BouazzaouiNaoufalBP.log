@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  13 DEC 2024 03:22
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  14 DEC 2024 03:41
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2668,13 +2668,13 @@ File: img/diff.png Graphic file (type bmp)
 
 [13]
 
-[14]) (./methodologie.tex
-Overfull \hbox (6.99844pt too wide) in paragraph at lines 98--4
+[14]
+Overfull \hbox (6.99844pt too wide) in paragraph at lines 98--99
 \TU/Montserrat(1)/m/n/10.95 meerdere besturingssystemen tegelijkertijd op één f
 ysieke machine kunnen draaien
  []
 
-
+) (./methodologie.tex
 
 [15]
 Hoofdstuk 3.
@@ -2742,42 +2742,92 @@ Hoofdstuk 4.
 
 ]
 Hoofdstuk 5.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 4.
+
 (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
 (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
 File: lstlang2.sty 2024/09/23 1.10c listings language file
 )
+
+[21
+
+]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 6.
+nput line 12.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `CourierNew' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 
-[21
-
-]
+[22]
 Overfull \hbox (67.15471pt too wide) in alignment at lines 55--61
  [] [] [] [] [] [] 
  []
 
+
+Overfull \hbox (34.13988pt too wide) in paragraph at lines 65--66
+[]\TU/Montserrat(1)/m/n/10.95 De Backup VM fungeert als een back-upserver waaro
+p regelmatig de databankback-
+ []
+
+
+
+[23]
+Overfull \hbox (31.55704pt too wide) in paragraph at lines 97--97
+[]\TU/CourierNew(0)/m/n/10.95 ssh://vagrant@192.168.0.20/home/vagrant/backups::
+backup-$(date +%Y-%m-%d)[] 
+ []
+
+
+Overfull \hbox (12.53328pt too wide) in paragraph at lines 102--103
+\TU/Montserrat(1)/m/n/10.95 Om de back-updirectory ransomware-resistent te make
+n, werd het Linux-commando
+ []
+
+
+Overfull \hbox (0.20853pt too wide) in paragraph at lines 102--103
+\TU/CourierNew(0)/m/n/10.95 chattr \TU/Montserrat(1)/m/n/10.95 gebruikt om het 
+\TU/Montserrat(2)/m/it/10.95 immutable\TU/Montserrat(1)/m/n/10.95 -attribuut to
+e te passen op de back-updirectory.
+ []
+
+
+
+[24]
+Overfull \hbox (3.36304pt too wide) in paragraph at lines 126--127
+\TU/Montserrat(1)/m/n/10.95 aan dat de ransomware-aanval niet slaagde en de bes
+tanden in de back-updirectory
+ []
+
+
+Overfull \hbox (21.52275pt too wide) in paragraph at lines 135--136
+[]\TU/Montserrat(1)/m/n/10.95 De databank werd opnieuw opgezet vanuit het besta
+nd dat uit de Borg-repository
+ []
+
+
+LaTeX Warning: Characters dropped after `\end{verbatim}' on input line 138.
+
 ) (./conclusie.tex
 
-[22]
+[25]
 Hoofdstuk 6.
 
 
-[23
+[26
 
 ])
 
-[24]
+[27]
 B\ij lage A.
 
 
-[25
+[28
 
 ]
 Overfull \hbox (1.69463pt too wide) in paragraph at lines 186--186
@@ -2853,7 +2903,7 @@ Overfull \hbox (116.24304pt too wide) in paragraph at lines 186--186
 
 
 
-[26
+[29
 
 
 ]
@@ -2879,7 +2929,7 @@ Overfull \hbox (29.28905pt too wide) in paragraph at lines 186--186
 
 
 
-[27]
+[30]
 Overfull \hbox (8.92203pt too wide) in paragraph at lines 186--186
 [][][][][][][][][][][][][][] [] [][][] [] [][][][][][][] [] [][][] [] [][][][][
 ] [] [][][][] [] [][][][][][][][] [] [][][][][][][][] [] [][][][][][][][]$[][] 
@@ -2888,24 +2938,24 @@ Overfull \hbox (8.92203pt too wide) in paragraph at lines 186--186
 
 
 
-[28] (./BouazzaouiNaoufalBP.aux)
+[31] (./BouazzaouiNaoufalBP.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
 Package rerunfilecheck Info: File `BouazzaouiNaoufalBP.out' has not changed.
-(rerunfilecheck)             Checksum: 6820E49CBE26B030E4CB5BF1A37B849B;3905.
+(rerunfilecheck)             Checksum: 342EF1E4450056D47D8650AF1C76B691;4477.
 Package logreq Info: Writing requests to 'BouazzaouiNaoufalBP.run.xml'.
 \openout1 = `BouazzaouiNaoufalBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51086 strings out of 474233
- 1040620 string characters out of 5745779
- 2412096 words of memory out of 5000000
- 72937 multiletter control sequences out of 15000+600000
+ 51090 strings out of 474233
+ 1040707 string characters out of 5745779
+ 2443096 words of memory out of 5000000
+ 72941 multiletter control sequences out of 15000+600000
  560951 words of font info for 100 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 110i,12n,132p,3928b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,11n,132p,3928b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on BouazzaouiNaoufalBP.pdf (36 pages).
+Output written on BouazzaouiNaoufalBP.pdf (39 pages).

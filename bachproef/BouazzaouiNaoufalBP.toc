@@ -27,6 +27,8 @@
 \contentsline {subsubsection}{Azure}{14}{subsection.2.0.5}%
 \contentsline {subsubsection}{Vagrant}{15}{subsection.2.0.5}%
 \contentsline {subsubsection}{Virtualbox}{15}{subsection.2.0.5}%
+\contentsline {subsubsection}{BorgBackup}{15}{subsection.2.0.5}%
+\contentsline {subsubsection}{MySQL}{15}{subsection.2.0.5}%
 \contentsline {chapter}{\numberline {3}Methodologie}{16}{chapter.3}%
 \contentsline {subsection}{\numberline {3.0.1}Requirements-analyse}{16}{subsection.3.0.1}%
 \contentsline {subsubsection}{1. Must Have (Essentiële vereisten)}{16}{subsection.3.0.1}%
@@ -36,8 +38,15 @@
 \contentsline {subsubsection}{Conclusie}{18}{subsection.3.0.1}%
 \contentsline {subsection}{\numberline {3.0.2}Proof-Of-Concept}{18}{subsection.3.0.2}%
 \contentsline {chapter}{\numberline {4}Analyse van de back-upstrategie van Forvis Mazars}{20}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Proof-of-concept}{21}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Conclusie}{23}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{25}{appendix.A}%
-\contentsline {chapter}{Bibliografie}{26}{appendix*.11}%
+\contentsline {chapter}{\numberline {5}Proof-of-Concept}{21}{chapter.5}%
+\contentsline {subsection}{\numberline {5.0.1}Relevantie van de PoC voor de Azure-omgeving van Forvis Mazars}{21}{subsection.5.0.1}%
+\contentsline {subsection}{\numberline {5.0.2}Technische uitwerking}{22}{subsection.5.0.2}%
+\contentsline {subsubsection}{Aanmaken van de database}{23}{table.5.1}%
+\contentsline {subsubsection}{Back-up van de database}{24}{table.5.1}%
+\contentsline {subsubsection}{Beveiliging van de back-updirectory}{24}{table.5.1}%
+\contentsline {subsubsection}{Simulatie van de ransomware-aanval}{24}{table.5.1}%
+\contentsline {subsubsection}{Herstellen van de back-ups}{25}{table.5.1}%
+\contentsline {chapter}{\numberline {6}Conclusie}{26}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{28}{appendix.A}%
+\contentsline {chapter}{Bibliografie}{29}{appendix*.11}%
 \contentsfinish 
