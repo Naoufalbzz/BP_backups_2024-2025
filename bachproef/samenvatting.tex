@@ -27,22 +27,31 @@
 
 %%---------- Nederlandse samenvatting -----------------------------------------
 %
-% TODO: Als je je bachelorproef in het Engels schrijft, moet je eerst een
-% Nederlandse samenvatting invoegen. Haal daarvoor onderstaande code uit
-% commentaar.
-% Wie zijn bachelorproef in het Nederlands schrijft, kan dit negeren, de inhoud
-% wordt niet in het document ingevoegd.
 
-\IfLanguageName{english}{%
-\selectlanguage{dutch}
+
+
 \chapter*{Samenvatting}
-\lipsum[1-4]
-\selectlanguage{english}
-}{}
+Dit onderzoek heeft als doel het analyseren en optimaliseren van de back-upstrategie van Forvis Mazars. Deze organisatie maakt gebruik van Azure om hun data te beheren. Momenteel heeft het bedrijf een back-upstrategie die enkel bestaat uit automatische full back-ups van de twee databases en een script dat een back-up neemt van een databank en dit opslaat naar een Azure storage account. 
 
-%%---------- Samenvatting -----------------------------------------------------
-% De samenvatting in de hoofdtaal van het document
+De data dat een bedrijf bezit is één van de belangrijkste bezittingen en het beschermen van deze data heeft een hoge prioriteit. Back-ups spelen hierbij een belangrijke rol omdat deze de bedrijfscontinuïteit bewaren in het geval van een incident. Het back-upplan van Forvis Mazars had geen immutable storage en was dus kwetsbaar tegen cyberdreigingen zoals ransomware-aanvallen. 
 
-\chapter*{\IfLanguageName{dutch}{Samenvatting}{Abstract}}
+Om de back-upstrategie van Forvis Mazars te verbeteren is er een Proof-of-Concept (PoC) ontwikkeld in een lokale testomgeving met VirtualBox. Deze PoC simuleert een ransomware-aanval waarbij de effectiviteit van ransomware-resistente technieken, zoals immutable storage, wordt getest. Immutable storage voorkomt dat back-ups kunnen worden gemanipuleerd of verwijderd, zelfs bij volledige controle door een aanvaller. 
 
-\lipsum[1-4]
+Daarbij is er een analyse gedaan op de huidige back-upstrategie van de organisatie en zijn daar verschillende aanbevelingen uit gekomen, zoals het implementeren van immutable storage in de Azure-omgeving, het uitbreiden van het retentiebeleid en het automatiseren van manuele back-ups. Dit zou ervoor zorgen dat de back-ups veiliger en betrouwbaarder zijn en daarnaast bieden deze oplossingen ook een snellere en effectievere herstelmogelijkheid.
+
+Dit onderzoek kan als hulpmiddel gebruikt worden om ransomware-resistente back-upstrategieën binnen Azure-omgevingen op te zetten. De resultaten dragen niet alleen bij aan het verhogen van de dataveiligheid en het bewaren van de bedrijfscontinuïteit van Forvis Mazars, maar bieden ook waardevolle inzichten voor andere organisaties die hun back-upplan willen versterken.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

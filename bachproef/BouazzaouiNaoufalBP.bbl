@@ -63,6 +63,43 @@
       \verb https://books.google.be/books?hl=nl&lr=&id=QuhgDwAAQBAJ&oi=fnd&pg=PR5&dq=Beard,+Bradley+Beginning+Backup+and+Restore+for+SQL+Server+&ots=Un7DKfSnFl&sig=LRTBRuGa4mLj9pOBy5RZMHMNggM#v=onepage&q=Beard,%20Bradley%20Beginning%20Backup%20and%20Restore%20for%20SQL%20Server&f=false
       \endverb
     \endentry
+    \entry{BorgBackup2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ba87358993d93246e68bbab7b3cc2dde}{%
+           family={BorgBackup},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{ba87358993d93246e68bbab7b3cc2dde}
+      \strng{fullhash}{ba87358993d93246e68bbab7b3cc2dde}
+      \strng{fullhashraw}{ba87358993d93246e68bbab7b3cc2dde}
+      \strng{bibnamehash}{ba87358993d93246e68bbab7b3cc2dde}
+      \strng{authorbibnamehash}{ba87358993d93246e68bbab7b3cc2dde}
+      \strng{authornamehash}{ba87358993d93246e68bbab7b3cc2dde}
+      \strng{authorfullhash}{ba87358993d93246e68bbab7b3cc2dde}
+      \strng{authorfullhashraw}{ba87358993d93246e68bbab7b3cc2dde}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{11}
+      \field{title}{Borg Documentation}
+      \field{urlday}{14}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://borgbackup.readthedocs.io/en/latest/
+      \endverb
+      \verb{url}
+      \verb https://borgbackup.readthedocs.io/en/latest/
+      \endverb
+    \endentry
     \entry{Bryant2015}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a43052452445c0b66ab6f95679b89b6d}{%
@@ -185,10 +222,10 @@
       \field{title}{Your Money or Your Business: Decision-Making Processes in Ransomware Attacks.}
       \field{year}{2020}
       \verb{urlraw}
-      \verb https://d1wqtxts1xzle7.cloudfront.net/104646029/Your_Money_or_Your_Business_Decision_Making_Processes_in_Ransomware_Attacks-libre.pdf?1690795001=&response-content-disposition=inline;+filename=Your_Money_or_Your_Business_Decision_Mak.pdf&Expires=1731789975&Signature=YLxZbqlgtDwAm--EU~t5uAQ3~VmDs9cRO8prg89csdzkaXV8wEnTVPSlZN8KtXYDpTi4HSzEa~E0p5cbhU6FamBwPIuV~3J1Vh0zqEFYjYVN6hLNV6xkGd3mhZyMtLpUTY8T2iHcqi~cLow1taIUcypFeFvv4S01mj5qbb3CtdOPYAs7gLNeZNOYbYn8jkMlIZsq1dHHjnrF23ah2Qyt0809t4jSumER1fsEKk4KVj5h1BQJrXPCBDd-eBdnb6gGwai8CItmLBefCrX45mtgS5fAxytyORihxMZgpGo7SzaiiHpjN8GMMHQfp12mdwAa3ilFz3cAqIb6jSPfkJ7hqA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+      \verb https://discovery.ucl.ac.uk/id/eprint/10110901/3/Borrion_Your Money or Your Business_Final.pdf
       \endverb
       \verb{url}
-      \verb https://d1wqtxts1xzle7.cloudfront.net/104646029/Your_Money_or_Your_Business_Decision_Making_Processes_in_Ransomware_Attacks-libre.pdf?1690795001=&response-content-disposition=inline;+filename=Your_Money_or_Your_Business_Decision_Mak.pdf&Expires=1731789975&Signature=YLxZbqlgtDwAm--EU~t5uAQ3~VmDs9cRO8prg89csdzkaXV8wEnTVPSlZN8KtXYDpTi4HSzEa~E0p5cbhU6FamBwPIuV~3J1Vh0zqEFYjYVN6hLNV6xkGd3mhZyMtLpUTY8T2iHcqi~cLow1taIUcypFeFvv4S01mj5qbb3CtdOPYAs7gLNeZNOYbYn8jkMlIZsq1dHHjnrF23ah2Qyt0809t4jSumER1fsEKk4KVj5h1BQJrXPCBDd-eBdnb6gGwai8CItmLBefCrX45mtgS5fAxytyORihxMZgpGo7SzaiiHpjN8GMMHQfp12mdwAa3ilFz3cAqIb6jSPfkJ7hqA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+      \verb https://discovery.ucl.ac.uk/id/eprint/10110901/3/Borrion_Your%20Money%20or%20Your%20Business_Final.pdf
       \endverb
     \endentry
     \entry{Dubey2023}{article}{}{}
@@ -444,6 +481,43 @@
       \endverb
       \verb{url}
       \verb https://learn.microsoft.com/nl-nl/azure/cloud-adoption-framework/get-started/what-is-azure
+      \endverb
+    \endentry
+    \entry{Erickson2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=87c294c10d9e2baf5b2a56f62d3e8c3a}{%
+           family={Erickson},
+           familyi={E\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{87c294c10d9e2baf5b2a56f62d3e8c3a}
+      \strng{fullhash}{87c294c10d9e2baf5b2a56f62d3e8c3a}
+      \strng{fullhashraw}{87c294c10d9e2baf5b2a56f62d3e8c3a}
+      \strng{bibnamehash}{87c294c10d9e2baf5b2a56f62d3e8c3a}
+      \strng{authorbibnamehash}{87c294c10d9e2baf5b2a56f62d3e8c3a}
+      \strng{authornamehash}{87c294c10d9e2baf5b2a56f62d3e8c3a}
+      \strng{authorfullhash}{87c294c10d9e2baf5b2a56f62d3e8c3a}
+      \strng{authorfullhashraw}{87c294c10d9e2baf5b2a56f62d3e8c3a}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{29}
+      \field{journaltitle}{Oracle}
+      \field{month}{8}
+      \field{title}{MySQL: Understanding What It Is and How It’s Used}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.oracle.com/be/mysql/what-is-mysql/
+      \endverb
+      \verb{url}
+      \verb https://www.oracle.com/be/mysql/what-is-mysql/
       \endverb
     \endentry
     \entry{Estabrook2024}{article}{}{}
@@ -786,6 +860,38 @@
       \endverb
       \verb{url}
       \verb https://books.google.be/books?id=ImeSCwAAQBAJ&printsec=frontcover&source=gbs_atb&redir_esc=y#v=onepage&q&f=false
+      \endverb
+    \endentry
+    \entry{MySQL}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62a004b95946bb97541afa471dcca73a}{%
+           family={MySQL},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{fullhash}{62a004b95946bb97541afa471dcca73a}
+      \strng{fullhashraw}{62a004b95946bb97541afa471dcca73a}
+      \strng{bibnamehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authorbibnamehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authornamehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authorfullhash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authorfullhashraw}{62a004b95946bb97541afa471dcca73a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{MySQL 8.4 Reference Manual: MySQL Glossary}
+      \field{urlday}{15}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dev.mysql.com/doc/refman/8.4/en/glossary.html
+      \endverb
+      \verb{url}
+      \verb https://dev.mysql.com/doc/refman/8.4/en/glossary.html
       \endverb
     \endentry
     \entry{Nelson2011}{book}{}{}
@@ -1521,6 +1627,43 @@
       \verb https://books.google.be/books?hl=nl&lr=&id=QuhgDwAAQBAJ&oi=fnd&pg=PR5&dq=Beard,+Bradley+Beginning+Backup+and+Restore+for+SQL+Server+&ots=Un7DKfSnFl&sig=LRTBRuGa4mLj9pOBy5RZMHMNggM#v=onepage&q=Beard,%20Bradley%20Beginning%20Backup%20and%20Restore%20for%20SQL%20Server&f=false
       \endverb
     \endentry
+    \entry{BorgBackup2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ba87358993d93246e68bbab7b3cc2dde}{%
+           family={BorgBackup},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{ba87358993d93246e68bbab7b3cc2dde}
+      \strng{fullhash}{ba87358993d93246e68bbab7b3cc2dde}
+      \strng{fullhashraw}{ba87358993d93246e68bbab7b3cc2dde}
+      \strng{bibnamehash}{ba87358993d93246e68bbab7b3cc2dde}
+      \strng{authorbibnamehash}{ba87358993d93246e68bbab7b3cc2dde}
+      \strng{authornamehash}{ba87358993d93246e68bbab7b3cc2dde}
+      \strng{authorfullhash}{ba87358993d93246e68bbab7b3cc2dde}
+      \strng{authorfullhashraw}{ba87358993d93246e68bbab7b3cc2dde}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{11}
+      \field{title}{Borg Documentation}
+      \field{urlday}{14}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://borgbackup.readthedocs.io/en/latest/
+      \endverb
+      \verb{url}
+      \verb https://borgbackup.readthedocs.io/en/latest/
+      \endverb
+    \endentry
     \entry{Bryant2015}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a43052452445c0b66ab6f95679b89b6d}{%
@@ -1643,10 +1786,10 @@
       \field{title}{Your Money or Your Business: Decision-Making Processes in Ransomware Attacks.}
       \field{year}{2020}
       \verb{urlraw}
-      \verb https://d1wqtxts1xzle7.cloudfront.net/104646029/Your_Money_or_Your_Business_Decision_Making_Processes_in_Ransomware_Attacks-libre.pdf?1690795001=&response-content-disposition=inline;+filename=Your_Money_or_Your_Business_Decision_Mak.pdf&Expires=1731789975&Signature=YLxZbqlgtDwAm--EU~t5uAQ3~VmDs9cRO8prg89csdzkaXV8wEnTVPSlZN8KtXYDpTi4HSzEa~E0p5cbhU6FamBwPIuV~3J1Vh0zqEFYjYVN6hLNV6xkGd3mhZyMtLpUTY8T2iHcqi~cLow1taIUcypFeFvv4S01mj5qbb3CtdOPYAs7gLNeZNOYbYn8jkMlIZsq1dHHjnrF23ah2Qyt0809t4jSumER1fsEKk4KVj5h1BQJrXPCBDd-eBdnb6gGwai8CItmLBefCrX45mtgS5fAxytyORihxMZgpGo7SzaiiHpjN8GMMHQfp12mdwAa3ilFz3cAqIb6jSPfkJ7hqA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+      \verb https://discovery.ucl.ac.uk/id/eprint/10110901/3/Borrion_Your Money or Your Business_Final.pdf
       \endverb
       \verb{url}
-      \verb https://d1wqtxts1xzle7.cloudfront.net/104646029/Your_Money_or_Your_Business_Decision_Making_Processes_in_Ransomware_Attacks-libre.pdf?1690795001=&response-content-disposition=inline;+filename=Your_Money_or_Your_Business_Decision_Mak.pdf&Expires=1731789975&Signature=YLxZbqlgtDwAm--EU~t5uAQ3~VmDs9cRO8prg89csdzkaXV8wEnTVPSlZN8KtXYDpTi4HSzEa~E0p5cbhU6FamBwPIuV~3J1Vh0zqEFYjYVN6hLNV6xkGd3mhZyMtLpUTY8T2iHcqi~cLow1taIUcypFeFvv4S01mj5qbb3CtdOPYAs7gLNeZNOYbYn8jkMlIZsq1dHHjnrF23ah2Qyt0809t4jSumER1fsEKk4KVj5h1BQJrXPCBDd-eBdnb6gGwai8CItmLBefCrX45mtgS5fAxytyORihxMZgpGo7SzaiiHpjN8GMMHQfp12mdwAa3ilFz3cAqIb6jSPfkJ7hqA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+      \verb https://discovery.ucl.ac.uk/id/eprint/10110901/3/Borrion_Your%20Money%20or%20Your%20Business_Final.pdf
       \endverb
     \endentry
     \entry{Dubey2023}{article}{}{}
@@ -1902,6 +2045,43 @@
       \endverb
       \verb{url}
       \verb https://learn.microsoft.com/nl-nl/azure/cloud-adoption-framework/get-started/what-is-azure
+      \endverb
+    \endentry
+    \entry{Erickson2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=87c294c10d9e2baf5b2a56f62d3e8c3a}{%
+           family={Erickson},
+           familyi={E\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{87c294c10d9e2baf5b2a56f62d3e8c3a}
+      \strng{fullhash}{87c294c10d9e2baf5b2a56f62d3e8c3a}
+      \strng{fullhashraw}{87c294c10d9e2baf5b2a56f62d3e8c3a}
+      \strng{bibnamehash}{87c294c10d9e2baf5b2a56f62d3e8c3a}
+      \strng{authorbibnamehash}{87c294c10d9e2baf5b2a56f62d3e8c3a}
+      \strng{authornamehash}{87c294c10d9e2baf5b2a56f62d3e8c3a}
+      \strng{authorfullhash}{87c294c10d9e2baf5b2a56f62d3e8c3a}
+      \strng{authorfullhashraw}{87c294c10d9e2baf5b2a56f62d3e8c3a}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{29}
+      \field{journaltitle}{Oracle}
+      \field{month}{8}
+      \field{title}{MySQL: Understanding What It Is and How It’s Used}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.oracle.com/be/mysql/what-is-mysql/
+      \endverb
+      \verb{url}
+      \verb https://www.oracle.com/be/mysql/what-is-mysql/
       \endverb
     \endentry
     \entry{Estabrook2024}{article}{}{}
@@ -2244,6 +2424,38 @@
       \endverb
       \verb{url}
       \verb https://books.google.be/books?id=ImeSCwAAQBAJ&printsec=frontcover&source=gbs_atb&redir_esc=y#v=onepage&q&f=false
+      \endverb
+    \endentry
+    \entry{MySQL}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62a004b95946bb97541afa471dcca73a}{%
+           family={MySQL},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{fullhash}{62a004b95946bb97541afa471dcca73a}
+      \strng{fullhashraw}{62a004b95946bb97541afa471dcca73a}
+      \strng{bibnamehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authorbibnamehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authornamehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authorfullhash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authorfullhashraw}{62a004b95946bb97541afa471dcca73a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{MySQL 8.4 Reference Manual: MySQL Glossary}
+      \field{urlday}{15}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dev.mysql.com/doc/refman/8.4/en/glossary.html
+      \endverb
+      \verb{url}
+      \verb https://dev.mysql.com/doc/refman/8.4/en/glossary.html
       \endverb
     \endentry
     \entry{Nelson2011}{book}{}{}

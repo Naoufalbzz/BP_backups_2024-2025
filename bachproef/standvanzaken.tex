@@ -77,7 +77,11 @@ Offline back-ups worden opgeslagen op externe media zoals harde schijven die na 
 \subsection{Technologische basis voor de Proof-of-Concept}
 Voor de Proof-of-Concept wordt gebruik gemaakt van verschillende technologische tools en platforms. Deze worden ingezet om de geplande back-upstrategie en de beveiligingsmaatregelen te testen en te optimaliseren. Hierbij wordt specifiek gewerkt met tools zoals Azure, VirtualBox en Vagrant. Deze technologieën worden gekozen vanwege hun flexibiliteit, schaalbaarheid en ondersteuning bij het simuleren van realistische scenario's.
 \subsubsection{Azure}
-Azure wordt gezien als het openbare cloudplatform van Microsoft en maakt gebruik van virtualisatietechnologie \autocite{Ekuan2023}. Door middel van virtualisatietechnologieën, ook wel hypervisors genoemd (Een hypervisor is software waarmee meerdere virtuele machines (VM's), elk met hun eigen besturingssysteem (OS), op één fysieke server kunnen draaien \autocite{Susnjara2024}.), is het mogelijk voor Azure om hardware na te bootsen in software. Dit gebeurt in datacenters die zijn opgebouwd uit serverrekken met onder andere netwerkswitches en voldoende stroomvoorzieningen. Binnen een Azure-datacenter bevinden zich serverrekken, die elk uit meerdere serverblades bestaan. Deze serverrekken bevatten ook netwerkhardware, zoals netwerkswitches, en een PDU (Power Distribution Unit), die stroomvoorziening biedt. Voor extra schaalbaarheid en efficiëntie worden deze serverrekken vaak gegroepeerd in clusters. Servers met speciale software, zoals infrastructuurcontrollers, zorgen ervoor dat services efficiënt worden toegewezen en storingen worden opgelost. Azure is meer dan alleen een verzameling servers. Het is een complex netwerk van toepassingen die samenwerken om gevirtualiseerde hardware en software te configureren en beheren. Dit maakt Azure een krachtig en flexibel platform voor gebruikers.
+Azure wordt gezien als het openbare cloudplatform van Microsoft en maakt gebruik van virtualisatietechnologie \autocite{Ekuan2023}. Door middel van virtualisatietechnologieën, ook wel hypervisors genoemd (Een hypervisor is software waarmee meerdere virtuele machines (VM's), elk met hun eigen besturingssysteem (OS), op één fysieke server kunnen draaien \autocite{Susnjara2024}.), is het mogelijk voor Azure om hardware na te bootsen in software. Dit gebeurt in datacenters die zijn opgebouwd uit serverrekken met onder andere netwerkswitches en voldoende stroomvoorzieningen. 
+
+Binnen een Azure-datacenter bevinden zich serverrekken, die elk uit meerdere serverblades bestaan. Deze serverrekken bevatten ook netwerkhardware, zoals netwerkswitches, en een PDU (Power Distribution Unit), die stroomvoorziening biedt. Voor extra schaalbaarheid en efficiëntie worden deze serverrekken vaak gegroepeerd in clusters. 
+
+Servers met speciale software, zoals infrastructuurcontrollers, zorgen ervoor dat services efficiënt worden toegewezen en storingen worden opgelost. Azure is meer dan alleen een verzameling servers. Het is een complex netwerk van toepassingen die samenwerken om gevirtualiseerde hardware en software te configureren en beheren. Dit maakt Azure een krachtig en flexibel platform voor gebruikers.
 
 Azure Blob Storage is de objectopslagoplossing van Microsoft voor de cloud, geoptimaliseerd voor het opslaan van grote hoeveelheden ongestructureerde data \autocite{Dubey2023}. Azure Blob Storage biedt immutable storage in een WORM-status (Write Once, Read Many), waarmee data niet kan worden aangepast of verwijderd gedurende een ingestelde periode. Dit is ideaal voor sectoren met strenge nalevingsvereisten, zoals financiën en gezondheidszorg.  Er zijn twee immutability policies beschikbaar:
 
@@ -85,18 +89,52 @@ Azure Blob Storage is de objectopslagoplossing van Microsoft voor de cloud, geop
     \item \textbf{Tijdgebonden retentiebeleid:} Data blijft gedurende een specifieke periode onveranderlijk. Na afloop kunnen bestanden worden verwijderd, maar niet overschreven. Dit beleid kan op account-, container- of versieniveau worden toegepast en kan van ``unlocked'' naar ``gelocked'' worden gezet voor naleving van regelgeving. Eenmaal gelocked, kan de retentieperiode alleen worden verlengd.
     \item \textbf{Legal holds:} Houdt data onveranderlijk tot de hold expliciet wordt opgeheven. Dit is nuttig bij onbepaalde bewaartermijnen, zoals juridische onderzoeken, en kan worden toegepast op container- of blobversieniveau \autocite{Estabrook2024}.
 \end{itemize}
-Azure ondersteunt immutability op twee vb niveaus: container-level, waarbij alle blobs in een container hetzelfde beleid volgen, en version-level, dat flexibiliteit biedt voor individuele blobs met verschillende retentievereisten. Een blob (Binary Large Object) is een type dataopslag dat gebruikt wordt om grote hoeveelheden ongestructureerde gegevens op te slaan, zoals tekst, afbeeldingen, video's, audio of binaire bestanden \autocite{Kemp2007}. Samen zorgen deze opties voor veilige en conforme opslag.
+Azure ondersteunt immutability op twee niveaus: container-level, waarbij alle blobs in een container hetzelfde beleid volgen, en version-level, dat flexibiliteit biedt voor individuele blobs met verschillende retentievereisten. Een blob (Binary Large Object) is een type dataopslag dat gebruikt wordt om grote hoeveelheden ongestructureerde gegevens op te slaan, zoals tekst, afbeeldingen, video's, audio of binaire bestanden \autocite{Kemp2007}. Samen zorgen deze opties voor veilige en conforme opslag.
 
 
 
 \subsubsection{Vagrant}
 Vagrant is een open-source tool ontwikkeld door HashiCorp die het proces van het beheren en configureren van virtuele machines automatiseert \autocite{Hashicorp}. HashiCorp is een bedrijf dat tools maakt voor infrastructuurbeheer. 
 
-Het zorgt ervoor dat gebruikers virtuele machines snel kunnen creëren en configureren door gebruik te maken van gestandaardiseerde configuratiebestanden, genaamd Vagrantfiles. In de Vagrantfiles kun je allerlei configuraties kiezen zoals netwerkconfiguraties, besturingssystemen en softwarepakketten. Het biedt ondersteuning voor verschillende virtualisatieplatforms, zoals VirtualBox, VMware en Hyper-V, en kan worden geïntegreerd met provisioning-tools zoals Ansible. Vagrant wordt vaak gebruikt voor het opzetten van test- en ontwikkelomgevingen.
+Het zorgt ervoor dat gebruikers virtuele machines snel kunnen creëren en configureren door gebruik te maken van gestandaardiseerde configuratiebestanden, genaamd Vagrantfiles. In de Vagrantfiles kun je allerlei configuraties kiezen zoals netwerkconfiguraties, besturingssystemen en softwarepakketten. 
+
+Het biedt ondersteuning voor verschillende virtualisatieplatforms, zoals VirtualBox, VMware en Hyper-V, en kan worden geïntegreerd met provisioning-tools zoals Ansible. Vagrant wordt vaak gebruikt voor het opzetten van test- en ontwikkelomgevingen.
 
 \subsubsection{Virtualbox}
-VirtualBox is een open-source virtualisatiesoftware die ervoor zorgt dat gebruikers meerdere besturingssystemen tegelijkertijd op één fysieke machine kunnen draaien \autocite{Oracle}. Virtualbox biedt veel functionaliteiten aan, waaronder ondersteuning voor diverse gastbesturingssystemen zoals Windows en Linux, daarnaast zijn de netwerkconfiguraties ook geavanceerd. VirtualBox maakt gebruik van virtuele netwerken, zoals NAT (Network Address Translation) en interne netwerken, waarmee gebruikers flexibele en gescheiden infrastructuren kunnen opzetten. Dankzij de grafische interface en command-line tools is het een toegankelijk platform voor zowel beginners als gevorderde IT-professionals. Daarbij is VirtualBox geschikt voor allerlei doelen zoals softwareontwikkeling, systeembeheer en educatieve simulaties voor scholen.
+VirtualBox is een open-source virtualisatiesoftware die ervoor zorgt dat gebruikers meerdere besturingssystemen tegelijkertijd op één fysieke machine kunnen draaien \autocite{Oracle}. Virtualbox biedt veel functionaliteiten aan, waaronder ondersteuning voor diverse gastbesturingssystemen zoals Windows en Linux, daarnaast zijn de netwerkconfiguraties ook geavanceerd. 
+
+VirtualBox maakt gebruik van virtuele netwerken, zoals NAT (Network Address Translation) en interne netwerken, waarmee gebruikers flexibele en gescheiden infrastructuren kunnen opzetten. 
+
+Dankzij de grafische interface en command-line tools is het een toegankelijk platform voor zowel beginners als gevorderde IT-professionals. Daarbij is VirtualBox geschikt voor allerlei doelen zoals softwareontwikkeling, systeembeheer en educatieve simulaties voor scholen.
 
 \subsubsection{BorgBackup}
+BorgBackup is een krachtige back-uptool die efficiëntie en beveiliging combineert door gebruik te maken van compressie en geverifieerde encryptie \autocite{BorgBackup2024}.   
+
+Het maakt gebruik van deduplicatie, waarbij alleen nieuwe of gewijzigde data worden opgeslagen, dit zorgt ervoor dat er veel opslagruimte bespaart kan worden. Deze tool maakt gebruik van client-side encryptie met AES-256 en HMAC-SHA256. 
+
+Daarnaast heeft BorgBackup verschillende compressieopties zoals LZ4, Zstd en LZMA. Hierdoor kunnen gebruikers kiezen tussen snelheid en compressieniveau. 
+
+Als laatste is BorgBackup geschikt voor offsite back-ups via SSH, waardoor het ideaal is voor zowel lokale als externe back-upoplossingen.
+
 
 \subsubsection{MySQL}
+MySQL is een populair open-source relationeel databasesysteem gemaakt om data op te slaan en te beheren \autocite{Erickson2024}. Het staat bekend om zijn snelheid, betrouwbaarheid en gebruiksvriendelijkheid. 
+
+MySQL wordt veel gebruikt voor het opslaan en beheren van gestructureerde data in zowel kleine toepassingen als grote, complexe systemen. MySQL ondersteunt SQL (Structured Query Language) voor het beheren van data en biedt functies zoals transacties, opslag op basis van verschillende engines en ondersteuning voor grote datasets. 
+
+Voor back-ups biedt MySQL tools zoals mysqldump, een command-line utility waarmee gebruikers eenvoudig een logische back-up (een logische back-up is een soort back-up die de tabelstructuur en gegevens reproduceert, zonder de daadwerkelijke gegevensbestanden te kopiëren \autocite{MySQL}) kunnen maken van de structuur en data van een database naar een SQL-bestand. Dit bestand kan worden gebruikt om de database later te herstellen in geval van nood. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

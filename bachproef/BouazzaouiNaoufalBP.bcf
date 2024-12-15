@@ -3105,6 +3105,9 @@
     <bcf:citekey order="35" intorder="1">Kemp2007</bcf:citekey>
     <bcf:citekey order="36" intorder="1">Hashicorp</bcf:citekey>
     <bcf:citekey order="37" intorder="1">Oracle</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">BorgBackup2024</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">Erickson2024</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">MySQL</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

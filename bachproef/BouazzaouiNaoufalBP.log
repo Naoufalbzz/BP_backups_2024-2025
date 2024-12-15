@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  14 DEC 2024 03:41
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  15 DEC 2024 23:00
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2330,33 +2330,36 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'dutch'.
 
-(./BouazzaouiNaoufalBP.aux)
+(./BouazzaouiNaoufalBP.aux
+
+LaTeX Warning: Label `ch:conclusie' multiply defined.
+
+)
 \openout1 = `BouazzaouiNaoufalBP.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
 Package biblatex Info: Trying to load language 'dutch' -> 'dutch-apa'...
 Package biblatex Info: ... file 'dutch-apa.lbx' found.
-
-(c:/texlive/2024/texmf-dist/tex/latex/biblatex-apa/dutch-apa.lbx
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex-apa/dutch-apa.lbx
 File: dutch-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
 Package biblatex Info: Trying to load language 'dutch'...
 Package biblatex Info: ... file 'dutch.lbx' found.
@@ -2380,8 +2383,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'BouazzaouiNaoufalBP.bbl' found.
 
 (./BouazzaouiNaoufalBP.bbl)
-Package biblatex Info: Reference section=0 on input line 96.
-Package biblatex Info: Reference segment=0 on input line 96.
+Package biblatex Info: Reference section=0 on input line 110.
+Package biblatex Info: Reference segment=0 on input line 110.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -2428,7 +2431,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 96.
+Package hyperref Info: Link coloring ON on input line 110.
 (./BouazzaouiNaoufalBP.out) (./BouazzaouiNaoufalBP.out)
 \@outlinefile=\write6
 \openout6 = `BouazzaouiNaoufalBP.out'.
@@ -2447,12 +2450,12 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
 ))
-LaTeX Info: Redefining \microtypecontext on input line 96.
-Package microtype Info: Applying patch `item' on input line 96.
-Package microtype Info: Applying patch `toc' on input line 96.
-Package microtype Info: Applying patch `eqnum' on input line 96.
-Package microtype Info: Applying patch `footnote' on input line 96.
-Package microtype Info: Applying patch `verbatim' on input line 96.
+LaTeX Info: Redefining \microtypecontext on input line 110.
+Package microtype Info: Applying patch `item' on input line 110.
+Package microtype Info: Applying patch `toc' on input line 110.
+Package microtype Info: Applying patch `eqnum' on input line 110.
+Package microtype Info: Applying patch `footnote' on input line 110.
+Package microtype Info: Applying patch `verbatim' on input line 110.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -2463,7 +2466,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 \c@lstlisting=\count559
-Package hyperref Info: Option `pageanchor' set `false' on input line 102.
+Package hyperref Info: Option `pageanchor' set `false' on input line 116.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -2497,44 +2500,44 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 102.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (4.8221pt too wide) in paragraph at lines 113--113
+Overfull \hbox (4.8221pt too wide) in paragraph at lines 127--127
 []\TU/Montserrat(0)/b/n/24.88 Hoe kan de back-upstrategie voor de
  []
 
 
-Overfull \hbox (8.26051pt too wide) in paragraph at lines 113--113
+Overfull \hbox (8.26051pt too wide) in paragraph at lines 127--127
 \TU/Montserrat(0)/b/n/24.88 Azure PostgreSQL en MySQL databases
  []
 
 
-Overfull \hbox (18.24236pt too wide) in paragraph at lines 113--113
+Overfull \hbox (18.24236pt too wide) in paragraph at lines 127--127
 \TU/Montserrat(0)/b/n/24.88 opslag en automatische back-ups?: Een
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
 
  []
 
-Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 127 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 127 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 127 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 127 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 127 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 127 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 127 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 127 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 127 replaced by U+FFFD.
 File: ../graphics/hogent_logo.eps Graphic file (type eps)
 <../graphics/hogent_logo.eps>
 
@@ -2547,14 +2550,26 @@ File: ../graphics/hogent_logo.eps Graphic file (type eps)
 ]
 
 [2]
-Package hyperref Info: Option `pageanchor' set `true' on input line 114.
+Package hyperref Info: Option `pageanchor' set `true' on input line 128.
  (./voorwoord.tex) (./samenvatting.tex
 
 [3
 
 
 
-])
+]
+Overfull \hbox (9.77972pt too wide) in paragraph at lines 34--35
+\TU/Montserrat(1)/m/n/10.95 Dit onderzoek heeft als doel het analyseren en opti
+maliseren van de back-upstrategie
+ []
+
+
+Overfull \hbox (3.52097pt too wide) in paragraph at lines 42--43
+[]\TU/Montserrat(1)/m/n/10.95 Dit onderzoek kan als hulpmiddel gebruikt worden 
+om ransomware-resistente
+ []
+
+)
 
 [4
 
@@ -2599,7 +2614,13 @@ LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
 
 [7
 
-] (./BouazzaouiNaoufalBP.lol)
+] (./BouazzaouiNaoufalBP.lol
+Overfull \hbox (10.20221pt too wide) in paragraph at lines 9--9
+ [][] [][][]\TU/Montserrat(1)/m/n/10.95 MySQL commando om een databank te herst
+ellen vanuit een .sql-bestand[][] [][]  
+ []
+
+)
 \tf@lol=\write10
 \openout10 = `BouazzaouiNaoufalBP.lol'.
 
@@ -2669,14 +2690,22 @@ File: img/diff.png Graphic file (type bmp)
 [13]
 
 [14]
-Overfull \hbox (6.99844pt too wide) in paragraph at lines 98--99
+Overfull \hbox (6.99844pt too wide) in paragraph at lines 104--105
 \TU/Montserrat(1)/m/n/10.95 meerdere besturingssystemen tegelijkertijd op één f
 ysieke machine kunnen draaien
  []
 
-) (./methodologie.tex
 
-[15]
+Overfull \hbox (0.18176pt too wide) in paragraph at lines 106--107
+[]\TU/Montserrat(1)/m/n/10.95 VirtualBox maakt gebruik van virtuele netwerken, 
+zoals NAT (Network Address
+ []
+
+
+
+[15]) (./methodologie.tex
+
+[16]
 Hoofdstuk 3.
 
 Overfull \hbox (5.772pt too wide) in paragraph at lines 29--30
@@ -2696,7 +2725,7 @@ Overfull \hbox (19.44856pt too wide) in paragraph at lines 37--38
 
 
 
-[16
+[17
 
 ]
 Overfull \hbox (51.86783pt too wide) in paragraph at lines 68--69
@@ -2718,7 +2747,7 @@ dzakelijk, aangezien Azure
 
 
 
-[17]
+[18]
 Overfull \hbox (1.10002pt too wide) in paragraph at lines 70--71
 \TU/Montserrat(1)/m/n/10.95 noodzakelijk om fysieke externe schijven of on-prem
 ise hardware-oplossingen
@@ -2732,15 +2761,25 @@ Overfull \hbox (8.20074pt too wide) in paragraph at lines 74--75
 
 ) (./analyse.tex
 
-[18]
-
 [19]
-Hoofdstuk 4.
-) (./poc.tex
 
-[20
+[20]
+Hoofdstuk 4.
+
+Overfull \hbox (1.60107pt too wide) in paragraph at lines 18--20
+[]\TU/Montserrat(2)/b/n/10.95 Aanbeveling: \TU/Montserrat(1)/m/n/10.95 Pas een 
+uitgebreid retentiebeleid toe dat meer flexibiliteit biedt.
+ []
+
+
+
+[21
 
 ]
+
+[22]) (./poc.tex
+
+[23]
 Hoofdstuk 5.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
@@ -2753,7 +2792,7 @@ File: lstlang1.sty 2024/09/23 1.10c listings language file
 File: lstlang2.sty 2024/09/23 1.10c listings language file
 )
 
-[21
+[24
 
 ]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
@@ -2764,121 +2803,116 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 
-[22]
-Overfull \hbox (67.15471pt too wide) in alignment at lines 55--61
+[25]
+Overfull \hbox (67.15471pt too wide) in alignment at lines 55--63
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (34.13988pt too wide) in paragraph at lines 65--66
-[]\TU/Montserrat(1)/m/n/10.95 De Backup VM fungeert als een back-upserver waaro
-p regelmatig de databankback-
+Overfull \hbox (38.19138pt too wide) in paragraph at lines 67--68
+[]\TU/Montserrat(1)/m/n/10.95 De Back-up VM fungeert als een back-upserver waar
+op regelmatig de databankback-
  []
 
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
 
-
-[23]
-Overfull \hbox (31.55704pt too wide) in paragraph at lines 97--97
-[]\TU/CourierNew(0)/m/n/10.95 ssh://vagrant@192.168.0.20/home/vagrant/backups::
-backup-$(date +%Y-%m-%d)[] 
- []
-
-
-Overfull \hbox (12.53328pt too wide) in paragraph at lines 102--103
+[26] (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+Overfull \hbox (12.53328pt too wide) in paragraph at lines 103--104
 \TU/Montserrat(1)/m/n/10.95 Om de back-updirectory ransomware-resistent te make
 n, werd het Linux-commando
  []
 
 
-Overfull \hbox (0.20853pt too wide) in paragraph at lines 102--103
+Overfull \hbox (0.20853pt too wide) in paragraph at lines 103--104
 \TU/CourierNew(0)/m/n/10.95 chattr \TU/Montserrat(1)/m/n/10.95 gebruikt om het 
 \TU/Montserrat(2)/m/it/10.95 immutable\TU/Montserrat(1)/m/n/10.95 -attribuut to
 e te passen op de back-updirectory.
  []
 
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
 
-[24]
-Overfull \hbox (3.36304pt too wide) in paragraph at lines 126--127
-\TU/Montserrat(1)/m/n/10.95 aan dat de ransomware-aanval niet slaagde en de bes
-tanden in de back-updirectory
- []
-
-
-Overfull \hbox (21.52275pt too wide) in paragraph at lines 135--136
+[27]
+Overfull \hbox (21.52275pt too wide) in paragraph at lines 136--137
 []\TU/Montserrat(1)/m/n/10.95 De databank werd opnieuw opgezet vanuit het besta
 nd dat uit de Borg-repository
  []
 
 
-LaTeX Warning: Characters dropped after `\end{verbatim}' on input line 138.
 
+[28]
+File: img/1imm.png Graphic file (type bmp)
+<img/1imm.png>
+File: img/3.1imm.png Graphic file (type bmp)
+<img/3.1imm.png>
+File: img/3.2imm.png Graphic file (type bmp)
+<img/3.2imm.png>
+
+
+[29]
+File: img/4imm.png Graphic file (type bmp)
+<img/4imm.png>
+File: img/6imm.png Graphic file (type bmp)
+<img/6imm.png>
+
+
+[30]
+File: img/7imm.png Graphic file (type bmp)
+<img/7imm.png>
+File: img/8imm.png Graphic file (type bmp)
+<img/8imm.png>
 ) (./conclusie.tex
 
-[25]
+[31]
 Hoofdstuk 6.
 
 
-[26
+[32
 
 ])
 
-[27]
+[33]
 B\ij lage A.
+(../bachproef/voorstel.tex
 
-
-[28
+[34
 
 ]
-Overfull \hbox (1.69463pt too wide) in paragraph at lines 186--186
+B\ij lage B.
+
+
+[35
+
+])
+
+[36]
+Overfull \hbox (1.69463pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(1)/m/n/10.95 backup techniques. \TU/Montserrat(2)/m/it/10.95 Joi
 nt NASA and IEEE Mass Storage Conference\TU/Montserrat(1)/m/n/10.95 , \TU/Monts
 errat(2)/m/it/10.95 99\TU/Montserrat(1)/m/n/10.95 . [][]$[][][][][] []
  []
 
 
-Overfull \hbox (173.6539pt too wide) in paragraph at lines 186--186
+Overfull \hbox (173.6539pt too wide) in paragraph at lines 200--200
 [] [] [][][][][][][][][] [] [][][] [] [][][] [] [][][] [] [][][][][][][][] [] [
 ][][][][] [] [][][][][][][][][] [] [][][][][][][] [] [][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][] 
  []
 
-
-Overfull \hbox (24.39424pt too wide) in paragraph at lines 186--186
-[][] [] [][][][][][][][][][] [] [][][][][][][] [][] [][][][][] [] [][][] [] [][
-][][][][][][][][] [] [][][][][][][][][] [][] [][][][][][][] [][] [][][][][][][]
-[][][][] []
- []
-
-
-Overfull \hbox (7.98044pt too wide) in paragraph at lines 186--186
-[][][][][][] [] [][][][][][][][][] [] [][][][] [] [][][][][] [] [][] [] [][][][
-] [] [][][][][][][][] [] [][][][][][][][] [] [][][] [] [][][][][][][][][][][] [
-]
- []
-
-
-Overfull \hbox (1409.43755pt too wide) in paragraph at lines 186--186
-[][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][] [][][][]
- [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][]
- []
-
-
-Overfull \hbox (225.50214pt too wide) in paragraph at lines 186--186
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][] []
- []
-
-./BouazzaouiNaoufalBP.tex:186: Misplaced alignment tab character &.
+./BouazzaouiNaoufalBP.tex:200: Misplaced alignment tab character &.
 <argument> American Academic &
                                Scholarly Research Journal
-l.186 \printbibliography[heading=bibintoc]
+l.200 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2888,14 +2922,14 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (19.09499pt too wide) in paragraph at lines 186--186
+Overfull \hbox (19.09499pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(1)/m/n/10.95 Multimedia. \TU/Montserrat(2)/m/it/10.95 National C
 enter for Supercomputing Applications\TU/Montserrat(1)/m/n/10.95 . [][]$[][][][
 ][] [] [] [] [][][][][][][][][] []
  []
 
 
-Overfull \hbox (116.24304pt too wide) in paragraph at lines 186--186
+Overfull \hbox (116.24304pt too wide) in paragraph at lines 200--200
 [][][] [] [][][] [] [][][] [] [][][][][][][][] [] [][][][][] [] [][][][][][][][
 ][] [] [][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][]$[][] 
@@ -2903,25 +2937,25 @@ Overfull \hbox (116.24304pt too wide) in paragraph at lines 186--186
 
 
 
-[29
+[37
 
 
 ]
-Overfull \hbox (17.31981pt too wide) in paragraph at lines 186--186
+Overfull \hbox (17.31981pt too wide) in paragraph at lines 200--200
 [][]\TU/Montserrat(1)/m/n/10.95 Hashicorp. (z.d.). \TU/Montserrat(2)/m/it/10.95
  What is Vagrant? \TU/Montserrat(1)/m/n/10.95 Verkregen december 10, 2024, van 
 [][]$[][][][][] [] [] [] [][][][][][][][][] []
  []
 
 
-Overfull \hbox (35.33911pt too wide) in paragraph at lines 186--186
+Overfull \hbox (35.33911pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(2)/m/it/10.95 bile Data Networks\TU/Montserrat(1)/m/n/10.95 . []
 []$[][][][][] [] [] [] [][][][][] [] [][][][][][] [] [][] [] [][][][][] [] [][]
  [] [][][][][][][][][][][][][][][][][][][][][] []
  []
 
 
-Overfull \hbox (29.28905pt too wide) in paragraph at lines 186--186
+Overfull \hbox (29.28905pt too wide) in paragraph at lines 200--200
 [][][] [] [][][][][][] [] [][] [] [][][][][] [] [][][][][][][] [] [][][] [] [][
 ][][] [] [][][][][][] [] [][][] [] [][][][][][][][] [] [][][][][][][][][][][][]
  []
@@ -2929,8 +2963,8 @@ Overfull \hbox (29.28905pt too wide) in paragraph at lines 186--186
 
 
 
-[30]
-Overfull \hbox (8.92203pt too wide) in paragraph at lines 186--186
+[38]
+Overfull \hbox (8.92203pt too wide) in paragraph at lines 200--200
 [][][][][][][][][][][][][][] [] [][][] [] [][][][][][][] [] [][][] [] [][][][][
 ] [] [][][][] [] [][][][][][][][] [] [][][][][][][][] [] [][][][][][][][]$[][] 
 
@@ -2938,24 +2972,32 @@ Overfull \hbox (8.92203pt too wide) in paragraph at lines 186--186
 
 
 
-[31] (./BouazzaouiNaoufalBP.aux)
+[39] (./BouazzaouiNaoufalBP.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `BouazzaouiNaoufalBP.out' has not changed.
-(rerunfilecheck)             Checksum: 342EF1E4450056D47D8650AF1C76B691;4477.
+(rerunfilecheck)             Checksum: 9413604F114454EBA0DA1083A9EC0BB3;4932.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'BouazzaouiNaoufalBP.run.xml'.
 \openout1 = `BouazzaouiNaoufalBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51090 strings out of 474233
- 1040707 string characters out of 5745779
- 2443096 words of memory out of 5000000
- 72941 multiletter control sequences out of 15000+600000
- 560951 words of font info for 100 fonts, out of 8000000 for 9000
+ 51522 strings out of 474233
+ 1046863 string characters out of 5745779
+ 2444568 words of memory out of 5000000
+ 73355 multiletter control sequences out of 15000+600000
+ 561118 words of font info for 101 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 110i,11n,132p,3928b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,12n,132p,3928b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on BouazzaouiNaoufalBP.pdf (39 pages).
+Output written on BouazzaouiNaoufalBP.pdf (47 pages).

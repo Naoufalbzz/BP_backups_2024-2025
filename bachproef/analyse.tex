@@ -1,3 +1,54 @@
 \chapter{Analyse van de back-upstrategie van Forvis Mazars}%
 \label{ch:analyse}
-analyse analyse analyse
+De huidige back-upstrategie voor de databanken van Forvis Mazars bestaat uit twee componenten: automatische full back-ups en manuele back-ups d.m.v. een script. Hoewel dit een goede basis biedt, zijn er enkele verbeterpunten om de betrouwbaarheid, efficiëntie en veiligheid van hun back-upplan te verbeteren.
+
+\subsubsection{Automatisering van de manuele back-ups}
+De manuele back-ups worden op dit moment uitgevoerd met een script en vereisen handmatige interventie. Dit maakt het proces inefficiënt en foutgevoelig. 
+
+\textbf{Aanbeveling:} Automatiseer het proces met behulp van \textit{Azure Automation} of \textit{Logic Apps}. Met deze tools kunnen de manuele back-ups worden gepland op vaste tijdstippen, zonder menselijke tussenkomst. Dit verhoogt niet alleen de betrouwbaarheid van de back-ups, maar zorgt ook voor een consistente uitvoering.
+
+\subsubsection{Incrementele en Differentiële Back-ups}
+De huidige strategie gebruikt uitsluitend full back-ups, wat resulteert in hoge opslagkosten en langere tijden om gegevens te herstellen.
+
+\textbf{Aanbeveling:} Introduceer \textit{incrementele} of \textit{differentiële back-ups}. Deze technieken maken alleen back-ups van gegevens die sinds de laatste back-up zijn gewijzigd, waardoor minder opslagruimte nodig is. Dit versnelt ook het herstelproces, wat cruciaal is voor het waarborgen van de bedrijfscontinuïteit.
+
+\subsubsection{Back-upretentie en Beheer}
+De huidige automatische full back-ups hebben een retentiebeleid van 7 dagen. Hoewel dit een basisbescherming biedt, kan een langere retentieperiode nodig zijn om te voldoen aan specifieke bedrijfs- of compliance-eisen.
+
+\textbf{Aanbeveling:} Pas een uitgebreid retentiebeleid toe dat meer flexibiliteit biedt. Bijvoorbeeld:
+\begin{itemize}
+    \item Dagelijkse back-ups: 7 dagen bewaren (zoals nu)
+    \item Wekelijkse back-ups: 4 weken bewaren
+    \item Maandelijkse back-ups: 1 jaar bewaren
+\end{itemize}
+
+
+\subsubsection{Beveiliging van Back-ups}
+Hoewel de back-ups worden opgeslagen in een Azure Storage Account, zijn er momenteel geen specifieke maatregelen geïmplementeerd om deze te beschermen tegen aanvallen zoals ransomware.
+
+\textbf{Aanbeveling:} Implementeer immutable storage om ervoor te zorgen dat back-ups gedurende een bepaalde periode niet kunnen worden gewijzigd of verwijderd. 
+
+\subsubsection{Hersteltesten (Restore Testing)}
+Het is belangrijk dat de back-ups die gemaakt worden ook effectief werken. Momenteel ontbreekt een gestructureerd proces om te testen of de back-ups daadwerkelijk herstelbaar zijn.
+
+\textbf{Aanbeveling:} Voer periodiek restore tests uit in een sandboxomgeving. Met behulp van \textit{Azure Recovery Services Vault} kunnen deze tests worden geautomatiseerd, zodat de integriteit van de back-ups gegarandeerd blijft.
+
+\subsubsection{Monitoring en Rapportage}
+Zonder actieve monitoring en rapportage is het lastig om te bepalen of back-ups consistent worden uitgevoerd.
+
+\textbf{Aanbeveling:} Maak gebruik van \textit{Azure Monitor} of \textit{Log Analytics Workspaces} om proactief meldingen te configureren voor mislukte back-ups. Daarnaast kan het genereren van rapportages helpen bij het volgen van de algehele status van de back-upstrategie.
+
+\subsubsection{Redundantie en Disaster Recovery}
+De huidige back-ups worden opgeslagen in één opslaglocatie. Dit vormt een risico in het geval van een storing of ramp in de primaire regio.
+
+\textbf{Aanbeveling:} Gebruik \textit{geo-redundante opslag (GRS)} om back-ups automatisch te repliceren naar een andere Azure-regio. Dit biedt een extra laag bescherming en verhoogt de beschikbaarheid van gegevens in noodsituaties.
+
+\subsubsection{Conclusie}
+De huidige back-upstrategie van Forvis Mazars biedt een basisbescherming, maar kan zeker op meerdere vlakken verbeterd worden. Door de voorgestelde verbeteringen uit te voeren, kan het bedrijf een veiligere en optimale back-upstrategie hebben. Automatisering, beveiliging, redundantie en hersteltesten zorgen ervoor dat de back-ups niet alleen schaalbaar en kostenefficiënt zijn, maar ook dat de organisatie in noodsituaties operationeel blijft voor haar belangrijkste processen en bescherming tegen moderne aanvallen zoals een ransomware-aanval.
+
+
+
+
+
+
+
