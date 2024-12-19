@@ -5,14 +5,30 @@
 \chapter{Conclusie}%
 \label{ch:conclusie}
 
-% TODO: Trek een duidelijke conclusie, in de vorm van een antwoord op de
-% onderzoeksvra(a)g(en). Wat was jouw bijdrage aan het onderzoeksdomein en
-% hoe biedt dit meerwaarde aan het vakgebied/doelgroep? 
-% Reflecteer kritisch over het resultaat. In Engelse teksten wordt deze sectie
-% ``Discussion'' genoemd. Had je deze uitkomst verwacht? Zijn er zaken die nog
-% niet duidelijk zijn?
-% Heeft het onderzoek geleid tot nieuwe vragen die uitnodigen tot verder 
-%onderzoek?
+In dit onderzoek werd onderzocht hoe de back-upstrategie voor Azure PostgreSQL en MySQL databases bij Forvis Mazars kan worden geoptimaliseerd met behulp van immutabele opslag en automatische back-ups. De implementatie van deze technologieën is essentieel om de betrouwbaarheid van back-ups te verhogen en om te beschermen tegen dataverlies, vooral in het geval van cyberaanvallen zoals ransomware. Door immutabele opslag toe te passen, kunnen de back-ups niet meer worden gewijzigd of verwijderd, zelfs niet door kwaadwillende actoren. Daarnaast zorgt de automatisering van de back-ups voor een consistente en betrouwbare back-upcyclus, waardoor het risico op menselijke fouten wordt verminderd en altijd een herstelpunt beschikbaar is.
 
-\lipsum[76-80]
+Hieronder een beschrijving hoe de onderzoeksvraag en de deelvragen zijn beantwoord:
 
+\subsubsection{Hoofdvraag: Hoe kan de back-upstrategie voor Azure PostgreSQL en MySQL databases bij Forvis Mazars worden geoptimaliseerd met behulp van immutabele opslag en automatische back-ups?}
+
+De huidige back-upstrategie bij Forvis Mazars bestaat uit automatische dagelijkse full backups van hun databases en manuele back-ups die via een script naar een Azure Storage Account worden gepusht. De back-ups worden 7 dagen bewaard. De implementatie van immutabele opslag, in combinatie met een geautomatiseerde back-upstrategie, biedt aanzienlijke voordelen voor de bescherming van deze back-ups tegen dataverlies en cyberaanvallen, zoals ransomware. Door immutabele opslag in te schakelen, kunnen de back-ups gedurende de ingestelde retentieperiode (bijvoorbeeld 30 dagen) niet worden gewijzigd of verwijderd, wat het risico op verlies van back-upgegevens drastisch vermindert. De dagelijkse automatische back-ups zorgen ervoor dat er altijd een up-to-date herstelpunt beschikbaar is, zelfs als de meest recente back-up corrupt raakt.
+
+\subsubsection{Deelvraag 1: Hoe veilig en betrouwbaar zijn de huidige back-upoplossingen van Forvis Mazars voor Azure PostgreSQL en MySQL databases?}
+
+De huidige back-upoplossingen van Forvis Mazars omvatten automatische dagelijkse full backups via Azure en manuele back-ups opgeslagen in een Azure Storage Account. De automatische back-ups bieden basisbescherming, maar de manuele back-ups zijn minder frequent en afhankelijk van menselijke interventie, wat kan leiden tot inconsistenties of gemiste back-ups. Hoewel de back-ups worden opgeslagen in een beveiligd Azure Storage Account, is er een potentieel risico van dataverlies of corruptie, vooral als back-ups worden overschreven of verwijderd. Er wordt momenteel geen gebruik gemaakt van technieken zoals immutabele opslag, die een extra beveiligingslaag biedt door ervoor te zorgen dat back-ups niet gewijzigd of verwijderd kunnen worden, zelfs niet door kwaadwillende actoren of interne fouten. De betrouwbaarheid van de huidige oplossing is dus goed, maar kan sterk worden verbeterd met de implementatie van immutabele opslag.
+
+\subsubsection{Deelvraag 2: Welke rol speelt immutabele opslag in het beschermen van back-ups tegen ransomware en andere vormen van dataverlies?}
+
+Immutabele opslag speelt een cruciale rol in het beschermen van back-ups tegen ransomware en andere vormen van dataverlies door te garanderen dat de opgeslagen back-upgegevens niet kunnen worden gewijzigd of verwijderd tijdens de ingestelde retentieperiode. Bij een ransomware-aanval worden vaak gegevens in een netwerk versleuteld, inclusief back-ups. Immutabele opslag voorkomt dit door de integriteit van de back-updata te beschermen. Zelfs als een aanvaller toegang krijgt tot het systeem, kunnen de back-ups niet worden overschreven of verwijderd, waardoor het herstel na een aanval mogelijk blijft. Dit zorgt ervoor dat er altijd een veilige versie van de back-up beschikbaar is, wat essentieel is voor het herstel van systemen na een incident. Door immutabele opslag toe te passen, kunnen organisaties zoals Forvis Mazars er zeker van zijn dat hun back-ups intact blijven, zelfs in geval van ernstige bedreigingen zoals ransomware.
+
+\subsubsection{Deelvraag 3: Wat zijn de belangrijkste uitdagingen bij het integreren van immutabele opslag met Azure cloud back-upsystemen?}
+
+Er zijn verschillende uitdagingen bij het integreren van immutabele opslag met Azure cloud back-upsystemen:
+
+\begin{itemize}
+    \item \textbf{Configuratie en integratie:} Het correct configureren van immutabele opslag in combinatie met de bestaande Azure back-ups kan complex zijn. Het vereist dat het juiste beleid voor de retentieperiode wordt ingesteld en dat het back-upproces goed wordt geconfigureerd om de back-ups naar een immutabele opslaglocatie te sturen. Dit kan technische expertise en zorgvuldige planning vereisen.
+    \item \textbf{Compatibiliteit met bestaande systemen:} Niet alle systemen of applicaties kunnen volledig profiteren van immutabele opslag. Er moet worden gezorgd dat de bestaande back-upprocedures en -tools die Forvis Mazars gebruikt, compatibel zijn met immutabele opslag. Dit kan extra stappen vereisen, zoals de integratie van specifieke Azure-functies.
+    \item \textbf{Kosten:} Het gebruik van immutabele opslag kan kosten met zich meebrengen, zowel voor opslag als voor de implementatie van aanvullende beveiligingsmaatregelen. Er moeten afwegingen worden gemaakt tussen de kosten van het gebruik van immutabele opslag en de voordelen die het biedt in termen van bescherming tegen dataverlies en cyberaanvallen.
+\end{itemize}
+
+Ondanks deze uitdagingen biedt de integratie van immutabele opslag aanzienlijke voordelen voor de veiligheid en betrouwbaarheid van back-ups, en kan het helpen bij het verminderen van de risico's van gegevensverlies en aanval.

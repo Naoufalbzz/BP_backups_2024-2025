@@ -15,7 +15,7 @@
 \contentsline {subsubsection}{Incrementele back-up}{7}{figure.caption.8}%
 \contentsline {subsubsection}{Differentiële back-ups}{8}{figure.caption.9}%
 \contentsline {subsubsection}{Cloud back-ups}{9}{figure.caption.10}%
-\contentsline {subsubsection}{On-premise back-ups}{10}{figure.caption.10}%
+\contentsline {subsubsection}{On-premise back-ups}{11}{figure.caption.10}%
 \contentsline {subsection}{\numberline {2.0.3}Ransomware}{11}{subsection.2.0.3}%
 \contentsline {subsubsection}{Evolutie}{11}{subsection.2.0.3}%
 \contentsline {subsubsection}{Impact van ransomware op organisaties}{12}{subsection.2.0.3}%
@@ -37,30 +37,34 @@
 \contentsline {subsubsection}{4. Won't Have (Niet noodzakelijke vereisten)}{18}{subsection.3.0.1}%
 \contentsline {subsubsection}{Conclusie}{19}{subsection.3.0.1}%
 \contentsline {subsection}{\numberline {3.0.2}Proof-Of-Concept}{19}{subsection.3.0.2}%
-\contentsline {chapter}{\numberline {4}Analyse van de back-upstrategie van Forvis Mazars}{21}{chapter.4}%
-\contentsline {subsubsection}{Automatisering van de manuele back-ups}{21}{chapter.4}%
-\contentsline {subsubsection}{Incrementele en Differentiële Back-ups}{21}{chapter.4}%
-\contentsline {subsubsection}{Back-upretentie en Beheer}{21}{chapter.4}%
-\contentsline {subsubsection}{Beveiliging van Back-ups}{22}{chapter.4}%
-\contentsline {subsubsection}{Hersteltesten (Restore Testing)}{22}{chapter.4}%
-\contentsline {subsubsection}{Monitoring en Rapportage}{22}{chapter.4}%
-\contentsline {subsubsection}{Redundantie en Disaster Recovery}{22}{chapter.4}%
-\contentsline {subsubsection}{Conclusie}{22}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Proof-of-Concept}{24}{chapter.5}%
-\contentsline {subsection}{\numberline {5.0.1}Relevantie van de PoC voor de Azure-omgeving van Forvis Mazars}{24}{subsection.5.0.1}%
-\contentsline {subsection}{\numberline {5.0.2}Technische uitwerking}{25}{subsection.5.0.2}%
-\contentsline {subsubsection}{Aanmaken van de database}{26}{table.5.1}%
-\contentsline {subsubsection}{Back-up van de database}{27}{lstnumber.5.2.9}%
-\contentsline {subsubsection}{Beveiliging van de back-updirectory}{27}{lstnumber.5.5.3}%
-\contentsline {subsubsection}{Simulatie van de ransomware-aanval}{27}{lstnumber.5.6.1}%
-\contentsline {subsubsection}{Herstellen van de back-ups}{28}{lstnumber.5.7.13}%
-\contentsline {subsection}{\numberline {5.0.3}Implementatie van immutable storage in de Azure-omgeving}{29}{subsection.5.0.3}%
-\contentsline {subsubsection}{Aanmaken van een storage account}{29}{subsection.5.0.3}%
-\contentsline {subsubsection}{Aanmaken van een container binnen het storage account}{30}{figure.caption.13}%
-\contentsline {subsubsection}{Opzetten van een time-based retention policy}{30}{figure.caption.14}%
-\contentsline {subsubsection}{Testen van de immmutable storage}{31}{figure.caption.15}%
+\contentsline {chapter}{\numberline {4}Analyse van de back-upstrategie van Forvis Mazars}{20}{chapter.4}%
+\contentsline {subsubsection}{Automatisering van de manuele back-ups}{20}{chapter.4}%
+\contentsline {subsubsection}{Incrementele en Differentiële Back-ups}{20}{chapter.4}%
+\contentsline {subsubsection}{Back-upretentie en Beheer}{20}{chapter.4}%
+\contentsline {subsubsection}{Beveiliging van Back-ups}{21}{chapter.4}%
+\contentsline {subsubsection}{Hersteltesten (Restore Testing)}{21}{chapter.4}%
+\contentsline {subsubsection}{Monitoring en Rapportage}{21}{chapter.4}%
+\contentsline {subsubsection}{Redundantie en Disaster Recovery}{21}{chapter.4}%
+\contentsline {subsubsection}{Conclusie}{21}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Proof-of-Concept}{23}{chapter.5}%
+\contentsline {subsection}{\numberline {5.0.1}Relevantie van de PoC voor de Azure-omgeving van Forvis Mazars}{23}{subsection.5.0.1}%
+\contentsline {subsection}{\numberline {5.0.2}Technische uitwerking}{24}{subsection.5.0.2}%
+\contentsline {subsubsection}{Aanmaken van de database}{25}{table.5.1}%
+\contentsline {subsubsection}{Back-up van de database}{26}{lstnumber.5.2.9}%
+\contentsline {subsubsection}{Beveiliging van de back-updirectory}{26}{lstnumber.5.5.3}%
+\contentsline {subsubsection}{Simulatie van de ransomware-aanval}{26}{lstnumber.5.6.1}%
+\contentsline {subsubsection}{Herstellen van de back-ups}{27}{lstnumber.5.7.13}%
+\contentsline {subsection}{\numberline {5.0.3}Implementatie van immutable storage in de Azure-omgeving}{28}{subsection.5.0.3}%
+\contentsline {subsubsection}{Aanmaken van een storage account}{28}{subsection.5.0.3}%
+\contentsline {subsubsection}{Aanmaken van een container binnen het storage account}{29}{figure.caption.13}%
+\contentsline {subsubsection}{Opzetten van een time-based retention policy}{29}{figure.caption.14}%
+\contentsline {subsubsection}{Testen van de immmutable storage}{30}{figure.caption.15}%
+\contentsline {subsubsection}{Conclusie}{30}{figure.caption.17}%
 \contentsline {chapter}{\numberline {6}Conclusie}{32}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{34}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Conclusie}{35}{appendix.B}%
-\contentsline {chapter}{Bibliografie}{37}{appendix*.18}%
+\contentsline {subsubsection}{Hoofdvraag: Hoe kan de back-upstrategie voor Azure PostgreSQL en MySQL databases bij Forvis Mazars worden geoptimaliseerd met behulp van immutabele opslag en automatische back-ups?}{32}{chapter.6}%
+\contentsline {subsubsection}{Deelvraag 1: Hoe veilig en betrouwbaar zijn de huidige back-upoplossingen van Forvis Mazars voor Azure PostgreSQL en MySQL databases?}{33}{chapter.6}%
+\contentsline {subsubsection}{Deelvraag 2: Welke rol speelt immutabele opslag in het beschermen van back-ups tegen ransomware en andere vormen van dataverlies?}{33}{chapter.6}%
+\contentsline {subsubsection}{Deelvraag 3: Wat zijn de belangrijkste uitdagingen bij het integreren van immutabele opslag met Azure cloud back-upsystemen?}{33}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{35}{appendix.A}%
+\contentsline {chapter}{Bibliografie}{36}{appendix*.18}%
 \contentsfinish 

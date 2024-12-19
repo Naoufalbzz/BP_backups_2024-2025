@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  15 DEC 2024 23:00
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  15 DEC 2024 23:59
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2330,11 +2330,7 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'dutch'.
 
-(./BouazzaouiNaoufalBP.aux
-
-LaTeX Warning: Label `ch:conclusie' multiply defined.
-
-)
+(./BouazzaouiNaoufalBP.aux)
 \openout1 = `BouazzaouiNaoufalBP.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
@@ -2359,7 +2355,8 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 110.
 LaTeX Font Info:    ... okay on input line 110.
 Package biblatex Info: Trying to load language 'dutch' -> 'dutch-apa'...
 Package biblatex Info: ... file 'dutch-apa.lbx' found.
- (c:/texlive/2024/texmf-dist/tex/latex/biblatex-apa/dutch-apa.lbx
+
+(c:/texlive/2024/texmf-dist/tex/latex/biblatex-apa/dutch-apa.lbx
 File: dutch-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
 Package biblatex Info: Trying to load language 'dutch'...
 Package biblatex Info: ... file 'dutch.lbx' found.
@@ -2637,7 +2634,7 @@ Hoofdstuk 1.
 
 
 ]
-Overfull \hbox (14.44907pt too wide) in paragraph at lines 45--46
+Overfull \hbox (14.44907pt too wide) in paragraph at lines 44--45
 []\TU/Montserrat(1)/m/n/10.95 Hoofdstuk [][]2[][] biedt een overzicht van de hu
 idige kennis en technologieën rondom
  []
@@ -2657,9 +2654,13 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 [4
 
 ]
+Overfull \hbox (4.96053pt too wide) in paragraph at lines 26--27
+\TU/Montserrat(1)/m/n/10.95 resistente back-ups een cruciale rol. Door back-ups
+ te beveiligen tegen ransomware-
+ []
+
 File: img/fullb.png Graphic file (type bmp)
 <img/fullb.png>
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2686,24 +2687,30 @@ File: img/diff.png Graphic file (type bmp)
 [11]
 
 [12]
+Overfull \hbox (37.28975pt too wide) in paragraph at lines 110--111
+\TU/Montserrat(1)/m/n/10.95 van beveiliging die van groot belang is voor organi
+saties die gevoelig zijn voor ransomware-
+ []
+
+
 
 [13]
 
 [14]
-Overfull \hbox (6.99844pt too wide) in paragraph at lines 104--105
+Overfull \hbox (6.99844pt too wide) in paragraph at lines 142--143
 \TU/Montserrat(1)/m/n/10.95 meerdere besturingssystemen tegelijkertijd op één f
 ysieke machine kunnen draaien
  []
 
 
-Overfull \hbox (0.18176pt too wide) in paragraph at lines 106--107
+
+[15]
+Overfull \hbox (0.18176pt too wide) in paragraph at lines 144--145
 []\TU/Montserrat(1)/m/n/10.95 VirtualBox maakt gebruik van virtuele netwerken, 
 zoals NAT (Network Address
  []
 
-
-
-[15]) (./methodologie.tex
+) (./methodologie.tex
 
 [16]
 Hoofdstuk 3.
@@ -2728,33 +2735,33 @@ Overfull \hbox (19.44856pt too wide) in paragraph at lines 37--38
 [17
 
 ]
-Overfull \hbox (51.86783pt too wide) in paragraph at lines 68--69
+Overfull \hbox (51.86783pt too wide) in paragraph at lines 65--66
 []\TU/Montserrat(2)/b/n/10.95 Complexe multi-cloud back-upoplossingen: \TU/Mont
 serrat(1)/m/n/10.95 Hoewel multi-cloud back-upstrategieën
  []
 
 
-Overfull \hbox (7.96349pt too wide) in paragraph at lines 68--69
+Overfull \hbox (7.96349pt too wide) in paragraph at lines 65--66
 \TU/Montserrat(1)/m/n/10.95 voordelen kunnen bieden, is het implementeren van e
 en complexe multi-cloud-
  []
 
 
-Overfull \hbox (5.46326pt too wide) in paragraph at lines 68--69
+Overfull \hbox (5.46326pt too wide) in paragraph at lines 65--66
 \TU/Montserrat(1)/m/n/10.95 oplossing voor Forvis Mazars op dit moment niet noo
 dzakelijk, aangezien Azure
  []
 
 
-
-[18]
-Overfull \hbox (1.10002pt too wide) in paragraph at lines 70--71
+Overfull \hbox (1.10002pt too wide) in paragraph at lines 67--68
 \TU/Montserrat(1)/m/n/10.95 noodzakelijk om fysieke externe schijven of on-prem
 ise hardware-oplossingen
  []
 
 
-Overfull \hbox (8.20074pt too wide) in paragraph at lines 74--75
+
+[18]
+Overfull \hbox (8.20074pt too wide) in paragraph at lines 71--72
 \TU/Montserrat(1)/m/n/10.95 integratie van automatisering, immutable storage en
  verbeterde back-uptechnieken
  []
@@ -2762,8 +2769,6 @@ Overfull \hbox (8.20074pt too wide) in paragraph at lines 74--75
 ) (./analyse.tex
 
 [19]
-
-[20]
 Hoofdstuk 4.
 
 Overfull \hbox (1.60107pt too wide) in paragraph at lines 18--20
@@ -2773,13 +2778,13 @@ uitgebreid retentiebeleid toe dat meer flexibiliteit biedt.
 
 
 
-[21
+[20
 
 ]
 
-[22]) (./poc.tex
+[21]) (./poc.tex
 
-[23]
+[22]
 Hoofdstuk 5.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
@@ -2792,7 +2797,7 @@ File: lstlang1.sty 2024/09/23 1.10c listings language file
 File: lstlang2.sty 2024/09/23 1.10c listings language file
 )
 
-[24
+[23
 
 ]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
@@ -2803,7 +2808,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 
-[25]
+[24]
 Overfull \hbox (67.15471pt too wide) in alignment at lines 55--63
  [] [] [] [] [] [] 
  []
@@ -2818,7 +2823,7 @@ op regelmatig de databankback-
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
 
-[26] (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+[25] (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
 (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -2842,7 +2847,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 
-[27]
+[26]
 Overfull \hbox (21.52275pt too wide) in paragraph at lines 136--137
 []\TU/Montserrat(1)/m/n/10.95 De databank werd opnieuw opgezet vanuit het besta
 nd dat uit de Borg-repository
@@ -2850,7 +2855,7 @@ nd dat uit de Borg-repository
 
 
 
-[28]
+[27]
 File: img/1imm.png Graphic file (type bmp)
 <img/1imm.png>
 File: img/3.1imm.png Graphic file (type bmp)
@@ -2859,19 +2864,21 @@ File: img/3.2imm.png Graphic file (type bmp)
 <img/3.2imm.png>
 
 
-[29]
+[28]
 File: img/4imm.png Graphic file (type bmp)
 <img/4imm.png>
 File: img/6imm.png Graphic file (type bmp)
 <img/6imm.png>
 
 
-[30]
+[29]
 File: img/7imm.png Graphic file (type bmp)
 <img/7imm.png>
 File: img/8imm.png Graphic file (type bmp)
 <img/8imm.png>
-) (./conclusie.tex
+
+
+[30]) (./conclusie.tex
 
 [31]
 Hoofdstuk 6.
@@ -2879,23 +2886,17 @@ Hoofdstuk 6.
 
 [32
 
-])
-
-[33]
-B\ij lage A.
-(../bachproef/voorstel.tex
-
-[34
-
 ]
-B\ij lage B.
 
+[33])
+
+[34]
+B\ij lage A.
+(../bachproef/voorstel.tex)
 
 [35
 
-])
-
-[36]
+]
 Overfull \hbox (1.69463pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(1)/m/n/10.95 backup techniques. \TU/Montserrat(2)/m/it/10.95 Joi
 nt NASA and IEEE Mass Storage Conference\TU/Montserrat(1)/m/n/10.95 , \TU/Monts
@@ -2937,7 +2938,7 @@ Overfull \hbox (116.24304pt too wide) in paragraph at lines 200--200
 
 
 
-[37
+[36
 
 
 ]
@@ -2963,7 +2964,7 @@ Overfull \hbox (29.28905pt too wide) in paragraph at lines 200--200
 
 
 
-[38]
+[37]
 Overfull \hbox (8.92203pt too wide) in paragraph at lines 200--200
 [][][][][][][][][][][][][][] [] [][][] [] [][][][][][][] [] [][][] [] [][][][][
 ] [] [][][][] [] [][][][][][][][] [] [][][][][][][][] [] [][][][][][][][]$[][] 
@@ -2972,32 +2973,33 @@ Overfull \hbox (8.92203pt too wide) in paragraph at lines 200--200
 
 
 
-[39] (./BouazzaouiNaoufalBP.aux)
+[38] (./BouazzaouiNaoufalBP.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `BouazzaouiNaoufalBP.out' has not changed.
-(rerunfilecheck)             Checksum: 9413604F114454EBA0DA1083A9EC0BB3;4932.
+(rerunfilecheck)             Checksum: A0E90DA0DC9F182CCC9F74246649B759;4842.
 
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                BouazzaouiNaoufalBP
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'BouazzaouiNaoufalBP.run.xml'.
 \openout1 = `BouazzaouiNaoufalBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51522 strings out of 474233
- 1046863 string characters out of 5745779
- 2444568 words of memory out of 5000000
- 73355 multiletter control sequences out of 15000+600000
+ 51521 strings out of 474233
+ 1046854 string characters out of 5745779
+ 2444523 words of memory out of 5000000
+ 73354 multiletter control sequences out of 15000+600000
  561118 words of font info for 101 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 110i,12n,132p,3928b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,12n,132p,2627b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on BouazzaouiNaoufalBP.pdf (47 pages).
+Output written on BouazzaouiNaoufalBP.pdf (46 pages).

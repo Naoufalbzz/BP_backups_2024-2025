@@ -26,17 +26,17 @@
 %% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
 %% en geef het een gepaste titel.
 
-Het onderzoek begint met een uitgebreide literatuurstudie over back-upstrategieën, ransomware-resistente opslag, en immutable storage. Hierbij wordt een overzicht gegeven van de state of the art, waarbij de nieuwste technieken en strategieën voor databeveiliging in kaart worden gebracht. Deze literatuurstudie biedt de fundamentele kennis die nodig is om het bestaande back-upplan te analyseren en geeft een goed beeld van hoe organisaties effectief hun back-upsystemen kunnen beveiligen. In de tweede fase zal de huidige back-upstrategie van Forvis Mazars worden geanalyseerd en verbeterd. Momenteel wordt er elke dag één volledige back-up door Azure automatisch uitgevoerd, wat zorgt voor een basisbeveiliging. Naast de automatische back-ups beschikt Forvis Mazars ook over een script dat manuele back-ups uitvoert, maar deze worden niet frequent genoeg gedaan en missen een geautomatiseerde structuur. Door de bestaande methode te optimaliseren, wordt zowel de veiligheid als de efficiëntie van het back-upproces verhoogd.
+Het onderzoek begint met een uitgebreide literatuurstudie over back-upstrategieën, ransomware-resistente opslag, en immutable storage. Hierbij wordt een overzicht gegeven van de state of the art, waarbij de nieuwste technieken en strategieën voor databeveiliging in kaart worden gebracht. Deze literatuurstudie biedt de fundamentele kennis die nodig is om het bestaande back-upplan te analyseren en geeft een goed beeld van hoe organisaties effectief hun back-upsystemen kunnen beveiligen. In de tweede fase zal de huidige back-upstrategie van Forvis Mazars worden geanalyseerd en verbeterd. Momenteel wordt er elke dag één volledige back-up door Azure automatisch uitgevoerd, wat zorgt voor een basisbeveiliging. Door de bestaande methode te optimaliseren, wordt zowel de veiligheid als de efficiëntie van het back-upproces verhoogd.
 \subsection{Requirements-analyse}
 \subsubsection{1. Must Have (Essentiële vereisten)}
 Deze vereisten zijn cruciaal voor de verbetering van de back-upstrategie en moeten absoluut worden geïmplementeerd om een werkbare en veilige oplossing te garanderen:
 
 \begin{itemize}
-    \item \textbf{Automatisering van de manuele back-ups:} De huidige manuele back-ups moeten worden geautomatiseerd om de frequentie van back-ups te verhogen en de afhankelijkheid van menselijke interventie te verminderen. De automatische back-up moet dagelijks worden uitgevoerd en volledig geïntegreerd zijn in de bestaande Azure-omgeving van Forvis Mazars.
+    \item \textbf{Regelmatige en betrouwbare automatische back-ups:} Er moet gezorgd worden voor de implementatie van een automatische back-upstrategie die dagelijks volledige back-ups van de databases uitvoert. Dit moet volledig geïntegreerd zijn in de bestaande Azure-omgeving van Forvis Mazars, zodat er altijd een up-to-date herstelpunt beschikbaar is bij systeemfouten of cyberaanvallen.
     
     \item \textbf{Beveiliging tegen ransomware:} De nieuwe back-upstrategie moet ransomware-resistent zijn, wat betekent dat back-ups moeten worden beschermd tegen externe aanvallen die de back-ups zelf kunnen infecteren. Dit vereist de implementatie van technieken zoals \textit{immutable storage}, zodat back-ups niet gewijzigd of verwijderd kunnen worden tijdens een ransomware-aanval.
     
-    \item \textbf{Regelmatige en betrouwbare volledige back-ups:} Er moet gezorgd worden voor een betrouwbare en regelmatige uitvoering van volledige back-ups van de databases om te garanderen dat bij een systeemfout of cyberaanval altijd een up-to-date herstelpunt beschikbaar is.
+    \item \textbf{Versiebeheer van back-ups:} Het invoeren van versiebeheer voor back-ups maakt het mogelijk om verschillende versies van data op te slaan. Dit kan nuttig zijn voor het herstellen van data naar een specifieke eerdere versie (bijvoorbeeld na een fout die niet meteen werd opgemerkt).
     
     \item \textbf{Herstelcapaciteit (Restore from backup):} Het herstelproces moet efficiënt en snel kunnen worden uitgevoerd vanuit de back-ups. De back-upstrategie moet testen hoe snel en betrouwbaar de systemen kunnen worden hersteld in geval van dataverlies.
 \end{itemize}
@@ -55,9 +55,6 @@ Deze vereisten dragen bij aan de effectiviteit van de back-upstrategie, maar zij
 Deze vereisten kunnen de back-upstrategie verder verbeteren, maar kunnen in eerste instantie worden uitgesteld als er beperkingen zijn in tijd of middelen:
 
 \begin{itemize}
-   
-    \item \textbf{Versiebeheer van back-ups:} Het invoeren van versiebeheer voor back-ups maakt het mogelijk om verschillende versies van data op te slaan. Dit kan nuttig zijn voor het herstellen van data naar een specifieke eerdere versie (bijvoorbeeld na een fout die niet meteen werd opgemerkt).
-    
     \item \textbf{Geautomatiseerd herstelproces:} Een geautomatiseerd herstelproces kan worden ontwikkeld, zodat de systemen automatisch kunnen worden hersteld in geval van dataverlies, wat de downtime minimaliseert.
 \end{itemize}
 

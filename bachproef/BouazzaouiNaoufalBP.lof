@@ -7,14 +7,13 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Storage account zoekopdracht binnen de Azure Portal}}{29}{figure.caption.11}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Configuratie voor het nieuwe storage account}}{29}{figure.caption.12}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Tweede deel van de configuratie voor het nieuwe storage account}}{29}{figure.caption.13}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Configuratie voor de container in het storage account}}{30}{figure.caption.14}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Configuratie voor time-based retention policy}}{30}{figure.caption.15}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Uploaden van het back-up bestand van de MySQL-databank}}{31}{figure.caption.16}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Screenshot van de poging om het bestand te verwijderen, waarbij de actie wordt geblokkeerd}}{31}{figure.caption.17}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Storage account zoekopdracht binnen de Azure Portal}}{28}{figure.caption.11}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Configuratie voor het nieuwe storage account}}{28}{figure.caption.12}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Tweede deel van de configuratie voor het nieuwe storage account}}{28}{figure.caption.13}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Configuratie voor de container in het storage account}}{29}{figure.caption.14}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Configuratie voor time-based retention policy}}{29}{figure.caption.15}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Uploaden van het back-up bestand van de MySQL-databank}}{30}{figure.caption.16}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Screenshot van de poging om het bestand te verwijderen, waarbij de actie wordt geblokkeerd}}{30}{figure.caption.17}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsfinish 

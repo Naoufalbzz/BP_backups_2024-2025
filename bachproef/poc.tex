@@ -194,6 +194,8 @@ Om de immutable storage te testen is er gekozen om een back-up van een MySQL-dat
     \includegraphics[width=0.8\textwidth]{img/8imm.png}
     \caption{Screenshot van de poging om het bestand te verwijderen, waarbij de actie wordt geblokkeerd}
 \end{figure}
+\subsubsection{Conclusie}
+De implementatie van immutable storage op het azure storage account is succesvol afgerond, waardoor de opgeslagen back-ups nu beschermd zijn tegen onverwachte wijzigingen of verwijderingen. Daarnaast worden er dagelijks automatische back-ups van de databanken genomen, welke een retentieperiode van 7 dagen hebben. Dit zorgt ervoor dat er altijd een versie van de back-up beschikbaar is, zelfs als de meest recente back-up beschadigd of onbruikbaar blijkt. Deze combinatie van immutable storage en versiebeheer versterkt de bescherming tegen dataverlies en maakt het mogelijk om eerdere, werkende back-ups snel te herstellen.
 
 
 
