@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  15 DEC 2024 23:59
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  25 DEC 2024 23:49
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2330,7 +2330,17 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'dutch'.
 
-(./BouazzaouiNaoufalBP.aux)
+(./BouazzaouiNaoufalBP.aux
+
+LaTeX Warning: Label `fig:fullback-up' multiply defined.
+
+
+LaTeX Warning: Label `fig:incrback-up' multiply defined.
+
+
+LaTeX Warning: Label `fig:diffrback-up' multiply defined.
+
+)
 \openout1 = `BouazzaouiNaoufalBP.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
@@ -2355,8 +2365,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 110.
 LaTeX Font Info:    ... okay on input line 110.
 Package biblatex Info: Trying to load language 'dutch' -> 'dutch-apa'...
 Package biblatex Info: ... file 'dutch-apa.lbx' found.
-
-(c:/texlive/2024/texmf-dist/tex/latex/biblatex-apa/dutch-apa.lbx
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex-apa/dutch-apa.lbx
 File: dutch-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
 Package biblatex Info: Trying to load language 'dutch'...
 Package biblatex Info: ... file 'dutch.lbx' found.
@@ -2570,15 +2579,17 @@ om ransomware-resistente
 
 [4
 
-] (./BouazzaouiNaoufalBP.toc)
+] (./BouazzaouiNaoufalBP.toc
+
+[5
+
+])
 \tf@toc=\write7
 \openout7 = `BouazzaouiNaoufalBP.toc'.
 
 
 
-[5
-
-] (./BouazzaouiNaoufalBP.lof
+[6] (./BouazzaouiNaoufalBP.lof
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraMathRegular' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -2601,7 +2612,7 @@ LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
 
 
 
-[6
+[7
 
 ] (./BouazzaouiNaoufalBP.lot)
 \tf@lot=\write9
@@ -2609,7 +2620,7 @@ LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
 
 
 
-[7
+[8
 
 ] (./BouazzaouiNaoufalBP.lol
 Overfull \hbox (10.20221pt too wide) in paragraph at lines 9--9
@@ -2623,7 +2634,7 @@ ellen vanuit een .sql-bestand[][] [][]
 
 
 
-[8
+[9
 
 
 ] (./inleiding.tex
@@ -2679,15 +2690,39 @@ File: img/diff.png Graphic file (type bmp)
 
 
 [8]
+Overfull \hbox (0.5097pt too wide) in paragraph at lines 85--86
+[]\TU/Montserrat(1)/m/n/10.95 Een eerder besproken nadeel is echter dat bij her
+stel alle opeenvolgende back-
+ []
+
+
 
 [9]
 
 [10]
+Overfull \hbox (20.41946pt too wide) in paragraph at lines 107--108
+\TU/Montserrat(1)/m/n/10.95 Daarbij is er ook een IT-expert nodig voor de imple
+mentatie van deze back-upsystemen. 
+ []
+
+
 
 [11]
+Overfull \hbox (2.24347pt too wide) in paragraph at lines 124--125
+[]\TU/Montserrat(1)/m/n/10.95 Ten tweede zorgen ransomware-aanvallen voor opera
+tionele verstoringen: sys-
+ []
+
+
 
 [12]
-Overfull \hbox (37.28975pt too wide) in paragraph at lines 110--111
+Overfull \hbox (12.26564pt too wide) in paragraph at lines 141--142
+\TU/Montserrat(1)/m/n/10.95 cloud-opslag en netwerkverbindingen, wat de risico’
+s vermindert. Hoewel air-gapped
+ []
+
+
+Overfull \hbox (37.28975pt too wide) in paragraph at lines 143--144
 \TU/Montserrat(1)/m/n/10.95 van beveiliging die van groot belang is voor organi
 saties die gevoelig zijn voor ransomware-
  []
@@ -2697,7 +2732,7 @@ saties die gevoelig zijn voor ransomware-
 [13]
 
 [14]
-Overfull \hbox (6.99844pt too wide) in paragraph at lines 142--143
+Overfull \hbox (6.99844pt too wide) in paragraph at lines 181--182
 \TU/Montserrat(1)/m/n/10.95 meerdere besturingssystemen tegelijkertijd op één f
 ysieke machine kunnen draaien
  []
@@ -2705,7 +2740,7 @@ ysieke machine kunnen draaien
 
 
 [15]
-Overfull \hbox (0.18176pt too wide) in paragraph at lines 144--145
+Overfull \hbox (0.18176pt too wide) in paragraph at lines 183--184
 []\TU/Montserrat(1)/m/n/10.95 VirtualBox maakt gebruik van virtuele netwerken, 
 zoals NAT (Network Address
  []
@@ -2892,11 +2927,54 @@ Hoofdstuk 6.
 
 [34]
 B\ij lage A.
-(../bachproef/voorstel.tex)
+(../bachproef/voorstel.tex
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 1.
+
+
 
 [35
 
+] (./BouazzaouiNaoufalBP.toc)
+\tf@toc=\write11
+\openout11 = `BouazzaouiNaoufalBP.toc'.
+
+
+Overfull \hbox (12.01086pt too wide) in paragraph at lines 16--18
+[]\TU/Montserrat(1)/m/n/10.95 De onderzoeksvraag die onderzocht zal worden is: 
+“Hoe kan de back-upstrategie
+ []
+
+
+
+[36
+
 ]
+
+[37]
+File: img/fullb.png Graphic file (type bmp)
+<img/fullb.png>
+File: img/incrementb.png Graphic file (type bmp)
+<img/incrementb.png>
+
+
+[38]
+File: img/diff.png Graphic file (type bmp)
+<img/diff.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[39]
+
+[40]
+
+[41])
+
+[42]
 Overfull \hbox (1.69463pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(1)/m/n/10.95 backup techniques. \TU/Montserrat(2)/m/it/10.95 Joi
 nt NASA and IEEE Mass Storage Conference\TU/Montserrat(1)/m/n/10.95 , \TU/Monts
@@ -2910,6 +2988,12 @@ Overfull \hbox (173.6539pt too wide) in paragraph at lines 200--200
 [][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][] 
  []
 
+
+
+[43
+
+
+]
 ./BouazzaouiNaoufalBP.tex:200: Misplaced alignment tab character &.
 <argument> American Academic &
                                Scholarly Research Journal
@@ -2937,11 +3021,6 @@ Overfull \hbox (116.24304pt too wide) in paragraph at lines 200--200
  []
 
 
-
-[36
-
-
-]
 Overfull \hbox (17.31981pt too wide) in paragraph at lines 200--200
 [][]\TU/Montserrat(1)/m/n/10.95 Hashicorp. (z.d.). \TU/Montserrat(2)/m/it/10.95
  What is Vagrant? \TU/Montserrat(1)/m/n/10.95 Verkregen december 10, 2024, van 
@@ -2964,7 +3043,7 @@ Overfull \hbox (29.28905pt too wide) in paragraph at lines 200--200
 
 
 
-[37]
+[44]
 Overfull \hbox (8.92203pt too wide) in paragraph at lines 200--200
 [][][][][][][][][][][][][][] [] [][][] [] [][][][][][][] [] [][][] [] [][][][][
 ] [] [][][][] [] [][][][][][][][] [] [][][][][][][][] [] [][][][][][][][]$[][] 
@@ -2973,33 +3052,28 @@ Overfull \hbox (8.92203pt too wide) in paragraph at lines 200--200
 
 
 
-[38] (./BouazzaouiNaoufalBP.aux)
+[45] (./BouazzaouiNaoufalBP.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `BouazzaouiNaoufalBP.out' has not changed.
-(rerunfilecheck)             Checksum: A0E90DA0DC9F182CCC9F74246649B759;4842.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                BouazzaouiNaoufalBP
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: E52747A91C327E3820A3A9C7A029CDA4;5547.
 Package logreq Info: Writing requests to 'BouazzaouiNaoufalBP.run.xml'.
 \openout1 = `BouazzaouiNaoufalBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51521 strings out of 474233
- 1046854 string characters out of 5745779
- 2444523 words of memory out of 5000000
- 73354 multiletter control sequences out of 15000+600000
+ 51555 strings out of 474233
+ 1047722 string characters out of 5745779
+ 2445042 words of memory out of 5000000
+ 73386 multiletter control sequences out of 15000+600000
  561118 words of font info for 101 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 110i,12n,132p,2627b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,12n,132p,1719b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on BouazzaouiNaoufalBP.pdf (46 pages).
+Output written on BouazzaouiNaoufalBP.pdf (54 pages).

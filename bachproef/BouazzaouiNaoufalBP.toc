@@ -1,7 +1,7 @@
 \babel@toc {dutch}{}\relax 
-\contentsline {chapter}{L\ij st van figuren}{vi}{chapter*.4}%
-\contentsline {chapter}{L\ij st van tabellen}{vii}{chapter*.5}%
-\contentsline {chapter}{Lijst van codefragmenten }{viii}{section*.6}%
+\contentsline {chapter}{L\ij st van figuren}{vii}{chapter*.4}%
+\contentsline {chapter}{L\ij st van tabellen}{viii}{chapter*.5}%
+\contentsline {chapter}{Lijst van codefragmenten }{ix}{section*.6}%
 \contentsline {chapter}{\numberline {1}Inleiding}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Probleemstelling}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Onderzoeksvraag}{2}{section.1.2}%
@@ -26,7 +26,7 @@
 \contentsline {subsection}{\numberline {2.0.5}Technologische basis voor de Proof-of-Concept}{14}{subsection.2.0.5}%
 \contentsline {subsubsection}{Azure}{14}{subsection.2.0.5}%
 \contentsline {subsubsection}{Vagrant}{15}{subsection.2.0.5}%
-\contentsline {subsubsection}{Virtualbox}{15}{subsection.2.0.5}%
+\contentsline {subsubsection}{Virtualbox}{16}{subsection.2.0.5}%
 \contentsline {subsubsection}{BorgBackup}{16}{subsection.2.0.5}%
 \contentsline {subsubsection}{MySQL}{16}{subsection.2.0.5}%
 \contentsline {chapter}{\numberline {3}Methodologie}{17}{chapter.3}%
@@ -66,5 +66,18 @@
 \contentsline {subsubsection}{Deelvraag 2: Welke rol speelt immutabele opslag in het beschermen van back-ups tegen ransomware en andere vormen van dataverlies?}{33}{chapter.6}%
 \contentsline {subsubsection}{Deelvraag 3: Wat zijn de belangrijkste uitdagingen bij het integreren van immutabele opslag met Azure cloud back-upsystemen?}{33}{chapter.6}%
 \contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{35}{appendix.A}%
-\contentsline {chapter}{Bibliografie}{36}{appendix*.18}%
+\contentsline {subsection}{\numberline {A.0.1}abstract}{35}{subsection.A.0.1}%
+\contentsline {subsection}{\numberline {A.0.2}Inleiding}{36}{subsection.A.0.2}%
+\contentsline {subsection}{\numberline {A.0.3}Literatuurstudie}{37}{subsection.A.0.3}%
+\contentsline {subsubsection}{back-upstrategieën}{38}{subsection.A.0.3}%
+\contentsline {subsubsection}{Full back-up}{38}{subsection.A.0.3}%
+\contentsline {subsubsection}{Incremental back-up}{38}{figure.caption.19}%
+\contentsline {subsubsection}{Differentiële back-up}{39}{figure.caption.20}%
+\contentsline {subsubsection}{On-premise back-ups}{40}{figure.caption.21}%
+\contentsline {subsubsection}{Cloud-gebaseerde back-ups}{40}{figure.caption.21}%
+\contentsline {subsubsection}{Offline back-ups}{41}{figure.caption.21}%
+\contentsline {subsubsection}{Immutable storage}{41}{figure.caption.21}%
+\contentsline {subsection}{\numberline {A.0.4}Methodologie}{41}{subsection.A.0.4}%
+\contentsline {subsection}{\numberline {A.0.5}Verwacht resultaat, conclusie}{42}{subsection.A.0.5}%
+\contentsline {chapter}{Bibliografie}{43}{appendix*.22}%
 \contentsfinish 

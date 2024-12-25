@@ -19,6 +19,76 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{Ali2024}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=8692f19583d8b877ee7fe2de6a654405}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Asif},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2373e5cdf45e5196da4e8aea69d2a0af}{%
+           family={Laghari},
+           familyi={L\bibinitperiod},
+           given={Asif\bibnamedelima Ali},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe423b28a7eb2bf3b47d991f16d6c35b}{%
+           family={Kandhro},
+           familyi={K\bibinitperiod},
+           given={Irfan\bibnamedelima Ahmed},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0407d6bcfa26e886fcd087a8468b9e6d}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Kamlesh},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5375257a8587b1030d74e04d90ed75ea}{%
+           family={Younus},
+           familyi={Y\bibinitperiod},
+           given={Salman},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Inderscience Publishers}%
+      }
+      \strng{namehash}{151ab8d677ba81a55e1812dfbecf7188}
+      \strng{fullhash}{e283cced2e46c2c2a1fdcce23abd8299}
+      \strng{fullhashraw}{e283cced2e46c2c2a1fdcce23abd8299}
+      \strng{bibnamehash}{e283cced2e46c2c2a1fdcce23abd8299}
+      \strng{authorbibnamehash}{e283cced2e46c2c2a1fdcce23abd8299}
+      \strng{authornamehash}{151ab8d677ba81a55e1812dfbecf7188}
+      \strng{authorfullhash}{e283cced2e46c2c2a1fdcce23abd8299}
+      \strng{authorfullhashraw}{e283cced2e46c2c2a1fdcce23abd8299}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2043-9997}
+      \field{journaltitle}{International Journal of Cloud Computing}
+      \field{number}{3}
+      \field{title}{Systematic analysis of on-premise and cloud services}
+      \field{volume}{13}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{214\bibrangedash 242}
+      \range{pages}{29}
+      \verb{doi}
+      \verb https://doi.org/10.1504/IJCC.2024.139604
+      \endverb
+      \verb{urlraw}
+      \verb https://www.inderscienceonline.com/doi/abs/10.1504/IJCC.2024.139604
+      \endverb
+      \verb{url}
+      \verb https://www.inderscienceonline.com/doi/abs/10.1504/IJCC.2024.139604
+      \endverb
+    \endentry
     \entry{Beard2018}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a3d09723d4a6e45b0f452f70c1456867}{%
@@ -138,6 +208,50 @@
       \verb https://books.google.be/books?id=LJ9GCgAAQBAJ&q=%22air+gapped%22&pg=PA107&redir_esc=y#v=onepage&q&f=false
       \endverb
     \endentry
+    \entry{Cherry2015}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6d309e46463ddc10853ae5a75f9a3148}{%
+           family={Cherry},
+           familyi={C\bibinitperiod},
+           given={Denny},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{6d309e46463ddc10853ae5a75f9a3148}
+      \strng{fullhash}{6d309e46463ddc10853ae5a75f9a3148}
+      \strng{fullhashraw}{6d309e46463ddc10853ae5a75f9a3148}
+      \strng{bibnamehash}{6d309e46463ddc10853ae5a75f9a3148}
+      \strng{authorbibnamehash}{6d309e46463ddc10853ae5a75f9a3148}
+      \strng{authornamehash}{6d309e46463ddc10853ae5a75f9a3148}
+      \strng{authorfullhash}{6d309e46463ddc10853ae5a75f9a3148}
+      \strng{authorfullhashraw}{6d309e46463ddc10853ae5a75f9a3148}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Securing SQL Server}
+      \field{isbn}{9780128012758}
+      \field{title}{Database Backup Security}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{293\bibrangedash 311}
+      \range{pages}{19}
+      \verb{doi}
+      \verb https://doi.org/10.1016/B978-0-12-801275-8.00010-5
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/abs/pii/B9780128012758000105?fr=RR-2&ref=pdf_download&rr=8d63765bbf42b77d
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/abs/pii/B9780128012758000105?fr=RR-2&ref=pdf_download&rr=8d63765bbf42b77d
+      \endverb
+    \endentry
     \entry{Chervenak1998}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=ecfb706a7f592a3f7cf6e05d229f22ca}{%
@@ -188,44 +302,101 @@
       \verb https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=4b6cfd832c2eb61c60ae0ab956eed8401f22d5f0
       \endverb
     \endentry
-    \entry{Connolly2020}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=31a84fa579618f79b46a1779e751d98a}{%
-           family={Connolly},
-           familyi={C\bibinitperiod},
-           given={Lena\bibnamedelima Yuryna},
-           giveni={L\bibinitperiod\bibinitdelim Y\bibinitperiod},
+    \entry{Dikbiyik2024}{article}{}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=f91cae83e59d4685aaeef0d5a02dc4d4}{%
+           family={Dikbiyik},
+           familyi={D\bibinitperiod},
+           given={Ferhat},
+           giveni={F\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=6862c14cfd404d064d79907c0ac8b868}{%
-           family={Borrion},
+        {{un=0,uniquepart=base,hash=5644885cfd8c8123d0d8536d965dd10b}{%
+           family={Gul},
+           familyi={G\bibinitperiod},
+           given={Ferdi},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0781a079beeb89b252bc34e21d2232ff}{%
+           family={Tapkan},
+           familyi={T\bibinitperiod},
+           given={Gokcen},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7653b9841b2c00446ab7188158f535b3}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Yavuz},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=07344313f562b82fa5f9da7d18b658a2}{%
+           family={Akdora},
+           familyi={A\bibinitperiod},
+           given={Ozcan},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab69877769000079db39a0270279aa74}{%
+           family={Budakoglu},
            familyi={B\bibinitperiod},
-           given={Hervé},
-           giveni={H\bibinitperiod},
+           given={Gulsum},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02c0f1c536011863474da218cb14523c}{%
+           family={Ciftci},
+           familyi={C\bibinitperiod},
+           given={Basri},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=caec48c4933d57b1f1cd4c0f7b5b957a}{%
+           family={Celik},
+           familyi={C\bibinitperiod},
+           given={Ekrem\bibnamedelima Selcuk},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0cd02b35a5ff9728d1bb5834d518b9ce}{%
+           family={Cengiz},
+           familyi={C\bibinitperiod},
+           given={Serkan\bibnamedelima Ekrem},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e50fab7acc127f078c5ccac51b0be548}{%
+           family={Toprak},
+           familyi={T\bibinitperiod},
+           given={Gizem},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d3fe05ff1194e5ef5b4619b473f4f73}{%
+           family={Dogan},
+           familyi={D\bibinitperiod},
+           given={Yunus},
+           giveni={Y\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{eec45caec160664495ffc88e5ba0707b}
-      \strng{fullhash}{eec45caec160664495ffc88e5ba0707b}
-      \strng{fullhashraw}{eec45caec160664495ffc88e5ba0707b}
-      \strng{bibnamehash}{eec45caec160664495ffc88e5ba0707b}
-      \strng{authorbibnamehash}{eec45caec160664495ffc88e5ba0707b}
-      \strng{authornamehash}{eec45caec160664495ffc88e5ba0707b}
-      \strng{authorfullhash}{eec45caec160664495ffc88e5ba0707b}
-      \strng{authorfullhashraw}{eec45caec160664495ffc88e5ba0707b}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \strng{namehash}{791016ee06c7289881d115d49886626a}
+      \strng{fullhash}{918bdea44e42776baa7fdb7a390915b6}
+      \strng{fullhashraw}{918bdea44e42776baa7fdb7a390915b6}
+      \strng{bibnamehash}{918bdea44e42776baa7fdb7a390915b6}
+      \strng{authorbibnamehash}{918bdea44e42776baa7fdb7a390915b6}
+      \strng{authornamehash}{791016ee06c7289881d115d49886626a}
+      \strng{authorfullhash}{918bdea44e42776baa7fdb7a390915b6}
+      \strng{authorfullhashraw}{918bdea44e42776baa7fdb7a390915b6}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{ICIS}
-      \field{title}{Your Money or Your Business: Decision-Making Processes in Ransomware Attacks.}
-      \field{year}{2020}
+      \field{day}{31}
+      \field{journaltitle}{Black kite}
+      \field{month}{3}
+      \field{title}{State of Ransomware 2024:A Year of Surgesand Shuffling}
+      \field{year}{2024}
+      \field{dateera}{ce}
       \verb{urlraw}
-      \verb https://discovery.ucl.ac.uk/id/eprint/10110901/3/Borrion_Your Money or Your Business_Final.pdf
+      \verb https://blackkite.com/wp-content/uploads/2024/05/BlackKite_Report_Ransomware-2024.05.14.pdf
       \endverb
       \verb{url}
-      \verb https://discovery.ucl.ac.uk/id/eprint/10110901/3/Borrion_Your%20Money%20or%20Your%20Business_Final.pdf
+      \verb https://blackkite.com/wp-content/uploads/2024/05/BlackKite_Report_Ransomware-2024.05.14.pdf
       \endverb
     \endentry
     \entry{Dubey2023}{article}{}{}
@@ -1079,6 +1250,71 @@
       \endverb
       \verb{url}
       \verb https://www.researchgate.net/publication/369354068_A_Survey_on_Air-Gap_Attacks_Fundamentals_Transport_Means_Attack_Scenarios_and_Challenges
+      \endverb
+    \endentry
+    \entry{Qian2010}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=fffcfa06cfc7a56e64936c515e7d1f0c}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Cunhua},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb039943e81dc28d6842dd0af625c6cb}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Yingyan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f669abf6d5391209683c5fd29e25c8e}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Xufeng},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62c15ec7d91452f8f63fd7b17a9cd313}{%
+           family={Nakagawa},
+           familyi={N\bibinitperiod},
+           given={Toshio},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {International Academy Publishing (IAP)}%
+      }
+      \strng{namehash}{fba3a6b87d997180db3eb632f00c7b9d}
+      \strng{fullhash}{9ba90d4121404f266f6e22ccf31d7043}
+      \strng{fullhashraw}{9ba90d4121404f266f6e22ccf31d7043}
+      \strng{bibnamehash}{9ba90d4121404f266f6e22ccf31d7043}
+      \strng{authorbibnamehash}{9ba90d4121404f266f6e22ccf31d7043}
+      \strng{authornamehash}{fba3a6b87d997180db3eb632f00c7b9d}
+      \strng{authorfullhash}{9ba90d4121404f266f6e22ccf31d7043}
+      \strng{authorfullhashraw}{9ba90d4121404f266f6e22ccf31d7043}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1796-203X}
+      \field{journaltitle}{Journal of Computers}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{Optimal Backup Interval for a Database System with Full and Periodic Incremental Backup.}
+      \field{volume}{5}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{pages}{557\bibrangedash 564}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.4304/jcp.5.4.557-564
+      \endverb
+      \verb{urlraw}
+      \verb https://www.researchgate.net/profile/Cunhua-Qian/publication/42803530_Optimal_Backup_Interval_for_a_Database_System_with_Full_and_Periodic_Incremental_Backup/links/568bcf8b08ae8f6ec752328c/Optimal-Backup-Interval-for-a-Database-System-with-Full-and-Periodic-Incremental-Backup.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/profile/Cunhua-Qian/publication/42803530_Optimal_Backup_Interval_for_a_Database_System_with_Full_and_Periodic_Incremental_Backup/links/568bcf8b08ae8f6ec752328c/Optimal-Backup-Interval-for-a-Database-System-with-Full-and-Periodic-Incremental-Backup.pdf
       \endverb
     \endentry
     \entry{Rahumed2011}{article}{}{}
@@ -1583,6 +1819,76 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
+    \entry{Ali2024}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=8692f19583d8b877ee7fe2de6a654405}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Asif},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2373e5cdf45e5196da4e8aea69d2a0af}{%
+           family={Laghari},
+           familyi={L\bibinitperiod},
+           given={Asif\bibnamedelima Ali},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe423b28a7eb2bf3b47d991f16d6c35b}{%
+           family={Kandhro},
+           familyi={K\bibinitperiod},
+           given={Irfan\bibnamedelima Ahmed},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0407d6bcfa26e886fcd087a8468b9e6d}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Kamlesh},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5375257a8587b1030d74e04d90ed75ea}{%
+           family={Younus},
+           familyi={Y\bibinitperiod},
+           given={Salman},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Inderscience Publishers}%
+      }
+      \strng{namehash}{151ab8d677ba81a55e1812dfbecf7188}
+      \strng{fullhash}{e283cced2e46c2c2a1fdcce23abd8299}
+      \strng{fullhashraw}{e283cced2e46c2c2a1fdcce23abd8299}
+      \strng{bibnamehash}{e283cced2e46c2c2a1fdcce23abd8299}
+      \strng{authorbibnamehash}{e283cced2e46c2c2a1fdcce23abd8299}
+      \strng{authornamehash}{151ab8d677ba81a55e1812dfbecf7188}
+      \strng{authorfullhash}{e283cced2e46c2c2a1fdcce23abd8299}
+      \strng{authorfullhashraw}{e283cced2e46c2c2a1fdcce23abd8299}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2043-9997}
+      \field{journaltitle}{International Journal of Cloud Computing}
+      \field{number}{3}
+      \field{title}{Systematic analysis of on-premise and cloud services}
+      \field{volume}{13}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{214\bibrangedash 242}
+      \range{pages}{29}
+      \verb{doi}
+      \verb https://doi.org/10.1504/IJCC.2024.139604
+      \endverb
+      \verb{urlraw}
+      \verb https://www.inderscienceonline.com/doi/abs/10.1504/IJCC.2024.139604
+      \endverb
+      \verb{url}
+      \verb https://www.inderscienceonline.com/doi/abs/10.1504/IJCC.2024.139604
+      \endverb
+    \endentry
     \entry{Beard2018}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a3d09723d4a6e45b0f452f70c1456867}{%
@@ -1702,6 +2008,50 @@
       \verb https://books.google.be/books?id=LJ9GCgAAQBAJ&q=%22air+gapped%22&pg=PA107&redir_esc=y#v=onepage&q&f=false
       \endverb
     \endentry
+    \entry{Cherry2015}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6d309e46463ddc10853ae5a75f9a3148}{%
+           family={Cherry},
+           familyi={C\bibinitperiod},
+           given={Denny},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{6d309e46463ddc10853ae5a75f9a3148}
+      \strng{fullhash}{6d309e46463ddc10853ae5a75f9a3148}
+      \strng{fullhashraw}{6d309e46463ddc10853ae5a75f9a3148}
+      \strng{bibnamehash}{6d309e46463ddc10853ae5a75f9a3148}
+      \strng{authorbibnamehash}{6d309e46463ddc10853ae5a75f9a3148}
+      \strng{authornamehash}{6d309e46463ddc10853ae5a75f9a3148}
+      \strng{authorfullhash}{6d309e46463ddc10853ae5a75f9a3148}
+      \strng{authorfullhashraw}{6d309e46463ddc10853ae5a75f9a3148}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Securing SQL Server}
+      \field{isbn}{9780128012758}
+      \field{title}{Database Backup Security}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{293\bibrangedash 311}
+      \range{pages}{19}
+      \verb{doi}
+      \verb https://doi.org/10.1016/B978-0-12-801275-8.00010-5
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/abs/pii/B9780128012758000105?fr=RR-2&ref=pdf_download&rr=8d63765bbf42b77d
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/abs/pii/B9780128012758000105?fr=RR-2&ref=pdf_download&rr=8d63765bbf42b77d
+      \endverb
+    \endentry
     \entry{Chervenak1998}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=ecfb706a7f592a3f7cf6e05d229f22ca}{%
@@ -1752,44 +2102,101 @@
       \verb https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=4b6cfd832c2eb61c60ae0ab956eed8401f22d5f0
       \endverb
     \endentry
-    \entry{Connolly2020}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=31a84fa579618f79b46a1779e751d98a}{%
-           family={Connolly},
-           familyi={C\bibinitperiod},
-           given={Lena\bibnamedelima Yuryna},
-           giveni={L\bibinitperiod\bibinitdelim Y\bibinitperiod},
+    \entry{Dikbiyik2024}{article}{}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=f91cae83e59d4685aaeef0d5a02dc4d4}{%
+           family={Dikbiyik},
+           familyi={D\bibinitperiod},
+           given={Ferhat},
+           giveni={F\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=6862c14cfd404d064d79907c0ac8b868}{%
-           family={Borrion},
+        {{un=0,uniquepart=base,hash=5644885cfd8c8123d0d8536d965dd10b}{%
+           family={Gul},
+           familyi={G\bibinitperiod},
+           given={Ferdi},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0781a079beeb89b252bc34e21d2232ff}{%
+           family={Tapkan},
+           familyi={T\bibinitperiod},
+           given={Gokcen},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7653b9841b2c00446ab7188158f535b3}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Yavuz},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=07344313f562b82fa5f9da7d18b658a2}{%
+           family={Akdora},
+           familyi={A\bibinitperiod},
+           given={Ozcan},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab69877769000079db39a0270279aa74}{%
+           family={Budakoglu},
            familyi={B\bibinitperiod},
-           given={Hervé},
-           giveni={H\bibinitperiod},
+           given={Gulsum},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02c0f1c536011863474da218cb14523c}{%
+           family={Ciftci},
+           familyi={C\bibinitperiod},
+           given={Basri},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=caec48c4933d57b1f1cd4c0f7b5b957a}{%
+           family={Celik},
+           familyi={C\bibinitperiod},
+           given={Ekrem\bibnamedelima Selcuk},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0cd02b35a5ff9728d1bb5834d518b9ce}{%
+           family={Cengiz},
+           familyi={C\bibinitperiod},
+           given={Serkan\bibnamedelima Ekrem},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e50fab7acc127f078c5ccac51b0be548}{%
+           family={Toprak},
+           familyi={T\bibinitperiod},
+           given={Gizem},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d3fe05ff1194e5ef5b4619b473f4f73}{%
+           family={Dogan},
+           familyi={D\bibinitperiod},
+           given={Yunus},
+           giveni={Y\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{eec45caec160664495ffc88e5ba0707b}
-      \strng{fullhash}{eec45caec160664495ffc88e5ba0707b}
-      \strng{fullhashraw}{eec45caec160664495ffc88e5ba0707b}
-      \strng{bibnamehash}{eec45caec160664495ffc88e5ba0707b}
-      \strng{authorbibnamehash}{eec45caec160664495ffc88e5ba0707b}
-      \strng{authornamehash}{eec45caec160664495ffc88e5ba0707b}
-      \strng{authorfullhash}{eec45caec160664495ffc88e5ba0707b}
-      \strng{authorfullhashraw}{eec45caec160664495ffc88e5ba0707b}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \strng{namehash}{791016ee06c7289881d115d49886626a}
+      \strng{fullhash}{918bdea44e42776baa7fdb7a390915b6}
+      \strng{fullhashraw}{918bdea44e42776baa7fdb7a390915b6}
+      \strng{bibnamehash}{918bdea44e42776baa7fdb7a390915b6}
+      \strng{authorbibnamehash}{918bdea44e42776baa7fdb7a390915b6}
+      \strng{authornamehash}{791016ee06c7289881d115d49886626a}
+      \strng{authorfullhash}{918bdea44e42776baa7fdb7a390915b6}
+      \strng{authorfullhashraw}{918bdea44e42776baa7fdb7a390915b6}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{ICIS}
-      \field{title}{Your Money or Your Business: Decision-Making Processes in Ransomware Attacks.}
-      \field{year}{2020}
+      \field{day}{31}
+      \field{journaltitle}{Black kite}
+      \field{month}{3}
+      \field{title}{State of Ransomware 2024:A Year of Surgesand Shuffling}
+      \field{year}{2024}
+      \field{dateera}{ce}
       \verb{urlraw}
-      \verb https://discovery.ucl.ac.uk/id/eprint/10110901/3/Borrion_Your Money or Your Business_Final.pdf
+      \verb https://blackkite.com/wp-content/uploads/2024/05/BlackKite_Report_Ransomware-2024.05.14.pdf
       \endverb
       \verb{url}
-      \verb https://discovery.ucl.ac.uk/id/eprint/10110901/3/Borrion_Your%20Money%20or%20Your%20Business_Final.pdf
+      \verb https://blackkite.com/wp-content/uploads/2024/05/BlackKite_Report_Ransomware-2024.05.14.pdf
       \endverb
     \endentry
     \entry{Dubey2023}{article}{}{}
@@ -2643,6 +3050,71 @@
       \endverb
       \verb{url}
       \verb https://www.researchgate.net/publication/369354068_A_Survey_on_Air-Gap_Attacks_Fundamentals_Transport_Means_Attack_Scenarios_and_Challenges
+      \endverb
+    \endentry
+    \entry{Qian2010}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=fffcfa06cfc7a56e64936c515e7d1f0c}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Cunhua},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb039943e81dc28d6842dd0af625c6cb}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Yingyan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f669abf6d5391209683c5fd29e25c8e}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Xufeng},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62c15ec7d91452f8f63fd7b17a9cd313}{%
+           family={Nakagawa},
+           familyi={N\bibinitperiod},
+           given={Toshio},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {International Academy Publishing (IAP)}%
+      }
+      \strng{namehash}{fba3a6b87d997180db3eb632f00c7b9d}
+      \strng{fullhash}{9ba90d4121404f266f6e22ccf31d7043}
+      \strng{fullhashraw}{9ba90d4121404f266f6e22ccf31d7043}
+      \strng{bibnamehash}{9ba90d4121404f266f6e22ccf31d7043}
+      \strng{authorbibnamehash}{9ba90d4121404f266f6e22ccf31d7043}
+      \strng{authornamehash}{fba3a6b87d997180db3eb632f00c7b9d}
+      \strng{authorfullhash}{9ba90d4121404f266f6e22ccf31d7043}
+      \strng{authorfullhashraw}{9ba90d4121404f266f6e22ccf31d7043}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1796-203X}
+      \field{journaltitle}{Journal of Computers}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{Optimal Backup Interval for a Database System with Full and Periodic Incremental Backup.}
+      \field{volume}{5}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{pages}{557\bibrangedash 564}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.4304/jcp.5.4.557-564
+      \endverb
+      \verb{urlraw}
+      \verb https://www.researchgate.net/profile/Cunhua-Qian/publication/42803530_Optimal_Backup_Interval_for_a_Database_System_with_Full_and_Periodic_Incremental_Backup/links/568bcf8b08ae8f6ec752328c/Optimal-Backup-Interval-for-a-Database-System-with-Full-and-Periodic-Incremental-Backup.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/profile/Cunhua-Qian/publication/42803530_Optimal_Backup_Interval_for_a_Database_System_with_Full_and_Periodic_Incremental_Backup/links/568bcf8b08ae8f6ec752328c/Optimal-Backup-Interval-for-a-Database-System-with-Full-and-Periodic-Incremental-Backup.pdf
       \endverb
     \endentry
     \entry{Rahumed2011}{article}{}{}
