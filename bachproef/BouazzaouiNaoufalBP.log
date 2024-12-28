@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  27 DEC 2024 04:14
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  28 DEC 2024 03:48
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2861,9 +2861,140 @@ File: lstlang1.sty 2024/09/23 1.10c listings language file
 [25] (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+)
+
+./poc.tex:88: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 ...p commando om een databank te exporteren}]
+                                                  
+The following languages weren't loadable:
+    ,script$
+This may cause errors in the sequel.
+
+
+./poc.tex:88: Package Listings Error: language script undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 ...p commando om een databank te exporteren}]
+                                                  
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+)
+
+./poc.tex:92: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.92 ...map te initialiseren als Borg repository}]
+                                                  
+The following languages weren't loadable:
+    ,script$
+This may cause errors in the sequel.
+
+
+./poc.tex:92: Package Listings Error: language script undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.92 ...map te initialiseren als Borg repository}]
+                                                  
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+)
+
+./poc.tex:96: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 ...n={Borg commando om een back-up te nemen}]
+                                                  
+The following languages weren't loadable:
+    ,script$
+This may cause errors in the sequel.
+
+
+./poc.tex:96: Package Listings Error: language script undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 ...n={Borg commando om een back-up te nemen}]
+                                                  
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+)
+
+./poc.tex:104: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 ...x commando om de map immutable te maken}]
+                                                  
+The following languages weren't loadable:
+    ,script$
+This may cause errors in the sequel.
+
+
+./poc.tex:104: Package Listings Error: language script undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 ...x commando om de map immutable te maken}]
+                                                  
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
 Overfull \hbox (12.53328pt too wide) in paragraph at lines 103--104
 \TU/Montserrat(1)/m/n/10.95 Om de back-updirectory ransomware-resistent te make
 n, werd het Linux-commando
@@ -2876,13 +3007,111 @@ Overfull \hbox (0.20853pt too wide) in paragraph at lines 103--104
 e te passen op de back-updirectory.
  []
 
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+)
+
+./poc.tex:110: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 ... om een ransomware-aanval na te bootsen}]
+                                                  
+The following languages weren't loadable:
+    ,script$
+This may cause errors in the sequel.
 
 
-[26]
+./poc.tex:110: Package Listings Error: language script undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 ... om een ransomware-aanval na te bootsen}]
+                                                  
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+
+[26] (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+)
+
+./poc.tex:131: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.131 ...g commando om een back-up te herstellen}]
+                                                  
+The following languages weren't loadable:
+    ,script$
+This may cause errors in the sequel.
+
+
+./poc.tex:131: Package Listings Error: language script undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.131 ...g commando om een back-up te herstellen}]
+                                                  
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+)
+
+./poc.tex:137: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 ...k te herstellen vanuit een .sql-bestand}]
+                                                  
+The following languages weren't loadable:
+    ,script$
+This may cause errors in the sequel.
+
+
+./poc.tex:137: Package Listings Error: language script undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 ...k te herstellen vanuit een .sql-bestand}]
+                                                  
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
 Overfull \hbox (21.52275pt too wide) in paragraph at lines 136--137
 []\TU/Montserrat(1)/m/n/10.95 De databank werd opnieuw opgezet vanuit het besta
 nd dat uit de Borg-repository
@@ -2922,20 +3151,52 @@ Overfull \hbox (21.99626pt too wide) in paragraph at lines 203--204
 (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+)
+
+./poc.tex:210: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 ...=Python-script voor back-ups en retentie]
+                                                  
+The following languages weren't loadable:
+    ,script$
+This may cause errors in the sequel.
+
+
+./poc.tex:210: Package Listings Error: language script undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 ...=Python-script voor back-ups en retentie]
+                                                  
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
 
 [31]
 
 [32]
 
 [33]
-Overfull \hbox (10.8674pt too wide) in paragraph at lines 356--357
+
+[34]
+Overfull \hbox (10.8674pt too wide) in paragraph at lines 373--374
 \TU/Montserrat(1)/m/n/10.95 De automatisering wordt verder versterkt door het g
 ebruik van een Docker-container.
  []
 
-
-
-[34] (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
 (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
@@ -2945,26 +3206,26 @@ File: lstlang2.sty 2024/09/23 1.10c listings language file
 File: lstlang3.sty 2024/09/23 1.10c listings language file
 )
 
-./poc.tex:360: Package Listings Error: Couldn't load requested language.
+./poc.tex:377: Package Listings Error: Couldn't load requested language.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.360 ...tion=Dockerfile voor de back-upcontainer]
+l.377 ...tion=Dockerfile voor de back-upcontainer]
                                                   
 The following languages weren't loadable:
     ,dockerfile$
 This may cause errors in the sequel.
 
 
-./poc.tex:360: Package Listings Error: language dockerfile undefined.
+./poc.tex:377: Package Listings Error: language dockerfile undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.360 ...tion=Dockerfile voor de back-upcontainer]
+l.377 ...tion=Dockerfile voor de back-upcontainer]
                                                   
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2979,45 +3240,60 @@ File: lstlang2.sty 2024/09/23 1.10c listings language file
 File: lstlang3.sty 2024/09/23 1.10c listings language file
 )
 
-./poc.tex:383: Package Listings Error: Couldn't load requested language.
+./poc.tex:400: Package Listings Error: Couldn't load requested language.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.383 ...cript voor het configureren van cronjobs]
+l.400 ...cript voor het configureren van cronjobs]
                                                   
 The following languages weren't loadable:
     ,script$
 This may cause errors in the sequel.
 
 
-./poc.tex:383: Package Listings Error: language script undefined.
+./poc.tex:400: Package Listings Error: language script undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.383 ...cript voor het configureren van cronjobs]
+l.400 ...cript voor het configureren van cronjobs]
                                                   
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
 
-[35]) (./conclusie.tex
+[35]
 
 [36]
+Overfull \hbox (7.57709pt too wide) in paragraph at lines 425--427
+\TU/Montserrat(1)/m/n/10.95 steld met \TU/CourierNew(0)/m/n/10.95 pg_restore\TU
+/Montserrat(1)/m/n/10.95 , terwijl voor MySQL gebruik werd gemaakt van het \TU/
+CourierNew(0)/m/n/10.95 mysql\TU/Montserrat(1)/m/n/10.95 -
+ []
+
+
+Overfull \hbox (8.98064pt too wide) in paragraph at lines 425--427
+\TU/Montserrat(1)/m/n/10.95 commando. Beide hersteltaken verliepen succesvol en
+ zonder dataverlies, waar-
+ []
+
+) (./conclusie.tex
+
+[37]
 Hoofdstuk 6.
 
 
-[37
+[38
 
 ]
 
-[38])
+[39])
 
-[39]
+[40]
 B\ij lage A.
 (../bachproef/voorstel.tex
 
@@ -3026,7 +3302,7 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 
 
 
-[40
+[41
 
 ] (./BouazzaouiNaoufalBP.toc)
 \tf@toc=\write11
@@ -3040,18 +3316,18 @@ Overfull \hbox (12.01086pt too wide) in paragraph at lines 16--18
 
 
 
-[41
+[42
 
 ]
 
-[42]
+[43]
 File: img/fullb.png Graphic file (type bmp)
 <img/fullb.png>
 File: img/incrementb.png Graphic file (type bmp)
 <img/incrementb.png>
 
 
-[43]
+[44]
 File: img/diff.png Graphic file (type bmp)
 <img/diff.png>
 
@@ -3060,13 +3336,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[44]
-
 [45]
 
-[46])
+[46]
 
-[47]
+[47])
+
+[48]
 Overfull \hbox (1.69463pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(1)/m/n/10.95 backup techniques. \TU/Montserrat(2)/m/it/10.95 Joi
 nt NASA and IEEE Mass Storage Conference\TU/Montserrat(1)/m/n/10.95 , \TU/Monts
@@ -3082,7 +3358,7 @@ Overfull \hbox (173.6539pt too wide) in paragraph at lines 200--200
 
 
 
-[48
+[49
 
 
 ]
@@ -3135,7 +3411,7 @@ Overfull \hbox (29.28905pt too wide) in paragraph at lines 200--200
 
 
 
-[49]
+[50]
 Overfull \hbox (8.92203pt too wide) in paragraph at lines 200--200
 [][][][][][][][][][][][][][] [] [][][] [] [][][][][][][] [] [][][] [] [][][][][
 ] [] [][][][] [] [][][][][][][][] [] [][][][][][][][] [] [][][][][][][][]$[][] 
@@ -3144,7 +3420,7 @@ Overfull \hbox (8.92203pt too wide) in paragraph at lines 200--200
 
 
 
-[50] (./BouazzaouiNaoufalBP.aux)
+[51] (./BouazzaouiNaoufalBP.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
@@ -3154,18 +3430,18 @@ L3 programming layer <2024-10-09>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `BouazzaouiNaoufalBP.out' has not changed.
-(rerunfilecheck)             Checksum: 843236DB121CA4E36327B343E04C40A0;6761.
+(rerunfilecheck)             Checksum: E5C5994F44DBEC7BFFBD5A6F155B7125;6205.
 Package logreq Info: Writing requests to 'BouazzaouiNaoufalBP.run.xml'.
 \openout1 = `BouazzaouiNaoufalBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51781 strings out of 474233
- 1050896 string characters out of 5745779
- 2586041 words of memory out of 5000000
- 73597 multiletter control sequences out of 15000+600000
- 561118 words of font info for 101 fonts, out of 8000000 for 9000
+ 51766 strings out of 474233
+ 1052674 string characters out of 5745779
+ 2560042 words of memory out of 5000000
+ 73541 multiletter control sequences out of 15000+600000
+ 560951 words of font info for 100 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,12n,132p,1719b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on BouazzaouiNaoufalBP.pdf (59 pages).
+Output written on BouazzaouiNaoufalBP.pdf (60 pages).

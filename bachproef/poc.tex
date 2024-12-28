@@ -85,15 +85,15 @@ INSERT INTO employees (name, role) VALUES
 
 \subsubsection{Back-up van de database}
 Nadien werd de database geëxporteerd naar een \texttt{.sql}-bestand met het volgende \texttt{mysqldump}-commando:
-\begin{lstlisting}[language=bash, caption={mysqldump commando om een databank te exporteren}]
+\begin{lstlisting}[language=script, caption={mysqldump commando om een databank te exporteren}]
 mysqldump -u testuser -p testdb > /home/vagrant/backup.sql
 \end{lstlisting}
 Het resulterende bestand, \texttt{backup.sql}, werd vervolgens met BorgBackup opgeslagen in een back-uprepository op de back-up VM. De repository werd vooraf geïnitialiseerd met het volgende commando:
-\begin{lstlisting}[language=bash, caption={Borg commando om een map te initialiseren als Borg repository}]
+\begin{lstlisting}[language=script, caption={Borg commando om een map te initialiseren als Borg repository}]
 borg init --encryption=repokey /home/vagrant/backups
 \end{lstlisting}
 Vervolgens werd de back-up gemaakt:
-\begin{lstlisting}[language=bash, caption={Borg commando om een back-up te nemen}]
+\begin{lstlisting}[language=script, caption={Borg commando om een back-up te nemen}]
 borg create --progress 
 ssh://vagrant@192.168.0.20/home/vagrant/backups::backup-$(date +%Y-%m-%d) 
 /home/vagrant/backup.sql
@@ -101,13 +101,13 @@ ssh://vagrant@192.168.0.20/home/vagrant/backups::backup-$(date +%Y-%m-%d)
 
 \subsubsection{Beveiliging van de back-updirectory}
 Om de back-updirectory ransomware-resistent te maken, werd het Linux-commando \texttt{chattr} gebruikt om het \textit{immutable}-attribuut toe te passen op de back-updirectory. Dit attribuut zorgt ervoor dat er geen wijzigingen aan de bestanden in de directory gebeuren, zelfs door gebruikers met \texttt{root}-rechten. Het commando:
-\begin{lstlisting}[language=bash, caption={Linux commando om de map immutable te maken}]
+\begin{lstlisting}[language=script, caption={Linux commando om de map immutable te maken}]
 sudo chattr +i /home/vagrant/backups/
 \end{lstlisting}
 
 \subsubsection{Simulatie van de ransomware-aanval}
 Op de attacker VM werd een script gebruikt om de ransomware-aanval te simuleren. Het script probeert alle bestanden in de back-updirectory te hernoemen door \texttt{.malware} toe te voegen aan de bestandsnamen. Dit zou overeenkomen met een ransomware-aanval waarbij de back-up bestanden geëncrypteerd worden. Het script is hieronder weergegeven:
-\begin{lstlisting}[language=bash, caption={Bash script om een ransomware-aanval na te bootsen}]
+\begin{lstlisting}[language=script, caption={Bash script om een ransomware-aanval na te bootsen}]
 #!/bin/bash
     
 BACKUP_DIR="/home/vagrant/backups"
@@ -128,13 +128,13 @@ Toen dit script werd uitgevoerd op de back-up VM, werd duidelijk dat het hernoem
 
 \subsubsection{Herstellen van de back-ups}
 Om te bewijzen dat de back-ups nog steeds bruikbaar waren, werd een herstelproces uitgevoerd op de primary VM vanuit de Borg-repository:
-\begin{lstlisting}[language=bash, caption={Borg commando om een back-up te herstellen}]
+\begin{lstlisting}[language=script, caption={Borg commando om een back-up te herstellen}]
 borg extract 
 ssh://vagrant@192.168.0.20/home/vagrant/backups::backup-2024-12-05
 \end{lstlisting}
 
 De databank werd opnieuw opgezet vanuit het bestand dat uit de Borg-repository werd gehaald met het volgende commando:
-\begin{lstlisting}[language=bash, caption={MySQL commando om een databank te herstellen vanuit een .sql-bestand}]
+\begin{lstlisting}[language=script, caption={MySQL commando om een databank te herstellen vanuit een .sql-bestand}]
 mysql -u root -p restored_db < /home/vagrant/backup.sql
 \end{lstlisting}
 De back-up werd gebruikt om de database te herstellen en te controleren. Het herstelproces verliep succesvol, wat bewijst dat de immutable storage de integriteit van de back-ups had behouden en dat de bestanden veilig waren gebleven ondanks de ransomware-aanval.
@@ -199,15 +199,15 @@ De implementatie van immutable storage op het azure storage account is succesvol
 
 
 \subsection{Automatiseren van de manuele back-ups met Docker en Python}
-\subsection{Overzicht van de oplossing}
+\subsubsection{Overzicht van de oplossing}
 Om een efficiënte en schaalbare oplossing te bieden voor het maken van databaseback-ups, werd een geautomatiseerd systeem ontwikkeld met behulp van een Python-script en een Docker-container. Dit systeem automatiseert zowel het maken van back-ups als het verwijderen van oude back-ups op basis van een ingestelde retentieperiode. De focus van deze implementatie is vooral herbruikbaarheid wat ervoor zorgt dat deze oplossing gemakkelijk geïmplementeerd kan worden in de productieomgeving van Forvis Mazars. Voor deze setup is er gebruik gemaakt van een databank die lokaal draait op een virtuele machine die als databank-server functioneert. Daarbij is er een Docker-container die, via het Python-script, back-ups neemt van de databank. Dit komt overeen met de actieve omgeving die Forvis Mazars gebruikt.
 
-\subsection{Python-script voor back-ups}
+\subsubsection{Python-script voor back-ups}
 Het Python-script vormt de kern van dit systeem en voert twee belangrijke taken uit. Enerzijds zorgt het voor het genereren van back-ups door gebruik te maken van \texttt{mysqldump} voor MySQL-databases en \texttt{pg\_dump} voor PostgreSQL-databases. Deze tools bieden de mogelijkheid om volledige databaseback-ups te maken die in een gestandaardiseerd formaat worden opgeslagen. Anderzijds implementeert het script een retentiebeleid waarbij oude back-ups die ouder zijn dan een vooraf ingestelde periode automatisch worden verwijderd. Daarnaast is logging geïntegreerd in het script om eventuele fouten of waarschuwingen te registreren, wat helpt bij monitoring en foutopsporing.
 
 \subsubsection{Python-script: Backups en Retentie}
 Het volledige Python-script is hieronder weergegeven:
-\begin{lstlisting}[language=Python, caption=Python-script voor back-ups en retentie]
+\begin{lstlisting}[language=script, caption=Python-script voor back-ups en retentie]
 import datetime
 import os
 import subprocess  # nosec
@@ -369,7 +369,7 @@ main()
 
 \end{lstlisting}
 
-\subsection{Automatisering met Docker}
+\subsubsection{Automatisering met Docker}
 De automatisering wordt verder versterkt door het gebruik van een Docker-container. Deze container biedt een reproduceerbare omgeving waarin het script kan worden uitgevoerd. Door een gestandaardiseerde Docker-image te gebruiken die gebaseerd is op Ubuntu, wordt een consistente setup gegarandeerd dat Forvis Mazars makkelijk kan implementeren. Binnen de container wordt een \texttt{setup.sh} script uitgevoerd om cronjobs te configureren die verantwoordelijk zijn voor het dagelijks maken van nieuwe back-ups om 2:00 uur 's nachts en het verwijderen van oude back-ups die ouder zijn dan 14 dagen. De retentieperiode is hier dus op 14 dagen gezet voor de dagelijkse back-ups. Daarnaast zorgt dit Bash-script ook voor het opstarten van de cron-service. Dit is nodig om een cronjob uit te voeren. De back-ups worden opgeslagen in een aparte directory binnen de container, en de cron-service wordt gestart door het setup-script. Bij het opzetten van de container  worden ook alle benodigde softwarepakketten geïnstalleerd zoals \texttt{mysql-client}, \texttt{cron}, en \texttt{python3}. Er worden 2 bestanden gekopieerd naar de container namelijk het Python-script en het Bash-script.
 
 \subsubsection{Dockerfile}
@@ -395,7 +395,7 @@ ENTRYPOINT ["tail"]
 CMD ["-f", "/dev/null"]
 \end{lstlisting}
 
-\subsubsection*{Setup-script}
+\subsubsection{Setup-script}
 Het \texttt{setup.sh}-script dat wordt uitgevoerd in de container is hieronder weergegeven:
 \begin{lstlisting}[language=script, caption=Setup-script voor het configureren van cronjobs]
 #!/bin/bash
@@ -408,11 +408,35 @@ echo -e "* * * * * DB_PASSWORD=root PGPASSWORD=root python3 /src/backup_script.p
 exec "$@"
 \end{lstlisting}
 
-\subsection{Relevantie voor Forvis Mazars}
+\subsubsection{Relevantie voor Forvis Mazars}
 Deze oplossing kan eenvoudig worden geïntegreerd in de infrastructuur van Forvis Mazars, omdat het gebruik maakt van Docker-containers. Forvis Mazars beheert hun back-ups binnen een Kubernetes-cluster, en Docker-containers kunnen rechtstreeks als pods worden gedeployed in Kubernetes. Hierdoor kan de huidige oplossing zonder aanpassingen worden hergebruikt. De setup in deze implementatie, waarbij de databases op een virtuele machine draaien en de back-ups worden uitgevoerd via Docker-containers, komt overeen met de werkomgeving van Forvis Mazars. Dit zorgt ervoor dat de voorgestelde oplossing naadloos aansluit op hun huidige infrastructuur en gebruiksbehoeften.
 
 
+\subsection{Herstelcapaciteit (Restore from Backup)}
+Een belangrijk onderdeel van het praktijkgedeelte van dit onderzoek is het testen van de \textbf{herstelcapaciteit} (Restore from Backup). Dit was een essentiële vereiste in het onderzoek, waarbij de focus lag op het efficiënt en snel herstellen van systemen vanuit de back-ups. Het doel was om een idee te krijgen over hoe snel en betrouwbaar een databank up-and-running kan zijn na het ondergaan van een incident.
 
+\subsubsection{Toepassing van de Herstelstrategie}
+Om deze must-have te evalueren, heb ik de gehele herstelprocedure in een gecontroleerde testomgeving uitgevoerd. Deze testomgeving komt grotendeels overeen met de actieve omgeving die Forvis Mazars gebruikt. Dit proces omvatte de volgende stappen:
+
+\begin{enumerate}
+    \item \textbf{Back-ups ophalen uit de immutable storage in Azure} \\
+    De back-ups werden veilig opgeslagen in een Azure Storage Account met een immutable opslagbeleid, wat een cruciale maatregel is tegen ransomware-aanvallen. Door het gebruik van het \texttt{az storage blob download}-commando werden de back-ups gedownload naar de lokale virtuele machine.
+    
+    \item \textbf{Herstellen van de PostgreSQL- en MySQL-databanken} \\
+    Na het downloaden werden de PostgreSQL- en MySQL-databases opnieuw opgezet met herstelcommando’s. Voor PostgreSQL werd het bestand hersteld met \texttt{pg\_restore}, terwijl voor MySQL gebruik werd gemaakt van het \texttt{mysql}-commando. Beide hersteltaken verliepen succesvol en zonder dataverlies, waarmee de betrouwbaarheid van de back-upstrategie werd aangetoond. Dit hele proces is gemeten en duurde ongeveer \textbf{23 seconden}, wat wijst op een snelle toegang tot de back-ups in noodsituaties.
+\end{enumerate}
+
+\subsubsection{Link met Herstelcapaciteit}
+De testprocedure toont aan dat de opgestelde back-upstrategie niet alleen effectief is in het beschermen van gegevens, maar ook voldoet aan de eisen van herstelcapaciteit:
+
+\begin{itemize}
+    \item \textbf{Efficiëntie:} Het herstelproces, vanaf het downloaden van de back-ups tot het opnieuw opzetten van de databases, verliep in een relatief korte tijd. Dit bevestigt dat de back-ups eenvoudig en snel toegankelijk zijn, wat essentieel is in een bedrijfsomgeving waar down-time zo laag mogelijk moet zijn.
+    
+    \item \textbf{Betrouwbaarheid:} Door gebruik te maken van immutable opslag in Azure worden de back-ups beschermd tegen ongewenste acties en aanvallen, wat de kans op succesvol herstel sterk verhoogt.
+\end{itemize}
+
+\subsubsection{Conclusie}
+De uitgevoerde tests bieden waardevolle inzichten in de herstelcapaciteit van de back-upstrategie. Het toont aan hoe een goed ontworpen back-upplan bedrijven in staat stelt om snel te reageren op noodsituaties en hun systemen betrouwbaar te herstellen. Hiermee is aangetoond dat het systeem niet alleen beschermt tegen gegevensverlies, maar ook operationeel herstel mogelijk maakt binnen een acceptabele tijd. Dit maakt het een reële oplossing voor bedrijven die ransomware-resistente back-upstrategieën willen implementeren.
 
 
 

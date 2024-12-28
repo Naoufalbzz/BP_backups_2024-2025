@@ -61,30 +61,35 @@
 \contentsline {subsubsection}{Testen van de immmutable storage}{30}{figure.caption.15}%
 \contentsline {subsubsection}{Conclusie}{30}{figure.caption.17}%
 \contentsline {subsection}{\numberline {5.0.4}Automatiseren van de manuele back-ups met Docker en Python}{31}{subsection.5.0.4}%
-\contentsline {subsection}{\numberline {5.0.5}Overzicht van de oplossing}{31}{subsection.5.0.5}%
-\contentsline {subsection}{\numberline {5.0.6}Python-script voor back-ups}{31}{subsection.5.0.6}%
-\contentsline {subsubsection}{Python-script: Backups en Retentie}{31}{subsection.5.0.6}%
-\contentsline {subsection}{\numberline {5.0.7}Automatisering met Docker}{34}{subsection.5.0.7}%
-\contentsline {subsubsection}{Dockerfile}{35}{subsection.5.0.7}%
-\contentsline {subsection}{\numberline {5.0.8}Relevantie voor Forvis Mazars}{36}{subsection.5.0.8}%
-\contentsline {chapter}{\numberline {6}Conclusie}{37}{chapter.6}%
-\contentsline {subsubsection}{Hoofdvraag: Hoe kan de back-upstrategie voor Azure PostgreSQL en MySQL databases bij Forvis Mazars worden geoptimaliseerd met behulp van immutabele opslag en automatische back-ups?}{37}{chapter.6}%
-\contentsline {subsubsection}{Deelvraag 1: Hoe veilig en betrouwbaar zijn de huidige back-upoplossingen van Forvis Mazars voor Azure PostgreSQL en MySQL databases?}{38}{chapter.6}%
-\contentsline {subsubsection}{Deelvraag 2: Welke rol speelt immutabele opslag in het beschermen van back-ups tegen ransomware en andere vormen van dataverlies?}{38}{chapter.6}%
-\contentsline {subsubsection}{Deelvraag 3: Wat zijn de belangrijkste uitdagingen bij het integreren van immutabele opslag met Azure cloud back-upsystemen?}{38}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{40}{appendix.A}%
-\contentsline {subsection}{\numberline {A.0.1}abstract}{40}{subsection.A.0.1}%
-\contentsline {subsection}{\numberline {A.0.2}Inleiding}{41}{subsection.A.0.2}%
-\contentsline {subsection}{\numberline {A.0.3}Literatuurstudie}{42}{subsection.A.0.3}%
-\contentsline {subsubsection}{back-upstrategieën}{43}{subsection.A.0.3}%
-\contentsline {subsubsection}{Full back-up}{43}{subsection.A.0.3}%
-\contentsline {subsubsection}{Incremental back-up}{43}{figure.caption.19}%
-\contentsline {subsubsection}{Differentiële back-up}{44}{figure.caption.20}%
-\contentsline {subsubsection}{On-premise back-ups}{45}{figure.caption.21}%
-\contentsline {subsubsection}{Cloud-gebaseerde back-ups}{45}{figure.caption.21}%
-\contentsline {subsubsection}{Offline back-ups}{46}{figure.caption.21}%
-\contentsline {subsubsection}{Immutable storage}{46}{figure.caption.21}%
-\contentsline {subsection}{\numberline {A.0.4}Methodologie}{46}{subsection.A.0.4}%
-\contentsline {subsection}{\numberline {A.0.5}Verwacht resultaat, conclusie}{47}{subsection.A.0.5}%
-\contentsline {chapter}{Bibliografie}{48}{appendix*.22}%
+\contentsline {subsubsection}{Overzicht van de oplossing}{31}{subsection.5.0.4}%
+\contentsline {subsubsection}{Python-script voor back-ups}{31}{subsection.5.0.4}%
+\contentsline {subsubsection}{Python-script: Backups en Retentie}{31}{subsection.5.0.4}%
+\contentsline {subsubsection}{Automatisering met Docker}{35}{lstnumber.5.10.159}%
+\contentsline {subsubsection}{Dockerfile}{35}{lstnumber.5.10.159}%
+\contentsline {subsubsection}{Setup-script}{36}{lstnumber.5.11.18}%
+\contentsline {subsubsection}{Relevantie voor Forvis Mazars}{36}{lstnumber.5.12.8}%
+\contentsline {subsection}{\numberline {5.0.5}Herstelcapaciteit (Restore from Backup)}{36}{subsection.5.0.5}%
+\contentsline {subsubsection}{Toepassing van de Herstelstrategie}{36}{subsection.5.0.5}%
+\contentsline {subsubsection}{Link met Herstelcapaciteit}{37}{Item.2}%
+\contentsline {subsubsection}{Conclusie}{37}{Item.2}%
+\contentsline {chapter}{\numberline {6}Conclusie}{38}{chapter.6}%
+\contentsline {subsubsection}{Hoofdvraag: Hoe kan de back-upstrategie voor Azure PostgreSQL en MySQL databases bij Forvis Mazars worden geoptimaliseerd met behulp van immutabele opslag en automatische back-ups?}{38}{chapter.6}%
+\contentsline {subsubsection}{Deelvraag 1: Hoe veilig en betrouwbaar zijn de huidige back-upoplossingen van Forvis Mazars voor Azure PostgreSQL en MySQL databases?}{39}{chapter.6}%
+\contentsline {subsubsection}{Deelvraag 2: Welke rol speelt immutabele opslag in het beschermen van back-ups tegen ransomware en andere vormen van dataverlies?}{39}{chapter.6}%
+\contentsline {subsubsection}{Deelvraag 3: Wat zijn de belangrijkste uitdagingen bij het integreren van immutabele opslag met Azure cloud back-upsystemen?}{40}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{41}{appendix.A}%
+\contentsline {subsection}{\numberline {A.0.1}abstract}{41}{subsection.A.0.1}%
+\contentsline {subsection}{\numberline {A.0.2}Inleiding}{42}{subsection.A.0.2}%
+\contentsline {subsection}{\numberline {A.0.3}Literatuurstudie}{43}{subsection.A.0.3}%
+\contentsline {subsubsection}{back-upstrategieën}{44}{subsection.A.0.3}%
+\contentsline {subsubsection}{Full back-up}{44}{subsection.A.0.3}%
+\contentsline {subsubsection}{Incrementele back-ups}{44}{figure.caption.19}%
+\contentsline {subsubsection}{Differentiële back-up}{45}{figure.caption.20}%
+\contentsline {subsubsection}{On-premise back-ups}{46}{figure.caption.21}%
+\contentsline {subsubsection}{Cloud-gebaseerde back-ups}{46}{figure.caption.21}%
+\contentsline {subsubsection}{Offline back-ups}{47}{figure.caption.21}%
+\contentsline {subsubsection}{Immutable storage}{47}{figure.caption.21}%
+\contentsline {subsection}{\numberline {A.0.4}Methodologie}{47}{subsection.A.0.4}%
+\contentsline {subsection}{\numberline {A.0.5}Verwacht resultaat, conclusie}{48}{subsection.A.0.5}%
+\contentsline {chapter}{Bibliografie}{49}{appendix*.22}%
 \contentsfinish 

@@ -31,6 +31,7 @@ Bedrijven moeten hun data goed beschermen om succesvol te zijn. Echter vormen ba
 \subsubsection{back-upstrategieën}%
 \subsubsection{Full back-up}%
 \begin{figure}[h] 
+    \centering
     \includegraphics[width=0.5\textwidth]{img/fullb.png}  
     \caption{Representatie van een full back-up \autocite{Rivas2022}}   
     \label{fig:fullback-up}           
@@ -38,12 +39,13 @@ Bedrijven moeten hun data goed beschermen om succesvol te zijn. Echter vormen ba
 Een full back-up is een back-upmethode waarbij alle gegevens van een systeem op een specifiek moment volledig worden gekopieerd en opgeslagen. Dit betekent dat elk bestand zonder uitzonderingen wordt gekopieerd, zodat er een exacte kopie van de volledige dataset ontstaat \autocite{Beard2018}. Wanneer er zich een probleem voordoet, zoals het falen van een harde schijf, kan het hele bestandssysteem vanaf deze back-up volledig worden hersteld op een nieuwe schijf. Daarnaast kunnen ook individuele bestanden die verloren zijn gegaan, gemakkelijk worden teruggehaald uit de back-up. Dit soort back-up zorgt ervoor dat alle gegevens veilig zijn opgeslagen. Ten eerste is het proces van het lezen en schrijven van het volledige bestandssysteem tijdsintensief, vooral bij grote hoeveelheden data. Ten tweede gebruikt het opslaan van een volledige kopie van het bestandssysteem veel opslagruimte, wat inefficiënt kan zijn wanneer de back-ups regelmatig worden gemaakt \autocite{Chervenak1998}.
 
 
-\subsubsection{Incremental back-up}
+\subsubsection{Incrementele back-ups}
 
 Incremental back-ups zijn een efficiënte methode om alleen gewijzigde data sinds de laatste back-up op te slaan, wat tijd en opslag bespaart. In tegenstelling tot een volledige back-up, die alle data kopieert, richten incrementele back-ups zich enkel op nieuwe of aangepaste bestanden. Dit maakt ze sneller, maar hersteltijden kunnen langer zijn omdat meerdere incrementele back-ups nodig zijn naast de laatste volledige back-up. Recente onderzoeken hebben zich gericht op het optimaliseren van back-upstrategieën, met name voor databasesystemen. Zo zijn er modellen ontwikkeld die bepalen hoe vaak volledige en incrementele back-ups moeten worden uitgevoerd op basis van factoren zoals systeem-betrouwbaarheid, de hoeveelheid dataveranderingen en back-up-kosten \autocite{Zhao2024}. Er zijn ook varianten zoals differentiële back-ups, die alle veranderingen sinds de laatste volledige back-up bevatten, waardoor de hersteltijd korter kan zijn dan bij traditionele incrementele back-ups. Daarnaast zorgen moderne geautomatiseerde oplossingen voor continue incrementele back-ups, wat realtime herstelmogelijkheden biedt zonder noemenswaardige belasting van de productieomgeving \autocite{Qian2010}.
 \begin{figure}[h] 
+    \centering
     \includegraphics[width=0.5\textwidth]{img/incrementb.png}  
-    \caption{Representatie van een incremental back-up \autocite{Rivas2022}}   
+    \caption{Representatie van een incrementele back-up \autocite{Rivas2022}}   
     \label{fig:incrback-up}           
 \end{figure}
 

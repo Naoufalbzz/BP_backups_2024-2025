@@ -9,4 +9,4 @@
 \contentsline {lstlisting}{\numberline {5.9}{\ignorespaces MySQL commando om een databank te herstellen vanuit een .sql-bestand}}{27}{lstlisting.5.9}%
 \contentsline {lstlisting}{\numberline {5.10}{\ignorespaces Python-script voor back-ups en retentie}}{31}{lstlisting.5.10}%
 \contentsline {lstlisting}{\numberline {5.11}{\ignorespaces Dockerfile voor de back-upcontainer}}{35}{lstlisting.5.11}%
-\contentsline {lstlisting}{\numberline {5.12}{\ignorespaces Setup-script voor het configureren van cronjobs}}{35}{lstlisting.5.12}%
+\contentsline {lstlisting}{\numberline {5.12}{\ignorespaces Setup-script voor het configureren van cronjobs}}{36}{lstlisting.5.12}%
