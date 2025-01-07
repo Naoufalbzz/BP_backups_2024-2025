@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  7 JAN 2025 02:06
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  7 JAN 2025 03:32
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2580,9 +2580,9 @@ om ransomware-resistente
 [4
 
 ] (./BouazzaouiNaoufalBP.toc
-Overfull \hbox (53.54694pt too wide) in paragraph at lines 63--63
+Overfull \hbox (19.02156pt too wide) in paragraph at lines 63--63
  []|| [][][]\TU/Montserrat(1)/m/n/10.95 Implementatie van de Kubernetes-gebasee
-rde automatische back-upoplossing[][]| 
+rde automatische back- 
  []
 
 
@@ -3376,38 +3376,64 @@ Overfull \hbox (4.41785pt too wide) in paragraph at lines 412--414
 
 
 [35]
-Overfull \hbox (27.69533pt too wide) in paragraph at lines 427--429
-\TU/Montserrat(1)/m/n/10.95 een immutable opslagbeleid, wat een cruciale maatre
-gel is tegen ransomware-
+Overfull \hbox (0.30338pt too wide) in paragraph at lines 427--429
+[]\TU/Montserrat(1)/m/n/10.95 Beveiliging van wachtwoorden In de PoC worden Kub
+ernetes Secrets gebruikt
  []
 
 
-Overfull \hbox (23.99895pt too wide) in paragraph at lines 427--429
-\TU/Montserrat(1)/m/n/10.95 aanvallen. Door het gebruik van het \TU/CourierNew(
-0)/m/n/10.95 az storage blob download\TU/Montserrat(1)/m/n/10.95 -commando
- []
-
-
-Overfull \hbox (6.69177pt too wide) in paragraph at lines 430--432
-\TU/Montserrat(1)/m/n/10.95 Na het downloaden werden de PostgreSQL- en MySQL-da
-tabases opnieuw
+Overfull \hbox (8.76505pt too wide) in paragraph at lines 430--432
+\TU/Montserrat(1)/m/n/10.95 Docker-image voor de uitvoering van de back-ups wee
+rspiegelt de wijze waarop
  []
 
 
 
 [36]
-Overfull \hbox (6.38152pt too wide) in paragraph at lines 440--441
+Overfull \hbox (6.02412pt too wide) in paragraph at lines 437--439
+\TU/Montserrat(1)/m/n/10.95 Storage Containers. Deze oplossing biedt voordelen 
+zoals schaalbaarheid, hoge
+ []
+
+
+Overfull \hbox (6.94002pt too wide) in paragraph at lines 440--442
+[]\TU/Montserrat(1)/m/n/10.95 Integratie met Azure Bij Forvis Mazars wordt de K
+ubernetes-setup geïntegreerd
+ []
+
+
+Overfull \hbox (27.69533pt too wide) in paragraph at lines 453--455
+\TU/Montserrat(1)/m/n/10.95 een immutable opslagbeleid, wat een cruciale maatre
+gel is tegen ransomware-
+ []
+
+
+Overfull \hbox (23.99895pt too wide) in paragraph at lines 453--455
+\TU/Montserrat(1)/m/n/10.95 aanvallen. Door het gebruik van het \TU/CourierNew(
+0)/m/n/10.95 az storage blob download\TU/Montserrat(1)/m/n/10.95 -commando
+ []
+
+
+
+[37]
+Overfull \hbox (6.69177pt too wide) in paragraph at lines 456--458
+\TU/Montserrat(1)/m/n/10.95 Na het downloaden werden de PostgreSQL- en MySQL-da
+tabases opnieuw
+ []
+
+
+Overfull \hbox (6.38152pt too wide) in paragraph at lines 466--467
 []\TU/Montserrat(2)/b/n/10.95 Betrouwbaarheid: \TU/Montserrat(1)/m/n/10.95 Door
  gebruik te maken van immutable opslag in Azure
  []
 
 ) (./conclusie.tex
 
-[37]
+[38]
 Hoofdstuk 6.
 
 
-[38
+[39
 
 ]
 Overfull \hbox (18.9254pt too wide) in paragraph at lines 18--19
@@ -3423,11 +3449,11 @@ dige back-upoplossingen
 
 
 
-[39])
-
-[40]
+[40])
 
 [41]
+
+[42]
 B\ij lage A.
 (../bachproef/voorstel.tex
 
@@ -3436,7 +3462,7 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 
 
 
-[42
+[43
 
 ] (./BouazzaouiNaoufalBP.toc)
 \tf@toc=\write11
@@ -3450,29 +3476,29 @@ Overfull \hbox (10.9331pt too wide) in paragraph at lines 16--18
 
 
 
-[43
+[44
 
 ]
 
-[44]
+[45]
 File: img/fullb.png Graphic file (type bmp)
 <img/fullb.png>
 File: img/incrementb.png Graphic file (type bmp)
 <img/incrementb.png>
 
 
-[45]
+[46]
 File: img/diff.png Graphic file (type bmp)
 <img/diff.png>
 
 
-[46]
-
 [47]
 
-[48])
+[48]
 
-[49]
+[49])
+
+[50]
 Overfull \hbox (7.94731pt too wide) in paragraph at lines 200--200
 [][][][][][][][][] [] [][][] [] [][] [][] [][] [] [][][][][] [] [][][][][][][] 
 [] [][][][][] [] [][][][][][][][][] [][] [][][][][][][] [][] [][][][][][][][]$[
@@ -3481,7 +3507,7 @@ Overfull \hbox (7.94731pt too wide) in paragraph at lines 200--200
 
 
 
-[50
+[51
 
 
 ]
@@ -3520,7 +3546,7 @@ Overfull \hbox (37.72762pt too wide) in paragraph at lines 200--200
 
 
 
-[51]
+[52]
 Overfull \hbox (29.04333pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(1)/m/n/10.95 vention. \TU/Montserrat(2)/m/it/10.95 International
  Management Review\TU/Montserrat(1)/m/n/10.95 , \TU/Montserrat(2)/m/it/10.95 13
@@ -3558,7 +3584,7 @@ or  <return>  to continue without it.
 
 
 
-[52] (./BouazzaouiNaoufalBP.aux)
+[53] (./BouazzaouiNaoufalBP.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
@@ -3573,8 +3599,12 @@ Package rerunfilecheck Warning: File `BouazzaouiNaoufalBP.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `BouazzaouiNaoufalBP.out':
-(rerunfilecheck)             Before: B5CBC3E1CBDF70A9855B5F48EE9AE96F;7488
-(rerunfilecheck)             After:  C30CB6996E8361ECD782CFE1F835723A;6266.
+(rerunfilecheck)             Before: C30CB6996E8361ECD782CFE1F835723A;6266
+(rerunfilecheck)             After:  C98D1B47A47AB44F7E91CAA84524626C;6616.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'BouazzaouiNaoufalBP.run.xml'.
 \openout1 = `BouazzaouiNaoufalBP.run.xml'.
 
@@ -3584,12 +3614,12 @@ Package logreq Info: Writing requests to 'BouazzaouiNaoufalBP.run.xml'.
 ### semi simple group (level 1) entered at line 410 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 51654 strings out of 474233
- 1052074 string characters out of 5745779
+ 51653 strings out of 474233
+ 1052061 string characters out of 5745779
  2445042 words of memory out of 5000000
- 73417 multiletter control sequences out of 15000+600000
+ 73416 multiletter control sequences out of 15000+600000
  560951 words of font info for 100 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,12n,132p,1719b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on BouazzaouiNaoufalBP.pdf (61 pages).
+Output written on BouazzaouiNaoufalBP.pdf (62 pages).

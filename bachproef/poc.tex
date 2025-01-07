@@ -413,8 +413,34 @@ Om oude back-ups te verwijderen, wordt een opschonings-CronJob gebruikt die het 
     \end
 
 
-\subsubsection{Relevantie voor Forvis Mazars}
-Deze oplossing kan eenvoudig worden geïntegreerd in de infrastructuur van Forvis Mazars, omdat het gebruik maakt van Docker-containers. Forvis Mazars beheert hun back-ups binnen een Kubernetes-cluster, en Docker-containers kunnen rechtstreeks als pods worden gedeployed in Kubernetes. Hierdoor kan de huidige oplossing zonder aanpassingen worden hergebruikt. De setup in deze implementatie, waarbij de databases op een virtuele machine draaien en de back-ups worden uitgevoerd via Docker-containers, komt overeen met de werkomgeving van Forvis Mazars. Dit zorgt ervoor dat de voorgestelde oplossing naadloos aansluit op hun huidige infrastructuur en gebruiksbehoeften.
+\subsection{Relevantie van de Kubernetes-setup voor Forvis Mazars}
+
+De Kubernetes-setup die in deze Proof of Concept (PoC) is ontwikkeld, blijkt direct relevant voor de werkomgeving van Forvis Mazars, aangezien ook daar Kubernetes wordt ingezet voor het beheer van de IT-infrastructuur. In deze sectie worden de overeenkomsten besproken, wordt toegelicht hoe de oplossing aansluit bij de behoeften van Forvis Mazars, en worden mogelijke aanpassingen beschreven om de setup volledig te integreren in hun bestaande workflows. Het belangrijkste verschil is dat bij Forvis Mazars de back-ups niet worden opgeslagen in een Persistent Volume, maar rechtstreeks worden geüpload naar een Azure Storage Container.
+
+\subsubsection*{Overeenkomsten met de Forvis Mazars Setup}
+
+Bij Forvis Mazars wordt gebruikgemaakt van Kubernetes Pods om databases te beheren en back-ups te genereren. De fundamentele componenten van de ontwikkelde oplossing – zoals het gebruik van CronJobs en containerisatie – vertonen sterke overeenkomsten met de gehanteerde methodologie. Enkele concrete parallellen zijn:
+
+Automatisering via CronJobs
+Bij zowel de PoC als de setup van Forvis Mazars worden Kubernetes CronJobs toegepast voor het plannen van taken. In de PoC worden deze CronJobs ingezet om dagelijkse back-ups uit te voeren en oudere back-ups automatisch te verwijderen. Deze aanpak wordt gekenmerkt door schaalbaarheid en sluit goed aan bij de architectuur van Kubernetes die door Forvis Mazars wordt gebruikt.
+
+Beveiliging van wachtwoorden
+In de PoC worden Kubernetes Secrets gebruikt om gevoelige informatie, zoals databasewachtwoorden, door te geven aan het Python-script dat de back-ups uitvoert. Dit zorgt ervoor dat wachtwoorden niet hardcoded hoeven te worden in configuratiebestanden of scripts. Hoewel niet bekend is of Forvis Mazars eveneens Secrets gebruikt, biedt deze aanpak een veilige en flexibele oplossing die eenvoudig kan worden geïntegreerd in een vergelijkbare omgeving.
+
+Schaalbaarheid en containerisatie
+Het gebruik van een gestandaardiseerde Docker-image voor de uitvoering van de back-ups weerspiegelt de wijze waarop Kubernetes Pods bij Forvis Mazars worden beheerd. Containers kunnen eenvoudig worden aangepast of opnieuw worden ingezet, zonder dat dit aanpassingen aan de volledige infrastructuur vereist.
+
+\subsubsection*{Verschil in Back-upopslag}
+
+Het grootste verschil tussen de PoC en de setup van Forvis Mazars ligt in de wijze van back-upopslag. Bij de PoC worden back-ups lokaal opgeslagen in een Persistent Volume (PV), terwijl deze bij Forvis Mazars direct worden geüpload naar een Azure Storage Container. Dit verschil heeft enkele belangrijke implicaties:
+
+Opslaglocatie
+Persistent Volumes bieden een eenvoudige manier om gegevens lokaal binnen een Kubernetes-cluster op te slaan. Dit maakt ze geschikt voor testomgevingen en lokale implementaties, zoals in de PoC. Forvis Mazars maakt echter gebruik van een cloudopslagoplossing in de vorm van Azure Storage Containers. Deze oplossing biedt voordelen zoals schaalbaarheid, hoge beschikbaarheid en eenvoud in beheer binnen een productieomgeving.
+
+Integratie met Azure
+Bij Forvis Mazars wordt de Kubernetes-setup geïntegreerd met Azure door gebruik te maken van tools zoals Azure CLI of SDK’s voor het uploaden van back-ups naar Azure Storage. Binnen de PoC zou een vergelijkbare integratie kunnen worden gerealiseerd door het Python-script aan te passen, zodat back-ups direct naar Azure worden geüpload in plaats van lokaal te worden opgeslagen. Dit kan worden bereikt door de Azure Storage SDK voor Python te implementeren of CLI-opdrachten toe te voegen aan de Docker-image.
+
+Door deze overeenkomsten en verschillen te analyseren, kan worden geconcludeerd dat de ontwikkelde Kubernetes-setup een solide basis biedt die volledig kan worden afgestemd op de operationele vereisten van Forvis Mazars.
 
 
 \subsection{Herstelcapaciteit (Restore from Backup)}
