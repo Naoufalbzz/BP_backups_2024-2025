@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  28 DEC 2024 03:48
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  7 JAN 2025 02:06
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2580,6 +2580,12 @@ om ransomware-resistente
 [4
 
 ] (./BouazzaouiNaoufalBP.toc
+Overfull \hbox (53.54694pt too wide) in paragraph at lines 63--63
+ []|| [][][]\TU/Montserrat(1)/m/n/10.95 Implementatie van de Kubernetes-gebasee
+rde automatische back-upoplossing[][]| 
+ []
+
+
 
 [5
 
@@ -3143,9 +3149,64 @@ File: img/8imm.png Graphic file (type bmp)
 
 
 [30]
-Overfull \hbox (21.99626pt too wide) in paragraph at lines 203--204
-\TU/Montserrat(1)/m/n/10.95 Om een efficiënte en schaalbare oplossing te bieden
- voor het maken van databaseback-
+Overfull \hbox (18.93315pt too wide) in paragraph at lines 201--201
+|[][]\TU/Montserrat(0)/b/n/12 Implementatie van de Kubernetes-gebaseerde automa
+tische back-
+ []
+
+
+Overfull \hbox (1.90451pt too wide) in paragraph at lines 204--205
+\TU/Montserrat(1)/m/n/10.95 een schaalbare, geautomatiseerde back-upoplossing t
+e realiseren voor PostgreSQL-
+ []
+
+
+Overfull \hbox (21.4086pt too wide) in paragraph at lines 204--205
+\TU/Montserrat(1)/m/n/10.95 chine (VM), wat het testproces vereenvoudigt en iso
+latie biedt voor de back-upworkflow.
+ []
+
+
+
+[31] (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+)
+
+./poc.tex:233: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233 ..., caption=Persistent Volume Configuratie]
+                                                  
+The following languages weren't loadable:
+    ,yaml$
+This may cause errors in the sequel.
+
+
+./poc.tex:233: Package Listings Error: language yaml undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233 ..., caption=Persistent Volume Configuratie]
+                                                  
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (1.31007pt too wide) in paragraph at lines 251--252
+[]\TU/CourierNew(0)/m/n/10.95 hostPath\TU/Montserrat(1)/m/n/10.95 : De director
+y \TU/CourierNew(0)/m/n/10.95 /data \TU/Montserrat(1)/m/n/10.95 op de hostmachi
+ne (Vagrant VM) wordt gebruikt
  []
 
 (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -3158,45 +3219,75 @@ File: lstlang2.sty 2024/09/23 1.10c listings language file
 File: lstlang3.sty 2024/09/23 1.10c listings language file
 )
 
-./poc.tex:210: Package Listings Error: Couldn't load requested language.
+./poc.tex:256: Package Listings Error: Couldn't load requested language.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.210 ...=Python-script voor back-ups en retentie]
+l.256 ...ion=Persistent Volume Claim Configuratie]
                                                   
 The following languages weren't loadable:
-    ,script$
+    ,yaml$
 This may cause errors in the sequel.
 
 
-./poc.tex:210: Package Listings Error: language script undefined.
+./poc.tex:256: Package Listings Error: language yaml undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.210 ...=Python-script voor back-ups en retentie]
+l.256 ...ion=Persistent Volume Claim Configuratie]
                                                   
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
 
-[31]
+[32] (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+)
 
-[32]
+./poc.tex:279: Package Listings Error: Couldn't load requested language.
 
-[33]
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.279 ...=docker, caption=Dockerfile Configuratie]
+                                                  
+The following languages weren't loadable:
+    ,docker$
+This may cause errors in the sequel.
 
-[34]
-Overfull \hbox (10.8674pt too wide) in paragraph at lines 373--374
-\TU/Montserrat(1)/m/n/10.95 De automatisering wordt verder versterkt door het g
-ebruik van een Docker-container.
+
+./poc.tex:279: Package Listings Error: language docker undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.279 ...=docker, caption=Dockerfile Configuratie]
+                                                  
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (0.84451pt too wide) in paragraph at lines 314--315
+\TU/Montserrat(1)/m/n/10.95 De PostgreSQL-back-up wordt uitgevoerd met de eerde
+r genoemde Docker-image
  []
 
-(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+
+
+[33] (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
 (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
@@ -3206,31 +3297,33 @@ File: lstlang2.sty 2024/09/23 1.10c listings language file
 File: lstlang3.sty 2024/09/23 1.10c listings language file
 )
 
-./poc.tex:377: Package Listings Error: Couldn't load requested language.
+./poc.tex:316: Package Listings Error: Couldn't load requested language.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.377 ...tion=Dockerfile voor de back-upcontainer]
+l.316 ... caption=CronJob voor PostgreSQL-back-up]
                                                   
 The following languages weren't loadable:
-    ,dockerfile$
+    ,yaml$
 This may cause errors in the sequel.
 
 
-./poc.tex:377: Package Listings Error: language dockerfile undefined.
+./poc.tex:316: Package Listings Error: language yaml undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.377 ...tion=Dockerfile voor de back-upcontainer]
+l.316 ... caption=CronJob voor PostgreSQL-back-up]
                                                   
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+
+
+[34] (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
 (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
@@ -3240,45 +3333,72 @@ File: lstlang2.sty 2024/09/23 1.10c listings language file
 File: lstlang3.sty 2024/09/23 1.10c listings language file
 )
 
-./poc.tex:400: Package Listings Error: Couldn't load requested language.
+./poc.tex:370: Package Listings Error: Couldn't load requested language.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.400 ...cript voor het configureren van cronjobs]
+l.370 ...caption=Opschonings-CronJob Configuratie]
                                                   
 The following languages weren't loadable:
-    ,script$
+    ,yaml$
 This may cause errors in the sequel.
 
 
-./poc.tex:400: Package Listings Error: language script undefined.
+./poc.tex:370: Package Listings Error: language yaml undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.400 ...cript voor het configureren van cronjobs]
+l.370 ...caption=Opschonings-CronJob Configuratie]
                                                   
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
+
+Runaway argument?
+./poc.tex:414: Paragraph ended before \end  was complete.
+<to be read again> 
+                   \par 
+l.414 
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+Overfull \hbox (4.41785pt too wide) in paragraph at lines 412--414
+[]\TU/Montserrat(2)/b/n/10.95 CronJob-samenwerking\TU/Montserrat(1)/m/n/10.95 :
+ De opschonings-CronJob werkt samen met het Per-
+ []
 
 
 
 [35]
-
-[36]
-Overfull \hbox (7.57709pt too wide) in paragraph at lines 425--427
-\TU/Montserrat(1)/m/n/10.95 steld met \TU/CourierNew(0)/m/n/10.95 pg_restore\TU
-/Montserrat(1)/m/n/10.95 , terwijl voor MySQL gebruik werd gemaakt van het \TU/
-CourierNew(0)/m/n/10.95 mysql\TU/Montserrat(1)/m/n/10.95 -
+Overfull \hbox (27.69533pt too wide) in paragraph at lines 427--429
+\TU/Montserrat(1)/m/n/10.95 een immutable opslagbeleid, wat een cruciale maatre
+gel is tegen ransomware-
  []
 
 
-Overfull \hbox (8.98064pt too wide) in paragraph at lines 425--427
-\TU/Montserrat(1)/m/n/10.95 commando. Beide hersteltaken verliepen succesvol en
- zonder dataverlies, waar-
+Overfull \hbox (23.99895pt too wide) in paragraph at lines 427--429
+\TU/Montserrat(1)/m/n/10.95 aanvallen. Door het gebruik van het \TU/CourierNew(
+0)/m/n/10.95 az storage blob download\TU/Montserrat(1)/m/n/10.95 -commando
+ []
+
+
+Overfull \hbox (6.69177pt too wide) in paragraph at lines 430--432
+\TU/Montserrat(1)/m/n/10.95 Na het downloaden werden de PostgreSQL- en MySQL-da
+tabases opnieuw
+ []
+
+
+
+[36]
+Overfull \hbox (6.38152pt too wide) in paragraph at lines 440--441
+[]\TU/Montserrat(2)/b/n/10.95 Betrouwbaarheid: \TU/Montserrat(1)/m/n/10.95 Door
+ gebruik te maken van immutable opslag in Azure
  []
 
 ) (./conclusie.tex
@@ -3290,10 +3410,24 @@ Hoofdstuk 6.
 [38
 
 ]
+Overfull \hbox (18.9254pt too wide) in paragraph at lines 18--19
+\TU/Montserrat(1)/m/n/10.95 tussenkomst worden genomen. Dit systeem zorgt ervoo
+r dat de back-upstrategie
+ []
+
+
+Overfull \hbox (18.83176pt too wide) in paragraph at lines 22--22
+|\TU/Montserrat(0)/b/n/10.95 Deelvraag 1: Hoe veilig en betrouwbaar zijn de hui
+dige back-upoplossingen
+ []
+
+
 
 [39])
 
 [40]
+
+[41]
 B\ij lage A.
 (../bachproef/voorstel.tex
 
@@ -3302,63 +3436,52 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 
 
 
-[41
+[42
 
 ] (./BouazzaouiNaoufalBP.toc)
 \tf@toc=\write11
 \openout11 = `BouazzaouiNaoufalBP.toc'.
 
 
-Overfull \hbox (12.01086pt too wide) in paragraph at lines 16--18
+Overfull \hbox (10.9331pt too wide) in paragraph at lines 16--18
 []\TU/Montserrat(1)/m/n/10.95 De onderzoeksvraag die onderzocht zal worden is: 
 “Hoe kan de back-upstrategie
  []
 
 
 
-[42
+[43
 
 ]
 
-[43]
+[44]
 File: img/fullb.png Graphic file (type bmp)
 <img/fullb.png>
 File: img/incrementb.png Graphic file (type bmp)
 <img/incrementb.png>
 
 
-[44]
+[45]
 File: img/diff.png Graphic file (type bmp)
 <img/diff.png>
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
-[45]
-
 [46]
 
-[47])
+[47]
 
-[48]
-Overfull \hbox (1.69463pt too wide) in paragraph at lines 200--200
-\TU/Montserrat(1)/m/n/10.95 backup techniques. \TU/Montserrat(2)/m/it/10.95 Joi
-nt NASA and IEEE Mass Storage Conference\TU/Montserrat(1)/m/n/10.95 , \TU/Monts
-errat(2)/m/it/10.95 99\TU/Montserrat(1)/m/n/10.95 . [][]$[][][][][] []
- []
+[48])
 
-
-Overfull \hbox (173.6539pt too wide) in paragraph at lines 200--200
-[] [] [][][][][][][][][] [] [][][] [] [][][] [] [][][] [] [][][][][][][][] [] [
-][][][][] [] [][][][][][][][][] [] [][][][][][][] [] [][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][] 
+[49]
+Overfull \hbox (7.94731pt too wide) in paragraph at lines 200--200
+[][][][][][][][][] [] [][][] [] [][] [][] [][] [] [][][][][] [] [][][][][][][] 
+[] [][][][][] [] [][][][][][][][][] [][] [][][][][][][] [][] [][][][][][][][]$[
+][] 
  []
 
 
 
-[49
+[50
 
 
 ]
@@ -3375,52 +3498,67 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (19.09499pt too wide) in paragraph at lines 200--200
-\TU/Montserrat(1)/m/n/10.95 Multimedia. \TU/Montserrat(2)/m/it/10.95 National C
-enter for Supercomputing Applications\TU/Montserrat(1)/m/n/10.95 . [][]$[][][][
-][] [] [] [] [][][][][][][][][] []
+Overfull \hbox (18.07831pt too wide) in paragraph at lines 200--200
+\TU/Montserrat(2)/m/it/10.95 ence\TU/Montserrat(1)/m/n/10.95 . [][]$[][][][][] 
+[] [] [] [][][] [] [][][][][][] [] [][] [] [][][][][] [] [][][][][][][] [] [][]
+[][][][][][][][][][] [] [][] [] [][][][][][][][][][] []
  []
 
 
-Overfull \hbox (116.24304pt too wide) in paragraph at lines 200--200
-[][][] [] [][][] [] [][][] [] [][][][][][][][] [] [][][][][] [] [][][][][][][][
-][] [] [][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][]$[][] 
+Overfull \hbox (42.321pt too wide) in paragraph at lines 200--200
+\TU/Montserrat(1)/m/n/10.95 solutions for business. \TU/Montserrat(2)/m/it/10.9
+5 Conference: EIT New Zealand\TU/Montserrat(1)/m/n/10.95 . [][]$[][][][][] [] [
+] [] [][][] [] [][][][][][][][][][][][] []
  []
 
 
-Overfull \hbox (17.31981pt too wide) in paragraph at lines 200--200
-[][]\TU/Montserrat(1)/m/n/10.95 Hashicorp. (z.d.). \TU/Montserrat(2)/m/it/10.95
- What is Vagrant? \TU/Montserrat(1)/m/n/10.95 Verkregen december 10, 2024, van 
-[][]$[][][][][] [] [] [] [][][][][][][][][] []
+Overfull \hbox (37.72762pt too wide) in paragraph at lines 200--200
+[][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][] []
+[] [][][][][][][] [][] [][][][][][][][][][] [][] [][][][][][][][][][][][][] [][
+]
  []
 
 
-Overfull \hbox (35.33911pt too wide) in paragraph at lines 200--200
-\TU/Montserrat(2)/m/it/10.95 bile Data Networks\TU/Montserrat(1)/m/n/10.95 . []
+
+[51]
+Overfull \hbox (29.04333pt too wide) in paragraph at lines 200--200
+\TU/Montserrat(1)/m/n/10.95 vention. \TU/Montserrat(2)/m/it/10.95 International
+ Management Review\TU/Montserrat(1)/m/n/10.95 , \TU/Montserrat(2)/m/it/10.95 13
+\TU/Montserrat(1)/m/n/10.95 (1), 10. [][]$[][][][][] [] [] [] [][][][][][][][][
+][][][][][] []
+ []
+
+
+Overfull \hbox (14.32076pt too wide) in paragraph at lines 200--200
+\TU/Montserrat(1)/m/n/10.95 ImmutableBackup Architecture. \TU/Montserrat(2)/m/i
+t/10.95 Rubrik\TU/Montserrat(1)/m/n/10.95 . [][]$[][][][][] [] [] [] [][][] [] 
+[][][][][][] [] [][][] [] [][][][][][][] []
+ []
+
+
+Overfull \hbox (8.06834pt too wide) in paragraph at lines 200--200
+\TU/Montserrat(2)/m/it/10.95 tems\TU/Montserrat(1)/m/n/10.95 . IBM Redbooks. []
 []$[][][][][] [] [] [] [][][][][] [] [][][][][][] [] [][] [] [][][][][] [] [][]
- [] [][][][][][][][][][][][][][][][][][][][][] []
+ [] [][][][][][][][][][][][]$[][] 
  []
 
 
-Overfull \hbox (29.28905pt too wide) in paragraph at lines 200--200
-[][][] [] [][][][][][] [] [][] [] [][][][][] [] [][][][][][][] [] [][][] [] [][
-][][] [] [][][][][][] [] [][][] [] [][][][][][][][] [] [][][][][][][][][][][][]
- []
- []
+./BouazzaouiNaoufalBP.tex:201: LaTeX Error: \begin{itemize} on input line 410 e
+nded by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.201 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
 
-[50]
-Overfull \hbox (8.92203pt too wide) in paragraph at lines 200--200
-[][][][][][][][][][][][][][] [] [][][] [] [][][][][][][] [] [][][] [] [][][][][
-] [] [][][][] [] [][][][][][][][] [] [][][][][][][][] [] [][][][][][][][]$[][] 
-
- []
-
-
-
-[51] (./BouazzaouiNaoufalBP.aux)
+[52] (./BouazzaouiNaoufalBP.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
@@ -3429,19 +3567,29 @@ L3 programming layer <2024-10-09>
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `BouazzaouiNaoufalBP.out' has not changed.
-(rerunfilecheck)             Checksum: E5C5994F44DBEC7BFFBD5A6F155B7125;6205.
+
+Package rerunfilecheck Warning: File `BouazzaouiNaoufalBP.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `BouazzaouiNaoufalBP.out':
+(rerunfilecheck)             Before: B5CBC3E1CBDF70A9855B5F48EE9AE96F;7488
+(rerunfilecheck)             After:  C30CB6996E8361ECD782CFE1F835723A;6266.
 Package logreq Info: Writing requests to 'BouazzaouiNaoufalBP.run.xml'.
 \openout1 = `BouazzaouiNaoufalBP.run.xml'.
 
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 410 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 51766 strings out of 474233
- 1052674 string characters out of 5745779
- 2560042 words of memory out of 5000000
- 73541 multiletter control sequences out of 15000+600000
+ 51654 strings out of 474233
+ 1052074 string characters out of 5745779
+ 2445042 words of memory out of 5000000
+ 73417 multiletter control sequences out of 15000+600000
  560951 words of font info for 100 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,12n,132p,1719b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on BouazzaouiNaoufalBP.pdf (60 pages).
+Output written on BouazzaouiNaoufalBP.pdf (61 pages).

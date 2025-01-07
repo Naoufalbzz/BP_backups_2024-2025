@@ -198,215 +198,220 @@ Om de immutable storage te testen is er gekozen om een back-up van een MySQL-dat
 De implementatie van immutable storage op het azure storage account is succesvol afgerond, waardoor de opgeslagen back-ups nu beschermd zijn tegen onverwachte wijzigingen of verwijderingen. Daarnaast worden er dagelijks automatische back-ups van de databanken genomen, welke een retentieperiode van 7 dagen hebben. Dit zorgt ervoor dat er altijd een versie van de back-up beschikbaar is, zelfs als de meest recente back-up beschadigd of onbruikbaar blijkt. Deze combinatie van immutable storage en versiebeheer versterkt de bescherming tegen dataverlies en maakt het mogelijk om eerdere, werkende back-ups snel te herstellen.
 
 
-\subsection{Automatiseren van de manuele back-ups met Docker en Python}
-\subsubsection{Overzicht van de oplossing}
-Om een efficiënte en schaalbare oplossing te bieden voor het maken van databaseback-ups, werd een geautomatiseerd systeem ontwikkeld met behulp van een Python-script en een Docker-container. Dit systeem automatiseert zowel het maken van back-ups als het verwijderen van oude back-ups op basis van een ingestelde retentieperiode. De focus van deze implementatie is vooral herbruikbaarheid wat ervoor zorgt dat deze oplossing gemakkelijk geïmplementeerd kan worden in de productieomgeving van Forvis Mazars. Voor deze setup is er gebruik gemaakt van een databank die lokaal draait op een virtuele machine die als databank-server functioneert. Daarbij is er een Docker-container die, via het Python-script, back-ups neemt van de databank. Dit komt overeen met de actieve omgeving die Forvis Mazars gebruikt.
+\subsection{Implementatie van de Kubernetes-gebaseerde automatische back-upoplossing}
 
-\subsubsection{Python-script voor back-ups}
-Het Python-script vormt de kern van dit systeem en voert twee belangrijke taken uit. Enerzijds zorgt het voor het genereren van back-ups door gebruik te maken van \texttt{mysqldump} voor MySQL-databases en \texttt{pg\_dump} voor PostgreSQL-databases. Deze tools bieden de mogelijkheid om volledige databaseback-ups te maken die in een gestandaardiseerd formaat worden opgeslagen. Anderzijds implementeert het script een retentiebeleid waarbij oude back-ups die ouder zijn dan een vooraf ingestelde periode automatisch worden verwijderd. Daarnaast is logging geïntegreerd in het script om eventuele fouten of waarschuwingen te registreren, wat helpt bij monitoring en foutopsporing.
+\subsubsection{Inleiding}
+In mijn Proof of Concept (PoC) maak ik gebruik van een Kubernetes-omgeving om een schaalbare, geautomatiseerde back-upoplossing te realiseren voor PostgreSQL- en MySQL-databases. Deze databases draaien lokaal op een Vagrant Virtual Machine (VM), wat het testproces vereenvoudigt en isolatie biedt voor de back-upworkflow. De back-ups worden uitgevoerd door containers die draaien binnen Kubernetes Pods. De containers maken gebruik van een op maat gemaakte Docker-image die een Python-script bevat voor het uitvoeren van de back-ups en het opschonen van oude bestanden.
 
-\subsubsection{Python-script: Backups en Retentie}
-Het volledige Python-script is hieronder weergegeven:
-\begin{lstlisting}[language=script, caption=Python-script voor back-ups en retentie]
-import datetime
-import os
-import subprocess  # nosec
-import argparse
-import logging
+Kubernetes speelt een centrale rol in deze oplossing door de automatisering van de back-upworkflow via \textbf{CronJobs}, het beheer van opslag via \textbf{Persistent Volumes (PV)} en \textbf{Persistent Volume Claims (PVC)}, en de beveiliging van gevoelige gegevens via \textbf{Secrets}. Deze componenten werken samen om een robuuste en herhaalbare oplossing te bieden.
 
+In deze tekst worden de configuraties, werking van de Kubernetes Pods en de samenwerking tussen de Docker-image en Kubernetes toegelicht.
 
-class Backup:
+\subsubsection{Kubernetes Pods en Werking}
+Een \textbf{Kubernetes Pod} is de kleinste uitvoereenheid binnen een Kubernetes-cluster. Elke Pod bevat een of meer containers die een specifieke taak uitvoeren. In dit project wordt een Pod geconfigureerd om:
+\begin{itemize}
+    \item De back-up van een database uit te voeren.
+    \item Data op te slaan in een Persistent Volume.
+    \item Gevoelige informatie, zoals wachtwoorden, te beheren via Secrets.
+\end{itemize}
 
-def __init__(self, database_name, database_user, type, backup_dir):
-timestr = datetime.datetime.now().strftime('%Y-%m-%d')
-self.filename = f'backup-{type}-{timestr}-{database_name}.dump'
-self.database_name = database_name
-self.database_user = database_user
-self.type = type
-self.password = None
-self.backup_dir = backup_dir
-self.hostname_mysql = os.environ.get("HOSTNAME_MYSQL", "192.168.1.62")
-self.hostname_psql = os.environ.get("HOSTNAME_PSQL", "192.168.1.62")
-self.port_mysql = os.environ.get("PORT_MYSQL", "3306")
-self.port_psql = os.environ.get("PORT_PSQL", "5432")
+Voor elke database (PostgreSQL en MySQL) is een aparte CronJob geconfigureerd. Deze CronJobs maken gebruik van dezelfde Docker-image, maar passen specifieke parameters toe om de juiste database te back-uppen.
 
-def set_password(self):
-"""
-Retrieve the database password from an environment variable.
-"""
-self.password = os.environ.get("DB_PASSWORD")
-if not self.password:
-logging.warning("Database password not set. Please provide the DB_PASSWORD environment variable.")
-exit(1)
+Het proces verloopt als volgt:
+\begin{enumerate}
+    \item De CronJob wordt volgens een gepland schema uitgevoerd.
+    \item De CronJob spint een Pod op waarin de container draait die de back-up uitvoert.
+    \item De container voert het Python-script uit dat de database-back-up naar een Persistent Volume schrijft.
+    \item Na voltooiing wordt de Pod beëindigd, terwijl de back-upbestanden bewaard blijven.
+\end{enumerate}
 
-def create_backup(self, type):
-"""
-Create a backup of the database.
-"""
-# Ensure the backup directory exists
-if not os.path.exists(self.backup_dir):
-os.makedirs(self.backup_dir)
+\subsubsection{Persistent Volume en Persistent Volume Claim}
 
-# Prepend the backup directory to the filename
-full_path = os.path.join(self.backup_dir, self.filename)
+De back-ups worden opgeslagen op een Persistent Volume dat is gekoppeld aan een directory op de hostmachine van de Vagrant VM. Hierdoor blijven de gegevens bewaard, zelfs als de Kubernetes Pods opnieuw worden gestart.
 
-if type == "MYSQL":
-try:
-cmd = [
-'mysqldump',
-'--single-transaction',
-'-u', self.database_user,
-f'-p{self.password}',
-'-h', self.hostname_mysql,
-'-P', str(self.port_mysql),
-'--no-tablespaces',
-'-B', self.database_name,
-]
-
-with open(full_path, 'w') as backup_file:
-result = subprocess.run(cmd, stdout=backup_file, check=True)  # nosec
-
-if result.returncode != 0:
-logging.warning(f'Command failed. Return code: {result.returncode}')
-exit(1)
-
-return full_path
-
-except Exception as e:
-logging.warning(e)
-exit(1)
-
-elif type == "PSQL":
-try:
-cmd = [
-'pg_dump',
-'-U', self.database_user,
-'-h', self.hostname_psql,
-'-p', str(self.port_psql),
-'-F', 'c',
-'-f', full_path,
-self.database_name
-]
-
-result = subprocess.run(cmd, check=True)  # nosec
-
-if result.returncode != 0:
-logging.warning(f'Command failed. Return code: {result.returncode}')
-exit(1)
-
-return full_path
-
-except Exception as e:
-logging.warning(e)
-exit(1)
-
-@staticmethod
-def delete_old_backups(directory, retention_days):
-"""
-Deletes backup files older than the specified retention period.
-"""
-now = datetime.datetime.now()
-logging.info(f"Starting cleanup of backups in {directory} with retention period: {retention_days} days")
-for file in os.listdir(directory):
-if file.startswith("backup-") and file.endswith(".dump"):
-file_path = os.path.join(directory, file)
-file_mtime = datetime.datetime.fromtimestamp(os.path.getmtime(file_path))
-age = (now - file_mtime).days
-logging.info(f"Checking file {file_path}: age = {age} days")
-if age >= retention_days:
-try:
-os.remove(file_path)
-logging.info(f"Deleted old backup: {file_path}")
-except Exception as e:
-logging.warning(f"Failed to delete {file_path}: {e}")
-else:
-logging.info(f"File {file_path} is not old enough to delete (age = {age} days).")
-
-
-def main():
-# Configure logging
-logging.basicConfig(
-level=logging.INFO,
-format="%(asctime)s - %(levelname)s - %(message)s"
-)
-
-parser = argparse.ArgumentParser(description="Execute a local backup of a database.")
-parser.add_argument("-dn", "--database_name", required=True, help="Enter the name of the database for the backup.")
-parser.add_argument("-du", "--database_user", required=True, help="Enter the username of the database for the backup.")
-parser.add_argument("-b", "--backup", action="store_true", help="Backup the database.")
-parser.add_argument("-t", "--type", choices=["MYSQL", "PSQL"], required=True, help="MYSQL or PSQL")
-parser.add_argument("-bd", "--backup_dir", default=".", help="Directory where backups are stored.")
-parser.add_argument("-r", "--retention", type=int, help="Retention period in days for keeping backups.")
-args = parser.parse_args()
-
-db_name = args.database_name
-db_user = args.database_user
-backup = args.backup
-type = args.type
-backup_dir = args.backup_dir
-retention = args.retention
-
-if backup:
-b = Backup(db_name, db_user, type, backup_dir)
-try:
-b.set_password()
-backup_file = b.create_backup(type=type)
-except Exception as e:
-logging.warning(e)
-else:
-logging.info(f"Backup successful: {backup_file}")
-
-if retention is not None:
-try:
-Backup.delete_old_backups(directory=backup_dir, retention_days=retention)
-logging.info(f"Old backups older than {retention} days were successfully deleted from {backup_dir}.")
-except Exception as e:
-logging.warning(f"Failed to clean up old backups: {e}")
-
-
-if __name__ == '__main__':
-main()
-
+\subsubsection*{Persistent Volume}
+\begin{lstlisting}[language=yaml, caption=Persistent Volume Configuratie]
+    apiVersion: v1
+    kind: PersistentVolume
+    metadata:
+    name: backup-pv
+    spec:
+    capacity:
+    storage: 5Gi
+    accessModes:
+    - ReadWriteOnce
+    persistentVolumeReclaimPolicy: Retain
+    storageClassName: ""
+    hostPath:
+    path: "/data"  # Windows path
 \end{lstlisting}
 
-\subsubsection{Automatisering met Docker}
-De automatisering wordt verder versterkt door het gebruik van een Docker-container. Deze container biedt een reproduceerbare omgeving waarin het script kan worden uitgevoerd. Door een gestandaardiseerde Docker-image te gebruiken die gebaseerd is op Ubuntu, wordt een consistente setup gegarandeerd dat Forvis Mazars makkelijk kan implementeren. Binnen de container wordt een \texttt{setup.sh} script uitgevoerd om cronjobs te configureren die verantwoordelijk zijn voor het dagelijks maken van nieuwe back-ups om 2:00 uur 's nachts en het verwijderen van oude back-ups die ouder zijn dan 14 dagen. De retentieperiode is hier dus op 14 dagen gezet voor de dagelijkse back-ups. Daarnaast zorgt dit Bash-script ook voor het opstarten van de cron-service. Dit is nodig om een cronjob uit te voeren. De back-ups worden opgeslagen in een aparte directory binnen de container, en de cron-service wordt gestart door het setup-script. Bij het opzetten van de container  worden ook alle benodigde softwarepakketten geïnstalleerd zoals \texttt{mysql-client}, \texttt{cron}, en \texttt{python3}. Er worden 2 bestanden gekopieerd naar de container namelijk het Python-script en het Bash-script.
+\textbf{Toelichting:}
+\begin{itemize}
+    \item \texttt{hostPath}: De directory \texttt{/data} op de hostmachine (Vagrant VM) wordt gebruikt voor opslag.
+    \item \texttt{persistentVolumeReclaimPolicy}: Met \texttt{Retain} blijven gegevens behouden, zelfs als de PVC wordt verwijderd.
+\end{itemize}
 
-\subsubsection{Dockerfile}
-Hieronder volgt de Dockerfile die gebruikt is voor het bouwen van de container:
-\begin{lstlisting}[language=Dockerfile, caption=Dockerfile voor de back-upcontainer]
-FROM ubuntu:latest
-
-WORKDIR /src
-
-USER root
-RUN apt update -y \
-&& apt -y install mysql-client postgresql-client cron nano \
-&& apt install -y python3
-
-COPY src/* /src/
-COPY crontab.txt /etc/cron.d/my-cron-job
-COPY src/setup.sh /src/setup.sh
-
-RUN chmod 0644 /etc/cron.d/my-cron-job && \
-chmod +x /src/backup_script.py 
-RUN chmod +x /src/setup.sh
-ENTRYPOINT ["tail"]
-CMD ["-f", "/dev/null"]
+\subsubsection*{Persistent Volume Claim}
+\begin{lstlisting}[language=yaml, caption=Persistent Volume Claim Configuratie]
+    apiVersion: v1
+    kind: PersistentVolumeClaim
+    metadata:
+    name: backup-pvc
+    spec:
+    accessModes:
+    - ReadWriteOnce
+    resources:
+    requests:
+    storage: 5Gi
+    storageClassName: ""
 \end{lstlisting}
 
-\subsubsection{Setup-script}
-Het \texttt{setup.sh}-script dat wordt uitgevoerd in de container is hieronder weergegeven:
-\begin{lstlisting}[language=script, caption=Setup-script voor het configureren van cronjobs]
-#!/bin/bash
-service cron start
+\textbf{Toelichting:}
+\begin{itemize}
+    \item De PVC koppelt het Persistent Volume aan de Pod, zodat de back-ups toegankelijk zijn vanuit de container.
+\end{itemize}
 
-mkdir /src/backups
+\subsubsection{Dockerfile en Samenwerking met Kubernetes}
 
-echo -e "* * * * * DB_PASSWORD=root PGPASSWORD=root python3 /src/backup_script.py -dn testdb -du root -t MYSQL -b -bd /src/backups >> /var/log/cron.log 2>&1\n* * * * * DB_PASSWORD=root PGPASSWORD=root python3 /src/backup_script.py -dn testdb -du root -t PSQL -b -bd /src/backups >> /var/log/cron.log 2>&1\n0 2 * * * DB_PASSWORD=root PGPASSWORD=root python3 /src/backup_script.py -bd /src/backups -r 14 -dn testdb -du root -t MYSQL >> /var/log/cron.log 2>&1" | crontab -
+De Docker-image die door de Kubernetes Pods wordt gebruikt, is gebaseerd op een aangepaste Dockerfile. Deze bevat alle benodigde tools en het Python-script dat de back-ups uitvoert. Hier is de configuratie van de Dockerfile:
 
-exec "$@"
+\begin{lstlisting}[language=docker, caption=Dockerfile Configuratie]
+    FROM ubuntu:20.04
+    
+    RUN apt-get update && apt-get install -y \
+    mysql-client \
+    postgresql-client \
+    python3 \
+    python3-pip \
+    && rm -rf /var/lib/apt/lists/*
+    
+    COPY backup_script.py /backup_script.py
+    RUN chmod +x /backup_script.py
+    
+    WORKDIR /
+    
+    ENTRYPOINT ["python3", "/backup_script.py"]
 \end{lstlisting}
+
+\textbf{Toelichting:}
+\begin{itemize}
+    \item \textbf{Base image}: De image is gebaseerd op \texttt{ubuntu:20.04}.
+    \item \textbf{Installatie van tools}: De benodigde database-clients (MySQL en PostgreSQL) en Python worden geïnstalleerd.
+    \item \textbf{Kopie van script}: Het back-upscript (\texttt{backup\_script.py}) wordt in de image opgenomen en uitvoerbaar gemaakt.
+    \item \textbf{ENTRYPOINT}: Dit stelt de standaardopdracht in die wordt uitgevoerd bij het starten van de container.
+\end{itemize}
+
+\textbf{Samenwerking met Kubernetes Pods:}
+\begin{itemize}
+    \item \textbf{CronJob}: Bij het starten van een Pod door een CronJob, wordt de Docker-image uitgevoerd.
+    \item \textbf{Command Parameters}: Kubernetes CronJobs kunnen specifieke parameters aan de container doorgeven (bijvoorbeeld de databasenaam, gebruiker, en type).
+    \item \textbf{Persistent Volume}: De container heeft toegang tot het Persistent Volume via een volume-mount, zodat de back-ups persistent worden opgeslagen.
+\end{itemize}
+
+\subsubsection{PostgreSQL Back-up CronJob}
+
+De PostgreSQL-back-up wordt uitgevoerd met de eerder genoemde Docker-image en het Python-script. De CronJob is geconfigureerd om dagelijks om 2:00 uur een back-up uit te voeren.
+
+\begin{lstlisting}[language=yaml, caption=CronJob voor PostgreSQL-back-up]
+    apiVersion: batch/v1
+    kind: CronJob
+    metadata:
+    name: backup-psql-cronjob
+    spec:
+    schedule: "0 2 * * *"  
+    jobTemplate:
+    spec:
+    ttlSecondsAfterFinished: 3600  
+    template:
+    spec:
+    containers:
+    - name: backup-psql-container
+    image: bouzewazi/ubu4
+    command: 
+    - "python3"
+    - "/backup_script.py"
+    - "-dn"
+    - "testdb"
+    - "-du"
+    - "root"
+    - "-t"
+    - "PSQL"
+    - "-b"
+    - "-bd"
+    - "/data"
+    volumeMounts:
+    - name: backup-storage
+    mountPath: /data  
+    env:
+    - name: PGPASSWORD
+    valueFrom:
+    secretKeyRef:
+    name: db-secret2
+    key: PGPASSWORD
+    resources:
+    requests:
+    memory: "1Gi"  
+    cpu: "250m"      
+    limits:
+    memory: "2Gi"  
+    cpu: "500m"      
+    restartPolicy: OnFailure
+    volumes:
+    - name: backup-storage
+    persistentVolumeClaim:
+    claimName: backup-pvc
+\end{lstlisting}
+
+\subsubsection{Opschonings-CronJob}
+
+Om oude back-ups te verwijderen, wordt een opschonings-CronJob gebruikt die het Python-script aanroept met de \texttt{-r}-optie.
+
+\begin{lstlisting}[language=yaml, caption=Opschonings-CronJob Configuratie]
+    apiVersion: batch/v1
+    kind: CronJob
+    metadata:
+    name: delete-cronjob
+    spec:
+    schedule: "0 2 * * *"  
+    jobTemplate:
+    spec:
+    ttlSecondsAfterFinished: 3600  
+    template:
+    spec:
+    containers:
+    - name: delete-backup-container
+    image: bouzewazi/ubu4
+    command: 
+    - "python3"
+    - "/backup_script.py"
+    - "-dn"
+    - "testdb"
+    - "-du"
+    - "root"
+    - "-t"
+    - "MYSQL"
+    - "-r"
+    - "14"  # Retentieperiode van 14 dagen
+    - "-bd"
+    - "/data"
+    volumeMounts:
+    - name: backup-storage
+    mountPath: /data  
+    env:
+    - name: DB_PASSWORD
+    valueFrom:
+    secretKeyRef:
+    name: db-secret
+    key: DB_PASSWORD
+\end{lstlisting}
+
+\textbf{Toelichting:}
+\begin{itemize}
+    \item \textbf{Retentieperiode}: Back-ups ouder dan 14 dagen worden verwijderd.
+    \item \textbf{CronJob-samenwerking}: De opschonings-CronJob werkt samen met het Persistent Volume en gebruikt dezelfde directory (\texttt{/data}) als de back-ups.
+    \end
+
 
 \subsubsection{Relevantie voor Forvis Mazars}
 Deze oplossing kan eenvoudig worden geïntegreerd in de infrastructuur van Forvis Mazars, omdat het gebruik maakt van Docker-containers. Forvis Mazars beheert hun back-ups binnen een Kubernetes-cluster, en Docker-containers kunnen rechtstreeks als pods worden gedeployed in Kubernetes. Hierdoor kan de huidige oplossing zonder aanpassingen worden hergebruikt. De setup in deze implementatie, waarbij de databases op een virtuele machine draaien en de back-ups worden uitgevoerd via Docker-containers, komt overeen met de werkomgeving van Forvis Mazars. Dit zorgt ervoor dat de voorgestelde oplossing naadloos aansluit op hun huidige infrastructuur en gebruiksbehoeften.
