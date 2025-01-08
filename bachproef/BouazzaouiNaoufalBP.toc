@@ -62,11 +62,9 @@
 \contentsline {subsubsection}{Conclusie}{30}{figure.caption.17}%
 \contentsline {subsection}{\numberline {5.0.4}Implementatie van de Kubernetes-gebaseerde automatische back-upoplossing}{31}{subsection.5.0.4}%
 \contentsline {subsubsection}{Inleiding}{31}{subsection.5.0.4}%
-\contentsline {subsubsection}{Kubernetes Pods en Werking}{31}{subsection.5.0.4}%
-\contentsline {subsubsection}{Persistent Volume en Persistent Volume Claim}{32}{Item.4}%
-\contentsline {subsubsection}{Dockerfile en Samenwerking met Kubernetes}{33}{lstnumber.5.11.11}%
-\contentsline {subsubsection}{PostgreSQL Back-up CronJob}{34}{lstnumber.5.12.15}%
-\contentsline {subsubsection}{Opschonings-CronJob}{35}{lstnumber.5.13.47}%
+\contentsline {subsubsection}{Python-script voor databaseback-ups}{31}{subsection.5.0.4}%
+\contentsline {subsubsection}{Dockerfile}{34}{lstnumber.-3.21}%
+\contentsline {subsubsection}{Kubernetes cronjobs en werking}{34}{lstnumber.-3.21}%
 \contentsline {subsection}{\numberline {5.0.5}Relevantie van de Kubernetes-setup voor Forvis Mazars}{36}{subsection.5.0.5}%
 \contentsline {subsection}{\numberline {5.0.6}Herstelcapaciteit (Restore from Backup)}{37}{subsection.5.0.6}%
 \contentsline {subsubsection}{Toepassing van de Herstelstrategie}{37}{subsection.5.0.6}%
@@ -75,21 +73,25 @@
 \contentsline {chapter}{\numberline {6}Conclusie}{39}{chapter.6}%
 \contentsline {subsubsection}{Hoofdvraag: Hoe kan de back-upstrategie voor Azure PostgreSQL en MySQL databases bij Forvis Mazars worden geoptimaliseerd met behulp van immutabele opslag en automatische back-ups?}{39}{chapter.6}%
 \contentsline {subsubsection}{Deelvraag 1: Hoe veilig en betrouwbaar zijn de huidige back-upoplossingen van Forvis Mazars voor Azure PostgreSQL en MySQL databases?}{40}{chapter.6}%
-\contentsline {subsubsection}{Deelvraag 2: Welke rol speelt immutabele opslag in het beschermen van back-ups tegen ransomware en andere vormen van dataverlies?}{41}{chapter.6}%
+\contentsline {subsubsection}{Deelvraag 2: Welke rol speelt immutabele opslag in het beschermen van back-ups tegen ransomware en andere vormen van dataverlies?}{40}{chapter.6}%
 \contentsline {subsubsection}{Deelvraag 3: Wat zijn de belangrijkste uitdagingen bij het integreren van immutabele opslag met Azure cloud back-upsystemen?}{41}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{43}{appendix.A}%
-\contentsline {subsection}{\numberline {A.0.1}abstract}{43}{subsection.A.0.1}%
-\contentsline {subsection}{\numberline {A.0.2}Inleiding}{44}{subsection.A.0.2}%
-\contentsline {subsection}{\numberline {A.0.3}Literatuurstudie}{45}{subsection.A.0.3}%
-\contentsline {subsubsection}{back-upstrategieën}{46}{subsection.A.0.3}%
-\contentsline {subsubsection}{Full back-up}{46}{subsection.A.0.3}%
-\contentsline {subsubsection}{Incrementele back-ups}{46}{figure.caption.19}%
-\contentsline {subsubsection}{Differentiële back-up}{47}{figure.caption.20}%
-\contentsline {subsubsection}{On-premise back-ups}{48}{figure.caption.21}%
-\contentsline {subsubsection}{Cloud-gebaseerde back-ups}{48}{figure.caption.21}%
-\contentsline {subsubsection}{Offline back-ups}{49}{figure.caption.21}%
-\contentsline {subsubsection}{Immutable storage}{49}{figure.caption.21}%
-\contentsline {subsection}{\numberline {A.0.4}Methodologie}{50}{subsection.A.0.4}%
-\contentsline {subsection}{\numberline {A.0.5}Verwacht resultaat, conclusie}{50}{subsection.A.0.5}%
-\contentsline {chapter}{Bibliografie}{51}{appendix*.22}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{42}{appendix.A}%
+\contentsline {subsection}{\numberline {A.0.1}abstract}{42}{subsection.A.0.1}%
+\contentsline {subsection}{\numberline {A.0.2}Inleiding}{43}{subsection.A.0.2}%
+\contentsline {subsection}{\numberline {A.0.3}Literatuurstudie}{44}{subsection.A.0.3}%
+\contentsline {subsubsection}{back-upstrategieën}{45}{subsection.A.0.3}%
+\contentsline {subsubsection}{Full back-up}{45}{subsection.A.0.3}%
+\contentsline {subsubsection}{Incrementele back-ups}{45}{figure.caption.19}%
+\contentsline {subsubsection}{Differentiële back-up}{46}{figure.caption.20}%
+\contentsline {subsubsection}{On-premise back-ups}{47}{figure.caption.21}%
+\contentsline {subsubsection}{Cloud-gebaseerde back-ups}{47}{figure.caption.21}%
+\contentsline {subsubsection}{Offline back-ups}{48}{figure.caption.21}%
+\contentsline {subsubsection}{Immutable storage}{48}{figure.caption.21}%
+\contentsline {subsection}{\numberline {A.0.4}Methodologie}{48}{subsection.A.0.4}%
+\contentsline {subsection}{\numberline {A.0.5}Verwacht resultaat, conclusie}{49}{subsection.A.0.5}%
+\contentsline {chapter}{\numberline {B}Dockerfile}{50}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Python-script}{51}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Kubernetes Cronjobs}{55}{appendix.D}%
+\contentsline {chapter}{\numberline {E}Persistent Volume (PV) voor back-upopslag en bijbehorende Persistent Volume Claim (PVC) in de POC}{59}{appendix.E}%
+\contentsline {chapter}{Bibliografie}{61}{appendix*.22}%
 \contentsfinish 
