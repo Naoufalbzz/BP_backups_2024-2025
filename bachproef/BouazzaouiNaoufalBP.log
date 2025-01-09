@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  8 JAN 2025 03:12
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  9 JAN 2025 03:20
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2658,7 +2658,13 @@ idige kennis en technologieën rondom
 
 
 
-[2]) (./standvanzaken.tex
+[2]
+Overfull \hbox (4.4824pt too wide) in paragraph at lines 50--51
+[]\TU/Montserrat(1)/m/n/10.95 In hoofdstuk [][]5[][] wordt de uitvoering van de
+ proof-of-concept beschreven, waarin
+ []
+
+) (./standvanzaken.tex
 
 [3]
 Hoofdstuk 2.
@@ -2696,7 +2702,7 @@ File: img/diff.png Graphic file (type bmp)
 
 
 [8]
-Overfull \hbox (0.5097pt too wide) in paragraph at lines 85--86
+Overfull \hbox (0.5097pt too wide) in paragraph at lines 83--84
 []\TU/Montserrat(1)/m/n/10.95 Een eerder besproken nadeel is echter dat bij her
 stel alle opeenvolgende back-
  []
@@ -2706,15 +2712,9 @@ stel alle opeenvolgende back-
 [9]
 
 [10]
-Overfull \hbox (20.41946pt too wide) in paragraph at lines 107--108
-\TU/Montserrat(1)/m/n/10.95 Daarbij is er ook een IT-expert nodig voor de imple
-mentatie van deze back-upsystemen. 
- []
-
-
 
 [11]
-Overfull \hbox (2.24347pt too wide) in paragraph at lines 124--125
+Overfull \hbox (2.24347pt too wide) in paragraph at lines 122--123
 []\TU/Montserrat(1)/m/n/10.95 Ten tweede zorgen ransomware-aanvallen voor opera
 tionele verstoringen: sys-
  []
@@ -2722,13 +2722,13 @@ tionele verstoringen: sys-
 
 
 [12]
-Overfull \hbox (12.26564pt too wide) in paragraph at lines 141--142
+Overfull \hbox (12.26564pt too wide) in paragraph at lines 139--140
 \TU/Montserrat(1)/m/n/10.95 cloud-opslag en netwerkverbindingen, wat de risico’
 s vermindert. Hoewel air-gapped
  []
 
 
-Overfull \hbox (37.28975pt too wide) in paragraph at lines 143--144
+Overfull \hbox (37.28975pt too wide) in paragraph at lines 141--142
 \TU/Montserrat(1)/m/n/10.95 van beveiliging die van groot belang is voor organi
 saties die gevoelig zijn voor ransomware-
  []
@@ -2738,20 +2738,14 @@ saties die gevoelig zijn voor ransomware-
 [13]
 
 [14]
-Overfull \hbox (6.99844pt too wide) in paragraph at lines 181--182
+Overfull \hbox (6.99844pt too wide) in paragraph at lines 179--180
 \TU/Montserrat(1)/m/n/10.95 meerdere besturingssystemen tegelijkertijd op één f
 ysieke machine kunnen draaien
  []
 
 
 
-[15]
-Overfull \hbox (0.18176pt too wide) in paragraph at lines 183--184
-[]\TU/Montserrat(1)/m/n/10.95 VirtualBox maakt gebruik van virtuele netwerken, 
-zoals NAT (Network Address
- []
-
-) (./methodologie.tex
+[15]) (./methodologie.tex
 
 [16]
 Hoofdstuk 3.
@@ -3227,24 +3221,26 @@ CourierNew(0)/m/n/10.95 mysql\TU/Montserrat(1)/m/n/10.95 -
  []
 
 
-Overfull \hbox (8.98064pt too wide) in paragraph at lines 393--395
+Overfull \hbox (2.4554pt too wide) in paragraph at lines 393--395
 \TU/Montserrat(1)/m/n/10.95 commando. Beide hersteltaken verliepen succesvol en
- zonder dataverlies, waar-
+ zonder dataverlies. Om
  []
 
-) (./conclusie.tex
 
-[38]
+
+[38]) (./conclusie.tex
+
+[39]
 Hoofdstuk 6.
 
 
-[39
+[40
 
 ]
 
-[40])
+[41])
 
-[41]
+[42]
 B\ij lage A.
 (../bachproef/voorstel.tex
 
@@ -3253,7 +3249,7 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 
 
 
-[42
+[43
 
 ] (./BouazzaouiNaoufalBP.toc)
 \tf@toc=\write11
@@ -3267,18 +3263,18 @@ Overfull \hbox (12.01086pt too wide) in paragraph at lines 16--18
 
 
 
-[43
+[44
 
 ]
 
-[44]
+[45]
 File: img/fullb.png Graphic file (type bmp)
 <img/fullb.png>
 File: img/incrementb.png Graphic file (type bmp)
 <img/incrementb.png>
 
 
-[45]
+[46]
 File: img/diff.png Graphic file (type bmp)
 <img/diff.png>
 
@@ -3287,13 +3283,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[46]
-
 [47]
 
-[48]) (./code voor POC.tex
+[48]
 
-[49]
+[49]) (./code voor POC.tex
+
+[50]
 B\ij lage B.
 (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
@@ -3332,21 +3328,21 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
-[50
+[51
 
 ]
 B\ij lage C.
 
 
-[51
+[52
 
 ]
-
-[52]
 
 [53]
 
 [54]
+
+[55]
 B\ij lage D.
 (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
@@ -3385,7 +3381,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
-[55
+[56
 
 ] (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
@@ -3424,7 +3420,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
-[56] (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+[57] (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
 (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
@@ -3461,9 +3457,9 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
-[57]
-
 [58]
+
+[59]
 B\ij lage E.
 (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
@@ -3537,19 +3533,11 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
-[59
+[60
 
 ])
 
-
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 26.66998pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.66998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-12.66998pt}.
-
-[60]
+[61]
 Overfull \hbox (1.69463pt too wide) in paragraph at lines 201--201
 \TU/Montserrat(1)/m/n/10.95 backup techniques. \TU/Montserrat(2)/m/it/10.95 Joi
 nt NASA and IEEE Mass Storage Conference\TU/Montserrat(1)/m/n/10.95 , \TU/Monts
@@ -3565,7 +3553,7 @@ Overfull \hbox (173.6539pt too wide) in paragraph at lines 201--201
 
 
 
-[61
+[62
 
 
 ]
@@ -3618,7 +3606,7 @@ Overfull \hbox (29.28905pt too wide) in paragraph at lines 201--201
 
 
 
-[62]
+[63]
 Overfull \hbox (8.92203pt too wide) in paragraph at lines 201--201
 [][][][][][][][][][][][][][] [] [][][] [] [][][][][][][] [] [][][] [] [][][][][
 ] [] [][][][] [] [][][][][][][][] [] [][][][][][][][] [] [][][][][][][][]$[][] 
@@ -3627,7 +3615,7 @@ Overfull \hbox (8.92203pt too wide) in paragraph at lines 201--201
 
 
 
-[63] (./BouazzaouiNaoufalBP.aux)
+[64] (./BouazzaouiNaoufalBP.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
@@ -3651,4 +3639,4 @@ Here is how much of TeX's memory you used:
  1349 hyphenation exceptions out of 8191
  110i,12n,132p,1719b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on BouazzaouiNaoufalBP.pdf (72 pages).
+Output written on BouazzaouiNaoufalBP.pdf (73 pages).

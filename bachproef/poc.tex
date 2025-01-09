@@ -383,15 +383,15 @@ Door deze overeenkomsten en verschillen te analyseren, kan worden geconcludeerd 
 \subsection{Herstelcapaciteit (Restore from Backup)}
 Een belangrijk onderdeel van het praktijkgedeelte van dit onderzoek is het testen van de herstelcapaciteit (restore from back-up). Dit was een essentiële vereiste in het onderzoek, waarbij de focus lag op het efficiënt en snel herstellen van systemen vanuit de back-ups. Het doel was om een idee te krijgen over hoe snel en betrouwbaar een databank up-and-running kan zijn na het ondergaan van een incident.
 
-\subsubsection{Toepassing van de Herstelstrategie}
-Om deze must-have te evalueren, heb ik de gehele herstelprocedure in een gecontroleerde testomgeving uitgevoerd. Deze testomgeving komt grotendeels overeen met de actieve omgeving die Forvis Mazars gebruikt. Dit proces omvatte de volgende stappen:
+\subsubsection{Toepassing van de herstelstrategie}
+Voor deze must-have heb ik het herstelproces gesimuleerd in een testomgeving waarbij ik back-ups ophaal uit de immutable Azure storage container en deze dan herstel in een MySQL- en PostgreSQL-databank. Deze testomgeving komt grotendeels overeen met de actieve omgeving die Forvis Mazars gebruikt. Het proces omvatte de volgende stappen:
 
 \begin{enumerate}
     \item \textbf{Back-ups ophalen uit de immutable storage in Azure} \\
     De back-ups werden veilig opgeslagen in een Azure Storage Account met een immutable opslagbeleid, wat een cruciale maatregel is tegen ransomware-aanvallen. Door het gebruik van het \texttt{az storage blob download}-commando werden de back-ups gedownload naar de lokale virtuele machine.
     
     \item \textbf{Herstellen van de PostgreSQL- en MySQL-databanken} \\
-    Na het downloaden werden de PostgreSQL- en MySQL-databases opnieuw opgezet met herstelcommando’s. Voor PostgreSQL werd het bestand hersteld met \texttt{pg\_restore}, terwijl voor MySQL gebruik werd gemaakt van het \texttt{mysql}-commando. Beide hersteltaken verliepen succesvol en zonder dataverlies, waarmee de betrouwbaarheid van de back-upstrategie werd aangetoond. Dit hele proces is gemeten en duurde ongeveer \textbf{23 seconden}, wat wijst op een snelle toegang tot de back-ups in noodsituaties.
+    Na het downloaden werden de PostgreSQL- en MySQL-databases opnieuw opgezet met herstelcommando’s. Voor PostgreSQL werd het bestand hersteld met \texttt{pg\_restore}, terwijl voor MySQL gebruik werd gemaakt van het \texttt{mysql}-commando. Beide hersteltaken verliepen succesvol en zonder dataverlies. Om aan te tonen dat er geen dataverlies optrad, werd vóór en na het herstel een COUNT(*)-query uitgevoerd in beide databases. De resultaten van deze queries waren identiek, wat bevestigt dat alle rijen correct zijn hersteld en de back-upstrategie betrouwbaar is. Dit hele proces is gemeten en duurde 48 seconden, wat wijst op een snelle toegang tot de back-ups in noodsituaties. Het back-upbestand voor de MySQL-databank had een bestandsgrootte 383 KiB en het bestand voor de PostgreSQL-databank had een grootte van 45,16 KiB. Deze bestanden werden gedownload met een internetsnelheid van 75.33 Mbit/s. Dit is getest met de tool speedtest-cli.
 \end{enumerate}
 
 \subsubsection{Link met Herstelcapaciteit}
