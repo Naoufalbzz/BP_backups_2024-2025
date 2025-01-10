@@ -235,7 +235,7 @@
   url    = {https://www.google.be/books/edition/Practical_PostgreSQL/fI1lAgAAQBAJ?hl=nl&gbpv=0},
 }
 
-@Article{kubernetes2019kubernetes,
+@Article{Gupta2019,
   author       = {Arun Gupta and Alan Hohn},
   date         = {2019},
   journaltitle = {Dzone},

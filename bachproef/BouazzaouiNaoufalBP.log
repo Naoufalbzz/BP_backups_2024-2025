@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  10 JAN 2025 18:08
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  10 JAN 2025 19:16
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -4285,18 +4285,10 @@ L3 programming layer <2024-10-09>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `BouazzaouiNaoufalBP.out' has not changed.
 (rerunfilecheck)             Checksum: 76B75A7A152FE15055C73C9FE1C608F5;8773.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                BouazzaouiNaoufalBP
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'BouazzaouiNaoufalBP.run.xml'.
 \openout1 = `BouazzaouiNaoufalBP.run.xml'.
 

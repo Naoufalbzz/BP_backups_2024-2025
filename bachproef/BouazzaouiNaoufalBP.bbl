@@ -934,6 +934,12 @@
       \field{dateera}{ce}
       \field{pages}{2019}
       \range{pages}{1}
+      \verb{urlraw}
+      \verb https://dzone.com/storage/attachments/14131598-dzone-kubernetes-bundle.pdf
+      \endverb
+      \verb{url}
+      \verb https://dzone.com/storage/attachments/14131598-dzone-kubernetes-bundle.pdf
+      \endverb
     \endentry
     \entry{Hasan2005}{article}{}{}
       \name{author}{6}{}{%
@@ -2860,6 +2866,12 @@
       \field{dateera}{ce}
       \field{pages}{2019}
       \range{pages}{1}
+      \verb{urlraw}
+      \verb https://dzone.com/storage/attachments/14131598-dzone-kubernetes-bundle.pdf
+      \endverb
+      \verb{url}
+      \verb https://dzone.com/storage/attachments/14131598-dzone-kubernetes-bundle.pdf
+      \endverb
     \endentry
     \entry{Hasan2005}{article}{}{}
       \name{author}{6}{}{%
