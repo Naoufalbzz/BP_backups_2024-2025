@@ -15,7 +15,7 @@
 \contentsline {subsubsection}{Incrementele back-up}{7}{figure.caption.8}%
 \contentsline {subsubsection}{Differentiële back-ups}{8}{figure.caption.9}%
 \contentsline {subsubsection}{Cloud back-ups}{9}{figure.caption.10}%
-\contentsline {subsubsection}{On-premise back-ups}{11}{figure.caption.10}%
+\contentsline {subsubsection}{On-premise back-ups}{10}{figure.caption.10}%
 \contentsline {subsection}{\numberline {2.0.3}Ransomware}{11}{subsection.2.0.3}%
 \contentsline {subsubsection}{Evolutie}{11}{subsection.2.0.3}%
 \contentsline {subsubsection}{Impact van ransomware op organisaties}{12}{subsection.2.0.3}%
@@ -26,9 +26,11 @@
 \contentsline {subsection}{\numberline {2.0.5}Technologische basis voor de Proof-of-Concept}{14}{subsection.2.0.5}%
 \contentsline {subsubsection}{Azure}{14}{subsection.2.0.5}%
 \contentsline {subsubsection}{Vagrant}{15}{subsection.2.0.5}%
-\contentsline {subsubsection}{Virtualbox}{16}{subsection.2.0.5}%
+\contentsline {subsubsection}{Virtualbox}{15}{subsection.2.0.5}%
 \contentsline {subsubsection}{BorgBackup}{16}{subsection.2.0.5}%
 \contentsline {subsubsection}{MySQL}{16}{subsection.2.0.5}%
+\contentsline {subsubsection}{PostgreSQL}{17}{subsection.2.0.5}%
+\contentsline {subsubsection}{Kubernetes}{17}{subsection.2.0.5}%
 \contentsline {chapter}{\numberline {3}Methodologie}{18}{chapter.3}%
 \contentsline {subsection}{\numberline {3.0.1}Requirements-analyse}{18}{subsection.3.0.1}%
 \contentsline {subsubsection}{1. Must Have (Essentiële vereisten)}{18}{subsection.3.0.1}%

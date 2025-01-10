@@ -443,6 +443,50 @@
       \verb https://blackkite.com/wp-content/uploads/2024/05/BlackKite_Report_Ransomware-2024.05.14.pdf
       \endverb
     \endentry
+    \entry{Drake2002}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=512e3f0ff052ea4b602f03217e9c2692}{%
+           family={Drake},
+           familyi={D\bibinitperiod},
+           given={Joshua\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=48b6bc48c3f7369b4d0497d364f92bb4}{%
+           family={Worsley},
+           familyi={W\bibinitperiod},
+           given={John\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f8cf357b375fa02e028d028f76cb3eda}
+      \strng{fullhash}{f8cf357b375fa02e028d028f76cb3eda}
+      \strng{fullhashraw}{f8cf357b375fa02e028d028f76cb3eda}
+      \strng{bibnamehash}{f8cf357b375fa02e028d028f76cb3eda}
+      \strng{authorbibnamehash}{f8cf357b375fa02e028d028f76cb3eda}
+      \strng{authornamehash}{f8cf357b375fa02e028d028f76cb3eda}
+      \strng{authorfullhash}{f8cf357b375fa02e028d028f76cb3eda}
+      \strng{authorfullhashraw}{f8cf357b375fa02e028d028f76cb3eda}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{7}
+      \field{month}{1}
+      \field{title}{Practical PostgreSQL}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{pages}{640}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.google.be/books/edition/Practical_PostgreSQL/fI1lAgAAQBAJ?hl=nl&gbpv=0
+      \endverb
+      \verb{url}
+      \verb https://www.google.be/books/edition/Practical_PostgreSQL/fI1lAgAAQBAJ?hl=nl&gbpv=0
+      \endverb
+    \endentry
     \entry{Dubey2023}{article}{}{}
       \name{author}{20}{}{%
         {{un=0,uniquepart=base,hash=93b76afe8cbcda8dcf548007f2acd48b}{%
@@ -2285,6 +2329,50 @@
       \endverb
       \verb{url}
       \verb https://blackkite.com/wp-content/uploads/2024/05/BlackKite_Report_Ransomware-2024.05.14.pdf
+      \endverb
+    \endentry
+    \entry{Drake2002}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=512e3f0ff052ea4b602f03217e9c2692}{%
+           family={Drake},
+           familyi={D\bibinitperiod},
+           given={Joshua\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=48b6bc48c3f7369b4d0497d364f92bb4}{%
+           family={Worsley},
+           familyi={W\bibinitperiod},
+           given={John\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f8cf357b375fa02e028d028f76cb3eda}
+      \strng{fullhash}{f8cf357b375fa02e028d028f76cb3eda}
+      \strng{fullhashraw}{f8cf357b375fa02e028d028f76cb3eda}
+      \strng{bibnamehash}{f8cf357b375fa02e028d028f76cb3eda}
+      \strng{authorbibnamehash}{f8cf357b375fa02e028d028f76cb3eda}
+      \strng{authornamehash}{f8cf357b375fa02e028d028f76cb3eda}
+      \strng{authorfullhash}{f8cf357b375fa02e028d028f76cb3eda}
+      \strng{authorfullhashraw}{f8cf357b375fa02e028d028f76cb3eda}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{7}
+      \field{month}{1}
+      \field{title}{Practical PostgreSQL}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{pages}{640}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.google.be/books/edition/Practical_PostgreSQL/fI1lAgAAQBAJ?hl=nl&gbpv=0
+      \endverb
+      \verb{url}
+      \verb https://www.google.be/books/edition/Practical_PostgreSQL/fI1lAgAAQBAJ?hl=nl&gbpv=0
       \endverb
     \endentry
     \entry{Dubey2023}{article}{}{}

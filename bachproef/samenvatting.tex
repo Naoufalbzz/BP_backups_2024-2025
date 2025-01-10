@@ -30,6 +30,7 @@
 
 
 
+
 \chapter*{Samenvatting}
 Dit onderzoek heeft als doel de back-upstrategie van Forvis Mazars te analyseren en optimaliseren, met een focus op het verbeteren van de bescherming tegen cyberdreigingen zoals ransomware-aanvallen. Het bedrijf maakt gebruik van Azure voor het beheren van zijn data en heeft momenteel een back-upstrategie die bestaat uit automatische full back-ups van twee databases en een manueel uitgevoerd script voor het maken van back-ups van specifieke databases naar een Azure Storage-account.
 
@@ -37,9 +38,9 @@ De bescherming van bedrijfsdata is essentieel voor het waarborgen van de continu
 
 Om de back-upstrategie te verbeteren, werd een Proof-of-Concept (PoC) ontwikkeld in een lokale testomgeving met VirtualBox, waarin de effectiviteit van immutable storage werd getest. In deze simulatie werd aangetoond dat immutable storage het mogelijk maakt om back-ups te beschermen tegen manipulatie, zelfs wanneer een aanvaller volledige controle heeft over het systeem. Dit werd bevestigd door het encrypten van back-upbestanden en het verwijderen van de actieve database, waarbij de integriteit van de immutabele back-ups behouden bleef.
 
-Verder werd de huidige back-upstrategie van Forvis Mazars geanalyseerd, waarbij verschillende verbeterpunten werden geïdentificeerd. Aanbevelingen zoals het implementeren van immutable storage in de Azure-omgeving, het uitbreiden van het retentiebeleid, en het automatiseren van manuele back-ups via Kubernetes cronjobs werden geformuleerd. Deze verbeteringen dragen bij aan het vergroten van de veiligheid en betrouwbaarheid van de back-ups en zorgen voor snellere en effectievere herstelmogelijkheden.
+Verder werd de huidige back-upstrategie van Forvis Mazars geanalyseerd, waarbij verschillende verbeterpunten werden geïdentificeerd. Aanbevelingen zoals het implementeren van immutable storage in de Azure-omgeving en het automatiseren van manuele back-ups via Kubernetes cronjobs werden geformuleerd. Deze verbeteringen dragen bij aan het vergroten van de veiligheid en betrouwbaarheid van de back-ups en zorgen voor snellere en effectievere herstelmogelijkheden.
 
-In dit onderzoek werd ook een literatuurstudie uitgevoerd waarin verschillende back-upmethoden, technieken en ransomware-resistente oplossingen werden onderzocht. De opgedane kennis heeft bijgedragen aan het ontwikkelen van een geoptimaliseerde back-upstrategie voor Forvis Mazars, die niet alleen de dataveiligheid verhoogt, maar ook de bedrijfscontinuïteit beschermt tegen cyberdreigingen. De inzichten en technieken die in dit onderzoek zijn gepresenteerd, kunnen ook waardevolle toepassingen hebben voor andere organisaties die hun back-upstrategieën willen versterken, met name binnen Azure-omgevingen.
+In dit onderzoek werd ook een literatuurstudie uitgevoerd waarin verschillende back-upmethoden, technieken en ransomware-resistente oplossingen werden onderzocht. De opgedane kennis heeft bijgedragen aan het ontwikkelen van een geoptimaliseerde back-upstrategie voor Forvis Mazars, die niet alleen de veiligheid verhoogt, maar ook de bedrijfscontinuïteit beschermt tegen cyberaanvallen. De inzichten en technieken die in dit onderzoek zijn gepresenteerd, kunnen ook waardevolle toepassingen hebben voor andere organisaties die hun back-upstrategieën willen versterken, met name binnen Azure-omgevingen.
 
 
 

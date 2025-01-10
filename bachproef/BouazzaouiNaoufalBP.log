@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  10 JAN 2025 08:01
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  10 JAN 2025 17:11
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2506,13 +2506,8 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 118.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (8.26051pt too wide) in paragraph at lines 131--131
-\TU/Montserrat(0)/b/n/24.88 Azure PostgreSQL en MySQL databases
- []
-
-
-Overfull \hbox (18.24236pt too wide) in paragraph at lines 131--131
-\TU/Montserrat(0)/b/n/24.88 opslag en automatische back-ups?: Een
+Overfull \hbox (28.29388pt too wide) in paragraph at lines 131--131
+\TU/Montserrat(0)/b/n/24.88 van immutabele opslag en automatische
  []
 
 
@@ -2559,9 +2554,15 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 133.
 
 
 ]
-Overfull \hbox (6.51183pt too wide) in paragraph at lines 40--41
+Overfull \hbox (6.51183pt too wide) in paragraph at lines 41--42
 []\TU/Montserrat(1)/m/n/10.95 Verder werd de huidige back-upstrategie van Forvi
 s Mazars geanalyseerd, waar-
+ []
+
+
+Overfull \hbox (25.25206pt too wide) in paragraph at lines 43--44
+\TU/Montserrat(1)/m/n/10.95 waardevolle toepassingen hebben voor andere organis
+aties die hun back-upstrategieën
  []
 
 )
@@ -2569,7 +2570,7 @@ s Mazars geanalyseerd, waar-
 [4
 
 ] (./BouazzaouiNaoufalBP.toc
-Overfull \hbox (19.02156pt too wide) in paragraph at lines 57--57
+Overfull \hbox (19.02156pt too wide) in paragraph at lines 59--59
  []|| [][][]\TU/Montserrat(1)/m/n/10.95 Implementatie van de Kubernetes-gebasee
 rde automatische back- 
  []
@@ -2650,13 +2651,9 @@ idige kennis en technologieën rondom
 
 
 [2]
-
-LaTeX Warning: Reference `ch:analyse' on page 3 undefined on input line 48.
-
-
-Overfull \hbox (4.4824pt too wide) in paragraph at lines 50--51
+Overfull \hbox (6.20155pt too wide) in paragraph at lines 50--51
 []\TU/Montserrat(1)/m/n/10.95 In hoofdstuk [][]5[][] wordt de uitvoering van de
- proof-of-concept beschreven, waarin
+ Proof-of-Concept beschreven, waarin
  []
 
 ) (./standvanzaken.tex
@@ -2709,7 +2706,7 @@ stel alle opeenvolgende back-
 [10]
 
 [11]
-Overfull \hbox (2.24347pt too wide) in paragraph at lines 124--125
+Overfull \hbox (2.24347pt too wide) in paragraph at lines 122--123
 []\TU/Montserrat(1)/m/n/10.95 Ten tweede zorgen ransomware-aanvallen voor opera
 tionele verstoringen: sys-
  []
@@ -2717,13 +2714,13 @@ tionele verstoringen: sys-
 
 
 [12]
-Overfull \hbox (12.26564pt too wide) in paragraph at lines 144--145
+Overfull \hbox (12.26564pt too wide) in paragraph at lines 142--143
 \TU/Montserrat(1)/m/n/10.95 cloud-opslag en netwerkverbindingen, wat de risico’
 s vermindert. Hoewel air-gapped
  []
 
 
-Overfull \hbox (0.72406pt too wide) in paragraph at lines 146--147
+Overfull \hbox (0.72406pt too wide) in paragraph at lines 144--145
 \TU/Montserrat(1)/m/n/10.95 van beveiliging die belangrijk is voor organisaties
  die gevoelig zijn voor ransomware-
  []
@@ -2733,7 +2730,7 @@ Overfull \hbox (0.72406pt too wide) in paragraph at lines 146--147
 [13]
 
 [14]
-Overfull \hbox (6.99844pt too wide) in paragraph at lines 184--185
+Overfull \hbox (6.99844pt too wide) in paragraph at lines 182--183
 \TU/Montserrat(1)/m/n/10.95 meerdere besturingssystemen tegelijkertijd op één f
 ysieke machine kunnen draaien
  []
@@ -2741,12 +2738,16 @@ ysieke machine kunnen draaien
 
 
 [15]
-
-[16]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `CourierNew' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
+
+[16]
+
+LaTeX Warning: Citation 'Gupta2019' on page 17 undefined on input line 219.
+
 ) (./methodologie.tex
 
 [17]
@@ -2830,19 +2831,19 @@ t bestanden in de back-updirectory
 [21]
 Hoofdstuk 4.
 
-Overfull \hbox (23.96364pt too wide) in paragraph at lines 3--4
+Overfull \hbox (23.96364pt too wide) in paragraph at lines 4--5
 \TU/Montserrat(1)/m/n/10.95 De huidige back-upstrategie van Forvis Mazars maakt
  gebruik van een Azure-omgeving
  []
 
 
-Overfull \hbox (16.03319pt too wide) in paragraph at lines 5--6
+Overfull \hbox (16.03319pt too wide) in paragraph at lines 6--7
 []\TU/Montserrat(1)/m/n/10.95 De automatische full back-ups worden dagelijks ui
 tgevoerd door de ingebouwde
  []
 
 
-Overfull \hbox (5.88496pt too wide) in paragraph at lines 7--8
+Overfull \hbox (5.88496pt too wide) in paragraph at lines 8--9
 []\TU/Montserrat(1)/m/n/10.95 Voor de handmatige back-ups is een Python-script 
 ontwikkeld. Dit script wordt
  []
@@ -2852,13 +2853,13 @@ ontwikkeld. Dit script wordt
 [22
 
 ]
-Overfull \hbox (34.91827pt too wide) in paragraph at lines 15--16
+Overfull \hbox (34.91827pt too wide) in paragraph at lines 16--17
 []\TU/Montserrat(1)/m/n/10.95 De huidige setup van Forvis Mazars biedt een basi
 sinfrastructuur voor databaseback-
  []
 
 
-Overfull \hbox (69.36172pt too wide) in paragraph at lines 16--16
+Overfull \hbox (69.36172pt too wide) in paragraph at lines 17--17
 |[][]\TU/Montserrat(0)/b/n/14.4 Mogelijke bijkomende verbeteringen voor de back
 -upstrategie| 
  []
@@ -4207,14 +4208,14 @@ If that doesn't work, type  X <return>  to quit.
 [70
 
 ]
-Overfull \hbox (1.69463pt too wide) in paragraph at lines 206--206
+Overfull \hbox (1.69463pt too wide) in paragraph at lines 205--205
 \TU/Montserrat(1)/m/n/10.95 backup techniques. \TU/Montserrat(2)/m/it/10.95 Joi
 nt NASA and IEEE Mass Storage Conference\TU/Montserrat(1)/m/n/10.95 , \TU/Monts
 errat(2)/m/it/10.95 99\TU/Montserrat(1)/m/n/10.95 . [][]$[][][][][] []
  []
 
 
-Overfull \hbox (173.6539pt too wide) in paragraph at lines 206--206
+Overfull \hbox (173.6539pt too wide) in paragraph at lines 205--205
 [] [] [][][][][][][][][] [] [][][] [] [][][] [] [][][] [] [][][][][][][][] [] [
 ][][][][] [] [][][][][][][][][] [] [][][][][][][] [] [][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][] 
@@ -4226,10 +4227,10 @@ Overfull \hbox (173.6539pt too wide) in paragraph at lines 206--206
 
 
 ]
-./BouazzaouiNaoufalBP.tex:206: Misplaced alignment tab character &.
+./BouazzaouiNaoufalBP.tex:205: Misplaced alignment tab character &.
 <argument> American Academic &
                                Scholarly Research Journal
-l.206 \printbibliography[heading=bibintoc]
+l.205 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -4239,35 +4240,35 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (19.09499pt too wide) in paragraph at lines 206--206
+Overfull \hbox (19.09499pt too wide) in paragraph at lines 205--205
 \TU/Montserrat(1)/m/n/10.95 Multimedia. \TU/Montserrat(2)/m/it/10.95 National C
 enter for Supercomputing Applications\TU/Montserrat(1)/m/n/10.95 . [][]$[][][][
 ][] [] [] [] [][][][][][][][][] []
  []
 
 
-Overfull \hbox (116.24304pt too wide) in paragraph at lines 206--206
+Overfull \hbox (116.24304pt too wide) in paragraph at lines 205--205
 [][][] [] [][][] [] [][][] [] [][][][][][][][] [] [][][][][] [] [][][][][][][][
 ][] [] [][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][]$[][] 
  []
 
 
-Overfull \hbox (17.31981pt too wide) in paragraph at lines 206--206
+Overfull \hbox (17.31981pt too wide) in paragraph at lines 205--205
 [][]\TU/Montserrat(1)/m/n/10.95 Hashicorp. (z.d.). \TU/Montserrat(2)/m/it/10.95
  What is Vagrant? \TU/Montserrat(1)/m/n/10.95 Verkregen december 10, 2024, van 
 [][]$[][][][][] [] [] [] [][][][][][][][][] []
  []
 
 
-Overfull \hbox (35.33911pt too wide) in paragraph at lines 206--206
+Overfull \hbox (35.33911pt too wide) in paragraph at lines 205--205
 \TU/Montserrat(2)/m/it/10.95 bile Data Networks\TU/Montserrat(1)/m/n/10.95 . []
 []$[][][][][] [] [] [] [][][][][] [] [][][][][][] [] [][] [] [][][][][] [] [][]
  [] [][][][][][][][][][][][][][][][][][][][][] []
  []
 
 
-Overfull \hbox (29.28905pt too wide) in paragraph at lines 206--206
+Overfull \hbox (29.28905pt too wide) in paragraph at lines 205--205
 [][][] [] [][][][][][] [] [][] [] [][][][][] [] [][][][][][][] [] [][][] [] [][
 ][][] [] [][][][][][] [] [][][] [] [][][][][][][][] [] [][][][][][][][][][][][]
  []
@@ -4276,7 +4277,7 @@ Overfull \hbox (29.28905pt too wide) in paragraph at lines 206--206
 
 
 [72]
-Overfull \hbox (8.92203pt too wide) in paragraph at lines 206--206
+Overfull \hbox (8.92203pt too wide) in paragraph at lines 205--205
 [][][][][][][][][][][][][][] [] [][][] [] [][][][][][][] [] [][][] [] [][][][][
 ] [] [][][][] [] [][][][][][][][] [] [][][][][][][][] [] [][][][][][][][]$[][] 
 
@@ -4298,15 +4299,20 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `BouazzaouiNaoufalBP.out' has not changed.
 (rerunfilecheck)             Checksum: 76B75A7A152FE15055C73C9FE1C608F5;8773.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                BouazzaouiNaoufalBP
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'BouazzaouiNaoufalBP.run.xml'.
 \openout1 = `BouazzaouiNaoufalBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52015 strings out of 474233
- 1061856 string characters out of 5745779
- 2549569 words of memory out of 5000000
- 73665 multiletter control sequences out of 15000+600000
+ 52022 strings out of 474233
+ 1062077 string characters out of 5745779
+ 2549670 words of memory out of 5000000
+ 73672 multiletter control sequences out of 15000+600000
  560951 words of font info for 100 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,12n,132p,1719b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s

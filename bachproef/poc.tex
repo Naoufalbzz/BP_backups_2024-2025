@@ -409,7 +409,7 @@ Het Dockerfile, zoals weergegeven in bijlage \ref{sec:dockerfile}, is ontworpen 
 
 
 \subsubsection{Kubernetes cronjobs en werking}
-Een Kubernetes Pod is de kleinste uitvoereenheid binnen een Kubernetes-cluster. Elke Pod bevat een of meer containers die een specifieke taak uitvoeren. In dit project wordt een Pod geconfigureerd om:
+Elke Pod bevat een of meer containers die een specifieke taak uitvoeren. In dit project wordt een Pod geconfigureerd om:
 \begin{itemize}
     \item De back-up van een database uit te voeren.
     \item Data op te slaan in een Persistent Volume.
@@ -448,7 +448,7 @@ Hoewel dit functioneel was, bood deze oplossing beperkte persistentie voor de ba
 \subsection{Herstelcapaciteit (Restore from Backup)}
 Een belangrijk onderdeel van het praktijkgedeelte van dit onderzoek is het testen van de herstelcapaciteit (restore from back-up). Dit was een essentiële vereiste in het onderzoek, waarbij de focus lag op het efficiënt en snel herstellen van systemen vanuit de back-ups. Het doel was om een idee te krijgen over hoe snel en betrouwbaar een databank up-and-running kan zijn na het ondergaan van een incident.
 
-Voor deze must-have werd het herstelproces gesimuleerd in een testomgeving waarbij de back-ups werden opgehaald uit de immutable Azure storage container en deze dan herstelt werden in een MySQL- en PostgreSQL-databank. Deze testomgeving komt grotendeels overeen met de actieve omgeving die Forvis Mazars gebruikt. Het proces omvatte de volgende stappen:
+Voor deze must-have werd het herstelproces gesimuleerd in een testomgeving waarbij de back-ups werden opgehaald uit de immutable Azure storage container en deze dan herstelt werden in een MySQL- en PostgreSQL-databank. De database die hier gebruikt werd had een tabel van 6 kolommen met ongeveer 2000 rijen. Deze testomgeving komt grotendeels overeen met de actieve omgeving die Forvis Mazars gebruikt en de database komt overeen met een database die Forvis Mazars ook zou gebruiken. Het proces omvatte de volgende stappen:
 
 \subsubsection{Back-ups ophalen uit de immutable storage in Azure}
 De back-ups werden veilig opgeslagen in een Azure Storage Account met een immutable opslagbeleid, wat een cruciale maatregel is tegen ransomware-aanvallen. Door het gebruik van het \texttt{az storage blob download}-commando werden de back-ups gedownload naar de lokale virtuele machine.

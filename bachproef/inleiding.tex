@@ -11,27 +11,27 @@ De beveiliging van gegevens is van cruciaal belang voor organisaties, vooral gez
 
 \section{\IfLanguageName{dutch}{Probleemstelling}{Problem Statement}}%
 \label{sec:probleemstelling}
-In deze bachelorproef wordt de huidige back-upstrategie van Forvis Mazars geanalyseerd en geoptimaliseerd. De focus ligt hierbij op het verbeteren van de back-upstrategie voor de Azure PostgreSQL en MySQL databases, met bijzondere aandacht voor ransomware-resistentie en de integratie van immutabele opslagtechnieken. Het doel is om de bestaande strategie te versterken en de kans op dataverlies door cyberaanvallen te minimaliseren. Daarnaast zal er een proof-of-concept worden uitgevoerd om de effectiviteit van immutabele opslag te testen in een scenario waarbij een ransomware-aanval wordt nagebootst op mock-up bestanden. De probleemstelling van dit onderzoek is dat de huidige back-upstrategie bij Forvis Mazars niet voldoende robuust is om het risico op dataverlies door ransomware effectief te mitigeren. Dit onderzoek heeft tot doel de back-upstrategieën van Forvis Mazars te verbeteren door middel van geautomatiseerde processen en door gebruik te maken van immutabele opslag voor extra beveiliging tegen dataverlies. De doelgroep van dit onderzoek bestaat uit Forvis Mazars
+In deze bachelorproef wordt de huidige back-upstrategie van Forvis Mazars geanalyseerd en geoptimaliseerd. De focus ligt hierbij op het verbeteren van de back-upstrategie voor de Azure PostgreSQL en MySQL databases, met aandacht voor ransomware-resistentie en de integratie van immutable opslagtechnieken. Het doel is om de bestaande strategie te versterken en de kans op dataverlies door cyberaanvallen te minimaliseren. Daarnaast zal er een Proof-of-Concept worden uitgevoerd om de effectiviteit van immutable opslag te testen in een scenario waarbij een ransomware-aanval wordt nagebootst op mock-up bestanden. De probleemstelling van dit onderzoek is dat de huidige back-upstrategie bij Forvis Mazars niet voldoende robuust is om het risico op dataverlies door ransomware effectief te mitigeren. De doelgroep van dit onderzoek bestaat uit Forvis Mazars
 
 \section{\IfLanguageName{dutch}{Onderzoeksvraag}{Research question}}%
 \label{sec:onderzoeksvraag}
 
 De onderzoeksvraag van deze bachelorproef luidt:
 
-\textbf{Hoe kan de back-upstrategie voor Azure PostgreSQL en MySQL databases bij Forvis Mazars worden geoptimaliseerd met behulp van immutabele opslag en automatische back-ups?}
+\textbf{Hoe kan de back-upstrategie voor Azure PostgreSQL en MySQL databases bij Forvis Mazars worden geoptimaliseerd met behulp van immutable opslag en automatische back-ups?}
 
 \section{Deelvragen}
 De onderzoeksvraag kan verder opgedeeld worden in de volgende deelvragen.:
 \begin{itemize}
     \item Hoe veilig en betrouwbaar zijn de huidige back-upoplossingen van Forvis Mazars voor Azure PostgreSQL en MySQL databases?
-    \item Welke rol speelt immutabele opslag in het beschermen van back-ups tegen ransomware en andere vormen van dataverlies?
-    \item Wat zijn de belangrijkste uitdagingen bij het integreren van immutabele opslag met Azure cloud back-upsystemen?
+    \item Welke rol speelt immutable opslag in het beschermen van back-ups tegen ransomware en andere vormen van dataverlies?
+    \item Wat zijn de belangrijkste uitdagingen bij het integreren van immutable opslag met Azure cloud back-upsystemen?
 \end{itemize}
 
 \section{\IfLanguageName{dutch}{Onderzoeksdoelstelling}{Research objective}}%
 \label{sec:onderzoeksdoelstelling}
 
-Het doel van dit onderzoek is om de back-upstrategie van Forvis Mazars te optimaliseren door de huidige back-upmethoden te analyseren en te verbeteren. Het onderzoek richt zich specifiek op het implementeren van immutabele opslag om de bescherming tegen ransomware-aanvallen te versterken. Daarnaast wordt de automatisering van de manuele back-ups onderzocht en geïmplementeerd, aangezien deze momenteel niet frequent genoeg worden uitgevoerd. Een proof-of-concept (PoC) zal worden uitgevoerd door virtuele machines te gebruiken en een ransomware-aanval na te bootsen om de effectiviteit van de immutabele opslag te testen. Dit proefproject zal verder bijdragen aan het verbeteren van de bestaande automatische back-upstructuur door het toevoegen van meer geautomatiseerde processen, wat de efficiëntie en de veiligheid van het back-upbeheer binnen het bedrijf zal vergroten.
+Het doel van dit onderzoek is om de back-upstrategie van Forvis Mazars te optimaliseren door de huidige back-upmethoden te analyseren en te verbeteren. Het onderzoek richt zich specifiek op het implementeren van immutable opslag om de bescherming tegen ransomware-aanvallen te versterken. Daarnaast wordt de automatisering van de manuele back-ups onderzocht en geïmplementeerd, aangezien deze momenteel niet frequent genoeg worden uitgevoerd. Een Proof-of-Concept (PoC) zal worden uitgevoerd door virtuele machines te gebruiken en een ransomware-aanval na te bootsen om de effectiviteit van de immutable opslag te testen. Ook zal het herstelproces getest worden om een beter beeld te krijgen van de snelheid waarmee een restore kan worden uitgevoerd. Dit proefproject zal verder bijdragen aan het verbeteren van de bestaande automatische back-upstructuur door het toevoegen van meer geautomatiseerde processen, wat de efficiëntie en de veiligheid van het back-upbeheer binnen het bedrijf zal vergroten.
 \section{\IfLanguageName{dutch}{Opzet van deze bachelorproef}{Structure of this bachelor thesis}}%
 \label{sec:opzet-bachelorproef}
 
@@ -41,12 +41,12 @@ Het doel van dit onderzoek is om de back-upstrategie van Forvis Mazars te optima
 
 De rest van deze bachelorproef is als volgt opgebouwd:
 
-Hoofdstuk~\ref{ch:stand-van-zaken} biedt een overzicht van de huidige kennis en technologieën rondom back-upstrategieën, ransomware-beveiliging en immutabele opslag. De literatuur helpt de basis te leggen voor het verbeteren van de back-upbeveiliging bij Forvis Mazars.
+Hoofdstuk~\ref{ch:stand-van-zaken} biedt een overzicht van de huidige kennis en technologieën rondom back-upstrategieën, ransomware-beveiliging en immutable opslag. De literatuur helpt de basis te leggen voor het verbeteren van de back-upbeveiliging bij Forvis Mazars.
 
 In hoofdstuk~\ref{ch:methodologie} worden de stappen van het onderzoek beschreven. Een requirementsanalyse werd uitgevoerd om de huidige back-upstrategie van Forvis Mazars te evalueren en verbeterpunten te identificeren. Vervolgens werd de opzet voor een Proof-of-Concept (PoC) uitgewerkt.
 
-Hoofdstuk~\ref{ch:analyse} onderzoekt de huidige back-upstrategie bij Forvis Mazars en stelt verbeteringen voor, zoals de automatisering van handmatige back-ups en het implementeren van immutabele opslag voor verhoogde veiligheid.
+Hoofdstuk~\ref{ch:analys} onderzoekt de huidige back-upstrategie bij Forvis Mazars en stelt verbeteringen voor, zoals de automatisering van handmatige back-ups en het implementeren van immutable opslag voor verhoogde veiligheid.
 
-In hoofdstuk~\ref{ch:poc} wordt de uitvoering van de proof-of-concept beschreven, waarin immutabele opslag wordt getest door een ransomware-aanval na te bootsen op een virtuele machine.
+In hoofdstuk~\ref{ch:poc} wordt de uitvoering van de Proof-of-Concept beschreven, waarin immutable opslag wordt getest door een ransomware-aanval na te bootsen op een lokale omgeving.
 
-In hoofdstuk~\ref{ch:conclusie}, tenslotte, wordt de conclusie gegeven en een antwoord geformuleerd op de onderzoeksvragen. Daarbij wordt ook een aanzet gegeven voor toekomstig onderzoek binnen dit domein.
+In hoofdstuk~\ref{ch:conclusie}, tenslotte, wordt de conclusie gegeven van het onderzoek.

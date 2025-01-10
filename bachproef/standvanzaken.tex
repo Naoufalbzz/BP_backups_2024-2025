@@ -13,12 +13,12 @@
 
 
 \subsection{Back-ups in het kader van bedrijfscontinuïteit en disaster recovery}
-Bedrijfscontinuïteit verwijst naar de aanpak en procedures dat een bedrijf gebruikt om de voortgang van zijn werkzaamheden te bewaren, zelfs in het geval van incidenten. Deze incidenten kunnen variëren van relatief kleine problemen, zoals een gebroken netwerkverbinding, tot grote natuurrampen zoals een ardbevingen. Omdat er zoveel soorten incidenten kunnen gebeuren is het moeilijk om een oplossing te vinden die ervoor zorgt dat bedrijven in alle gevallen beschermt zijn. In plaats daarvan gebruiken bedrijven een mix van strategieën en technologieën om de continuïteit van hun processen te beschermen. 
+Bedrijfscontinuïteit verwijst naar de aanpak en procedures dat een bedrijf gebruikt om de voortgang van zijn werkzaamheden te bewaren, zelfs in het geval van incidenten. Deze incidenten kunnen variëren van relatief kleine problemen, zoals een gebroken netwerkverbinding, tot grote natuurrampen zoals aardbevingen. Omdat er zoveel soorten incidenten kunnen gebeuren is het moeilijk om een oplossing te vinden die ervoor zorgt dat bedrijven in alle gevallen beschermt zijn. In plaats daarvan gebruiken bedrijven een mix van strategieën en technologieën om de continuïteit van hun processen te beschermen. 
 
 De twee belangrijkste concepten voor de bedrijfscontinuïteit zijn hoge beschikbaarheid en disaster recovery. Volgens Zhu et al. (\citeyear{Zhu2015}) duidt hoge beschikbaarheid op het feit dat een bedrijf zodanig is ingericht dat het kan blijven draaien, zelfs als bepaalde systemen of componenten uitvallen.
 
 
-Een voorbeeld hiervan zijn twee routers die zijn geconfigureerd in een actieve-passieve opstelling. In deze configuratie is één router de primaire router die al het inkomende en uitgaande verkeer verwerkt, terwijl de andere router als reserve werkt. In het geval dat de primaire router faalt door een hardware storing of netwerkprobleem, dan neemt de tweede router automatisch de rol van de primaire router over zonder dat dit merkbare impact heeft op de netwerkverbindingen van de organisatie. Hierdoor blijft de beschikbaarheid van het netwerk gegarandeerd en blijft de downtime laag. 
+Een voorbeeld hiervan zijn twee routers die zijn geconfigureerd in een actieve-passieve opstelling. In deze configuratie is één router de primaire router die al het inkomende en uitgaande verkeer verwerkt, terwijl de andere router als reserve werkt. In het geval dat de primaire router faalt door een hardware storing of netwerkprobleem, neemt de tweede router automatisch de rol van de primaire router over zonder dat dit merkbare impact heeft op de netwerkverbindingen van de organisatie. Hierdoor blijft de beschikbaarheid van het netwerk gegarandeerd en blijft de downtime laag. 
 
 Disaster recovery (DR) is een onderdeel van bedrijfscontinuïteit dat zich specifiek richt op het herstellen van bedrijfsactiviteiten na een incident zoals een cyberaanval of een ernstige storing. Terwijl bedrijfscontinuïteit zich richt op bredere preventieve maatregelen om de continuïteit te waarborgen, focust disaster recovery zich juist op de praktische stappen en hulpmiddelen die nodig zijn om de organisatie na een verstoring weer snel operationeel te maken. Het doel van disaster recovery is om schade zoveel mogelijk te beperken en de normale gang van zaken zo snel mogelijk te herstellen. Back-ups spelen een belangrijke rol voor de continuïteit van een bedrijf en zijn vaak de eerste stap bij het opstellen van een disaster recovery plan (DRP). 
 
@@ -27,7 +27,7 @@ Bij een optimale situatie is er na een incident geen data verloren en is alle da
 Bij specifieke bedreigingen, zoals ransomware-aanvallen spelen ransomware-resistente back-ups een cruciale rol. Door back-ups te beveiligen tegen ransomware-aanvallen kunnen bedrijven hun data herstellen zonder losgeld te betalen. Dit benadrukt het belang van back-ups die niet alleen snel toegankelijk zijn, maar ook bestand zijn tegen digitale bedreigingen \autocite{Ghazi2013}.
 
 \subsection{Back-upmethoden en -technieken}
-Back-ups zijn een belangrijk onderdeel voor het managen en beveiligen van data binnen organisaties. Ze zorgen voor de continuïteit van bedrijfssystemen in het geval van een incident zoals een cyberaanval. Back-ups zijn snapshots van gegevens die op een bepaald tijdstip zijn gemaakt, opgeslagen in een wereldwijd gebruikelijk formaat en gedurende een bepaalde periode van bruikbaarheid worden bijgehouden, waarbij elke volgende kopie van de gegevens onafhankelijk van de eerste wordt bewaard \autocite{Nelson2011}. 
+Back-ups zijn een belangrijk onderdeel voor het beheren en beveiligen van data binnen organisaties. Ze zorgen voor de continuïteit van bedrijfssystemen in het geval van een incident zoals een cyberaanval. Back-ups zijn snapshots van gegevens die op een bepaald tijdstip zijn gemaakt, opgeslagen in een wereldwijd gebruikelijk formaat en gedurende een bepaalde periode van bruikbaarheid worden bijgehouden, waarbij elke volgende kopie van de gegevens onafhankelijk van de eerste wordt bewaard \autocite{Nelson2011}. 
 
 Door een aparte kopie van de gegevens te bewaren, kunnen bedrijven en individuen na een incident hun systemen of bestanden herstellen naar een eerdere, veilige staat. Hierbij kunnen back-ups zowel volledige datasets als selectieve bestandstypen omvatten, afhankelijk van de strategie en de specifieke behoeften van de organisatie. 
 
@@ -87,11 +87,9 @@ Een eerder besproken nadeel is echter dat bij herstel alle opeenvolgende back-up
 Een voorbeeld om het verschil tussen incrementele back-ups en differentiële back-ups duidelijk te maken: stel dat een bedrijf aan het begin van de week een volledige back-up maakt. Bij het gebruik van een differentieel back-upschema zou elke back-up in de loop van de week groter worden, omdat elke back-up alle wijzigingen sinds die eerste dag bevat. Bij een incrementeel schema daarentegen blijft elke dagelijkse back-up klein, omdat elke nieuwe back-up alleen de nieuwste wijzigingen bevat. Als het systeem aan het einde van de week moet worden hersteld, zou met een differentieel schema enkel de full back-up en de laatste differentiële back-up nodig zijn. Bij het gebruik van incrementele back-ups zijn alle back-ups van de week vereist \autocite{Beard2018}.
 
 \subsubsection{Cloud back-ups}
-Cloud back-ups zijn een populaire methode waarbij data op externe servers wordt opgeslagen, beheerd door een derde partij. In plaats van lokale fysieke opslagapparaten te gebruiken, worden de gegevens overgebracht naar een cloud-omgeving, zoals die van Amazon Web Services, Microsoft Azure of Google Cloud. Cloud back-ups bieden verschillende voordelen, zoals schaalbaarheid, eenvoud in beheer en de mogelijkheid om gegevens veilig op afstand op te slaan \autocite{Rahumed2011}. Bedrijven hoeven hierdoor geen geld te investeren in fysiek hardware. 
+Cloud back-ups zijn een populaire methode waarbij data op externe servers wordt opgeslagen, beheerd door een derde partij. In plaats van lokale fysieke opslagapparaten te gebruiken, worden de gegevens overgebracht naar een cloud-omgeving, zoals die van Amazon Web Services, Microsoft Azure of Google Cloud. Cloud back-ups bieden verschillende voordelen, zoals schaalbaarheid, eenvoud in beheer en de mogelijkheid om gegevens veilig op afstand op te slaan \autocite{Rahumed2011}. Bedrijven hoeven hierdoor geen geld te investeren in fysieke hardware. 
 
-Stel dat een bedrijf snel groeit of opeens veel meer data heeft, dan kan het makkelijk zijn cloud-opslag uitbreiden zonder de IT-infrastructuur aan te passen wat veel geld en moeite zou kosten. Een van de belangrijkste voordelen van cloud back-ups is toegankelijkheid. Aangezien de gegevens zich op een externe server bevinden, kan een bedrijf op elk moment en vanaf elke locatie toegang krijgen tot zijn data, zolang er een internetverbinding is. Dit is vooral handig voor bedrijven die meerdere fysieke locaties hebben. 
-
-Stel dat een bedrijf op internationaal vlak actief is: de medewerkers kunnen overal ter wereld op dezelfde back-ups vertrouwen die up-to-date zijn, dit zorgt voor een soepele samenwerking en helpt de continuïteit van het bedrijf zelfs in geval van nood. Daarnaast biedt cloud-opslag een hoge mate van beveiliging, aangezien cloud-providers meestal robuuste beveiligingsprotocollen implementeren, zoals encryptie, firewalls en multi-factor authenticatie. Voor relatief kleine bedrijven betekent dit dat zij kunnen profiteren van een hoger beveiligingsniveau zonder te investeren in geavanceerde beveiligingsinfrastructuur. 
+Stel dat een bedrijf snel groeit of opeens veel meer data heeft, dan kan het makkelijk zijn om de cloud-opslag uit te breiden zonder de IT-infrastructuur aan te passen wat veel geld en moeite zou kosten. Een van de belangrijkste voordelen van cloud back-ups is toegankelijkheid. Aangezien de gegevens zich op een externe server bevinden, kan een bedrijf op elk moment en vanaf elke locatie toegang krijgen tot zijn data, zolang er een internetverbinding is. Dit is vooral handig voor bedrijven die meerdere fysieke locaties hebben. 
 
 Stel dat een middelgroot marketingbureau zijn klantgegevens in de cloud opslaat; de back-ups zijn dan beschermd tegen onvoorziene omstandigheden, zoals fysieke schade aan hun eigen kantoren. Echter, cloud back-ups hebben ook nadelen, waaronder de afhankelijkheid van een stabiele internetverbinding. Omdat cloud back-ups vereisen dat data over het internet wordt verzonden, kunnen problemen met de internetverbinding de back-uptijd vertragen of de overdracht volledig onderbreken. Voor een organisatie die bijvoorbeeld grote hoeveelheden videobestanden moet opslaan, kan dit tijdsverlies betekenen, vooral wanneer zij gevestigd zijn op een locatie met beperkte bandbreedte. Dit kan een probleem vormen wanneer er een strikte back-upfrequentie vereist is. Een ander nadeel is de kostprijs, vooral wanneer grote hoeveelheden gegevens vaak worden geüpdatet en opgeslagen \autocite{Obrutsky2016}. 
 
@@ -207,14 +205,24 @@ Bij het gebruik van een opslag-engine die transacties ondersteunt wordt het moge
 
 
 
+\subsubsection{PostgreSQL}
+PostgreSQL is een krachtig open-source object-relationeel databasesysteem dat ontworpen is om data veilig op te slaan en complexe gegevensstructuren efficiënt te beheren \autocite{Drake2002}. Het staat bekend vanwege de betrouwbaarheid, schaalbaarheid en uitbreidbaarheid, en wordt vaak gebruikt in zowel kleine toepassingen als grootschalige systemen.
 
+PostgreSQL biedt ondersteuning voor SQL (Structured Query Language) en voegt hierop een breed assortiment aan extra functies toe, zoals geavanceerde datatypes, transacties en ondersteuning voor JSON.
 
+Voor het maken van back-ups heeft PostgreSQL een tool genaamd pg\_dump, dit is een command-line tool waarmee zowel de data als de structuur van een database kan worden opgeslagen in een dumpbestand \autocite{Drake2002}.
 
+Bij gebruik van --no-lock bij het uitvoeren van het pg\_dump commando kan een momentopname (snapshot) van de database worden gemaakt terwijl deze actief in gebruik is.
+Deze optie bestaat om een consistent beeld van de data op het moment van de back-up te bieden, zelfs als er tegelijkertijd wijzigingen plaatsvinden. Hierdoor blijft de back-up betrouwbaar en bevat deze altijd een consistente weergave van de database zoals deze was op het moment dat het proces begon.
 
+\subsubsection{Kubernetes}
+Kubernetes is een open-source container-orkestratiesysteem dat containergebaseerde applicaties beheert over meerdere hosts. Het wordt gebruikt voor het implementeren, monitoren en schalen van containers \autocite{Gupta2019}.
 
+Een belangrijk concept binnen Kubernetes zijn pods, de kleinste uitvoerbare eenheden die één of meerdere containers bevatten. Containers binnen een pod delen dezelfde netwerkruimte en opslag, wat samenwerking en communicatie tussen de containers vergemakkelijkt. Pods vormen de basis voor het draaien van applicaties binnen Kubernetes.
 
+Voor geautomatiseerde en geplande taken biedt Kubernetes CronJobs. Hiermee kunnen periodieke processen worden uitgevoerd, zoals het maken van back-ups, het opschonen van oude gegevens of het draaien van onderhoudstaken. CronJobs gebruiken een tijdsschema, vergelijkbaar met Linux-cron, om taken automatisch uit te voeren op specifieke momenten.
 
-
+Om gevoelige gegevens, zoals wachtwoorden of API-sleutels, veilig te beheren, gebruikt Kubernetes Secrets. Secrets stellen gebruikers in staat om vertrouwelijke informatie op een veilige manier beschikbaar te maken voor pods zonder deze expliciet in configuratiebestanden op te nemen.
 
 
 
