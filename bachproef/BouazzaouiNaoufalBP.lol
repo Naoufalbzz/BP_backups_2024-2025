@@ -14,7 +14,7 @@
 \contentsline {lstlisting}{\numberline {5.14}{\ignorespaces Output na het berekenen van de hash van de tweede map}}{31}{lstlisting.5.14}%
 \contentsline {lstlisting}{\numberline {5.15}{\ignorespaces Borg commando om een back-up te herstellen}}{31}{lstlisting.5.15}%
 \contentsline {lstlisting}{\numberline {5.16}{\ignorespaces MySQL commando om een databank te herstellen vanuit een .sql-bestand}}{31}{lstlisting.5.16}%
-\contentsline {lstlisting}{\numberline {5.17}{\ignorespaces MySQL commando om de hash van de tabel te berekenen na de restore.}}{32}{lstlisting.5.17}%
+\contentsline {lstlisting}{\numberline {5.17}{\ignorespaces MySQL commando om de hash van de tabel te berekenen na de restore.}}{31}{lstlisting.5.17}%
 \contentsline {lstlisting}{\numberline {5.18}{\ignorespaces Backup-klasse van het python-script.}}{38}{lstlisting.5.18}%
 \contentsline {lstlisting}{\numberline {5.19}{\ignorespaces create\_backup-methode van het python-script.}}{39}{lstlisting.5.19}%
 \contentsline {lstlisting}{\numberline {5.20}{\ignorespaces delete\_old\_backups-methode van het python-script.}}{40}{lstlisting.5.20}%

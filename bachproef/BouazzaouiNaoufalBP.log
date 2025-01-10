@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  10 JAN 2025 17:11
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  10 JAN 2025 18:08
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2712,15 +2712,21 @@ tionele verstoringen: sys-
  []
 
 
+Overfull \hbox (5.86424pt too wide) in paragraph at lines 128--129
+[]\TU/Montserrat(1)/m/n/10.95 Een belangrijk nadeel van immutable opslag heeft 
+te maken met data through-
+ []
+
+
 
 [12]
-Overfull \hbox (12.26564pt too wide) in paragraph at lines 142--143
+Overfull \hbox (12.26564pt too wide) in paragraph at lines 141--142
 \TU/Montserrat(1)/m/n/10.95 cloud-opslag en netwerkverbindingen, wat de risico’
 s vermindert. Hoewel air-gapped
  []
 
 
-Overfull \hbox (0.72406pt too wide) in paragraph at lines 144--145
+Overfull \hbox (0.72406pt too wide) in paragraph at lines 143--144
 \TU/Montserrat(1)/m/n/10.95 van beveiliging die belangrijk is voor organisaties
  die gevoelig zijn voor ransomware-
  []
@@ -2730,7 +2736,7 @@ Overfull \hbox (0.72406pt too wide) in paragraph at lines 144--145
 [13]
 
 [14]
-Overfull \hbox (6.99844pt too wide) in paragraph at lines 182--183
+Overfull \hbox (6.99844pt too wide) in paragraph at lines 181--182
 \TU/Montserrat(1)/m/n/10.95 meerdere besturingssystemen tegelijkertijd op één f
 ysieke machine kunnen draaien
  []
@@ -2744,11 +2750,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 
-[16]
-
-LaTeX Warning: Citation 'Gupta2019' on page 17 undefined on input line 219.
-
-) (./methodologie.tex
+[16]) (./methodologie.tex
 
 [17]
 Hoofdstuk 3.
@@ -2763,10 +2765,9 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 (hyperref)                than one, level fixed on input line 30.
 
 
-Overfull \hbox (2.72939pt too wide) in paragraph at lines 37--38
-\TU/Montserrat(1)/m/n/10.95 vereist de implementatie van technieken zoals \TU/M
-ontserrat(2)/m/it/10.95 immutable storage\TU/Montserrat(1)/m/n/10.95 , zodat ba
-ck-
+Overfull \hbox (0.63794pt too wide) in paragraph at lines 37--38
+\TU/Montserrat(1)/m/n/10.95 vereist de implementatie van technieken zoals immut
+able storage, zodat back-
  []
 
 
@@ -2812,19 +2813,6 @@ Overfull \hbox (13.29205pt too wide) in paragraph at lines 76--77
  []
 
 
-Overfull \hbox (38.65178pt too wide) in paragraph at lines 76--77
-\TU/Montserrat(1)/m/n/10.95 updirectory werd beschermd met het Linux-commando \
-TU/CourierNew(0)/m/n/10.95 chattr\TU/Montserrat(1)/m/n/10.95 , waarmee het immu
-table-
- []
-
-
-Overfull \hbox (17.2464pt too wide) in paragraph at lines 76--77
-\TU/Montserrat(1)/m/n/10.95 attribuut werd ingesteld. Dit attribuut voorkomt da
-t bestanden in de back-updirectory
- []
-
-
 
 [20]) (./analys.tex
 
@@ -2853,9 +2841,21 @@ ontwikkeld. Dit script wordt
 [22
 
 ]
-Overfull \hbox (34.91827pt too wide) in paragraph at lines 16--17
+Overfull \hbox (0.25787pt too wide) in paragraph at lines 16--17
 []\TU/Montserrat(1)/m/n/10.95 De huidige setup van Forvis Mazars biedt een basi
-sinfrastructuur voor databaseback-
+sinfrastructuur voor de back-
+ []
+
+
+Overfull \hbox (0.94308pt too wide) in paragraph at lines 16--17
+\TU/Montserrat(1)/m/n/10.95 aan geautomatiseerde handmatige back-ups de betrouw
+baarheid van het systeem
+ []
+
+
+Overfull \hbox (0.22282pt too wide) in paragraph at lines 16--17
+\TU/Montserrat(1)/m/n/10.95 vermindert. De bestaande strategie biedt ruimte voo
+r aanzienlijke verbetering door
  []
 
 
@@ -3503,14 +3503,7 @@ tgreSQL- en MySQL-databases.
 
 [36]
 
-[37]
-Overfull \hbox (118.85689pt too wide) in paragraph at lines 304--305
-\TU/Montserrat(1)/m/n/10.95 tum en het type database, en krijgt de vorm van \TU
-/CourierNew(0)/m/n/10.95 backup-{type}-{YYYY-MM-DD}-{database_name}.dump\TU/Mon
-tserrat(1)/m/n/10.95 .
- []
-
-(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+[37] (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
 (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
@@ -3520,32 +3513,32 @@ File: lstlang2.sty 2024/09/23 1.10c listings language file
 File: lstlang3.sty 2024/09/23 1.10c listings language file
 )
 
-./poc.tex:306: Package Listings Error: Couldn't load requested language.
+./poc.tex:308: Package Listings Error: Couldn't load requested language.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.306 ...n={Backup-klasse van het python-script.}]
+l.308 ...n={Backup-klasse van het python-script.}]
                                                   
 The following languages weren't loadable:
     ,script$
 This may cause errors in the sequel.
 
 
-./poc.tex:306: Package Listings Error: language script undefined.
+./poc.tex:308: Package Listings Error: language script undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.306 ...n={Backup-klasse van het python-script.}]
+l.308 ...n={Backup-klasse van het python-script.}]
                                                   
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (9.57047pt too wide) in paragraph at lines 322--323
+Overfull \hbox (9.57047pt too wide) in paragraph at lines 324--325
 \TU/Montserrat(1)/m/n/10.95 om onveilige of onvolledige back-ups te voorkomen. 
 Dit maakt de back-upprocedure
  []
@@ -3560,32 +3553,32 @@ File: lstlang2.sty 2024/09/23 1.10c listings language file
 File: lstlang3.sty 2024/09/23 1.10c listings language file
 )
 
-./poc.tex:325: Package Listings Error: Couldn't load requested language.
+./poc.tex:327: Package Listings Error: Couldn't load requested language.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.325 ...\_backup-methode van het python-script.}]
+l.327 ...\_backup-methode van het python-script.}]
                                                   
 The following languages weren't loadable:
     ,script$
 This may cause errors in the sequel.
 
 
-./poc.tex:325: Package Listings Error: language script undefined.
+./poc.tex:327: Package Listings Error: language script undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.325 ...\_backup-methode van het python-script.}]
+l.327 ...\_backup-methode van het python-script.}]
                                                   
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (10.90866pt too wide) in paragraph at lines 324--325
+Overfull \hbox (10.90866pt too wide) in paragraph at lines 326--327
 \TU/Montserrat(1)/m/n/10.95 voeren van de back-up. Afhankelijk van het type dat
 abase wordt ofwel het \TU/CourierNew(0)/m/n/10.95 mysqldump\TU/Montserrat(1)/m/
 n/10.95 -
@@ -3605,32 +3598,32 @@ File: lstlang2.sty 2024/09/23 1.10c listings language file
 File: lstlang3.sty 2024/09/23 1.10c listings language file
 )
 
-./poc.tex:379: Package Listings Error: Couldn't load requested language.
+./poc.tex:381: Package Listings Error: Couldn't load requested language.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.379 ..._backups-methode van het python-script.}]
+l.381 ..._backups-methode van het python-script.}]
                                                   
 The following languages weren't loadable:
     ,script$
 This may cause errors in the sequel.
 
 
-./poc.tex:379: Package Listings Error: language script undefined.
+./poc.tex:381: Package Listings Error: language script undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.379 ..._backups-methode van het python-script.}]
+l.381 ..._backups-methode van het python-script.}]
                                                   
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (2.35179pt too wide) in paragraph at lines 378--379
+Overfull \hbox (2.35179pt too wide) in paragraph at lines 380--381
 []\TU/Montserrat(1)/m/n/10.95 Daarnaast bevat het script de \TU/CourierNew(0)/m
 /n/10.95 delete_old_backups\TU/Montserrat(1)/m/n/10.95 -methode, die ervoor zor
 gt
@@ -3639,7 +3632,7 @@ gt
 
 
 [40]
-Overfull \hbox (5.15033pt too wide) in paragraph at lines 429--430
+Overfull \hbox (5.15033pt too wide) in paragraph at lines 431--432
 \TU/Montserrat(1)/m/n/10.95 van een MySQL-database. Deze taak wordt uitgevoerd 
 in een Kubernetes-omgeving
  []
@@ -3649,7 +3642,7 @@ in een Kubernetes-omgeving
 [41]
 
 [42]
-Overfull \hbox (4.25372pt too wide) in paragraph at lines 454--455
+Overfull \hbox (4.25372pt too wide) in paragraph at lines 456--457
 \TU/Montserrat(1)/m/n/10.95 Door het gebruik van het \TU/CourierNew(0)/m/n/10.9
 5 az storage blob download\TU/Montserrat(1)/m/n/10.95 -commando werden de back-
 
@@ -3665,32 +3658,32 @@ File: lstlang2.sty 2024/09/23 1.10c listings language file
 File: lstlang3.sty 2024/09/23 1.10c listings language file
 )
 
-./poc.tex:458: Package Listings Error: Couldn't load requested language.
+./poc.tex:460: Package Listings Error: Couldn't load requested language.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.458 ... de tabel te berekenen voor de restore.}]
+l.460 ... de tabel te berekenen voor de restore.}]
                                                   
 The following languages weren't loadable:
     ,code$
 This may cause errors in the sequel.
 
 
-./poc.tex:458: Package Listings Error: language code undefined.
+./poc.tex:460: Package Listings Error: language code undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.458 ... de tabel te berekenen voor de restore.}]
+l.460 ... de tabel te berekenen voor de restore.}]
                                                   
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (39.46274pt too wide) in paragraph at lines 457--458
+Overfull \hbox (39.46274pt too wide) in paragraph at lines 459--460
 \TU/Montserrat(1)/m/n/10.95 zet met herstelcommando’s. Voor PostgreSQL werd het
  bestand hersteld met \TU/CourierNew(0)/m/n/10.95 pg_restore\TU/Montserrat(1)/m
 /n/10.95 ,
@@ -3708,26 +3701,26 @@ File: lstlang2.sty 2024/09/23 1.10c listings language file
 File: lstlang3.sty 2024/09/23 1.10c listings language file
 )
 
-./poc.tex:468: Package Listings Error: Couldn't load requested language.
+./poc.tex:470: Package Listings Error: Couldn't load requested language.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.468 ... de tabel te berekenen voor de restore.}]
+l.470 ... de tabel te berekenen voor de restore.}]
                                                   
 The following languages weren't loadable:
     ,code$
 This may cause errors in the sequel.
 
 
-./poc.tex:468: Package Listings Error: language code undefined.
+./poc.tex:470: Package Listings Error: language code undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.468 ... de tabel te berekenen voor de restore.}]
+l.470 ... de tabel te berekenen voor de restore.}]
                                                   
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4309,10 +4302,10 @@ Package logreq Info: Writing requests to 'BouazzaouiNaoufalBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52022 strings out of 474233
- 1062077 string characters out of 5745779
- 2549670 words of memory out of 5000000
- 73672 multiletter control sequences out of 15000+600000
+ 52026 strings out of 474233
+ 1062262 string characters out of 5745779
+ 2579714 words of memory out of 5000000
+ 73676 multiletter control sequences out of 15000+600000
  560951 words of font info for 100 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,12n,132p,1719b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s

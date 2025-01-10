@@ -897,6 +897,44 @@
       \verb https://www.aasrc.org/aasrj/index.php/aasrj/article/viewFile/1385/547
       \endverb
     \endentry
+    \entry{Gupta2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=31dd6a11186fdd68b83212c4b141a35f}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Arun},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f018033fcda5d0d1cac13f091037a5a}{%
+           family={Hohn},
+           familyi={H\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f05fa9fecc480d453e7ce6b8aba44000}
+      \strng{fullhash}{f05fa9fecc480d453e7ce6b8aba44000}
+      \strng{fullhashraw}{f05fa9fecc480d453e7ce6b8aba44000}
+      \strng{bibnamehash}{f05fa9fecc480d453e7ce6b8aba44000}
+      \strng{authorbibnamehash}{f05fa9fecc480d453e7ce6b8aba44000}
+      \strng{authornamehash}{f05fa9fecc480d453e7ce6b8aba44000}
+      \strng{authorfullhash}{f05fa9fecc480d453e7ce6b8aba44000}
+      \strng{authorfullhashraw}{f05fa9fecc480d453e7ce6b8aba44000}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Dzone}
+      \field{title}{Getting Started with Kubernetes}
+      \field{volume}{24}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{2019}
+      \range{pages}{1}
+    \endentry
     \entry{Hasan2005}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=283ab7917a9e25ffd6077f2064f2006a}{%
@@ -2784,6 +2822,44 @@
       \verb{url}
       \verb https://www.aasrc.org/aasrj/index.php/aasrj/article/viewFile/1385/547
       \endverb
+    \endentry
+    \entry{Gupta2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=31dd6a11186fdd68b83212c4b141a35f}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Arun},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f018033fcda5d0d1cac13f091037a5a}{%
+           family={Hohn},
+           familyi={H\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f05fa9fecc480d453e7ce6b8aba44000}
+      \strng{fullhash}{f05fa9fecc480d453e7ce6b8aba44000}
+      \strng{fullhashraw}{f05fa9fecc480d453e7ce6b8aba44000}
+      \strng{bibnamehash}{f05fa9fecc480d453e7ce6b8aba44000}
+      \strng{authorbibnamehash}{f05fa9fecc480d453e7ce6b8aba44000}
+      \strng{authornamehash}{f05fa9fecc480d453e7ce6b8aba44000}
+      \strng{authorfullhash}{f05fa9fecc480d453e7ce6b8aba44000}
+      \strng{authorfullhashraw}{f05fa9fecc480d453e7ce6b8aba44000}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Dzone}
+      \field{title}{Getting Started with Kubernetes}
+      \field{volume}{24}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{2019}
+      \range{pages}{1}
     \endentry
     \entry{Hasan2005}{article}{}{}
       \name{author}{6}{}{%
