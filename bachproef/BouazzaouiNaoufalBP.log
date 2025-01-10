@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  10 JAN 2025 06:16
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  10 JAN 2025 08:01
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2559,15 +2559,9 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 133.
 
 
 ]
-Overfull \hbox (9.77972pt too wide) in paragraph at lines 34--35
-\TU/Montserrat(1)/m/n/10.95 Dit onderzoek heeft als doel het analyseren en opti
-maliseren van de back-upstrategie
- []
-
-
-Overfull \hbox (3.52097pt too wide) in paragraph at lines 42--43
-[]\TU/Montserrat(1)/m/n/10.95 Dit onderzoek kan als hulpmiddel gebruikt worden 
-om ransomware-resistente
+Overfull \hbox (6.51183pt too wide) in paragraph at lines 40--41
+[]\TU/Montserrat(1)/m/n/10.95 Verder werd de huidige back-upstrategie van Forvi
+s Mazars geanalyseerd, waar-
  []
 
 )
@@ -2629,16 +2623,18 @@ Overfull \hbox (10.20221pt too wide) in paragraph at lines 16--16
 ellen vanuit een .sql-bestand[][] [][]  
  []
 
-)
-\tf@lol=\write10
-\openout10 = `BouazzaouiNaoufalBP.lol'.
-
 
 
 [9
 
 
-] (./inleiding.tex
+])
+\tf@lol=\write10
+\openout10 = `BouazzaouiNaoufalBP.lol'.
+
+
+
+[10] (./inleiding.tex
 Hoofdstuk 1.
 
 
@@ -2727,9 +2723,9 @@ s vermindert. Hoewel air-gapped
  []
 
 
-Overfull \hbox (37.28975pt too wide) in paragraph at lines 146--147
-\TU/Montserrat(1)/m/n/10.95 van beveiliging die van groot belang is voor organi
-saties die gevoelig zijn voor ransomware-
+Overfull \hbox (0.72406pt too wide) in paragraph at lines 146--147
+\TU/Montserrat(1)/m/n/10.95 van beveiliging die belangrijk is voor organisaties
+ die gevoelig zijn voor ransomware-
  []
 
 
@@ -2766,9 +2762,16 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 (hyperref)                than one, level fixed on input line 30.
 
 
-Overfull \hbox (19.44856pt too wide) in paragraph at lines 37--38
-[]\TU/Montserrat(2)/b/n/10.95 Beveiliging tegen ransomware: \TU/Montserrat(1)/m
-/n/10.95 De nieuwe back-upstrategie moet ransomware-
+Overfull \hbox (2.72939pt too wide) in paragraph at lines 37--38
+\TU/Montserrat(1)/m/n/10.95 vereist de implementatie van technieken zoals \TU/M
+ontserrat(2)/m/it/10.95 immutable storage\TU/Montserrat(1)/m/n/10.95 , zodat ba
+ck-
+ []
+
+
+Overfull \hbox (11.07912pt too wide) in paragraph at lines 37--38
+\TU/Montserrat(1)/m/n/10.95 ups niet gewijzigd of verwijderd kunnen worden tijd
+ens een ransomware-aanval. 
  []
 
 
@@ -2776,12 +2779,6 @@ Overfull \hbox (19.44856pt too wide) in paragraph at lines 37--38
 [18
 
 ]
-Overfull \hbox (51.86783pt too wide) in paragraph at lines 65--66
-[]\TU/Montserrat(2)/b/n/10.95 Complexe multi-cloud back-upoplossingen: \TU/Mont
-serrat(1)/m/n/10.95 Hoewel multi-cloud back-upstrategieën
- []
-
-
 Overfull \hbox (7.96349pt too wide) in paragraph at lines 65--66
 \TU/Montserrat(1)/m/n/10.95 voordelen kunnen bieden, is het implementeren van e
 en complexe multi-cloud-
@@ -3010,7 +3007,7 @@ See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65 ...ux commando om de map immutable te maken}]
+l.65 ...x commando om de map immutable te maken.}]
                                                   
 The following languages weren't loadable:
     ,script$
@@ -3023,7 +3020,7 @@ See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65 ...ux commando om de map immutable te maken}]
+l.65 ...x commando om de map immutable te maken.}]
                                                   
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3496,9 +3493,9 @@ tische back-
  []
 
 
-Overfull \hbox (7.18822pt too wide) in paragraph at lines 265--266
-\TU/Montserrat(1)/m/n/10.95 schaalbare en geautomatiseerde back-upoplossing te 
-ontwikkelen voor PostgreSQL-
+Overfull \hbox (10.45131pt too wide) in paragraph at lines 265--266
+\TU/Montserrat(1)/m/n/10.95 matiseerde back-upoplossing te ontwikkelen voor Pos
+tgreSQL- en MySQL-databases.
  []
 
 
@@ -3506,19 +3503,85 @@ ontwikkelen voor PostgreSQL-
 [36]
 
 [37]
-Overfull \hbox (77.57175pt too wide) in paragraph at lines 304--305
-\TU/Montserrat(1)/m/n/10.95 het type database, en krijgt de vorm van \TU/Courie
-rNew(0)/m/n/10.95 backup-{type}-{YYYY-MM-DD}-{database_name}.dump\TU/Montserrat
-(1)/m/n/10.95 .
+Overfull \hbox (118.85689pt too wide) in paragraph at lines 304--305
+\TU/Montserrat(1)/m/n/10.95 tum en het type database, en krijgt de vorm van \TU
+/CourierNew(0)/m/n/10.95 backup-{type}-{YYYY-MM-DD}-{database_name}.dump\TU/Mon
+tserrat(1)/m/n/10.95 .
  []
 
 (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+)
+
+./poc.tex:306: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.306 ...n={Backup-klasse van het python-script.}]
+                                                  
+The following languages weren't loadable:
+    ,script$
+This may cause errors in the sequel.
+
+
+./poc.tex:306: Package Listings Error: language script undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.306 ...n={Backup-klasse van het python-script.}]
+                                                  
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
 Overfull \hbox (9.57047pt too wide) in paragraph at lines 322--323
 \TU/Montserrat(1)/m/n/10.95 om onveilige of onvolledige back-ups te voorkomen. 
 Dit maakt de back-upprocedure
  []
+
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+)
+
+./poc.tex:325: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.325 ...\_backup-methode van het python-script.}]
+                                                  
+The following languages weren't loadable:
+    ,script$
+This may cause errors in the sequel.
+
+
+./poc.tex:325: Package Listings Error: language script undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.325 ...\_backup-methode van het python-script.}]
+                                                  
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 Overfull \hbox (10.90866pt too wide) in paragraph at lines 324--325
@@ -3530,13 +3593,42 @@ n/10.95 -
 
 
 [38]
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+
+[39] (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+)
+
+./poc.tex:379: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.379 ..._backups-methode van het python-script.}]
+                                                  
+The following languages weren't loadable:
+    ,script$
+This may cause errors in the sequel.
 
 
-[39]
+./poc.tex:379: Package Listings Error: language script undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.379 ..._backups-methode van het python-script.}]
+                                                  
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
 Overfull \hbox (2.35179pt too wide) in paragraph at lines 378--379
 []\TU/Montserrat(1)/m/n/10.95 Daarnaast bevat het script de \TU/CourierNew(0)/m
 /n/10.95 delete_old_backups\TU/Montserrat(1)/m/n/10.95 -methode, die ervoor zor
@@ -3556,31 +3648,106 @@ in een Kubernetes-omgeving
 [41]
 
 [42]
-Overfull \hbox (7.57709pt too wide) in paragraph at lines 453--455
-\TU/Montserrat(1)/m/n/10.95 steld met \TU/CourierNew(0)/m/n/10.95 pg_restore\TU
-/Montserrat(1)/m/n/10.95 , terwijl voor MySQL gebruik werd gemaakt van het \TU/
-CourierNew(0)/m/n/10.95 mysql\TU/Montserrat(1)/m/n/10.95 -
+Overfull \hbox (4.25372pt too wide) in paragraph at lines 454--455
+\TU/Montserrat(1)/m/n/10.95 Door het gebruik van het \TU/CourierNew(0)/m/n/10.9
+5 az storage blob download\TU/Montserrat(1)/m/n/10.95 -commando werden de back-
+
+ []
+
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+)
+
+./poc.tex:458: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.458 ... de tabel te berekenen voor de restore.}]
+                                                  
+The following languages weren't loadable:
+    ,code$
+This may cause errors in the sequel.
+
+
+./poc.tex:458: Package Listings Error: language code undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.458 ... de tabel te berekenen voor de restore.}]
+                                                  
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (39.46274pt too wide) in paragraph at lines 457--458
+\TU/Montserrat(1)/m/n/10.95 zet met herstelcommando’s. Voor PostgreSQL werd het
+ bestand hersteld met \TU/CourierNew(0)/m/n/10.95 pg_restore\TU/Montserrat(1)/m
+/n/10.95 ,
  []
 
 
-Overfull \hbox (2.4554pt too wide) in paragraph at lines 453--455
-\TU/Montserrat(1)/m/n/10.95 commando. Beide hersteltaken verliepen succesvol en
- zonder dataverlies. Om
- []
 
-) (./conclusie.tex
+[43] (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+)
 
-[43]
+./poc.tex:468: Package Listings Error: Couldn't load requested language.
 
-[44]
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.468 ... de tabel te berekenen voor de restore.}]
+                                                  
+The following languages weren't loadable:
+    ,code$
+This may cause errors in the sequel.
+
+
+./poc.tex:468: Package Listings Error: language code undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.468 ... de tabel te berekenen voor de restore.}]
+                                                  
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+
+[44]) (./conclusie.tex
+
+[45]
 Hoofdstuk 6.
 
+Overfull \hbox (23.17668pt too wide) in paragraph at lines 12--13
+\TU/Montserrat(1)/m/n/10.95 productieomgeving van Forvis Mazars, waarbij een im
+mutable Azure Storage-container
+ []
 
-[45
 
-]
 
-[46])
+[46
+
+])
 
 [47]
 B\ij lage A.
@@ -3717,12 +3884,82 @@ l.78 ...images van de Kubernetes pods in de POC.}]
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+)
+
+./code voor POC.tex:89: Package Listings Error: Couldn't load requested languag
+e.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 ...ikt voor het veranderen naar Kubernetes.}]
+                                                  
+The following languages weren't loadable:
+    ,dockerfile$
+This may cause errors in the sequel.
+
+
+./code voor POC.tex:89: Package Listings Error: language dockerfile undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 ...ikt voor het veranderen naar Kubernetes.}]
+                                                  
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 
 
 [59
 
 ]
 B\ij lage E.
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+)
+
+./code voor POC.tex:114: Package Listings Error: Couldn't load requested langua
+ge.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114 ...script voor back-ups en retentiebeleid.}]
+                                                  
+The following languages weren't loadable:
+    ,script$
+This may cause errors in the sequel.
+
+
+./code voor POC.tex:114: Package Listings Error: language script undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114 ...script voor back-ups en retentiebeleid.}]
+                                                  
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 
 
 [60
@@ -3745,27 +3982,27 @@ File: lstlang2.sty 2024/09/23 1.10c listings language file
 File: lstlang3.sty 2024/09/23 1.10c listings language file
 )
 
-./code voor POC.tex:254: Package Listings Error: Couldn't load requested langua
+./code voor POC.tex:276: Package Listings Error: Couldn't load requested langua
 ge.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.254 ...en back-up neemt van de MySQL databank.}]
+l.276 ...en back-up neemt van de MySQL databank.}]
                                                   
 The following languages weren't loadable:
     ,yaml$
 This may cause errors in the sequel.
 
 
-./code voor POC.tex:254: Package Listings Error: language yaml undefined.
+./code voor POC.tex:276: Package Listings Error: language yaml undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.254 ...en back-up neemt van de MySQL databank.}]
+l.276 ...en back-up neemt van de MySQL databank.}]
                                                   
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3784,27 +4021,27 @@ File: lstlang2.sty 2024/09/23 1.10c listings language file
 File: lstlang3.sty 2024/09/23 1.10c listings language file
 )
 
-./code voor POC.tex:306: Package Listings Error: Couldn't load requested langua
+./code voor POC.tex:328: Package Listings Error: Couldn't load requested langua
 ge.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.306 ...ck-up neemt van de PostgreSQL databank.}]
+l.328 ...ck-up neemt van de PostgreSQL databank.}]
                                                   
 The following languages weren't loadable:
     ,yaml$
 This may cause errors in the sequel.
 
 
-./code voor POC.tex:306: Package Listings Error: language yaml undefined.
+./code voor POC.tex:328: Package Listings Error: language yaml undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.306 ...ck-up neemt van de PostgreSQL databank.}]
+l.328 ...ck-up neemt van de PostgreSQL databank.}]
                                                   
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3821,27 +4058,27 @@ File: lstlang2.sty 2024/09/23 1.10c listings language file
 File: lstlang3.sty 2024/09/23 1.10c listings language file
 )
 
-./code voor POC.tex:362: Package Listings Error: Couldn't load requested langua
+./code voor POC.tex:384: Package Listings Error: Couldn't load requested langua
 ge.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.362 ...et retentiebeleid.}, label={lst:cronDel}]
+l.384 ...et retentiebeleid.}, label={lst:cronDel}]
                                                   
 The following languages weren't loadable:
     ,yaml$
 This may cause errors in the sequel.
 
 
-./code voor POC.tex:362: Package Listings Error: language yaml undefined.
+./code voor POC.tex:384: Package Listings Error: language yaml undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.362 ...et retentiebeleid.}, label={lst:cronDel}]
+l.384 ...et retentiebeleid.}, label={lst:cronDel}]
                                                   
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3862,27 +4099,27 @@ File: lstlang2.sty 2024/09/23 1.10c listings language file
 File: lstlang3.sty 2024/09/23 1.10c listings language file
 )
 
-./code voor POC.tex:415: Package Listings Error: Couldn't load requested langua
+./code voor POC.tex:437: Package Listings Error: Couldn't load requested langua
 ge.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.415 ...voor de databaseback-ups in Kubernetes.}]
+l.437 ...voor de databaseback-ups in Kubernetes.}]
                                                   
 The following languages weren't loadable:
     ,yaml$
 This may cause errors in the sequel.
 
 
-./code voor POC.tex:415: Package Listings Error: language yaml undefined.
+./code voor POC.tex:437: Package Listings Error: language yaml undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.415 ...voor de databaseback-ups in Kubernetes.}]
+l.437 ...voor de databaseback-ups in Kubernetes.}]
                                                   
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3897,27 +4134,27 @@ File: lstlang2.sty 2024/09/23 1.10c listings language file
 File: lstlang3.sty 2024/09/23 1.10c listings language file
 )
 
-./code voor POC.tex:432: Package Listings Error: Couldn't load requested langua
+./code voor POC.tex:454: Package Listings Error: Couldn't load requested langua
 ge.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.432 ...e van de Persistent Volume Claim (PVC).}]
+l.454 ...e van de Persistent Volume Claim (PVC).}]
                                                   
 The following languages weren't loadable:
     ,yaml$
 This may cause errors in the sequel.
 
 
-./code voor POC.tex:432: Package Listings Error: language yaml undefined.
+./code voor POC.tex:454: Package Listings Error: language yaml undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.432 ...e van de Persistent Volume Claim (PVC).}]
+l.454 ...e van de Persistent Volume Claim (PVC).}]
                                                   
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3926,9 +4163,50 @@ If that doesn't work, type  X <return>  to quit.
 
 [68
 
-])
+]
 
 [69]
+B\ij lage H.
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+)
+
+./code voor POC.tex:470: Package Listings Error: Couldn't load requested langua
+ge.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.470 ...ash-script om de cronjobs op te zetten.}]
+                                                  
+The following languages weren't loadable:
+    ,yaml$
+This may cause errors in the sequel.
+
+
+./code voor POC.tex:470: Package Listings Error: language yaml undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.470 ...ash-script om de cronjobs op te zetten.}]
+                                                  
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+
+[70
+
+]
 Overfull \hbox (1.69463pt too wide) in paragraph at lines 206--206
 \TU/Montserrat(1)/m/n/10.95 backup techniques. \TU/Montserrat(2)/m/it/10.95 Joi
 nt NASA and IEEE Mass Storage Conference\TU/Montserrat(1)/m/n/10.95 , \TU/Monts
@@ -3944,7 +4222,7 @@ Overfull \hbox (173.6539pt too wide) in paragraph at lines 206--206
 
 
 
-[70
+[71
 
 
 ]
@@ -3997,7 +4275,7 @@ Overfull \hbox (29.28905pt too wide) in paragraph at lines 206--206
 
 
 
-[71]
+[72]
 Overfull \hbox (8.92203pt too wide) in paragraph at lines 206--206
 [][][][][][][][][][][][][][] [] [][][] [] [][][][][][][] [] [][][] [] [][][][][
 ] [] [][][][] [] [][][][][][][][] [] [][][][][][][][] [] [][][][][][][][]$[][] 
@@ -4006,7 +4284,7 @@ Overfull \hbox (8.92203pt too wide) in paragraph at lines 206--206
 
 
 
-[72] (./BouazzaouiNaoufalBP.aux)
+[73] (./BouazzaouiNaoufalBP.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
@@ -4019,18 +4297,18 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `BouazzaouiNaoufalBP.out' has not changed.
-(rerunfilecheck)             Checksum: 8FCDBEDBFB737E0CD704D7DBE9F5723B;8549.
+(rerunfilecheck)             Checksum: 76B75A7A152FE15055C73C9FE1C608F5;8773.
 Package logreq Info: Writing requests to 'BouazzaouiNaoufalBP.run.xml'.
 \openout1 = `BouazzaouiNaoufalBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51970 strings out of 474233
- 1059359 string characters out of 5745779
- 2579509 words of memory out of 5000000
+ 52015 strings out of 474233
+ 1061856 string characters out of 5745779
+ 2549569 words of memory out of 5000000
  73665 multiletter control sequences out of 15000+600000
- 561118 words of font info for 101 fonts, out of 8000000 for 9000
+ 560951 words of font info for 100 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,12n,132p,1719b,7352s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on BouazzaouiNaoufalBP.pdf (81 pages).
+Output written on BouazzaouiNaoufalBP.pdf (83 pages).

@@ -86,10 +86,32 @@ COPY src/* /
 
 CMD ["tail", "-f", "/dev/null"]
 \end{lstlisting}
+\begin{lstlisting}[language=Dockerfile, caption={Dockerfile gebruikt voor het veranderen naar Kubernetes.}]
+FROM ubuntu:latest
+
+WORKDIR /src
+
+USER root
+RUN apt update -y \
+    && apt -y install mysql-client postgresql-client cron nano \
+    && apt install -y python3
+
+COPY src/* /src/
+COPY crontab.txt /etc/cron.d/my-cron-job
+COPY src/setup.sh /src/setup.sh
+
+RUN chmod 0644 /etc/cron.d/my-cron-job && \
+    chmod +x /src/backup_script.py
+RUN chmod +x /src/setup.sh
+
+ENTRYPOINT ["tail"]
+CMD ["-f", "/dev/null"]
+
+\end{lstlisting}
 
 \chapter{Python-script}
 \label{sec:python}
-\begin{lstlisting}[language=Python, caption={Python-script voor back-ups en retentiebeleid.}]
+\begin{lstlisting}[language=script, caption={Python-script voor back-ups en retentiebeleid.}]
 import datetime
 import os
 import subprocess  # nosec
@@ -443,3 +465,21 @@ spec:
   storageClassName: ""
 
 \end{lstlisting}
+\chapter{Setup script voor Docker-container}
+\label{sec:setup}
+\begin{lstlisting}[language=YAML, caption={Bash-script om de cronjobs op te zetten.}]
+#!/bin/bash
+service cron start
+
+mkdir -p /src/backups
+
+# Voeg cronjobs toe
+crontab - <<EOF
+* * * * * DB_PASSWORD=root PGPASSWORD=root python3 /src/backup_script.py -dn testdb -du root -t MYSQL -b -bd /src/backups >> /var/log/cron.log 2>&1
+* * * * * DB_PASSWORD=root PGPASSWORD=root python3 /src/backup_script.py -dn testdb -du root -t PSQL -b -bd /src/backups >> /var/log/cron.log 2>&1
+0 2 * * * DB_PASSWORD=root PGPASSWORD=root python3 /src/backup_script.py -bd /src/backups -r 14 -dn testdb -du root -t MYSQL >> /var/log/cron.log 2>&1
+EOF
+
+exec "$@"
+\end{lstlisting}
+

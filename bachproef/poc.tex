@@ -262,7 +262,7 @@ De implementatie van immutable storage op het azure storage account is succesvol
 \subsection{Implementatie van de Kubernetes-gebaseerde automatische back-upoplossing}
 
 \subsubsection{Inleiding}
-In deze Proof-of-Concept (PoC) wordt een Kubernetes-omgeving ingezet om een schaalbare en geautomatiseerde back-upoplossing te ontwikkelen voor PostgreSQL- en MySQL-databases. Voor testdoeleinden worden de databases lokaal gehost op een Vagrant Virtual Machine (VM), wat een geïsoleerde omgeving biedt voor het opzetten van de back-upworkflow. De productieomgeving van Forvis Mazars maakt echter gebruik van Azure, waardoor de lokale testomgeving het proces simuleert onder vergelijkbare principes.
+In dit deel wordt een Kubernetes-omgeving ingezet om een schaalbare en geautomatiseerde back-upoplossing te ontwikkelen voor PostgreSQL- en MySQL-databases. Voor testdoeleinden worden de databases lokaal gehost op een Vagrant Virtual Machine (VM), wat een geïsoleerde omgeving biedt voor het opzetten van de back-upworkflow. De productieomgeving van Forvis Mazars maakt echter gebruik van Azure, waardoor de lokale testomgeving het proces simuleert onder vergelijkbare principes.
 
 De back-ups worden uitgevoerd door containers die draaien binnen Kubernetes Pods. Voor deze containers wordt gebruik gemaakt van een op maat gemaakte Docker-image. Deze image bevat een Python-script voor zowel het uitvoeren van de back-ups als het opschonen van verouderde bestanden. Kubernetes automatiseert de back-upworkflow verder met behulp van CronJobs, terwijl opslag wordt beheerd via Persistent Volumes (PV) en Persistent Volume Claims (PVC). Gevoelige gegevens worden beveiligd met Kubernetes Secrets.
 
@@ -272,7 +272,7 @@ De Kubernetes-setup die in deze Proof of Concept (PoC) is ontwikkeld, blijkt dir
 
 \subsubsection*{Overeenkomsten met de Forvis Mazars Setup}
 
-Bij Forvis Mazars wordt gebruikgemaakt van Kubernetes Pods om databases te beheren en back-ups te genereren. De fundamentele componenten van de ontwikkelde oplossing – zoals het gebruik van CronJobs en containerisatie – vertonen sterke overeenkomsten met de gehanteerde methodologie. Enkele concrete parallellen zijn:
+Bij Forvis Mazars wordt gebruikgemaakt van Kubernetes Pods om databases te beheren en back-ups te genereren. De belangrijkste onderdelen van de ontwikkelde oplossing, zoals het gebruik van CronJobs en containerisatie, komen sterk overeen met de gebruikte werkwijze. Dit zorgt ervoor dat Forvis Mazars deze oplossing met minimale aanpassingen kan overnemen. Dit zijn de voornaamste gelijkenissen tussen de uitgewerkte oplossing en de productieomgeving van Forvis Mazars:
 
 \begin{itemize}
     \item \textbf{Automatisering via CronJobs} \\
@@ -301,9 +301,9 @@ Het grootste verschil tussen de PoC en de setup van Forvis Mazars ligt in de wij
 Door deze overeenkomsten en verschillen te analyseren, kan worden geconcludeerd dat de ontwikkelde Kubernetes-setup een solide basis biedt die volledig kan worden afgestemd op de operationele vereisten van Forvis Mazars.
 
 \subsubsection{Python-script voor databaseback-ups}
-Het Python-script, zie bijlage \ref{sec:python}, is ontworpen om automatisch back-ups te maken van MySQL- en PostgreSQL-databases en biedt tevens functionaliteit om oude back-ups te verwijderen op basis van een ingestelde retentieperiode. Het maakt gebruik van een object-georiënteerde aanpak, waarbij de \texttt{Backup}-klasse de kern van het script vormt. Bij de initialisatie van de klasse worden verschillende parameters ingesteld, waaronder de naam van de database, de gebruikersnaam en het type database (MySQL of PostgreSQL), evenals de locatie van de back-ups. De bestandsnaam voor de back-up wordt dynamisch gegenereerd op basis van de datum en het type database, en krijgt de vorm van \texttt{backup-\{type\}-\{YYYY-MM-DD\}-\{database\_name\}.dump}. Daarnaast worden omgevingsvariabelen gebruikt voor de IP-adressen van de servers waarop de databanken draaien en poorten van zowel MySQL als PostgreSQL, wat zorgt voor een flexibele configuratie van het script.
+Het Python-script, zie bijlage \ref{sec:python}, is ontworpen om automatisch back-ups te maken van MySQL- en PostgreSQL-databases en biedt tevens functionaliteit om oude back-ups te verwijderen op basis van een ingestelde retentieperiode. Daarbij zorgt het script voor versiebeheer van de back-ups door in de bestandsnaam de datum en het type database op te nemen, wat het mogelijk maakt om verschillende versies van de back-ups te onderscheiden op basis van de tijd waarop ze zijn gemaakt.  Het maakt gebruik van een object-georiënteerde aanpak, waarbij de \texttt{Backup}-klasse de kern van het script vormt. Bij de initialisatie van de klasse worden verschillende parameters ingesteld, waaronder de naam van de database, de gebruikersnaam en het type database (MySQL of PostgreSQL), evenals de locatie van de back-ups. De bestandsnaam voor de back-up wordt dynamisch gegenereerd op basis van de datum en het type database, en krijgt de vorm van \texttt{backup-\{type\}-\{YYYY-MM-DD\}-\{database\_name\}.dump}. Daarnaast worden omgevingsvariabelen gebruikt voor de IP-adressen van de servers waarop de databanken draaien en poorten van zowel MySQL als PostgreSQL, wat zorgt voor een flexibele configuratie van het script.
 
-\begin{lstlisting}[language=Python]
+\begin{lstlisting}[language=script, caption={Backup-klasse van het python-script.}]
 class Backup:
 def __init__(self, database_name, database_user, type, backup_dir):
 timestr = datetime.datetime.now().strftime('%Y-%m-%d')
@@ -322,7 +322,7 @@ self.port_psql = os.environ.get("PORT_PSQL", "5432")
 Een essentieel onderdeel van het script is de \texttt{set\_password}-methode, die het databasewachtwoord uit een omgevingsvariabele haalt. Indien het wachtwoord niet is ingesteld, wordt een waarschuwingsbericht weergegeven en stopt het script om onveilige of onvolledige back-ups te voorkomen. Dit maakt de back-upprocedure veiliger en garandeert dat alleen bevoegde gebruikers toegang hebben tot de databasegegevens.
 
 De \texttt{create\_backup}-methode is verantwoordelijk voor het daadwerkelijk uitvoeren van de back-up. Afhankelijk van het type database wordt ofwel het \texttt{mysqldump}-commando voor MySQL of het \texttt{pg\_dump}-commando voor PostgreSQL uitgevoerd. Bij het maken van een MySQL-back-up wordt het \texttt{mysqldump}-commando gebruikt met de juiste databasegegevens, zoals gebruikersnaam, wachtwoord, hostnaam en poort. Voor PostgreSQL wordt het \texttt{pg\_dump}-commando gebruikt, waarbij de uitvoer in het "custom format" wordt opgeslagen. Beide commando’s worden uitgevoerd via de \texttt{subprocess.run}-functie, die de uitvoer naar een bestand schrijft. Mocht een van de commando's mislukken, dan zorgt de foutafhandeling ervoor dat het script stopt en een foutmelding wordt weergegeven.
-\begin{lstlisting}[language=Python]
+\begin{lstlisting}[language=script, caption={create\_backup-methode van het python-script.}]
     def create_backup(self, type):
     # Create a backup of the database.
     
@@ -376,7 +376,7 @@ De \texttt{create\_backup}-methode is verantwoordelijk voor het daadwerkelijk ui
 \end{lstlisting}
 
 Daarnaast bevat het script de \texttt{delete\_old\_backups}-methode, die ervoor zorgt dat oude back-ups automatisch worden verwijderd om opslagruimte te beheren. Het script vergelijkt de wijzigingsdatum van elk bestand in de opgegeven back-up directory met de huidige datum en verwijdert bestanden die ouder zijn dan de ingestelde retentieperiode. Dit maakt het mogelijk om ongewenste en verouderde back-ups op te schonen, wat belangrijk is voor het beheer van systeembronnen.
-\begin{lstlisting}[language=Python]
+\begin{lstlisting}[language=script, caption={delete\_old\_backups-methode van het python-script.}]
     @staticmethod
     def delete_old_backups(directory, retention_days):
     """
@@ -440,19 +440,43 @@ Daarbij is er ook een andere CronJob die dezelfde functionaliteit biedt, maar da
 
 Tenslotte is er een CronJob die oude back-ups verwijdert die ouder zijn dan 14 dagen, wat de retentieperiode is voor de dagelijkse back-ups. Dit zorgt ervoor dat alleen back-ups binnen de laatste 14 dagen bewaard blijven, waardoor opslag efficiënt wordt beheerd, zoals beschreven in bijlage \ref{sec:cron}.3.
 
+\subsubsection{Overstap van Docker naar Kubernetes voor cronjob automatisering}
+Aanvankelijk werd gekozen om de automatisering van de back-ups te beheren via een Docker-container, waarin CronJobs werden ingesteld om dagelijks back-ups te maken en oude back-ups te verwijderen. Binnen de container werd een setup.sh-script uitgevoerd om de cron-service te starten en de benodigde cronjobs te configureren. Dit proces gebruikte een Dockerfile, zie bijlage \ref{sec:dockerfile}.2, die de benodigde software installeerde, zoals MySQL-client, PostgreSQL-client, cron en Python3. Ook werd het Python-script en setup-script, zie bijlage \ref{sec:setup}, in de container gekopieerd. De CronJobs werden geconfigureerd om dagelijks back-ups te maken om 2:00 uur 's nachts en oude back-ups, ouder dan 14 dagen, te verwijderen.
+
+Hoewel dit functioneel was, bood deze oplossing beperkte persistentie voor de back-ups, aangezien de opslag binnen de container plaatsvond. Uiteindelijk werd besloten om de CronJobs op Kubernetes te draaien, wat beter aansluit bij de infrastructuur van Forvis Mazars. Kubernetes biedt schaalbaarheid, persistente opslag en een efficiënte integratie binnen de bestaande setup van het bedrijf, waardoor het de logische keuze was voor het beheren van de geautomatiseerde back-uptaken.
+
 \subsection{Herstelcapaciteit (Restore from Backup)}
 Een belangrijk onderdeel van het praktijkgedeelte van dit onderzoek is het testen van de herstelcapaciteit (restore from back-up). Dit was een essentiële vereiste in het onderzoek, waarbij de focus lag op het efficiënt en snel herstellen van systemen vanuit de back-ups. Het doel was om een idee te krijgen over hoe snel en betrouwbaar een databank up-and-running kan zijn na het ondergaan van een incident.
 
-\subsubsection{Toepassing van de herstelstrategie}
-Voor deze must-have heb ik het herstelproces gesimuleerd in een testomgeving waarbij ik back-ups ophaal uit de immutable Azure storage container en deze dan herstel in een MySQL- en PostgreSQL-databank. Deze testomgeving komt grotendeels overeen met de actieve omgeving die Forvis Mazars gebruikt. Het proces omvatte de volgende stappen:
+Voor deze must-have werd het herstelproces gesimuleerd in een testomgeving waarbij de back-ups werden opgehaald uit de immutable Azure storage container en deze dan herstelt werden in een MySQL- en PostgreSQL-databank. Deze testomgeving komt grotendeels overeen met de actieve omgeving die Forvis Mazars gebruikt. Het proces omvatte de volgende stappen:
 
-\begin{enumerate}
-    \item \textbf{Back-ups ophalen uit de immutable storage in Azure} \\
-    De back-ups werden veilig opgeslagen in een Azure Storage Account met een immutable opslagbeleid, wat een cruciale maatregel is tegen ransomware-aanvallen. Door het gebruik van het \texttt{az storage blob download}-commando werden de back-ups gedownload naar de lokale virtuele machine.
-    
-    \item \textbf{Herstellen van de PostgreSQL- en MySQL-databanken} \\
-    Na het downloaden werden de PostgreSQL- en MySQL-databases opnieuw opgezet met herstelcommando’s. Voor PostgreSQL werd het bestand hersteld met \texttt{pg\_restore}, terwijl voor MySQL gebruik werd gemaakt van het \texttt{mysql}-commando. Beide hersteltaken verliepen succesvol en zonder dataverlies. Om aan te tonen dat er geen dataverlies optrad, werd vóór en na het herstel een COUNT(*)-query uitgevoerd in beide databases. De resultaten van deze queries waren identiek, wat bevestigt dat alle rijen correct zijn hersteld en de back-upstrategie betrouwbaar is. Dit hele proces is gemeten en duurde 48 seconden, wat wijst op een snelle toegang tot de back-ups in noodsituaties. Het back-upbestand voor de MySQL-databank had een bestandsgrootte 383 KiB en het bestand voor de PostgreSQL-databank had een grootte van 45,16 KiB. Deze bestanden werden gedownload met een internetsnelheid van 75.33 Mbit/s. Dit is getest met de tool speedtest-cli.
-\end{enumerate}
+\subsubsection{Back-ups ophalen uit de immutable storage in Azure}
+De back-ups werden veilig opgeslagen in een Azure Storage Account met een immutable opslagbeleid, wat een cruciale maatregel is tegen ransomware-aanvallen. Door het gebruik van het \texttt{az storage blob download}-commando werden de back-ups gedownload naar de lokale virtuele machine.
+
+\subsubsection{Herstellen van de PostgreSQL- en MySQL-databanken}
+Na het downloaden werden de PostgreSQL- en MySQL-databases opnieuw opgezet met herstelcommando’s. Voor PostgreSQL werd het bestand hersteld met \texttt{pg\_restore}, terwijl voor MySQL gebruik werd gemaakt van het \texttt{mysql}-commando. Beide hersteltaken verliepen succesvol en zonder dataverlies. Om aan te tonen dat de integriteit van de back-up is behouden werd er een hash berekend van de tabel in de MySQL-shell van de database voor de restore en deze werd vergeleken met de hash na het herstellen van de database vanuit de back-up. Dit is de hash van de database voor de restore:
+\begin{lstlisting}[language=code, caption={MySQL commando om de hash van de tabel te berekenen voor de restore.}]
+mysql> SELECT SUM(CRC32(CONCAT_WS('#', firstName, lastName, gender, address, phone, email))) AS checksum FROM testdb;
++---------------+
+| checksum      |
++---------------+
+| 4336568446292 |
++---------------+
+1 row in set (0.00 sec)
+\end{lstlisting}  
+De hash van de database na het uitvoeren van de restore is identiek en geeft dezelfde output:
+\begin{lstlisting}[language=code, caption={MySQL commando om de hash van de tabel te berekenen voor de restore.}]
+mysql> SELECT SUM(CRC32(CONCAT_WS('#', firstName, lastName, gender, address, phone, email))) AS checksum FROM testdb;
++---------------+
+| checksum      |
++---------------+
+| 4336568446292 |
++---------------+
+1 row in set (0.00 sec)
+\end{lstlisting}  
+
+Dit hele proces is gemeten en duurde 48 seconden, wat wijst op een snelle toegang tot de back-ups in noodsituaties. Het back-upbestand voor de MySQL-databank had een bestandsgrootte 383 KiB en het bestand voor de PostgreSQL-databank had een grootte van 45,16 KiB. Deze bestanden werden gedownload met een internetsnelheid van 75.33 Mbit/s. Dit is getest met de tool speedtest-cli.
+
 
 \subsubsection{Link met Herstelcapaciteit}
 De testprocedure toont aan dat de opgestelde back-upstrategie niet alleen effectief is in het beschermen van gegevens, maar ook voldoet aan de eisen van herstelcapaciteit:

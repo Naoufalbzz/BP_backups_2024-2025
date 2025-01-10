@@ -58,17 +58,15 @@
 \contentsline {subsubsection}{Inleiding}{36}{subsection.5.0.4}%
 \contentsline {subsection}{\numberline {5.0.5}Relevantie van de Kubernetes-setup voor Forvis Mazars}{36}{subsection.5.0.5}%
 \contentsline {subsubsection}{Python-script voor databaseback-ups}{38}{subsection.5.0.5}%
-\contentsline {subsubsection}{Dockerfile}{41}{lstnumber.-3.21}%
-\contentsline {subsubsection}{Kubernetes cronjobs en werking}{41}{lstnumber.-3.21}%
-\contentsline {subsection}{\numberline {5.0.6}Herstelcapaciteit (Restore from Backup)}{42}{subsection.5.0.6}%
-\contentsline {subsubsection}{Toepassing van de herstelstrategie}{42}{subsection.5.0.6}%
-\contentsline {subsubsection}{Link met Herstelcapaciteit}{43}{Item.6}%
-\contentsline {subsubsection}{Conclusie}{43}{Item.6}%
-\contentsline {chapter}{\numberline {6}Conclusie}{45}{chapter.6}%
-\contentsline {subsubsection}{Hoofdvraag: Hoe kan de back-upstrategie voor Azure PostgreSQL en MySQL databases bij Forvis Mazars worden geoptimaliseerd met behulp van immutabele opslag en automatische back-ups?}{45}{chapter.6}%
-\contentsline {subsubsection}{Deelvraag 1: Hoe veilig en betrouwbaar zijn de huidige back-upoplossingen van Forvis Mazars voor Azure PostgreSQL en MySQL databases?}{46}{chapter.6}%
-\contentsline {subsubsection}{Deelvraag 2: Welke rol speelt immutabele opslag in het beschermen van back-ups tegen ransomware en andere vormen van dataverlies?}{46}{chapter.6}%
-\contentsline {subsubsection}{Deelvraag 3: Wat zijn de belangrijkste uitdagingen bij het integreren van immutabele opslag met Azure cloud back-upsystemen?}{47}{chapter.6}%
+\contentsline {subsubsection}{Dockerfile}{41}{lstnumber.5.20.21}%
+\contentsline {subsubsection}{Kubernetes cronjobs en werking}{41}{lstnumber.5.20.21}%
+\contentsline {subsubsection}{Overstap van Docker naar Kubernetes voor cronjob automatisering}{42}{Item.4}%
+\contentsline {subsection}{\numberline {5.0.6}Herstelcapaciteit (Restore from Backup)}{43}{subsection.5.0.6}%
+\contentsline {subsubsection}{Back-ups ophalen uit de immutable storage in Azure}{43}{subsection.5.0.6}%
+\contentsline {subsubsection}{Herstellen van de PostgreSQL- en MySQL-databanken}{43}{subsection.5.0.6}%
+\contentsline {subsubsection}{Link met Herstelcapaciteit}{44}{lstnumber.5.22.7}%
+\contentsline {subsubsection}{Conclusie}{44}{lstnumber.5.22.7}%
+\contentsline {chapter}{\numberline {6}Conclusie}{46}{chapter.6}%
 \contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{48}{appendix.A}%
 \contentsline {subsection}{\numberline {A.0.1}abstract}{48}{subsection.A.0.1}%
 \contentsline {subsection}{\numberline {A.0.2}Inleiding}{49}{subsection.A.0.2}%
@@ -89,5 +87,6 @@
 \contentsline {chapter}{\numberline {E}Python-script}{60}{appendix.E}%
 \contentsline {chapter}{\numberline {F}Kubernetes Cronjobs}{64}{appendix.F}%
 \contentsline {chapter}{\numberline {G}Persistent Volume (PV) voor back-upopslag en bijbehorende Persistent Volume Claim (PVC) in de POC}{68}{appendix.G}%
-\contentsline {chapter}{Bibliografie}{70}{appendix*.22}%
+\contentsline {chapter}{\numberline {H}Setup script voor Docker-container}{70}{appendix.H}%
+\contentsline {chapter}{Bibliografie}{71}{appendix*.22}%
 \contentsfinish 
