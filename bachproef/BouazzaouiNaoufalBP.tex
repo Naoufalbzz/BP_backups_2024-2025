@@ -66,6 +66,7 @@
     stringstyle=\color{red},
 }
 
+
 %% Ensure the list of listings is in the table of contents
 \renewcommand\listoflistingscaption{%
     \IfLanguageName{dutch}{Lijst van codefragmenten}{List of listings}
@@ -119,13 +120,16 @@
 \IfLanguageName{english}{%
     %% If necessary, information can be changed here
     \degreesought{Professionele Bachelor toegepaste informatica}%
-    \begin{otherlanguage}{dutch}%
-       \maketitle%
-    \end{otherlanguage}%
+%    \begin{otherlanguage}{dutch}%
+ %      \maketitle%
+ %   \end{otherlanguage}%
 }{}
 
 %% Generates title page content
+\begingroup
+\setlength{\parindent}{0pt}
 \maketitle
+\endgroup
 \hypersetup{pageanchor=true}
 
 \input{voorwoord}
@@ -167,7 +171,8 @@
 \input{inleiding}
 \input{standvanzaken}
 \input{methodologie}
-\input{analyse}
+\input{analys}
+%\input{analyse}
 \input{poc}
 \input{conclusie}
 

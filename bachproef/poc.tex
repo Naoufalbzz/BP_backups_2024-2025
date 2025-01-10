@@ -8,48 +8,7 @@ De technieken uit de PoC, zoals immutable storage, kunnen direct worden toegepas
 
 Forvis Mazars kan de PoC gebruiken om risico’s te analyseren en beveiligingsoplossingen eerst kleinschalig te testen, alvorens deze op grotere schaal binnen hun cloudinfrastructuur toe te passen. Hiermee helpt de PoC bij het verfijnen en optimaliseren van hun bestaande Azure-back-upstrategie.
 \subsection{Technische uitwerking}
-Voor het opzetten van de virtuele machines in de Proof-of-Concept (PoC) werd gebruik gemaakt van een Vagrantfile. De Vagrantfile definieert de specificaties en configuraties van de VM’s, zoals geheugen, CPU, netwerkadapters en besturingssysteem. 
-\begin{lstlisting}[language=Ruby, caption={Vagrantfile voor drie VM's: Back-up Server, Client, en Attacker}]
-Vagrant.configure("2") do |config|
-
-# Primary VM
-config.vm.define "primary" do |primary|
-primary.vm.box = "ubuntu/jammy64"
-
-primary.vm.network "private_network", ip: "192.168.0.10", virtualbox__intnet: "internal_network"
-
-primary.vm.provider "virtualbox" do |vb|
-vb.memory = "2048" 
-vb.cpus = 1        
-end
-end
-
-# Back-up VM
-config.vm.define "backup" do |backup|
-backup.vm.box = "ubuntu/jammy64"
-
-backup.vm.network "private_network", ip: "192.168.0.20", virtualbox__intnet: "internal_network"
-
-backup.vm.provider "virtualbox" do |vb|
-vb.memory = "2048" 
-vb.cpus = 1       
-end
-end
-
-# Attacker VM
-config.vm.define "attacker" do |attacker|
-attacker.vm.box = "ubuntu/jammy64"
-
-attacker.vm.network "private_network", ip: "192.168.0.30", virtualbox__intnet: "internal_network"
-
-attacker.vm.provider "virtualbox" do |vb|
-vb.memory = "1024" 
-vb.cpus = 1        
-end
-end
-
-end
-\end{lstlisting}
+Voor het opzetten van de virtuele machines in de Proof-of-Concept (PoC) werd gebruik gemaakt van een Vagrantfile, zie bijlage \ref{sec:vagrant}, die de specificaties en configuraties van de VM’s bepaalt.
 
 In de onderstaande tabel worden de specificaties van de drie virtuele machines weergegeven die in de Proof-of-Concept zijn gebruikt. Elke VM heeft een specifieke functie binnen het netwerk. De tabel bevat details over de hoeveelheid toegewezen RAM, het aantal CPU-cores, het gebruikte besturingssysteem, de toegewezen IP-adressen en de configuratie van de netwerkadapter. Deze configuratie zorgt ervoor dat de VM's binnen hetzelfde interne netwerk met elkaar kunnen communiceren, wat essentieel is voor het testen van de ransomware-aanval en de back-upstrategieën.
 \begin{longtable}{|l|c|c|c|l|l|}
@@ -62,14 +21,16 @@ In de onderstaande tabel worden de specificaties van de drie virtuele machines w
 \caption{Beschrijving van de virtuele machines in de Proof of Concept}
 \end{longtable}
 
-De Primary VM stelt een actieve databankserver voor binnen een bedrijfsomgeving. Deze server bevat de operationele data van het bedrijf en vertegenwoordigt de belangrijkste bron die beschermd moet worden tegen dataverlies of aanvallen. 
+De Primary VM stelt een actieve databankserver voor binnen een bedrijfsomgeving. Deze server bevat de operationele data en vertegenwoordigt de belangrijkste bron die beschermd moet worden tegen dataverlies of aanvallen. 
 
-De Back-up VM fungeert als een back-upserver waarop regelmatig de databankback-ups worden opgeslagen. Deze back-upserver is cruciaal voor bedrijfscontinuïteit en disaster recovery, omdat ze in geval van een aanval of fout de herstelmogelijkheden biedt. 
+De Back-up VM fungeert als een back-upserver waarop regelmatig de back-ups worden opgeslagen. Deze back-upserver is cruciaal voor bedrijfscontinuïteit en disaster recovery, omdat ze in geval van een aanval of fout de herstelmogelijkheden biedt. 
 
-De Attacker VM vertegenwoordigt een hacker met slechte intenties binnen de testomgeving. Deze machine wordt gebruikt om een ransomware-aanval te simuleren, waarbij de functionaliteit van zowel de Primary VM als de Back-up VM wordt bedreigd. Het doel van deze opstelling is om te demonstreren hoe een back-upstrategie, inclusief technieken zoals immutable storage, een bedrijf kan beschermen tegen de gevolgen van een dergelijke aanval.
+De Attacker VM vertegenwoordigt een hacker met slechte intenties binnen de testomgeving. Deze machine wordt gebruikt om een ransomware-aanval te simuleren, waarbij de functionaliteit van zowel de Primary VM als de Back-up VM wordt bedreigd. 
+
+Het doel van deze opstelling is om te demonstreren hoe immutable storage een bedrijf kan beschermen tegen de gevolgen van een ransomware-aanval.
 \subsubsection{Aanmaken van de database}
 Op de primary VM werd een eenvoudige SQL-database geïnstalleerd en de volgende tabel aangemaakt om als testdata te dienen:
-\begin{lstlisting}[language=SQL, caption={MySQL-code voor het aanmaken van de testdatabank}]
+\begin{lstlisting}[language=SQL, caption={MySQL-code voor het aanmaken van de testdatabank.}]
 CREATE TABLE employees (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(50),
@@ -85,46 +46,134 @@ INSERT INTO employees (name, role) VALUES
 
 \subsubsection{Back-up van de database}
 Nadien werd de database geëxporteerd naar een \texttt{.sql}-bestand met het volgende \texttt{mysqldump}-commando:
-\begin{lstlisting}[language=script, caption={mysqldump commando om een databank te exporteren}]
+\begin{lstlisting}[language=script, caption={Mysqldump commando om een databank te exporteren.}]
 mysqldump -u testuser -p testdb > /home/vagrant/backup.sql
 \end{lstlisting}
 Het resulterende bestand, \texttt{backup.sql}, werd vervolgens met BorgBackup opgeslagen in een back-uprepository op de back-up VM. De repository werd vooraf geïnitialiseerd met het volgende commando:
-\begin{lstlisting}[language=script, caption={Borg commando om een map te initialiseren als Borg repository}]
+\begin{lstlisting}[language=script, caption={Borg commando om een map te initialiseren als Borg repository.}]
 borg init --encryption=repokey /home/vagrant/backups
 \end{lstlisting}
 Vervolgens werd de back-up gemaakt:
-\begin{lstlisting}[language=script, caption={Borg commando om een back-up te nemen}]
+\begin{lstlisting}[language=script, caption={Borg commando om een back-up te nemen.}]
 borg create --progress 
 ssh://vagrant@192.168.0.20/home/vagrant/backups::backup-$(date +%Y-%m-%d) 
 /home/vagrant/backup.sql
 \end{lstlisting}
 
-\subsubsection{Beveiliging van de back-updirectory}
-Om de back-updirectory ransomware-resistent te maken, werd het Linux-commando \texttt{chattr} gebruikt om het \textit{immutable}-attribuut toe te passen op de back-updirectory. Dit attribuut zorgt ervoor dat er geen wijzigingen aan de bestanden in de directory gebeuren, zelfs door gebruikers met \texttt{root}-rechten. Het commando:
-\begin{lstlisting}[language=script, caption={Linux commando om de map immutable te maken}]
+\subsubsection{Beveiliging van de back-up directory}
+Om de back-up directory ransomware-resistent te maken, werd het Linux-commando \texttt{chattr} gebruikt om het \textit{immutable}-attribuut toe te passen op de back-up directory. Dit attribuut zorgt ervoor dat er geen wijzigingen aan de bestanden in de directory kunnen gebeuren, zelfs door gebruikers met \texttt{root}-rechten. Het commando:
+\begin{lstlisting}[language=script, caption={Linux commando om de map immutable te maken.}]
 sudo chattr +i /home/vagrant/backups/
 \end{lstlisting}
 
 \subsubsection{Simulatie van de ransomware-aanval}
-Op de attacker VM werd een script gebruikt om de ransomware-aanval te simuleren. Het script probeert alle bestanden in de back-updirectory te hernoemen door \texttt{.malware} toe te voegen aan de bestandsnamen. Dit zou overeenkomen met een ransomware-aanval waarbij de back-up bestanden geëncrypteerd worden. Het script is hieronder weergegeven:
-\begin{lstlisting}[language=script, caption={Bash script om een ransomware-aanval na te bootsen}]
-#!/bin/bash
-    
-BACKUP_DIR="/home/vagrant/backups"
-    
-for file in "$BACKUP_DIR"/*; do
-  if [ -f "$file" ]; then
-    if mv "$file" "${file}.malware"; then
-      echo "Renamed $file to ${file}.malware"
-    else      
-      echo "Error: Could not rename $file"    
-    fi    
-  fi    
-done    
-\end{lstlisting}
-Voor het gemak heeft de Attacker VM volledige controle gekregen over de Back-up VM. Dit is gedaan omdat de scope van deze bachelorproef niet is om toegang te verkrijgen tot een server, maar eerder om een gecontroleerde omgeving te creëren waarin een Attacker VM een ransomware-aanval nabootst. Het doel is te demonstreren hoe de ransomware zich verspreidt naar de back-up directory, en niet om de daadwerkelijke methoden voor het verkrijgen van toegang tot een server in detail uit te werken.
+Op de aanvaller-VM werd een script gebruikt om de ransomware-aanval te simuleren. Het script probeert alle bestanden in de back-up directory te versleutelen met behulp van een versleutelingstechniek (AES-256-CBC) door de inhoud van de bestanden te encrypteren en op te slaan met de extensie .enc. Na het encrypteren worden de oude bestanden verwijderd zodat deze niet meer bereikbaar zijn. Dit simuleert een ransomware-aanval waarbij de back-upbestanden worden versleuteld, waardoor ze niet meer bruikbaar zijn zonder het juiste decryptiesleutel. Zie bijlage \ref{sec:bash} voor de code van het script dat de aanval uitvoert.
 
-Toen dit script werd uitgevoerd op de back-up VM, werd duidelijk dat het hernoemen van de bestanden niet lukte vanwege het immutable-attribuut. Dit toont aan dat de ransomware-aanval niet slaagde en de bestanden in de back-updirectory beschermd bleven.
+Voor het gemak heeft de Attacker VM volledige controle gekregen over de back-up VM en de primary VM. Dit is gedaan omdat de scope van deze bachelorproef niet is om toegang te verkrijgen tot een server, maar eerder om een gecontroleerde omgeving te creëren waarin een Attacker VM een ransomware-aanval nabootst. Het doel is om te demonstreren hoe een ransomware-aanval een back-up directory kan beïnvloeden, en niet om de daadwerkelijke methoden voor het verkrijgen van toegang tot een server in detail uit te werken.
+
+Oorspronkelijk werd het script zo opgezet dat het alleen de bestandsnamen wijzigde door de extensie .malware toe te voegen, wat werd gepresenteerd als een simulatie van een ransomware-aanval. Echter, deze benadering bood geen realistische weergave van een daadwerkelijke aanval, aangezien de inhoud van de bestanden onaangetast bleef en nog steeds toegankelijk was. Vervolgens werd het script aangepast zodat niet alleen de bestandsnamen werden gewijzigd, maar de daadwerkelijke inhoud van de bestanden werd versleuteld met AES-256-CBC encryptie. Hierdoor werden de bestanden daadwerkelijk onleesbaar zonder de juiste decryptiesleutel, wat een authentiekere simulatie van een ransomware-aanval mogelijk maakte.
+
+Naast een poging om de back-up map op de back-up VM aan te vallen is de actieve database op de primary VM ook aangevallen. Dit werd gedaan om een realistische simulatie van een malware-aanval na te bootsen. Eerst werd er een hash berekend van de tabel in de MySQL-shell zodat deze later kan worden vergeleken om de integriteit te testen. Dit werd gedaan met het volgende commando:
+\begin{lstlisting}[language=code, caption={MySQL commando om de hash van de tabel te berekenen voor de restore.}]
+mysql> SELECT SUM(CRC32(CONCAT_WS('#', id, name, role))) AS checksum FROM employees;
++------------+
+| checksum   |
++------------+
+| 6854392278 |
++------------+
+1 row in set (0.00 sec)
+\end{lstlisting}
+Nadien werd de actieve database verwijderd in een MySQL-shell met het volgende commando:
+\begin{lstlisting}[language=code, caption={Commando om de actieve MySQL database te droppen.}]
+mysql> DROP DATABASE testdb;
+\end{lstlisting}
+
+Voor de uitvoering van de malware-aanval werd een hash van de volledige back-upfolder gegenereerd om de integriteit ervan te controleren. Dit zal ook na het uitvoeren van de aanval gedaan worden om te bewijzen dat de inhoud niet is aangetast. De hash werd berekend door een script dat over elk bestand in de back-up map gaat en de hashes van de bestanden combineert. 
+\begin{lstlisting}[language=script, caption={Bash script om de hash te berekenen van de back-up map.}]
+#!/bin/bash
+
+FOLDER_PATH="/home/vagrant/backups"
+
+# Controleer of de folder bestaat
+if [ ! -d "$FOLDER_PATH" ]; then
+  echo "Error: Folder $FOLDER_PATH does not exist."
+  exit 1
+fi
+
+# Genereer een hash van alle bestanden in de folder
+find "$FOLDER_PATH" -type f -exec sha256sum {} \; | sort | sha256sum
+\end{lstlisting}
+Bij het uitvoeren van dit script krijgen we volgende output:
+\begin{lstlisting}[language=code, caption={Output van het script om de hash te berekenen.}]
+vagrant@ubuntu-jammy:~$ ./check.sh
+65ac54d466e08669a8a6ec1651f6563684ac386d7a55d07846088bd933af1f7e  -
+\end{lstlisting}
+Bij het uitvoeren van het bash-script zien we dat dit niet mogelijk is en krijgen we volgende output:
+\begin{lstlisting}[language=code, caption={Output van het bash-script op de immutable map.}]
+vagrant@ubuntu-jammy:~$ ./malware.sh
+Can't open "/home/vagrant/backups/README.enc" for writing, Operation not permitted
+40A7F5F4427F0000:error:80000001:system library:BIO_new_file:Operation not permitted:../crypto/bio/bss_file.c:67:calling fopen(/home/vagrant/backups/README.enc, wb)
+40A7F5F4427F0000:error:10080002:BIO routines:BIO_new_file:system lib:../crypto/bio/bss_file.c:77:
+Error: Could not encrypt /home/vagrant/backups/README
+Can't open "/home/vagrant/backups/config.enc" for writing, Operation not permitted
+4057A1DC8D7F0000:error:80000001:system library:BIO_new_file:Operation not permitted:../crypto/bio/bss_file.c:67:calling fopen(/home/vagrant/backups/config.enc, wb)
+4057A1DC8D7F0000:error:10080002:BIO routines:BIO_new_file:system lib:../crypto/bio/bss_file.c:77:
+Error: Could not encrypt /home/vagrant/backups/config
+Can't open "/home/vagrant/backups/hints.5.enc" for writing, Operation not permitted
+402707FC577F0000:error:80000001:system library:BIO_new_file:Operation not permitted:../crypto/bio/bss_file.c:67:calling fopen(/home/vagrant/backups/hints.5.enc, wb)
+402707FC577F0000:error:10080002:BIO routines:BIO_new_file:system lib:../crypto/bio/bss_file.c:77:
+Error: Could not encrypt /home/vagrant/backups/hints.5
+Can't open "/home/vagrant/backups/index.5.enc" for writing, Operation not permitted
+40578D98227F0000:error:80000001:system library:BIO_new_file:Operation not permitted:../crypto/bio/bss_file.c:67:calling fopen(/home/vagrant/backups/index.5.enc, wb)
+40578D98227F0000:error:10080002:BIO routines:BIO_new_file:system lib:../crypto/bio/bss_file.c:77:
+Error: Could not encrypt /home/vagrant/backups/index.5
+Can't open "/home/vagrant/backups/integrity.5.enc" for writing, Operation not permitted
+40D7008EF47F0000:error:80000001:system library:BIO_new_file:Operation not permitted:../crypto/bio/bss_file.c:67:calling fopen(/home/vagrant/backups/integrity.5.enc, wb)
+40D7008EF47F0000:error:10080002:BIO routines:BIO_new_file:system lib:../crypto/bio/bss_file.c:77:
+Error: Could not encrypt /home/vagrant/backups/integrity.5
+Can't open "/home/vagrant/backups/nonce.enc" for writing, Operation not permitted
+40570E33907F0000:error:80000001:system library:BIO_new_file:Operation not permitted:../crypto/bio/bss_file.c:67:calling fopen(/home/vagrant/backups/nonce.enc, wb)
+40570E33907F0000:error:10080002:BIO routines:BIO_new_file:system lib:../crypto/bio/bss_file.c:77:
+Error: Could not encrypt /home/vagrant/backups/nonce
+\end{lstlisting}
+Als we de inhoud van de map bekijken zien we dat er niets is aangepast en de back-ups nog aanwezig zijn. Daarbij is de hash nog steeds hetzelfde na het uitvoeren van de aanval:
+\begin{lstlisting}[language=code, caption={Output voor het tonen van de inhoud en het berekenen van de hash.}]
+vagrant@ubuntu-jammy:~$ ls /home/vagrant/backups/
+README  config  data  hints.5  index.5  integrity.5  nonce
+vagrant@ubuntu-jammy:~$ ./check.sh
+65ac54d466e08669a8a6ec1651f6563684ac386d7a55d07846088bd933af1f7e  -
+\end{lstlisting}
+Dit toont aan dat de immutability heeft gewerkt en de back-ups niet zijn aangetast. Om dit verder te testen zal het bash-script ook eens uitgevoerd worden op een map waarbij de immutability niet is geïmplementeerd. Bij het berekenen van de hash van de tweede map voor het uitvoeren van de malware krijgen we volgende output:
+\begin{lstlisting}[language=code, caption={Output na het berkenen van de hash van de tweede map voor de aanval.}]
+vagrant@ubuntu-jammy:~$ ./check.sh
+40dfc3b0b216f34e5992a16f3f9b21a0d5eae4c7fcdc5951c28d9d6b4b51590f  -
+\end{lstlisting}
+
+Bij het uitvoeren van de malware op de tweede map zien we dat de bestanden zijn aangetast en krijgen we volgende output:
+\begin{lstlisting}[language=code, caption={Output van het bash-script op de tweede map zonder immutability}]
+vagrant@ubuntu-jammy:~$ ./malware.sh
+Encrypted /home/vagrant/testdir/README and saved as /home/vagrant/testdir/README.enc
+Original file /home/vagrant/testdir/README is deleted.
+Encrypted /home/vagrant/testdir/config and saved as /home/vagrant/testdir/config.enc
+Original file /home/vagrant/testdir/config is deleted.
+Encrypted /home/vagrant/testdir/hints.5 and saved as /home/vagrant/testdir/hints.5.enc
+Original file /home/vagrant/testdir/hints.5 is deleted.
+Encrypted /home/vagrant/testdir/index.5 and saved as /home/vagrant/testdir/index.5.enc
+Original file /home/vagrant/testdir/index.5 is deleted.
+Encrypted /home/vagrant/testdir/integrity.5 and saved as /home/vagrant/testdir/integrity.5.enc
+Original file /home/vagrant/testdir/integrity.5 is deleted.
+Encrypted /home/vagrant/testdir/nonce and saved as /home/vagrant/testdir/nonce.enc
+Original file /home/vagrant/testdir/nonce is deleted.
+vagrant@ubuntu-jammy:~$ ls /home/vagrant/testdir/
+README.enc  config.enc  data  hints.5.enc  index.5.enc  integrity.5.enc  nonce.enc
+\end{lstlisting}
+De hash is ook niet meer hetzelfde en bij het berekenen van de hash krijgen we een andere waarde:
+\begin{lstlisting}[language=code, caption={Output na het berekenen van de hash van de tweede map}]
+vagrant@ubuntu-jammy:~$ ./check.sh
+491ceb5435661759feac9c1196430f3940f85df06019e086fa37eaaa52b6f5f6  -
+\end{lstlisting}
+
+Toen het script werd uitgevoerd op de back-up map van de back-up VM, werd duidelijk dat het encrypteren van de bestanden niet lukte vanwege het immutable-attribuut. Dit toont aan dat de ransomware-aanval niet slaagde en de bestanden in de back-up directory beschermd bleven.
 
 \subsubsection{Herstellen van de back-ups}
 Om te bewijzen dat de back-ups nog steeds bruikbaar waren, werd een herstelproces uitgevoerd op de primary VM vanuit de Borg-repository:
@@ -133,11 +182,23 @@ borg extract
 ssh://vagrant@192.168.0.20/home/vagrant/backups::backup-2024-12-05
 \end{lstlisting}
 
-De databank werd opnieuw opgezet vanuit het bestand dat uit de Borg-repository werd gehaald met het volgende commando:
+De databank werd opnieuw opgezet vanuit het bestand dat uit de Borg-repository werd gehaald. Als eerst werd een nieuwe lege databank aangemaakt in een MySQL-shell door \texttt{CREATE DATABASE testdb;} uit te voeren. Nadien werd de database opnieuw opgezet met het volgende commando:
 \begin{lstlisting}[language=script, caption={MySQL commando om een databank te herstellen vanuit een .sql-bestand}]
 mysql -u root -p restored_db < /home/vagrant/backup.sql
 \end{lstlisting}
-De back-up werd gebruikt om de database te herstellen en te controleren. Het herstelproces verliep succesvol, wat bewijst dat de immutable storage de integriteit van de back-ups had behouden en dat de bestanden veilig waren gebleven ondanks de ransomware-aanval.
+Om aan te tonen dat het herstelproces succesvol is verlopen is de hash opnieuw berekend in de MySQL-shell en deze kwam overeen met de hash die voor het uitvoeren van de restore werd berekend. Dit werd gedaan met het volgende commando:
+\begin{lstlisting}[language=script, caption={MySQL commando om de hash van de tabel te berekenen na de restore.}]
+mysql> SELECT SUM(CRC32(CONCAT_WS('#', id, name, role))) AS checksum FROM employees;
++------------+
+| checksum   |
++------------+
+| 6854392278 |
++------------+
+1 row in set (0.00 sec)
+\end{lstlisting}
+In eerste instantie werd geprobeerd de hashes van de .sql-bestanden vóór en na de hersteloperatie te vergelijken. Echter, de verkregen hashes kwamen niet overeen, dit kwam doordat de tijdstempels, die tijdens het exporteren van de gegevens werden toegevoegd, niet identiek waren. Om deze inconsistentie te omzeilen, werd besloten om de integriteit van de gegevens direct binnen de MySQL-database te controleren.
+
+Het herstelproces verliep succesvol, wat bewijst dat de immutable storage de integriteit van de back-ups had behouden en dat de bestanden veilig waren gebleven ondanks de ransomware-aanval.
 
 \newpage
 \subsection{Implementatie van immutable storage in de Azure-omgeving}
@@ -204,6 +265,40 @@ De implementatie van immutable storage op het azure storage account is succesvol
 In deze Proof-of-Concept (PoC) wordt een Kubernetes-omgeving ingezet om een schaalbare en geautomatiseerde back-upoplossing te ontwikkelen voor PostgreSQL- en MySQL-databases. Voor testdoeleinden worden de databases lokaal gehost op een Vagrant Virtual Machine (VM), wat een geïsoleerde omgeving biedt voor het opzetten van de back-upworkflow. De productieomgeving van Forvis Mazars maakt echter gebruik van Azure, waardoor de lokale testomgeving het proces simuleert onder vergelijkbare principes.
 
 De back-ups worden uitgevoerd door containers die draaien binnen Kubernetes Pods. Voor deze containers wordt gebruik gemaakt van een op maat gemaakte Docker-image. Deze image bevat een Python-script voor zowel het uitvoeren van de back-ups als het opschonen van verouderde bestanden. Kubernetes automatiseert de back-upworkflow verder met behulp van CronJobs, terwijl opslag wordt beheerd via Persistent Volumes (PV) en Persistent Volume Claims (PVC). Gevoelige gegevens worden beveiligd met Kubernetes Secrets.
+
+\subsection{Relevantie van de Kubernetes-setup voor Forvis Mazars}
+
+De Kubernetes-setup die in deze Proof of Concept (PoC) is ontwikkeld, blijkt direct relevant voor de werkomgeving van Forvis Mazars, aangezien ook daar Kubernetes wordt ingezet voor het beheer van de IT-infrastructuur. In deze sectie worden de overeenkomsten besproken, wordt toegelicht hoe de oplossing aansluit bij de behoeften van Forvis Mazars, en worden mogelijke aanpassingen beschreven om de setup volledig te integreren in hun bestaande workflows. Het belangrijkste verschil is dat bij Forvis Mazars de back-ups niet worden opgeslagen in een Persistent Volume, maar rechtstreeks worden geüpload naar een Azure Storage Container.
+
+\subsubsection*{Overeenkomsten met de Forvis Mazars Setup}
+
+Bij Forvis Mazars wordt gebruikgemaakt van Kubernetes Pods om databases te beheren en back-ups te genereren. De fundamentele componenten van de ontwikkelde oplossing – zoals het gebruik van CronJobs en containerisatie – vertonen sterke overeenkomsten met de gehanteerde methodologie. Enkele concrete parallellen zijn:
+
+\begin{itemize}
+    \item \textbf{Automatisering via CronJobs} \\
+    Bij zowel de PoC als de setup van Forvis Mazars worden Kubernetes CronJobs toegepast voor het plannen van taken. In de PoC worden deze CronJobs ingezet om dagelijkse back-ups uit te voeren en oudere back-ups automatisch te verwijderen. Deze aanpak wordt gekenmerkt door schaalbaarheid en sluit goed aan bij de architectuur van Kubernetes die door Forvis Mazars wordt gebruikt.
+    
+    \item \textbf{Beveiliging van wachtwoorden} \\
+    In de PoC worden Kubernetes Secrets gebruikt om gevoelige informatie, zoals databasewachtwoorden, door te geven aan het Python-script dat de back-ups uitvoert. Dit zorgt ervoor dat wachtwoorden niet hardcoded hoeven te worden in configuratiebestanden of scripts. Hoewel niet bekend is of Forvis Mazars eveneens Secrets gebruikt, biedt deze aanpak een veilige en flexibele oplossing die eenvoudig kan worden geïntegreerd in een vergelijkbare omgeving.
+    
+    \item \textbf{Schaalbaarheid en containerisatie} \\
+    Het gebruik van een gestandaardiseerde Docker-image voor de uitvoering van de back-ups weerspiegelt de wijze waarop Kubernetes Pods bij Forvis Mazars worden beheerd. Containers kunnen eenvoudig worden aangepast of opnieuw worden ingezet, zonder dat dit aanpassingen aan de volledige infrastructuur vereist.
+\end{itemize}
+
+
+\subsubsection*{Verschil in Back-upopslag}
+
+Het grootste verschil tussen de PoC en de setup van Forvis Mazars ligt in de wijze van back-upopslag. Bij de PoC worden back-ups lokaal opgeslagen in een Persistent Volume (PV), terwijl deze bij Forvis Mazars direct worden geüpload naar een Azure Storage Container. Dit verschil heeft enkele belangrijke implicaties:
+
+\begin{itemize}
+    \item \textbf{Opslaglocatie} \\
+    Persistent Volumes bieden een eenvoudige manier om gegevens lokaal binnen een Kubernetes-cluster op te slaan. Dit maakt ze geschikt voor testomgevingen en lokale implementaties, zoals in de PoC. Forvis Mazars maakt echter gebruik van een cloudopslagoplossing in de vorm van Azure Storage Containers. Deze oplossing biedt voordelen zoals schaalbaarheid, hoge beschikbaarheid en eenvoud in beheer binnen een productieomgeving.
+    
+    \item \textbf{Integratie met Azure} \\
+    Bij Forvis Mazars wordt de Kubernetes-setup geïntegreerd met Azure door gebruik te maken van tools zoals Azure CLI of SDK’s voor het uploaden van back-ups naar Azure Storage. Binnen de PoC zou een vergelijkbare integratie kunnen worden gerealiseerd door het Python-script aan te passen, zodat back-ups direct naar Azure worden geüpload in plaats van lokaal te worden opgeslagen. Dit kan worden bereikt door de Azure Storage SDK voor Python te implementeren of CLI-opdrachten toe te voegen aan de Docker-image.
+\end{itemize}
+
+Door deze overeenkomsten en verschillen te analyseren, kan worden geconcludeerd dat de ontwikkelde Kubernetes-setup een solide basis biedt die volledig kan worden afgestemd op de operationele vereisten van Forvis Mazars.
 
 \subsubsection{Python-script voor databaseback-ups}
 Het Python-script, zie bijlage \ref{sec:python}, is ontworpen om automatisch back-ups te maken van MySQL- en PostgreSQL-databases en biedt tevens functionaliteit om oude back-ups te verwijderen op basis van een ingestelde retentieperiode. Het maakt gebruik van een object-georiënteerde aanpak, waarbij de \texttt{Backup}-klasse de kern van het script vormt. Bij de initialisatie van de klasse worden verschillende parameters ingesteld, waaronder de naam van de database, de gebruikersnaam en het type database (MySQL of PostgreSQL), evenals de locatie van de back-ups. De bestandsnaam voor de back-up wordt dynamisch gegenereerd op basis van de datum en het type database, en krijgt de vorm van \texttt{backup-\{type\}-\{YYYY-MM-DD\}-\{database\_name\}.dump}. Daarnaast worden omgevingsvariabelen gebruikt voor de IP-adressen van de servers waarop de databanken draaien en poorten van zowel MySQL als PostgreSQL, wat zorgt voor een flexibele configuratie van het script.
@@ -280,7 +375,7 @@ De \texttt{create\_backup}-methode is verantwoordelijk voor het daadwerkelijk ui
     exit(1)
 \end{lstlisting}
 
-Daarnaast bevat het script de \texttt{delete\_old\_backups}-methode, die ervoor zorgt dat oude back-ups automatisch worden verwijderd om opslagruimte te beheren. Het script vergelijkt de wijzigingsdatum van elk bestand in de opgegeven back-updirectory met de huidige datum en verwijdert bestanden die ouder zijn dan de ingestelde retentieperiode. Dit maakt het mogelijk om ongewenste en verouderde back-ups op te schonen, wat belangrijk is voor het beheer van systeembronnen.
+Daarnaast bevat het script de \texttt{delete\_old\_backups}-methode, die ervoor zorgt dat oude back-ups automatisch worden verwijderd om opslagruimte te beheren. Het script vergelijkt de wijzigingsdatum van elk bestand in de opgegeven back-up directory met de huidige datum en verwijdert bestanden die ouder zijn dan de ingestelde retentieperiode. Dit maakt het mogelijk om ongewenste en verouderde back-ups op te schonen, wat belangrijk is voor het beheer van systeembronnen.
 \begin{lstlisting}[language=Python]
     @staticmethod
     def delete_old_backups(directory, retention_days):
@@ -343,42 +438,7 @@ Verder wordt het databasewachtwoord veilig doorgegeven via een Kubernetes Secret
 
 Daarbij is er ook een andere CronJob die dezelfde functionaliteit biedt, maar dan voor het maken van back-ups van een PostgreSQL-database. Deze CronJob is vergelijkbaar met de MySQL CronJob, met aanpassingen die specifiek zijn voor de PostgreSQL-databaseconfiguratie, zoals te zien in bijlage \ref{sec:cron}.2.
 
-Tenslotte is er een CronJob die oude back-ups verwijdert die ouder zijn dan 14 dagen, wat de retentieperiode is voor de dagelijkse back-ups. Dit zorgt ervoor dat alleen back-ups binnen de laatste 14 dagen bewaard blijven, waardoor opslag efficiënt wordt beheerd, zoals beschreven in bijlage \ref{sec:cron}.
-\subsection{Relevantie van de Kubernetes-setup voor Forvis Mazars}
-
-De Kubernetes-setup die in deze Proof of Concept (PoC) is ontwikkeld, blijkt direct relevant voor de werkomgeving van Forvis Mazars, aangezien ook daar Kubernetes wordt ingezet voor het beheer van de IT-infrastructuur. In deze sectie worden de overeenkomsten besproken, wordt toegelicht hoe de oplossing aansluit bij de behoeften van Forvis Mazars, en worden mogelijke aanpassingen beschreven om de setup volledig te integreren in hun bestaande workflows. Het belangrijkste verschil is dat bij Forvis Mazars de back-ups niet worden opgeslagen in een Persistent Volume, maar rechtstreeks worden geüpload naar een Azure Storage Container.
-
-\subsubsection*{Overeenkomsten met de Forvis Mazars Setup}
-
-Bij Forvis Mazars wordt gebruikgemaakt van Kubernetes Pods om databases te beheren en back-ups te genereren. De fundamentele componenten van de ontwikkelde oplossing – zoals het gebruik van CronJobs en containerisatie – vertonen sterke overeenkomsten met de gehanteerde methodologie. Enkele concrete parallellen zijn:
-
-\begin{itemize}
-    \item \textbf{Automatisering via CronJobs} \\
-    Bij zowel de PoC als de setup van Forvis Mazars worden Kubernetes CronJobs toegepast voor het plannen van taken. In de PoC worden deze CronJobs ingezet om dagelijkse back-ups uit te voeren en oudere back-ups automatisch te verwijderen. Deze aanpak wordt gekenmerkt door schaalbaarheid en sluit goed aan bij de architectuur van Kubernetes die door Forvis Mazars wordt gebruikt.
-    
-    \item \textbf{Beveiliging van wachtwoorden} \\
-    In de PoC worden Kubernetes Secrets gebruikt om gevoelige informatie, zoals databasewachtwoorden, door te geven aan het Python-script dat de back-ups uitvoert. Dit zorgt ervoor dat wachtwoorden niet hardcoded hoeven te worden in configuratiebestanden of scripts. Hoewel niet bekend is of Forvis Mazars eveneens Secrets gebruikt, biedt deze aanpak een veilige en flexibele oplossing die eenvoudig kan worden geïntegreerd in een vergelijkbare omgeving.
-    
-    \item \textbf{Schaalbaarheid en containerisatie} \\
-    Het gebruik van een gestandaardiseerde Docker-image voor de uitvoering van de back-ups weerspiegelt de wijze waarop Kubernetes Pods bij Forvis Mazars worden beheerd. Containers kunnen eenvoudig worden aangepast of opnieuw worden ingezet, zonder dat dit aanpassingen aan de volledige infrastructuur vereist.
-\end{itemize}
-
-
-\subsubsection*{Verschil in Back-upopslag}
-
-Het grootste verschil tussen de PoC en de setup van Forvis Mazars ligt in de wijze van back-upopslag. Bij de PoC worden back-ups lokaal opgeslagen in een Persistent Volume (PV), terwijl deze bij Forvis Mazars direct worden geüpload naar een Azure Storage Container. Dit verschil heeft enkele belangrijke implicaties:
-
-\begin{itemize}
-    \item \textbf{Opslaglocatie} \\
-    Persistent Volumes bieden een eenvoudige manier om gegevens lokaal binnen een Kubernetes-cluster op te slaan. Dit maakt ze geschikt voor testomgevingen en lokale implementaties, zoals in de PoC. Forvis Mazars maakt echter gebruik van een cloudopslagoplossing in de vorm van Azure Storage Containers. Deze oplossing biedt voordelen zoals schaalbaarheid, hoge beschikbaarheid en eenvoud in beheer binnen een productieomgeving.
-    
-    \item \textbf{Integratie met Azure} \\
-    Bij Forvis Mazars wordt de Kubernetes-setup geïntegreerd met Azure door gebruik te maken van tools zoals Azure CLI of SDK’s voor het uploaden van back-ups naar Azure Storage. Binnen de PoC zou een vergelijkbare integratie kunnen worden gerealiseerd door het Python-script aan te passen, zodat back-ups direct naar Azure worden geüpload in plaats van lokaal te worden opgeslagen. Dit kan worden bereikt door de Azure Storage SDK voor Python te implementeren of CLI-opdrachten toe te voegen aan de Docker-image.
-\end{itemize}
-
-Door deze overeenkomsten en verschillen te analyseren, kan worden geconcludeerd dat de ontwikkelde Kubernetes-setup een solide basis biedt die volledig kan worden afgestemd op de operationele vereisten van Forvis Mazars.
-
-
+Tenslotte is er een CronJob die oude back-ups verwijdert die ouder zijn dan 14 dagen, wat de retentieperiode is voor de dagelijkse back-ups. Dit zorgt ervoor dat alleen back-ups binnen de laatste 14 dagen bewaard blijven, waardoor opslag efficiënt wordt beheerd, zoals beschreven in bijlage \ref{sec:cron}.3.
 
 \subsection{Herstelcapaciteit (Restore from Backup)}
 Een belangrijk onderdeel van het praktijkgedeelte van dit onderzoek is het testen van de herstelcapaciteit (restore from back-up). Dit was een essentiële vereiste in het onderzoek, waarbij de focus lag op het efficiënt en snel herstellen van systemen vanuit de back-ups. Het doel was om een idee te krijgen over hoe snel en betrouwbaar een databank up-and-running kan zijn na het ondergaan van een incident.

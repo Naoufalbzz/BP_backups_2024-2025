@@ -219,4 +219,10 @@
   urldate = {2024-12-15},
 }
 
+@Book{,
+  author = {Sheeri K. Cabral and Keith Murphy},
+  date   = {4-3-2011},
+  title  = {MySQL Administrator's Bible},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}

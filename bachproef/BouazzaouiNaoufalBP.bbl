@@ -208,6 +208,50 @@
       \verb https://books.google.be/books?id=LJ9GCgAAQBAJ&q=%22air+gapped%22&pg=PA107&redir_esc=y#v=onepage&q&f=false
       \endverb
     \endentry
+    \entry{Cabral2011}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=17c83276c84a6c77b3c5a73681e38d3a}{%
+           family={Cabral},
+           familyi={C\bibinitperiod},
+           given={Sheeri\bibnamedelima K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=042ab42e408f7e0267e67cd6187c9b0a}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{90a22d0ef716e3997a412ce38f4029f4}
+      \strng{fullhash}{90a22d0ef716e3997a412ce38f4029f4}
+      \strng{fullhashraw}{90a22d0ef716e3997a412ce38f4029f4}
+      \strng{bibnamehash}{90a22d0ef716e3997a412ce38f4029f4}
+      \strng{authorbibnamehash}{90a22d0ef716e3997a412ce38f4029f4}
+      \strng{authornamehash}{90a22d0ef716e3997a412ce38f4029f4}
+      \strng{authorfullhash}{90a22d0ef716e3997a412ce38f4029f4}
+      \strng{authorfullhashraw}{90a22d0ef716e3997a412ce38f4029f4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{4}
+      \field{month}{3}
+      \field{title}{MySQL Administrator's Bible}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{896}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.google.be/books/edition/MySQL_Administrator_s_Bible/PqZ6QytCemcC?hl=nl&gbpv=0
+      \endverb
+      \verb{url}
+      \verb https://www.google.be/books/edition/MySQL_Administrator_s_Bible/PqZ6QytCemcC?hl=nl&gbpv=0
+      \endverb
+    \endentry
     \entry{Cherry2015}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=6d309e46463ddc10853ae5a75f9a3148}{%
@@ -2006,6 +2050,50 @@
       \endverb
       \verb{url}
       \verb https://books.google.be/books?id=LJ9GCgAAQBAJ&q=%22air+gapped%22&pg=PA107&redir_esc=y#v=onepage&q&f=false
+      \endverb
+    \endentry
+    \entry{Cabral2011}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=17c83276c84a6c77b3c5a73681e38d3a}{%
+           family={Cabral},
+           familyi={C\bibinitperiod},
+           given={Sheeri\bibnamedelima K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=042ab42e408f7e0267e67cd6187c9b0a}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{90a22d0ef716e3997a412ce38f4029f4}
+      \strng{fullhash}{90a22d0ef716e3997a412ce38f4029f4}
+      \strng{fullhashraw}{90a22d0ef716e3997a412ce38f4029f4}
+      \strng{bibnamehash}{90a22d0ef716e3997a412ce38f4029f4}
+      \strng{authorbibnamehash}{90a22d0ef716e3997a412ce38f4029f4}
+      \strng{authornamehash}{90a22d0ef716e3997a412ce38f4029f4}
+      \strng{authorfullhash}{90a22d0ef716e3997a412ce38f4029f4}
+      \strng{authorfullhashraw}{90a22d0ef716e3997a412ce38f4029f4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{4}
+      \field{month}{3}
+      \field{title}{MySQL Administrator's Bible}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{896}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.google.be/books/edition/MySQL_Administrator_s_Bible/PqZ6QytCemcC?hl=nl&gbpv=0
+      \endverb
+      \verb{url}
+      \verb https://www.google.be/books/edition/MySQL_Administrator_s_Bible/PqZ6QytCemcC?hl=nl&gbpv=0
       \endverb
     \endentry
     \entry{Cherry2015}{article}{}{}
