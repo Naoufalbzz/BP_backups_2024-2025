@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  22 JAN 2025 02:03
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.29)  23 JAN 2025 00:18
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1419,30 +1419,30 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 27.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 24.88266pt on input line 61.
+(Font)              scaled to size 24.88266pt on input line 66.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 20.74222pt on input line 61.
+(Font)              scaled to size 20.74222pt on input line 66.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 14.40152pt on input line 61.
+(Font)              scaled to size 14.40152pt on input line 66.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 24.87733pt on input line 61.
+(Font)              scaled to size 24.87733pt on input line 66.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 20.73778pt on input line 61.
+(Font)              scaled to size 20.73778pt on input line 66.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 14.39845pt on input line 61.
+(Font)              scaled to size 14.39845pt on input line 66.
 File: ../graphics/grail.jpg Graphic file (type bmp)
 <../graphics/grail.jpg>
 
 
-Invalid UTF-8 byte or sequence at line 82 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 82 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 82 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 82 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 82 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 82 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 82 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 82 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 82 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 87 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 87 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 87 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 87 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 87 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 87 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 87 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 87 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 87 replaced by U+FFFD.
 File: ../graphics/hogent_logo.eps Graphic file (type eps)
 <../graphics/hogent_logo.eps>
 [1
@@ -1453,16 +1453,16 @@ LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
 Package rerunfilecheck Info: File `conference_poster.out' has not changed.
-(rerunfilecheck)             Checksum: 1BDB5E3C1617F07EBE4865CC62F97308;574.
+(rerunfilecheck)             Checksum: 24605FEB38ABECEDEBC586C612B46FC2;476.
  )
 (\end occurred when \ifx on line 8 was incomplete) 
 Here is how much of TeX's memory you used:
- 31020 strings out of 474233
- 607830 string characters out of 5745779
- 1209300 words of memory out of 5000000
- 53206 multiletter control sequences out of 15000+600000
- 560653 words of font info for 84 fonts, out of 8000000 for 9000
+ 31028 strings out of 474233
+ 608125 string characters out of 5745779
+ 1203299 words of memory out of 5000000
+ 53211 multiletter control sequences out of 15000+600000
+ 560677 words of font info for 87 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,15n,130p,2067b,982s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,15n,130p,963b,982s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on conference_poster.pdf (1 page).

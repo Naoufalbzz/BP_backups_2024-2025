@@ -29,22 +29,27 @@
 \maketitle
 
 \begin{abstract}
-Dit onderzoek heeft als doel de back-upstrategie van Forvis Mazars te analyseren en optimaliseren. Het bedrijf maakt gebruik van Azure voor het beheren van zijn data en heeft momenteel een back-upstrategie die bestaat uit automatische full back-ups van twee databases en een manueel uitgevoerd script voor het maken van back-ups van specifieke databases naar een Azure Storage-account. De automatische full back-ups nemen een back-up van de hele database-server, indien er een restore moet gedaan worden van één specifieke database op die server zullen alle databases dus restored worden terwijl dit niet nodig was. Om de back-upstrategie te verbeteren, werd een Proof-of-Concept (PoC) ontwikkeld in een lokale testomgeving met VirtualBox, waarin de effectiviteit van immutable storage werd getest. In deze lokale omgeving werd aangetoond dat immutable storage het mogelijk maakt om back-ups te beschermen tegen manipulatie, zelfs wanneer een aanvaller volledige controle heeft over het systeem. Dit werd bevestigd door het encrypteren van back-upbestanden en het verwijderen van de actieve database, waarbij de integriteit van de immutabele back-ups behouden bleef. Verder werd de huidige back-upstrategie van Forvis Mazars verbeterd door de implementatie van immutable storage binnen de productieomgeving in Azure. Daarbij is er een oplossing gevonden voor de manuele en automatische full back-ups die werden uitgevoerd met behulp van Kubernetes cronjobs die d.m.v. een Python-script dagelijks een back-up neemt. Ten slotte werd het herstelproces vanaf een back-up getest om inzicht te krijgen in de tijd die nodig is om de database te herstellen. In dit onderzoek werd ook een literatuurstudie uitgevoerd waarin verschillende back-upmethoden, technieken en ransomware-resistente oplossingen werden onderzocht. De inzichten en technieken die in dit onderzoek zijn gepresenteerd, kunnen ook waardevolle toepassingen hebben voor andere organisaties die hun back-upstrategieën willen versterken, met name binnen Azure-omgevingen.
+Dit onderzoek analyseert en optimaliseert de back-upstrategie van Forvis Mazars, met een focus op bescherming tegen ransomware-aanvallen. Het huidige systeem maakt gebruik van automatische full back-ups voor databases in Azure, maar herstelt ook onnodig alle databases bij een specifieke restore. Een Proof-of-Concept (PoC) in een lokale testomgeving met VirtualBox testte de effectiviteit van immutable storage, die back-ups beschermt tegen manipulatie, zelfs bij volledige controle van een aanvaller. Daarbij werd de back-upstrategie ook verbeterd door enerzijds immutable storage te implementeren in de Azure-productieomgeving en anderzijds de dagelijkse back-ups te automatiseren met behulp van Kubernetes cronjobs. Het herstelproces werd getest om de efficiëntie van het herstel te evalueren. Daarnaast werd een literatuurstudie uitgevoerd om technieken voor ransomware-resistentie en back-upstrategieën te onderzoeken.
 \end{abstract}
 
 \begin{multicols}{2} % This is how many columns your poster will be broken into, a portrait poster is generally split into 2 columns
 
-\section{Introductie}
+\section*{Introductie}
 
-Be quiet! Found them? In Mercia?! The coconut's tropical! But you are dressed as one… Well, what do you want? Knights of Ni, we are but simple travelers who seek the enchanter who lives beyond these woods.
+In de digitale wereld van vandaag is gegevensbeveiliging een prioriteit. Ransomware-aanvallen bedreigen de integriteit van belangrijke gegevens, waardoor een robuuste back-upstrategie essentieel is voor snel herstel en bescherming tegen verlies.
 
-Well, what do you want? It's only a model. Camelot! We found them. We shall say `Ni' again to you, if you do not appease us.
+\subsection*{Probleemstelling}  
+De huidige back-upstrategie bij Forvis Mazars biedt een basisbescherming, maar vertoont tekortkomingen op het gebied van automatisering, beveiliging en herstelbaarheid. Er is weinig inzicht in de snelheid en betrouwbaarheid van het herstelproces, en de back-ups zijn niet goed beschermd tegen moderne bedreigingen zoals ransomware.
 
-The nose? Shut up! Burn her! I am your king. You don't vote for kings.
+\subsection*{Hoofdonderzoeksvraag}  
+Hoe kan de back-upstrategie voor Azure PostgreSQL en MySQL databases bij Forvis Mazars geoptimaliseerd worden door het gebruik van immutabele opslag en automatische back-ups?
 
-You can't expect to wield supreme power just `cause some watery tart threw a sword at you! Well, we did do the nose. I don't want to talk to you no more, you empty-headed animal food trough water! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries! Now leave before I am forced to taunt you a second time!
-
-Why do you think that she is a witch? We want a shrubbery!! I don't want to talk to you no more, you empty-headed animal food trough water! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries! Now leave before I am forced to taunt you a second time!
+\subsection*{Deelvragen}  
+\begin{itemize}
+    \item Hoe veilig en betrouwbaar zijn de huidige back-upoplossingen van Forvis Mazars voor Azure PostgreSQL en MySQL databases?
+    \item Welke rol speelt immutable opslag in het beschermen van back-ups tegen ransomware?
+    \item Wat zijn de belangrijkste uitdagingen bij het integreren van immutable opslag met Azure cloud back-upsystemen?
+\end{itemize}
 
 \section{Experimenten}
 
